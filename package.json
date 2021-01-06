@@ -1,0 +1,19 @@
+{
+  "name": "energievergelijk-vergelijk",
+  "version": "1.0.0",
+  "description": "energievergelijk vergelijker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janwillemwilmsen/energievergelijk-vergelijk.git"
+  },
+  "author": "Jan-Willem Wilmsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janwillemwilmsen/energievergelijk-vergelijk/issues"
+  },
+  "homepage": "https://github.com/janwillemwilmsen/energievergelijk-vergelijk#readme"
+}
