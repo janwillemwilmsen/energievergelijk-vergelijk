@@ -4,7 +4,21 @@
   "description": "energievergelijk vergelijker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "essent": "node ./vergelijk/essent.js",
+    "energiedirect": "node ./vergelijk/energiedirect.js",
+    "eneco": "node ./vergelijk/eneco.js",
+    "energievergelijk": "node ./vergelijk/energievergelijk.js",
+    "easyswitch": "node ./vergelijk/easyswitch.js",
+    "gaslicht": "node ./vergelijk/gaslicht.js",
+    "independer": "node ./vergelijk/independer.js",
+    "pricewise": "node ./vergelijk/pricewise.js",
+    "vandebron": "node ./vergelijk/vandebron.js",
+    "vattenfall": "node ./vergelijk/vattenfall.js",
+    "vergelijker": "npm-run-all -s pricewise independer easyswitch essent energiedirect eneco energievergelijk  gaslicht   vandebron vattenfall"
   },
   "repository": {
     "type": "git",
@@ -15,5 +29,22 @@
   "bugs": {
     "url": "https://github.com/janwillemwilmsen/energievergelijk-vergelijk/issues"
   },
-  "homepage": "https://github.com/janwillemwilmsen/energievergelijk-vergelijk#readme"
+  "homepage": "https://github.com/janwillemwilmsen/energievergelijk-vergelijk#readme",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "playwright": "^1.7.1",
+    "playwright-cli": "0.171.0",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "app-root-path": "^3.0.0",
+    "config": "^3.3.3",
+    "npm-run-all": "^4.1.5",
+    "nuxt": "^2.14.12"
+  }
 }

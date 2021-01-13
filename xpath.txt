@@ -1,0 +1,150 @@
+   npm run vergelijker
+   
+   
+   
+    config.energieleverancier
+    config.elektriciteitverbruik
+    config.gasverbruik
+    config.postcode
+    config.huisnummer
+    config.scenario
+    config.omschrijving
+
+npx playwright-cli codegen www.easyswitch.nl 
+
+//    // div[contains(@class,'startcompare-form' )]             //a     [contains(text(), 'Check je voordeel')]
+
+
+essent          = DONE
+energiedirect   = DONE
+vandebron       = DONE
+vattenfall      = DONE
+eneco           = DONE
+---
+easyswitch.nl(Overstappen.nl Holding)		            = DONE
+overstappen.nl(idem als easys)  		 
+independer(idem als easys)			                    = DONE
+---
+pricewise.nl(HNM)				                        = DONE
+energievergelijken.nl(HNM)
+energieleveranciers.nl(HNM)
+consumentenbond.nl/energie-vergelijken(HNM)
+kieskeurig.nl/energie_vergelijken/pricewise(iframe) 
+---
+gaslicht.com(benergy)				                    = DONE
+energievergelijker.nl(benergy) 
+verlaagjemaandlasten.nl(benergy)  
+---
+energiewijzer.nl/(Daisycon affiliate)
+verandervanenergie.nl(Daisycon affiliate)
+energievergelijk.nl(Daisycon affiliate)                 = DONE
+energie-vergelijken.net(Daisycon affiliate)
+onlineenergievergelijken.nl(Daisycon affiliate)
+totaalbesparen.com(ds1.nl/daisycon?)
+
+---
+https://www.vergelijkgroep.nl :
+- providers.nl(ds1.nl daisycon)
+- energie-actie.com
+- welkeenergieleverancier.nl
+- goedkoopste-energieleverancier.nl
+- goedkoopste-energieleverancier.net
+- api-energie.whitelabeled.nl/
+- kieszeker.nl(via whitelabeled.nl naar ds1.nl(daisycon))
+- keuze.nl(whitelabeled.nl)
+--
+onlineenergievergelijker.nl(Onlyprogress) 
+=============================================================================================
+
+const hrefAttribute = page.evaluate(() => document.querySelector('span').href)
+
+   "enecolooptijd": 1,
+    "if": { "enecolooptijd": 1 },
+    "then": { "xpathlooptijd": "boe" },
+    "else": { "xpathlooptijd": "boe" }
+
+
+
+:nth-child(2n) will select all even children
+:nth-child(2n+1) will select all odd children
+:nth-child(3n) will select every third child
+:nth-child(n+2) will select every child except for the first
+:nth-child(an+b) for any integers a and b will start selecting the _b_th child and select every _a_th child after that
+:nth-last-child and :nth-last-of-type parallel the above pseudo-selectors, but their formulas match from last to first, rather than first to last.
+
+Selector combination	Name	Description
+C > T	                Child	            Only match T when it is a child of an element matched by C.
+C T	                    Descendant	        Only match T when it is a descendant of an element matched by C.
+C + T	                Adjacent sibling	Only match T when it immediately follows C as C’s sibling.
+C ~ T	                Sibling	            Only match T when it is a sibling of C (regardless of order).
+
+
+
+// Vertraag wacht tot prijs geladen is
+await page.waitForXPath('      ');   
+
+//Keyboard
+await page.click('.input_user_housenumber .housenumberField')
+await page.type('.input_user_housenumber .housenumberField','271')
+await page.keyboard.press("Tab");
+await page.keyboard.press('ArrowUp');
+await page.keyboard.down('Shift');
+await page.keyboard.up('Shift');
+
+
+// Klik op
+const [buttonTypeEnergie] = await page.$x('    ');
+await buttonTypeEnergie.click({clickCount:1})
+
+// Klik op
+const buttn1jr = await page.$x("     ");
+await buttn1jr[0].click();
+
+// Dropdown
+await page.select("select#toonKosten", 'permaand')
+//select[@id='groupSelect']/option[@value='data' and . = 'First value']
+//select[@id='groupSelect']/option[1]
+
+const occupation = await page.$("#toonKosten");
+await occupation.select("permaand");
+
+
+// ////// Elek verbruik wijzigen -- Eerst veld-leegmaken
+let elekVerbruik = await page.$('#usageElectricitySingle');
+await elekVerbruik.click({clickCount: 3});
+await elekVerbruik.press('Backspace'); 
+await elekVerbruik.type('8976');
+
+
+// JS WEEKNUMBER
+Date.prototype.getWeekNumber = function(){
+    var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
+    var dayNum = d.getUTCDay() || 7;
+    d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+    var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+    return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
+    };
+
+//screenshot
+const naam = await page.waitForXPath('       ');
+await naam.screenshot({path: `${appRoot}/uploads/naam-scenario-X-week` + new Date().getWeekNumber() + '.png'});  
+
+
+// Element om in txt weg te schrijven
+const now = new Date();
+
+
+// een
+const [imgLeverancierNaam10] = await page.$x('      ');
+const naamLeverancier10 = await page.evaluate(name => name.textContent, imgLeverancierNaam10);
+console.log( naamLeverancier10 );
+
+const [euroLeverancierNaam1] = await page.$x('        ');
+const tariefLeverancier10 = await page.evaluate(name => name.textContent, euroLeverancierNaam1);
+console.log( tariefLeverancier10 );
+
+
+fs.appendFileSync(`${appRoot}/uploads/overstappen-week-` + new Date().getWeekNumber() + '.md', `#Overstappen -- 1e scenario -- 1jaar --  ${now.getFullYear()}-${now.getMonth()}-${now.getDate()}`);
+
+fs.appendFileSync(`${appRoot}/uploads/overstappen-week-` + new Date().getWeekNumber() + '.md', `\n`);
+fs.appendFileSync(`${appRoot}/uploads/overstappen-week-` + new Date().getWeekNumber() + '.md', `${naamLeverancier10} ${tariefLeverancier10}  `);
