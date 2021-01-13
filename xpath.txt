@@ -1,6 +1,12 @@
    npm run vergelijker
    
-   
+Voor Vercel:
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+Na:
+    "build": "nuxt generate",
+    "generate": "nuxt generate",
+
    
     config.energieleverancier
     config.elektriciteitverbruik
