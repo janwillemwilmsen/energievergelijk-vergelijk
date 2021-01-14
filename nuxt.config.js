@@ -43,7 +43,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+
+    script: [
+     
+      { defer: true, async: true, crossorigin: 'anonymous', src:"https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@1.6.3/dist/pwa-install.js", type: "module"},
+    ],
+
   },
   /*
   ** Customize the progress-bar color
@@ -54,6 +60,27 @@ export default {
   */
   css: [
   ],
+
+// PWA Manifest False werkt niet. Er wordt toch een manifest met Dynamische filename gebuild.
+// in de static map staat manifest.jww.json - die is gekoppeld aan het 'Install PWA' script in ThePWA.vue
+
+
+  pwa: {
+    manifest: false,
+    workbox: {
+      /* workbox options */
+      workboxExtensions: ['plugins/import-custom-sw.client.js'], 
+         }
+    // manifest: {
+    //   name: 'My Awesome App',
+    //   lang: 'nl',
+    //   useWebmanifestExtension: true,
+    //   publicPath: 'routerBase',
+    // },
+   
+  },
+
+
   /*
   ** Plugins to load before mounting the App
   */
