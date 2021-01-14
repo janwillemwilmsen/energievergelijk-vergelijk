@@ -1,8 +1,36 @@
+import getRoutes from "./plugins/getRoutes";
+
+
 
 export default {
   target: 'static',
   components: true,
   mode: 'universal',
+  build: {},
+  
+ 
+  // routes: async () => {
+  //   const { $content } = require('@nuxt/content')
+  
+  //   const pages = await $content('energie')
+  //     .only(['path'])
+  //     .fetch()
+  
+  //   return pages.map((p) => p.path)
+  // },
+
+  sitemap: {
+    hostname: 'https://ikvergelijk.nl', // https://www.yoursite.com  -- process.env.BASE_URL
+    // routes: async () => {}
+  },
+
+  // Dan werkt Sitemap niet meer.
+  // content: {
+  //   dir: 'energie' // read content from my-content/
+  // },
+  
+
+
   /*
   ** Headers of the page
   */
@@ -37,12 +65,15 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@/modules/sitemapRouteGenerator',
+    '@nuxtjs/pwa',
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
     
   ],
   /*
