@@ -79,3 +79,44 @@ Product 1 :  Tot 1 jaar vast  : € 63,31 p.m.
 Product 2 :  Tot 3 jaar vast : € 63,31 p.m.  
 
 ![alt text](/img/el/vattenfall-1100KwH-550M3-verbruik-1-jaar-week2.png "Vergelijk energietarieven Vattenfall")
+## Pricewise    
+2021 0 15  
+###  1100KwH-550M3-verbruik-1-jaar, 1100 kWh,  550m3.    
+Energieleverancier 1 :  Energiedirect.nl  :  kosten p.m. €50 ,04 €600 ,52 / jaar  
+Energieleverancier 2 :  Energiedirect.nl :  kosten p.m. €52 ,11 €625 ,34 / jaar  
+Energieleverancier 3 :  Greenchoice :  kosten p.m. €52 ,68 €632 ,20 / jaar 
+ 
+![alt text](/img/el/pricewise-1100KwH-550M3-verbruik-1-jaar-week2.png "Vergelijk energietarieven Pricewise")
+## Independer    
+2021 0 15  
+###  1100KwH-550M3-verbruik-1-jaar, 1100 kWh,  550m3.    
+Energieleverancier 1 :  Oxxio Europese Stroom en Gas 1 jaar Vast SuperScherp  :  50,35  
+Energieleverancier 2 :  Energiedirect.nl AltijdVoordeel Online Europese Stroom en Gas 1 jaar Vast :  52,55  
+Energieleverancier 3 :  Mijndomein Energie Nederlandse Groene Stroom en CO2-gecompenseerd Gas 1 jaar Vast :  55,34  
+
+ 
+![alt text](/img/el/independer-1100KwH-550M3-verbruik-1-jaar-week2.png "Vergelijk energietarieven Independer")
+## Easyswitch    
+2021 0 15  
+###  1100KwH-550M3-verbruik-1-jaar, 1100 kWh,  550m3.    
+Energieleverancier 1 :  Greenchoice  : € 52 per maand € 625 per jaar   
+Energieleverancier 2 :  OXXIO : € 53 per maand € 632 per jaar  
+Energieleverancier 3 :  Fenor :  € 53 per maand € 633 per jaar   
+ 
+![alt text](/img/el/easyswitch-1100KwH-550M3-verbruik-1-jaar-week2.png "Vergelijk energietarieven Easyswitch")
+## Essent    
+2021 0 15  
+###  1100KwH-550M3-verbruik-1-jaar, 1100 kWh,  550m3.    
+Product 1 :  Groene Stroom & Gas Zeker  : + Bol.com cadeaukaart t.w.v. €150,-  : €63,- /mnd  
+Product 2 :  Nederlandse WindStroom & Gas Zeker actietarief : + €130,- cashback  : van €59,- voor  €49,- /mnd  
+Product 3 :  Groene Stroom & Gas Zeker Actietarief :  + €130,- cashback  : van €59,- voor  €47,- /mnd  
+ 
+  
+
+![alt text](/img/el/essent-1100KwH-550M3-verbruik-1-jaar-week2.png "Vergelijk energietarieven Essent")
+## energiedirect.nl    
+2021 0 15  
+###  1100KwH-550M3-verbruik-1-jaar, 1100 kWh,  550m3.    
+Product 1 :  Groene Stroom & Gas.  : Van € 53,- voor € 50,-/mnd Jaarkosten € 630,- € 600,- Voorgesteld termijnbedrag € 53,-  
+ 
+![alt text](/img/el/energiedirect-1100KwH-550M3-verbruik-1-jaar-week2.png "Vergelijk energietarieven energiedirect.nl")
