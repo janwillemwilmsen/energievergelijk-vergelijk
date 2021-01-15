@@ -18,10 +18,9 @@
 
 <!-- <form id="contactform" action="https://formsubmit.io/send/9d0d83bd-f75c-4570-adb2-4198282fbeae" method="POST"> -->
 <!-- <form id="contactform" action="https://formsubmit.io/send/9d0d83bd-f75c-4570-adb2-4198282fbeae" method="GET"> -->
-<form id="contactform" onsubmit='return false' action="https://formsubmit.io/send/9d0d83bd-f75c-4570-adb2-4198282fbeae" method="GET">
+<!-- <form id="contactform" onsubmit='return false' action="https://formsubmit.io/send/9d0d83bd-f75c-4570-adb2-4198282fbeae" method="GET">
 
- <!-- <input name="_formsubmit_id" type="text" style="display:none"> -->
-
+ 
 <input type="text" value="" name="gas" class="border border-black ">
 <input type="text" value="" name="elek" class="border border-black">
 <input type="text" value="" name="poscode" class="border border-black">
@@ -30,10 +29,9 @@
 <input type="email" name="" id="" class="border border-black">
 
 <input type="submit" value="verzenden"  class="border-black ">
-<!-- <input type='reset' value="verzenden"  class="border-black " onclick='document.forms["myForm"].submit();'> -->
+ 
 
-
-</form>
+</form> -->
 
 
 
@@ -56,7 +54,7 @@
  
  <script>
  export default {
-       name: 'Form',
+       name: "Form",
     data: function () {
       return {
         status: null,
@@ -68,25 +66,26 @@
       sendForm: function (event) {
         event.preventDefault()
 
-        fetch('https://formsubmit.io/send/9d0d83bd-f75c-4570-adb2-4198282fbeae', {
-          method: 'POST',
+        fetch("https://formsubmit.io/send/9d0d83bd-f75c-4570-adb2-4198282fbeae", {
+          method: "POST",
+          mode: "no-cors",
           headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json',
+            "Content-Type": "application/json",
+            Accept: "application/json",
           },
           body: JSON.stringify({ email: this.email, message: this.message }),
         })
           .then((response) => response.json())
           .then((response) => {
             if (response.code === 200) {
-              this.status = 'success'
+              this.status = "success"
             } else {
               // Formcarry error
-              this.status = 'error'
+              this.status = "error"
             }
           })
           // network error
-          .catch(() => (this.status = 'error'))
+          .catch(() => (this.status = "error"))
       },
     },
  
