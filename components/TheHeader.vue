@@ -1,11 +1,11 @@
  <template>
-<header class="text-gray-400 bg-gray-900 body-font">
-  <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
+<header class="text-gray-400 body-font header h-96">
+  <div class="container flex flex-col flex-wrap items-center p-5 mx-auto head md:flex-row">
     <a class="flex items-center mb-4 font-medium text-white title-font md:mb-0" href="/">
       
       <div class="flex flex-col ">
-        <div class="items-center mx-auto "><img src="/logo.png" style="width:100px;"></div>
-        <div class="mx-auto"><span class="text-sm font-semibold tracking-widest text-gray-300">ikvergelijk.nl</span></div>
+        <div class="items-center mx-auto "><img src="/logo.png" style="width:130px;" class=""></div>
+        <div class="mx-auto"><span class="text-sm font-semibold tracking-widest text-gray-900">ikvergelijk.nl</span></div>
          
       </div>
       
@@ -44,5 +44,11 @@
  </script>
  
  <style>
+ header{
+    background: url('~assets/header-bg.jpg');
+  background-size: cover;
+ }
+
  
+
  </style>

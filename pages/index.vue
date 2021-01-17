@@ -10,7 +10,7 @@
 
 
 
-    <h1 class="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 ">Vergelijk de energievergelijkers.</h1>
+    <h1 class="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">Vergelijk de energievergelijkers.</h1>
          
 
                 <p>
@@ -31,11 +31,11 @@
   </section>
   
 
+<leadForm4 />
 
 
 <TheFaqs/>
 
-<leadForm/>
 
 </div>
 </template>

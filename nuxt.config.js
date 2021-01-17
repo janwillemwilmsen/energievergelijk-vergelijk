@@ -1,11 +1,12 @@
+
+
+
 import getRoutes from "./plugins/getRoutes";
-
-
 
 export default {
   target: 'static',
   components: true,
-  mode: 'universal',
+  // mode: 'universal',
   build: {},
   
  
@@ -19,10 +20,7 @@ export default {
   //   return pages.map((p) => p.path)
   // },
 
-  sitemap: {
-    hostname: 'https://ikvergelijk.nl', // https://www.yoursite.com  -- process.env.BASE_URL
-    // routes: async () => {}
-  },
+  
 
   // Dan werkt Sitemap niet meer.
   // content: {
@@ -47,7 +45,9 @@ export default {
 
     script: [
      
+      // { defer: true, async: true, crossorigin: 'anonymous', src:"https://carrier.formcarry.com/js/v1.js", type: "module"},
       { defer: true, async: true, crossorigin: 'anonymous', src:"https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall@1.6.3/dist/pwa-install.js", type: "module"},
+      // { defer: true, async: true, crossorigin: 'anonymous', src:"https://s.pageclip.co/v1/pageclip.js", type: "module"},
     ],
 
   },
@@ -85,8 +85,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/vue-form-wizard.js'
-    
+    // '~plugins/kwesforms.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -105,6 +104,12 @@ export default {
     '@nuxtjs/sitemap'
     
   ],
+
+
+  sitemap: {
+    hostname: 'https://ikvergelijk.nl', // https://www.yoursite.com  -- process.env.BASE_URL
+    // routes: async () => {}
+  },
   /*
   ** Build configuration
   */

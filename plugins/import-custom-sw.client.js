@@ -1,9 +1,5 @@
 // Test of servericeworker wel werkt:
-console.log(
-  "%cRunning and running",
-  "display: inline-block ; border: 3px solid red ; border-radius: 7px ; " +
-  "padding: 10px ; margin: 20px ;"
-);
+console.log();
 
   // install event
   self.addEventListener('install', evt => {
