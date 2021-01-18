@@ -22,13 +22,17 @@
 
   <div><p class="w-3/4 p-4 mx-auto text-base font-semibold tracking-tight md:text-1xl lg:text-3xl ">  
   Bespaar jezelf de irritatie. Bespaar jezelf tijd. Wij vergelijken voor je.
-  Op basis van jouw verbruik. 
+   
     
   </p></div>
 
 
     <div id="progress" :style="{width: progress}"></div>
-    <h6 :class="{'show-final': showFinal}">Bedankt voor je aanvraag  {{ registerSteps[5].value }}!</h6>
+    <div class="text-3xl fin md:text-4xl lg:text-5xl" :class="{'show-final': showFinal}">Bedankt voor je aanvraag  {{ registerSteps[5].value }}!
+
+      <TheAnimationThumbs />
+
+    </div>
     <!-- <div :class="{'show-final': showFinal}">We gaan zo binnenkort met je aanvraag aan de slag. 
 
     </div> -->
@@ -82,11 +86,15 @@
 
 <script>
 const FORMSPARK_ACTION_URL = "https://submit-form.com/6MBFOqku";
-// const kwesforms = require('kwesforms');
+
+import TheAnimationThumbs from '/components/TheAnimationThumbs.vue' 
 
 
 
   export default {
+
+components: {TheAnimationThumbs}, 
+
     data: () => {
       return {
         position: 0,
@@ -271,16 +279,19 @@ const FORMSPARK_ACTION_URL = "https://submit-form.com/6MBFOqku";
    transition: width 0.8s ease-in-out;
    opacity: 0.5;
 }
- h6 {
-	 position: absolute;
-	 width: max-content;
-	 font-size: 2rem;
-	 color: #fff;
+ .fin   {
+   height:0;
+	 /* position: absolute; */
+	 /* width: max-content; */
+	 /* font-size: 2rem; */
+   color: #fff;
+   z-index: 0;
 	 opacity: 0;
 	 transition: 0.8s ease-in-out;
 }
- h6.show-final {
-	 opacity: 1;
+ div.show-final {
+   opacity: 1;
+   height: 200px !important;
 }
  #register {
    position: relative;
@@ -301,9 +312,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
  #register.close {
-	 width: 0;
+   width: 0;
+   height: 0;   /*added voor weghalen verticale streep na submit*/
 	 padding: 10px 0;
-	 overflow: hidden;
+   overflow: hidden;
+   border: none;
 	 transition: 0.8s ease-in-out;
 	 box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .2);
 }
@@ -379,7 +392,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
  #inputLabel {
    position: absolute;
-   margin-left: 5px;
+   margin-left: 7px;
    margin-top: 10px;
 	 top: 32px;
 	 left: 20px;

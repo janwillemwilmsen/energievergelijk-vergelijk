@@ -2,7 +2,7 @@
   <div id="animatie">
     <lottie-animation
       ref="anim"
-      :animationData="require('@/assets/lottie-atom.json')"
+      :animationData="require('@/assets/lottie-thumbs.json')"
       :loop="true"
       :autoPlay="true"
 
@@ -44,6 +44,10 @@ export default {
 
 <style>
 
-svg {width: 50px;}
+ #animatie {
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+}
 
 </style>

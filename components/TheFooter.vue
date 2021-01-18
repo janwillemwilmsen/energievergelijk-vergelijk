@@ -7,7 +7,7 @@
    
 
  <!-- <TheAnimation />   -->
- <TheAnimation2 />  
+ <TheAnimationAtom />  
     
     
       <span class="ml-3 text-xl"></span>
@@ -20,7 +20,7 @@
     </p>
    
    <p>
-   <!-- <ThePWA/>  -->
+   <ThePWA/> 
 </p>
 
 
@@ -58,11 +58,11 @@
  </template>
  
  <script>
-import TheAnimation2 from './TheAnimation2.vue' 
+import TheAnimationAtom from './TheAnimationAtom.vue' 
 import ThePWA from './ThePWA.vue'
 
  export default {
-  components: {ThePWA, TheAnimation2}, 
+  components: {ThePWA, TheAnimationAtom}, 
  
  }
  </script>
