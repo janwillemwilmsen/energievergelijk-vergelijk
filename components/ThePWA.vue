@@ -26,7 +26,7 @@
                                 z"></path>
                             </svg>
             </div>
-                        <div class="inline-block whitespace-nowrap ">
+                        <div class="inline-block m-2 whitespace-nowrap">
                             Installeer app
                         </div>
           </div>

@@ -12,7 +12,7 @@
     
       <span class="ml-3 text-xl"></span>
     </a>
-    <p class="inline mt-4 text-sm text-gray-400">
+    <p class="inline m-4 text-sm text-gray-400">
       © 2020  
       
      
@@ -20,7 +20,7 @@
     </p>
    
    <p>
-   <ThePWA/> 
+   <!-- <ThePWA/>  -->
 </p>
 
 

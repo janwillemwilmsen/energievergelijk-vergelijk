@@ -32,7 +32,11 @@
       <!-- <a class="mr-5 hover:text-white">Third Link</a>
       <a class="mr-5 hover:text-white">Fourth Link</a> -->
     </nav>
-    <button class="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 md:mt-0">
+  
+<!-- <a href="/aanmelden"> -->
+<nuxt-link :to="{ path: '/', hash:'aanmelden'}">
+ 
+    <button  class="inline-flex items-center px-3 py-1 mt-4 text-base text-gray-800 bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
       
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -41,6 +45,10 @@
      &nbsp; Persoonlijk overzicht
 
     </button>
+
+</nuxt-link>
+<!-- </a> -->
+    
   </div>
 </header>
  </template>
