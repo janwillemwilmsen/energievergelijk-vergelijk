@@ -12,7 +12,7 @@
     
       <span class="ml-3 text-xl"></span>
     </a>
-    <p class="inline mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0">
+    <p class="inline mt-4 text-sm text-gray-400">
       © 2020  
       
      

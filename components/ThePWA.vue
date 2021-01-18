@@ -15,7 +15,7 @@
           class=""
           >
           <div class="flex flex-row ">
-            <div class="inline-block ">
+            <div class="inline-block m-2">
 
                               <svg class="inline-block svg-icon" viewBox="0 0 20 20">
                               <path fill="none" d="M13.68,9.448h-3.128V6.319c0-0.304-0.248-0.551-0.552-0.551S9.448,6.015,9.448,6.319v3.129H6.319
@@ -26,7 +26,7 @@
                                 z"></path>
                             </svg>
             </div>
-                        <div class="inline-block ">
+                        <div class="inline-block whitespace-nowrap ">
                             Installeer app
                         </div>
           </div>
@@ -47,8 +47,8 @@ export default {
 <style>
 pwa-install::part(openButton) {
   background: darkorange;
-  width: 160px;
-  border-radius: 10px;
+  width: 180px;
+  border-radius: 15px;
   font-size: 15px;
   color: white;
 }
