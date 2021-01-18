@@ -27,8 +27,8 @@
    
    
     <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto">
-      <a class="mr-5 hover:text-white">Archief</a>
-      <a class="mr-5 hover:text-white">Over ons</a>
+      <a class="mr-5 text-gray-800 hover:text-white">Archief</a>
+      <a class="mr-5 text-gray-800 hover:text-white">Over ons</a>
       <!-- <a class="mr-5 hover:text-white">Third Link</a>
       <a class="mr-5 hover:text-white">Fourth Link</a> -->
     </nav>

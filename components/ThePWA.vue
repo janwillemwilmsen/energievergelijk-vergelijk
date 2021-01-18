@@ -14,7 +14,7 @@
           iosinstallinfotext="Op Iphone of Ipad werkt dit niet goed. Klik in de taakbalk op vierkantje met pijl naar boven en kies 'Zet op beginscherm'"
           class=""
           >
-          <div class="flex flex-col ">
+          <div class="flex flex-row ">
             <div class="inline-block ">
 
                               <svg class="inline-block svg-icon" viewBox="0 0 20 20">

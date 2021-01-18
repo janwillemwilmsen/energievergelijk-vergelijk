@@ -10,16 +10,16 @@
 
 
 
-    <h1 class="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">Vergelijk de energievergelijkers.</h1>
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Vergelijk de energievergelijkers.</h1>
          
 
-                <p>
+                <p class="mt-8 ">
                 Wij maken het je makkelijk. Ahh nou, we helpen je een beetje bij het vergelijken van energiecontracten.<br>
                 Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers. 
                 </p>
 
          
-                  <ul class="max-w-4xl mt-4">
+                  <ul class="max-w-4xl mt-8">
                         <li v-for="article of articles" :key="article.slug" class="py-4 pl-4 my-4 bg-white border border-gray-500 border-opacity-25 shadow-md rounded-xl">
                             <NuxtLink :to="{ name: 'energie-slug', params: { slug: article.slug } }">
                                 <p>{{ article.slug }}</p>
