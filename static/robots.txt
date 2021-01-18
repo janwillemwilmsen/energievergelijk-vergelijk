@@ -1,0 +1,3 @@
+Sitemap: https://ikvergelijk.nl/sitemap.xml
+
+User-agent: * Disallow: 

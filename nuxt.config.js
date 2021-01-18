@@ -37,7 +37,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { name: 'theme-color', content: "#9B242C"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -68,17 +69,21 @@ export default {
 
 
   pwa: {
-    manifest: false,
+    // manifest: false,
     workbox: {
       /* workbox options */
       workboxExtensions: ['plugins/import-custom-sw.client.js'], 
-         }
-    // manifest: {
-    //   name: 'My Awesome App',
-    //   lang: 'nl',
-    //   useWebmanifestExtension: true,
-    //   publicPath: 'routerBase',
-    // },
+         },
+    manifest: {
+      name: 'energievergelijk-vergelijk',
+      start_url: '/?standalone=true',
+      display: 'standalone',
+      background_color: '#ffffff',
+      theme_color: '#9B242C',
+      lang: 'nl',
+      // useWebmanifestExtension: true,
+      // publicPath: '/',
+    },
    
   },
 
