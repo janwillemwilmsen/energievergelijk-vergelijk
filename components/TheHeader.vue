@@ -4,8 +4,16 @@
     <a class="flex items-center mb-4 font-medium text-white title-font md:mb-0" href="/">
       
       <div class="flex flex-col ">
-        <div class="items-center mx-auto "><img src="/logo.png" style="width:130px;" class=""></div>
-        <div class="mx-auto"><span class="text-sm font-semibold tracking-widest text-gray-900">ikvergelijk.nl</span></div>
+        <div class="z-50 items-center mx-auto">
+              <img src="/logo.png" style="width:130px;" class="z-50 -mb-2">
+        </div>
+        <div class="z-0 mx-auto mark">
+          <span class="z-0 mb-2 font-sans text-2xl antialiased font-bold tracking-tighter text-white shadow-2xl opacity-75 ">
+              
+                    ikvergelijk.nl
+              
+            </span>
+            </div>
          
       </div>
       
@@ -49,6 +57,20 @@
   background-size: cover;
  }
 
- 
+ .mark {
+  
+  margin: 0 -0.4em;
+  padding: 0.4em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
 
  </style>

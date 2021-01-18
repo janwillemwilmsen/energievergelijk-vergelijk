@@ -86,6 +86,7 @@ export default {
   */
   plugins: [
     // '~plugins/kwesforms.js'
+    '~plugins/lottie.js'
   ],
   /*
   ** Nuxt.js dev-modules

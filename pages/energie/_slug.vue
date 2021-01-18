@@ -1,23 +1,27 @@
 <template>
 
-  <article class="mx-auto ">
+  <article class="mx-auto bg-gray-200">
     <a name="top"></a>
 
-<div class="container p-8 m-auto text-grey-darkest">
-      <h1 class="text-5xl ">Energietarieven vergelijken: {{ formatDate(article.createdAt) }}</h1>
+<div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
+
+<h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">Energietarieven vergelijken: {{ formatDate(article.createdAt) }}</h1>
+
+     
 
               <div class="flex mx-auto mb-4">
                   
-                   <div class="w-2/4"> 
-                          <main  class="prose">
-                                <nuxt-content :document="article" />
-                        </main>
-                  </div>
-                <div class="w-1/4 mt-10">
+                <div class="w-8/12 p-2 md:w-9/12 lg:w-6/12"> 
+                                  <main  class="w-full max-w-full prose">
+                                        <nuxt-content :document="article" />
+                                  </main>
+                </div>
+                <div class="w-4/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
 
-                        <aside class="sticky top-0 p-4 border-4 border-gray-300 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
+                        <aside class="sticky top-0 p-2 border-4 border-gray-300 md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
                       
-                                            <ul class="text-lg ">
+                                           
+                                          <ul class="text-sm truncate md:text-base ">
                                             <li v-for="link of article.toc" :key="link.id"  class="toc-list" :class="{'p-0': link.depth === 2, 'hidden': link.depth === 3 }">
                                                  <!-- <li v-for="link of article.toc" :key="link.id" :class="{'pl-4': link.depth === 3 }" class="toc-list"  > -->
                                             <NuxtLink 
@@ -30,12 +34,12 @@
                                             </NuxtLink>
                                             </li>
                                           </ul>
-                             <div class="mt-4"> 
-                               <a href="#top" class="inline-block text-sm opacity-50 ">
-                                        <img src="~assets/svg/icon-arrow-up.svg" width="10" class="inline ">
-                                        Naar boven
-                                     </a>
-                                </div>
+                                                      <div class="mt-4"> 
+                                                      <a href="#top" class="inline-block text-sm opacity-50 ">
+                                                              <img src="~assets/svg/icon-arrow-up.svg" width="10" class="inline ">
+                                                              Naar boven
+                                                            </a>
+                                                      </div>
                           </aside>
                 
                 </div>
@@ -133,4 +137,11 @@ h2 .icon.icon-link  {
   background-size: 20px 20px;
 }
 
-</style>
+p > img {
+  border-radius:15px;
+  border: solid 1px gray;
+   filter: sepia(1) saturate(250%) hue-rotate(90deg); 
+}
+  /*  -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);  */
+</style> 
