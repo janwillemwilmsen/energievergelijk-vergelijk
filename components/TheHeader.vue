@@ -1,13 +1,20 @@
  <template>
-<header class="text-gray-400 body-font header h-96">
+<header class="relative flex items-center px-4 overflow-hidden h-96 cover ">
+
+<div class="absolute top-0 left-0 z-0 h-full"  >
+
+<img class="object-cover w-full h-full opacity-80" src="/header-bg2.jpg" alt="">
+ <!-- style="background: url('');" -->
+  </div>
+
   <div class="container flex flex-col flex-wrap items-center p-5 mx-auto head md:flex-row">
     <a class="flex items-center mb-4 font-medium text-white title-font md:mb-0" href="/">
       
       <div class="flex flex-col ">
         <div class="z-50 items-center mx-auto">
-              <img src="/logo.png" style="width:130px;" class="z-50 -mb-2">
+              <img src="/logo.png" style="width:160px;" class="z-10 -mb-3">
         </div>
-        <div class="z-0 mx-auto mark">
+        <div class="z-0 mx-auto text-center mark">
           <span class="z-0 mb-2 font-sans text-2xl antialiased font-bold tracking-tighter text-white shadow-2xl opacity-75 ">
               
                     ikvergelijk.nl
@@ -26,7 +33,7 @@
    
    
    
-    <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto">
+    <nav class="z-10 flex flex-wrap items-center justify-center text-base md:ml-auto" >
       <a class="mr-5 text-gray-800 hover:text-white">Archief</a>
       <a class="mr-5 text-gray-800 hover:text-white">Over ons</a>
       <!-- <a class="mr-5 hover:text-white">Third Link</a>
@@ -34,7 +41,7 @@
     </nav>
   
 <!-- <a href="/aanmelden"> -->
-<nuxt-link :to="{ path: '/', hash:'aanmelden'}">
+<nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="z-10">
  
     <button  class="inline-flex items-center px-3 py-1 mt-4 text-base text-gray-800 bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
       
@@ -50,6 +57,14 @@
 <!-- </a> -->
     
   </div>
+
+
+
+
+
+
+
+
 </header>
  </template>
  
@@ -59,12 +74,12 @@
  }
  </script>
  
- <style>
- header{
-    background: url('~assets/header-bg.jpg');
-  background-size: cover;
- }
+ <!-- header{
+    background: url('~assets/header-bg2.jpg');
+   
+ } -->
 
+ <style>
  .mark {
   
   margin: 0 -0.4em;
