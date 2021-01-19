@@ -10,12 +10,11 @@
 
 
 
-    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Vergelijk de energievergelijkers.</h1>
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Archief.</h1>
          
 
                 <p class="mt-8 ">
-                Wij maken het je makkelijk. Ahh nou, we helpen je een beetje bij het vergelijken van energiecontracten.<br>
-                Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers. 
+                Historisch overzicht van de scans.
                 </p>
 
          
@@ -32,8 +31,8 @@
   
 
 
-<a  id="aanmelden"></a>
-<leadForm4 />
+<!-- <a  id="aanmelden"></a> -->
+<!-- <leadForm4 /> -->
 
 
 <TheFaqs/>
@@ -49,7 +48,7 @@
       const articles = await $content('articles', params.slug)
         .only(['title', 'description', 'img', 'slug', 'author'])
         .sortBy('createdAt', 'desc')
-           .limit(4)
+       
         .fetch()
 
       return {

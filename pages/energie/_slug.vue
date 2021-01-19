@@ -117,55 +117,55 @@ export default {
   },
 
 
-//  head() {
-//     return {
-//       title: this.article.title,
-//       meta: [
-//         { hid: 'description', name: 'description', content: this.article.description },
-//         // Open Graph
-//         { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
-//         // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
-//         { hid: 'og:title', property: 'og:title', content: this.article.title },
-//         { hid: 'og:description', property: 'og:description', content: this.article.description },
-//         // Twitter Card
-//         { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
-//         { hid: 'twitter:title', name: 'twitter:title', content: this.article.title },
-//         { hid: 'twitter:description', name: 'twitter:description', content: this.article.description }
-//       ]
-//     }
-//   }
-
-computed: {
-  meta() {
-    const metaData = {
-      type: "article",
+ head() {
+    return {
       title: this.article.title,
-      description: this.article.description,
-      url: `${this.$config.baseUrl}/energie/${this.$route.params.slug}`,
-      mainImage: this.article.image,
-    };
-    return getSiteMeta(metaData);
+      meta: [
+        { hid: 'description', name: 'description', content: this.article.description },
+        // Open Graph
+        { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
+        { hid: 'og:title', property: 'og:title', content: this.article.title },
+        { hid: 'og:description', property: 'og:description', content: this.article.description },
+        // Twitter Card
+        { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.article.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.article.description }
+      ]
+    }
   }
-},
 
-head() {
-  return {
-    title: this.article.title,
-    meta: [
-      ...this.meta,
-      { property: "article:published_time", content: this.article.createdAt,},
-      { property: "article:modified_time", content: this.article.updatedAt, },
-      { property: "article:tag", content: this.article.tags ? this.article.tags.toString() : ""},
-      { name: "twitter:label1", content: "Written by" },
-      { name: "twitter:data1", content: "Bob Ross" },
-      { name: "twitter:label2", content: "Filed under" },
-      { name: "twitter:data2", content: this.article.tags ? this.article.tags.toString() : "" },
-    ],
-    link: [
-      { hid: "canonical", rel: "canonical", href: `https://ikvergelijk.nl/${this.$route.params.slug}`},
-    ],
-  };
-}
+// computed: {
+//   meta() {
+//     const metaData = {
+//       type: "article",
+//       title: this.article.title,
+//       description: this.article.description,
+//       url: `${this.$config.baseUrl}/energie/${this.$route.params.slug}`,
+//       mainImage: this.article.image,
+//     };
+//     return getSiteMeta(metaData);
+//   }
+// },
+
+// head() {
+//   return {
+//     title: this.article.title,
+//     meta: [
+//       ...this.meta,
+//       { property: "article:published_time", content: this.article.createdAt,},
+//       { property: "article:modified_time", content: this.article.updatedAt, },
+//       { property: "article:tag", content: this.article.tags ? this.article.tags.toString() : ""},
+//       { name: "twitter:label1", content: "Written by" },
+//       { name: "twitter:data1", content: "Bob Ross" },
+//       { name: "twitter:label2", content: "Filed under" },
+//       { name: "twitter:data2", content: this.article.tags ? this.article.tags.toString() : "" },
+//     ],
+//     link: [
+//       { hid: "canonical", rel: "canonical", href: `https://ikvergelijk.nl/${this.$route.params.slug}`},
+//     ],
+//   };
+// }
 
 
 

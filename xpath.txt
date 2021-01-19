@@ -4,7 +4,8 @@
   
 
 
-
+${now.getFullYear()} ${now.getMonth()} ${now.getDate()}  
+###  ${config.scenario}, ${config.elektriciteitverbruik} kWh,  ${config.gasverbruik}m3.  
 
   
    npm run vergelijker

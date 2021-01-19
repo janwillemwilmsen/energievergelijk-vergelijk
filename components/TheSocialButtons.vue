@@ -6,9 +6,9 @@
     :network="network.network"
     :key="network.network"
     :style="{backgroundColor: network.color}"
+    :description="sharing.description"
     class="inline-flex items-center p-2 pr-4 m-2 text-sm font-light text-center text-gray-200 rounded-md "
     :title="sharing.title"
-    :description="sharing.description"
     :url="sharing.url"
  
     :hashtags="sharing.hashtags"
@@ -61,12 +61,13 @@ export default {
     data () {
     return {
        sharing: {
-        description: 'Bekijk deze eens: ',
-         title: 'Hey maat, lees dit eens:',
+        // description: 'Bekijk deze eens: ',
+         title: 'Bekijk deze eens:',
+        //  title: this.$metaData.title,
         quote: '',
         hashtags: '',
         twitterUser: '',
-        url: `https://ikvergelijk.nl` + this.$route.fullPath,
+        url: `https://ikvergelijk.nl/` + this.$route.params.slug,
       },
  
      
@@ -84,5 +85,5 @@ export default {
 </script>
 
 <style scoped>
-img{height:25px; display: inline; margin-top:-5px;}
+img{height:25px; display: inline; margin-top:-5px; margin-right: 5px;}
 </style>

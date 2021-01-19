@@ -40,8 +40,8 @@ export default {
 
 
     head: {
-      htmlAttrs: { lang: "en-GB" },
-      title: "My Amazing Blog on The Joy of Painting",
+      htmlAttrs: { lang: "nl_NL" },
+      title: "ik vergelijk de energievergelijkers.",
       meta: [
         ...meta,
         { charset: "utf-8" },
@@ -49,10 +49,10 @@ export default {
         { name: 'theme-color', content: "#9B242C"},
         { name: "HandheldFriendly", content: "True" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { property: "og:site_name", content: "Bob Ross" },
+        { property: "og:site_name", content: "Piet" },
         { property: "og:image:width", content: "740" },
         { property: "og:image:height", content: "300" },
-        { name: "twitter:site", content: "@bobross" },
+        { name: "twitter:site", content: "" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
       link: [

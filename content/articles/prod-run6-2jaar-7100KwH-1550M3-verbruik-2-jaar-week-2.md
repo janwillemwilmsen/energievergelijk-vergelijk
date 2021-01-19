@@ -1,4 +1,6 @@
-
+---
+title:  Mijn Title  6
+---
 ## Pricewise    
 2021 0 15  
 ###  7100KwH-1550M3-verbruik-2-jaar, 7100 kWh,  1550m3.    

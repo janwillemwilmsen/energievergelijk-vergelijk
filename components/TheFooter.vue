@@ -23,8 +23,8 @@
 </div>
 
    <p>   
-     <!-- PWA - uit -->
-   <ThePWA/> 
+     PWA - uit
+   <!-- <ThePWA/>  -->
 </p>
 
 

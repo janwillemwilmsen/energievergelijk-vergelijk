@@ -49,7 +49,7 @@
    
    
     <nav class="z-10 flex flex-wrap items-center justify-center text-base md:ml-auto" >
-      <a href="/" class="pt-3 pr-5 text-gray-800 hover:text-white">Archief</a>
+      <a href="/archief" class="pt-3 pr-5 text-gray-800 hover:text-white">Archief</a>
       <a href="/" class="pt-3 pr-5 text-gray-800 hover:text-white">Over ons</a>
       <!-- <a href="/" class="pt-3 pr-5 hover:text-white">Third Link</a>
       <a href="/" class="pt-3 pr-5 hover:text-white">Fourth Link</a> -->
