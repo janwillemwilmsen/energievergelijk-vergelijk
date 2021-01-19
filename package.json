@@ -18,7 +18,8 @@
     "pricewise": "node ./vergelijk/pricewise.js",
     "vandebron": "node ./vergelijk/vandebron.js",
     "vattenfall": "node ./vergelijk/vattenfall.js",
-    "vergelijker": "npm-run-all -s pricewise independer easyswitch essent energiedirect eneco energievergelijk  gaslicht   vandebron vattenfall"
+    "intro": "node ./vergelijk/intro.js",
+    "vergelijker": "npm-run-all -s intro independer essent "
   },
   "repository": {
     "type": "git",
@@ -51,6 +52,7 @@
     "lottie-web-vue": "^1.0.1",
     "npm-run-all": "^4.1.5",
     "nuxt": "^2.14.12",
-    "vue-lottie": "^0.2.1"
+    "vue-lottie": "^0.2.1",
+    "vue-social-sharing": "^3.0.4"
   }
 }

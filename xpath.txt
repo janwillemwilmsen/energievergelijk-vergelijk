@@ -1,3 +1,12 @@
+    "vergelijker": "npm-run-all -s pricewise independer easyswitch essent energiedirect eneco energievergelijk  gaslicht   vandebron vattenfall"
++ INTRO en OUTRO  
+  
+  
+
+
+
+
+  
    npm run vergelijker
    
 Voor Vercel:

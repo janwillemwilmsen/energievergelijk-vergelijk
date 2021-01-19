@@ -112,7 +112,7 @@ components: {TheAnimationThumbs},
             type: "text",
             name: "",
             value: "",
-            pattern: /.+/
+            pattern: /^[1-9][0-9]{3} ?(?!sa|sd|ss)[a-z]{2}$/i
           },
           {
             label: "Wat is je huisnummer?",
@@ -126,14 +126,14 @@ components: {TheAnimationThumbs},
             type: "text",
             name:"",
             value: "",
-            pattern: /.+/
+            pattern: /^[0-9]+$/
           },
                {
             label: "Gasverbruik(m3) p.m.?",
             type: "text",
             name:"",
             value: "",
-            pattern: /.+/
+            pattern: /^[0-9]+$/
           },
           {
             label: "Wat is je emailadres?",
@@ -147,7 +147,7 @@ components: {TheAnimationThumbs},
             type: "text",
             name:"",
             value: "",
-            pattern: /.+/
+            pattern: /^([^0-9]*)$/
           }
         ]
       }

@@ -13,13 +13,17 @@
       <span class="ml-3 text-xl"></span>
     </a>
     <p class="inline m-4 text-sm text-gray-400">
-      © 2020  
+      © 2021  
       
      
 
     </p>
-   
-   <p>
+    <div class="flex flex-col mx-auto text-center md:flex-row md:flex-wrap">
+   <TheSocialButtons/> 
+</div>
+
+   <p>   
+     <!-- PWA - uit -->
    <ThePWA/> 
 </p>
 
@@ -60,9 +64,10 @@
  <script>
 import TheAnimationAtom from './TheAnimationAtom.vue' 
 import ThePWA from './ThePWA.vue'
+import TheSocialButtons from './TheSocialButtons.vue'
 
  export default {
-  components: {ThePWA, TheAnimationAtom}, 
+  components: {ThePWA, TheAnimationAtom, TheSocialButtons}, 
  
  }
  </script>
