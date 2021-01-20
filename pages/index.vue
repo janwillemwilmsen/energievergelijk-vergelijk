@@ -48,12 +48,14 @@
 
 // CREATED AT werkt niet. Dat wordt vertaald als DATUM VAN LAATST OPGESLAGEN MOMENT.  --> werkt niet  .sortBy('createdAt', 'desc').fetch()
 // OOK OPLETTEN BIJ AANPASSEN VAN DE .MD Files. Die datum in de titel wordt daarna geupdate.
+// Of en dat kan ook. Na aanpassen van de MD's, heb intro met Title toegevoed is de Created at datum weggevallen.
 
   export default {
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .only(['title', 'description', 'img', 'slug', 'author']).limit(4)
-        .sortBy('date', 'desc').fetch()
+        .sortBy('date', 'desc')
+        .fetch()
         // .sortBy('date', 'desc').fetch()
 
       return {
