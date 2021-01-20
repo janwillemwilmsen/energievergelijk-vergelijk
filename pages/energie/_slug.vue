@@ -3,9 +3,12 @@
     <a name="top"></a>
 
     <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
-      <h1
-        class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words"
-      >
+      <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
+
+
+    <!-- Article Created at werkt niet goed. Wordt overschreven na deploy. Dan wordt het LAATS opgeslagen datum. -->
+
+
         Energietarieven vergelijken: {{ formatDate(article.createdAt) }}
       </h1>
 
