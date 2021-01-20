@@ -33,41 +33,33 @@
 
 <script>
 
-import getSiteMeta from "/plugins/getSiteMeta";
-const meta = getSiteMeta();
+// import getSiteMeta from "/plugins/getSiteMeta";
+// const meta = getSiteMeta();
 
 
 export default {
  
- 
-
- 
-
- computed: {
-  meta() {
-    const metaData = {
-      type: "article",
-      // title: this.article.title,
-      //  title: this.title,
-      description: this.article.description,
-      mainImage: this.article.image,
-      url: `${this.$config.baseUrl}/energie/${this.$route.params.slug}`,
-    };
-    return getSiteMeta(metaData);
-  }
-},
+//  computed: {
+//   meta() {
+//     const metaData = {
+//       type: "article",
+//       // title: this.article.title,
+//       //  title: this.title,
+//       description: this.article.description,
+//       mainImage: this.article.image,
+//       url: `${this.$config.baseUrl}/energie/${this.$route.params.slug}`,
+//     };
+//     return getSiteMeta(metaData);
+//   }
+// },
 
 
     data () {
     return {
        sharing: {
-        // description: 'Bekijk deze eens: ',
-         title: 'Bekijk deze eens:',
+        url: 'https://ikvergelijk.nl' + this.$route.fullPath,
+        title: 'Bekijk deze eens:',
         //  title: this.$metaData.title,
-        quote: '',
-        hashtags: '',
-        twitterUser: '',
-        url: `https://ikvergelijk.nl/` + this.$route.params.slug,
       },
  
      
