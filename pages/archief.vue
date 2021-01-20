@@ -47,11 +47,12 @@
 <script>
 
 // CREATED AT werkt niet. Dat wordt vertaald als DATUM VAN LAATST OPGESLAGEN MOMENT.
+// OOK OPLETTEN BIJ AANPASSEN VAN DE .MD Files. Die datum in de titel wordt daarna geupdate.
 
 export default {
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
-        .only(['title', 'createdAt', 'slug', 'author']).sortBy('createdAt', 'desc').fetch()
+        .only(['title', 'createdAt', 'slug', 'author']).sortBy('date', 'desc').fetch()
 
       return {
         articles
