@@ -5,15 +5,8 @@
       :animationData="require('@/assets/lottie-thumbs.json')"
       :loop="true"
       :autoPlay="true"
-
     />
   </div>
-
-      <!-- @loopComplete="loopComplete"
-      @complete="complete"
-      @enterFrame="enterFrame" -->
-
-
 </template>
 
 <script>

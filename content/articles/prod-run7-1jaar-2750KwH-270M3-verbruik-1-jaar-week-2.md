@@ -1,5 +1,5 @@
 ---
-title:  Mijn Title  7 - Run 7 - week 2
+title: Run 7 -- week 2 - Mijn Title  7
 ---
 ## Pricewise    
 2021 0 16  
