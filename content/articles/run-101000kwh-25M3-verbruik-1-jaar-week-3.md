@@ -9,9 +9,9 @@ elektriciteitverbruik: 1000
 gasverbruik: 25  
 postcode: 1816BN  
 huisnummer: 61  
-createdAt: 2020-01-20
+createdAt: 2021-01-19
 ---
-scenario: 1000kwh-25M3-verbruik-1-jaar  
+scenario: 1000kwh-25M3-verbruik-1-jaar  - 2
 title:  Energiecontract, 1 jaar Laagverbruik(1000kWh, 25M3)  
 description: Vergelijk nu de prijzen van een Energiecontract van 1 jaar  
 image: /logo.png  
@@ -21,7 +21,6 @@ elektriciteitverbruik: 1000
 gasverbruik: 25  
 postcode: 1816BN  
 huisnummer: 61  
-
 
 
 ## Pricewise    

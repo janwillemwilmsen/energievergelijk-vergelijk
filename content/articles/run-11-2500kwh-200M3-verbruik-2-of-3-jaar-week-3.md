@@ -9,10 +9,10 @@ elektriciteitverbruik: 2500
 gasverbruik: 200  
 postcode: 3402AC  
 huisnummer: 84  
-createdAt: Wed Jan 20 2021 09:39:19 GMT+0100 (GMT+01:00)  
-createdAt2: 2021-0-20  
+createdAt: 2021-01-20
+createdAt2: 2021-1-11  
 ---
-scenario: 2500kwh-200M3-verbruik-2-of-3-jaar  
+scenario: 2500kwh-200M3-verbruik-2-of-3-jaar  - 2
 title:  Run 11 - Energiecontract, 2 jaar Hoogverbruik(2500kWh, 200M3)  
 description: Vergelijk nu de prijzen van een Energiecontract van 2 jaar  
 image: /logo.png  
@@ -24,7 +24,6 @@ postcode: 3402AC
 huisnummer: 84  
 createdAt: Wed Jan 20 2021 09:39:19 GMT+0100 (GMT+01:00)  
 createdAt2-wordt-geupdate: 2021-0-20  
-
 
 ## Pricewise    
     

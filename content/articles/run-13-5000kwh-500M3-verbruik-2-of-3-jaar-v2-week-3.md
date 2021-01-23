@@ -9,10 +9,10 @@ elektriciteitverbruik: 5000
 gasverbruik: 500  
 postcode: 4191AA  
 huisnummer: 3  
-createdAt: Fri Jan 22 2021 14:12:00 GMT+0100 (GMT+01:00)  
-createdAt2: 2021-0-22  
+createdAt: 2021-01-22
+createdAt2: 2021-1-13 
 ---
-scenario: 5000kwh-500M3-verbruik-2-of-3-jaar-v2  
+scenario: 5000kwh-500M3-verbruik-2-of-3-jaar-v2  - 13
 title:  Run 13 - Energiecontract, 2/3 jaar Hoogverbruik(5000kWh, 500M3)  
 description: Vergelijk nu de prijzen van een Energiecontract van 2/3 jaar  
 image: /logo.png  
@@ -24,6 +24,7 @@ postcode: 4191AA
 huisnummer: 3  
 createdAt: Fri Jan 22 2021 14:12:00 GMT+0100 (GMT+01:00)  
 createdAt2-wordt-geupdate: 2021-0-22  
+
 
 ## Pricewise    
     
