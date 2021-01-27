@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "@pivale/nuxt-image-loader-module": "^1.4.4",
     "@pwabuilder/pwainstall": "^1.6.7",

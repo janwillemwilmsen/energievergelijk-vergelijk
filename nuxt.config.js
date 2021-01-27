@@ -128,9 +128,14 @@ export default {
   modules: [
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    'vue-social-sharing/nuxt'
+    'vue-social-sharing/nuxt',
+    '@nuxtjs/gtm'
+
     
   ],
+  gtm: {
+    id: 'GTM-PM4DL28'
+  },
   
   
   router: {
