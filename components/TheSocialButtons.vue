@@ -38,7 +38,24 @@
 
 
 export default {
- 
+
+    mounted() {
+        console.log(this.$route.fullPath);
+      },
+
+asyncData({route, params}) {
+            if (process.server) {
+                //use route object
+                // console.log(route.params.slug)
+                //directly use params
+                // console.log(params.slug)
+            }
+        },
+
+
+//  props: 
+
+
 //  computed: {
 //   meta() {
 //     const metaData = {
@@ -58,6 +75,9 @@ export default {
     return {
        sharing: {
         url: 'https://ikvergelijk.nl' + this.$route.fullPath,
+        // url: 'https://ikvergelijk.nl' + fullPath,
+        // url: `https://ikvergelijk.nl' + this.$route.params.slug`,
+        // url: `https://ikvergelijk.nl' + ${slug}`,
         title: 'Bekijk deze eens:',
         //  title: this.$metaData.title,
       },

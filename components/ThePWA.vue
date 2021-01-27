@@ -6,13 +6,11 @@
     <pwa-install 
           manifestpath="/manifest.jww.json"
           showopen="true" 
-         
           installbuttontext="Installeer"
           explainer="Deze website kan geinstalleerd worden op het begingscherm van je telefoon, laptop of computer.  Je kan hem ook verwijderen als je hem niet meer gebruikt. Belangrijk: We gebruiken geen data van jouw telefoon en slaan geen prive gegevens op." 
           featuresheader="Eigenschappen" 
           descriptionheader="Korte beschrijving" 
           iosinstallinfotext="Op Iphone of Ipad werkt dit niet goed. Klik in de taakbalk op vierkantje met pijl naar boven en kies 'Zet op beginscherm'"
-          class=""
           >
           <div class="flex flex-row ">
             <div class="inline-block m-2">
