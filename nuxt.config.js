@@ -135,9 +135,9 @@ export default {
   ],
   gtm: {
     enabled: undefined, /* see below */
-    debug: true,
+    debug: false,
 
-    id: undefined,
+    id: 'GTM-PM4DL28',
     layer: 'dataLayer',
     variables: {},
 
@@ -148,7 +148,7 @@ export default {
     respectDoNotTrack: true,
 
     scriptId: 'gtm-script',
-    scriptDefer: false,
+    scriptDefer: true,
     scriptURL: 'https://www.googletagmanager.com/gtm.js',
     crossOrigin: false,
 

@@ -14,7 +14,7 @@
     :hashtags="sharing.hashtags"
     :twitterUser="sharing.twitterUser"
   >
-    <img :src="network.img"></img>
+    <img :src="network.img" :alt="network.name"></img>
     <span>{{ network.name }}</span>
   </ShareNetwork>
 
