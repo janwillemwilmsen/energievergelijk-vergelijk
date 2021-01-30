@@ -55,6 +55,7 @@
     "lottie-web-vue": "^1.0.1",
     "npm-run-all": "^4.1.5",
     "nuxt": "^2.14.12",
+    "nuxt-cookie-control": "^1.9.6",
     "vue-lottie": "^0.2.1",
     "vue-social-sharing": "^3.0.4"
   }

@@ -1,14 +1,14 @@
 // Test of servericeworker wel werkt:
-console.log();
+  console.log('serviceworker werkt');
 
   // install event
   self.addEventListener('install', evt => {
-    console.log('service worker installed');
+    console.log('service worker geinstalleerd');
   });
   
   // activate event
   self.addEventListener('activate', evt => {
-    console.log('service worker activated');
+    console.log('service worker geactiveerd');
   });
   
   // fetch event

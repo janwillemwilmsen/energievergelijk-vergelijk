@@ -3,9 +3,24 @@
      <TheHeader />
     <nuxt />
      <TheFooter />
+
+     <CookieControl/>
+
   </div>
 </template>
 
-<style>
 
-</style>
+
+<script>
+export default {
+  data() {
+    return {
+      cookies: this.$cookies,   
+    };
+  }
+
+
+
+  
+};
+</script>

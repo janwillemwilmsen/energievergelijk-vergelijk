@@ -129,10 +129,82 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     'vue-social-sharing/nuxt',
+    'nuxt-cookie-control',
     '@nuxtjs/gtm'
 
     
   ],
+
+  cookies: {
+    text: {
+      barTitle: 'Koekjes',
+      barDescription: 'We use our own cookies and third-party cookies so that we can show you this website and better understand how you use it, with a view to improving the services we offer. If you continue browsing, we consider that you have accepted the cookies.',
+      acceptAll: 'Toestaan',
+      declineAll: 'Blokkeer',
+      manageCookies: 'Cookieinstellingen',
+      unsaved: 'Je hebt niet opgeslagen instellingen',
+      close: 'Sluit',
+      save: 'Opslaan',
+      necessary: 'Noodzakelijke cookies',
+      optional: 'Optionele cookies',
+      functional: 'Functionele cookies',
+      blockedIframe: 'Om dit te zien moet je functionele cookies accepteren.',
+      here: 'hier'
+    },
+
+    necessary: [
+      {
+        name:  'Noodzakelijke cookies',
+        description:  'Gebruikt om de cookiepermissie te onthouden.',
+        cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies']
+      }
+    ],
+    optional: [
+      {
+        name:  'Google Tagmanager',
+        //if you don't set identifier, slugified name will be used
+        identifier: 'ga',
+        description:  'Met Google Tagmanager beheren wij onze verschillende meetpixels.',
+        initialState: true,
+        src:  'https://www.googletagmanager.com/gtag/js?id=GTM-PM4DL28',
+        async:  true,
+        cookies: ['_ga', '_gat', '_gid','jww'],
+        accepted: () =>{
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
+        },
+        declined: () =>{
+// decline start - om aantal gedeclined mensen te meten
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+
+gtag("consent", "default", {
+    ad_storage: "denied",
+    analytics_storage: "denied",
+    wait_for_update: 500,
+});
+gtag("set", "ads_data_redaction", true);
+
+
+
+
+// decline end
+        }
+      }
+    ]
+  },
+  
+     
+     
+   
+  
+
   gtm: {
     enabled: undefined, /* see below */
     debug: false,
