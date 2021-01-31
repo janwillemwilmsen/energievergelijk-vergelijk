@@ -20,11 +20,13 @@
       <div class="flex flex-col ">
         <div class="z-50 items-center mx-auto">
 
+<div class="logo">
 <picture>
   <source type="image/webp" srcset="/logo.webp" width="160" height="78"   class="z-10 -mb-3">
   <source type="image/jpeg" srcset="/logo.png"  width="160" height="78"   class="z-10 -mb-3">
                           <img src="/logo.png"  width="160" height="78"   class="z-10 -mb-3" alt="Vergelijk vergelijkers">
 </picture>
+</div>
 
 
                
@@ -110,5 +112,7 @@
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+ 
 
  </style>

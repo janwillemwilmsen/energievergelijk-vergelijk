@@ -37,6 +37,8 @@ energiedirect   = DONE
 vandebron       = DONE
 vattenfall      = DONE
 eneco           = DONE
+
+
 ---
 easyswitch.nl(Overstappen.nl Holding)		            = DONE
 overstappen.nl(idem als easys)  		 
@@ -71,6 +73,10 @@ https://www.vergelijkgroep.nl :
 - keuze.nl(whitelabeled.nl)
 --
 onlineenergievergelijker.nl(Onlyprogress) 
+
+
+
+
 =============================================================================================
 
 const hrefAttribute = page.evaluate(() => document.querySelector('span').href)

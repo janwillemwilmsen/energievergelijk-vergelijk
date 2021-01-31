@@ -111,7 +111,8 @@ export default {
   */
   plugins: [
     // '~plugins/kwesforms.js'
-    '~plugins/lottie.js'
+    '~plugins/lottie.js',
+    '~/plugins/gtm'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -151,6 +152,37 @@ export default {
       blockedIframe: 'Om dit te zien moet je functionele cookies accepteren.',
       here: 'hier'
     },
+    colors: {
+      barTextColor: '#fff',
+      barButtonBackground: '#fff',
+      barBackground: '#000',
+      barButtonColor: '#000',
+      barButtonHoverColor: '#fff',
+      barButtonHoverBackground: '#333',
+     
+      modalOverlay: '#000',
+      modalTextColor: '#000',
+      modalBackground: '#fff',
+      modalOverlayOpacity: 0.8,
+      modalButtonColor: '#fff',
+      modalUnsavedColor: '#fff',
+      modalButtonHoverColor: '#fff',
+      modalButtonBackground: '#000',
+      modalButtonHoverBackground: '#333',
+     
+      controlButtonBackground: "#12957b",
+      controlButtonHoverBackground: "#2e495e",
+      controlButtonIconHoverColor: "#fff",
+      controlButtonIconColor: "#fff",
+     
+      checkboxActiveBackground: "#2e495e",
+      checkboxInactiveBackground: "#ede1e1",
+      checkboxActiveCircleBackground: "#00c58e",
+      checkboxInactiveCircleBackground: "#f44336",
+      checkboxDisabledBackground: "#ddd",
+      checkboxDisabledCircleBackground: "#fff"
+    },
+
 
     necessary: [
       {
@@ -166,7 +198,7 @@ export default {
         identifier: 'ga',
         description:  'Met Google Tagmanager beheren wij onze verschillende meetpixels.',
         initialState: true,
-        src:  'https://www.googletagmanager.com/gtag/js?id=GTM-PM4DL28',
+        src:  'https://www.googletagmanager.com/gtm.js?id=GTM-PM4DL28',
         async:  true,
         cookies: ['_ga', '_gat', '_gid','jww'],
         accepted: () =>{
@@ -176,20 +208,20 @@ export default {
             event: 'gtm.js'
           });
         },
-        declined: () =>{
+      declined: () =>{
 // decline start - om aantal gedeclined mensen te meten
 
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-    dataLayer.push(arguments);
-}
+// window.dataLayer = window.dataLayer || [];
+// function gtag() {
+//     dataLayer.push(arguments);
+// }
 
-gtag("consent", "default", {
-    ad_storage: "denied",
-    analytics_storage: "denied",
-    wait_for_update: 500,
-});
-gtag("set", "ads_data_redaction", true);
+// gtag("consent", "default", {
+//     ad_storage: "denied",
+//     analytics_storage: "denied",
+//     wait_for_update: 500,
+// });
+// gtag("set", "ads_data_redaction", true);
 
 
 
@@ -201,13 +233,9 @@ gtag("set", "ads_data_redaction", true);
   },
   
      
-     
-   
-  
-
   gtm: {
-    enabled: undefined, /* see below */
-    debug: false,
+    enabled: true, /* see below */
+    debug: true,
 
     id: 'GTM-PM4DL28',
     layer: 'dataLayer',
@@ -216,7 +244,7 @@ gtag("set", "ads_data_redaction", true);
     pageTracking: true,
     pageViewEventName: 'nuxtRoute',
 
-    autoInit: true,
+    autoInit: false,
     respectDoNotTrack: true,
 
     scriptId: 'gtm-script',

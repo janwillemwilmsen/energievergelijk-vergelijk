@@ -23,8 +23,8 @@
 </div>
 
    <p>   
-     <!-- PWA - uit -->
-   <ThePWA/> 
+     App - uit
+   <!-- <ThePWA/>  -->
 </p>
 
 
