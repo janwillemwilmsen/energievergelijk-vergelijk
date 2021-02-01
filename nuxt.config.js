@@ -112,7 +112,7 @@ export default {
   plugins: [
     // '~plugins/kwesforms.js'
     '~plugins/lottie.js',
-    '~/plugins/gtm'
+    '~plugins/gtm'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -245,7 +245,7 @@ export default {
     pageViewEventName: 'nuxtRoute',
 
     autoInit: false,
-    respectDoNotTrack: true,
+    respectDoNotTrack: false,
 
     scriptId: 'gtm-script',
     scriptDefer: true,
