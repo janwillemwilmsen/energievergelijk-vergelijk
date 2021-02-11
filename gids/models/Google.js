@@ -8,10 +8,10 @@ class GooglePage {
 
 
  const GoogleXpath = '//div[@id="result-stats"]';
- const paginaAantal1 = await this.page.$eval(GoogleXpath, (el) => el.innerText);
- const paginaAantal1Clean = paginaAantal1.split(" ")[1];
- console.log(paginaAantal1Clean);
-
+ const pageCount = await this.page.$eval(GoogleXpath, (el) => el.innerText);
+ const pageCountClean = pageCount.split(" ")[1];
+//  console.log(pageCountClean);
+ return pageCountClean;
 
 
 

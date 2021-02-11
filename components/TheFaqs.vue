@@ -2,18 +2,24 @@
 
 <template>
      <!-- <div class="block " > -->
- <section class="bg-blue-600">
+ <section class="bg-gray-900 ">
+
+
 
        <div class="container px-5 py-24 mx-auto ">
-            <h2 class="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 ">Veelgestelde vragen.</h2>
+   
+         <div class="p-4 border border-gray-500 border-opacity-25 rounded-xl">
 
 
-         <div  class="faqs " itemscope  itemtype="https://schema.org/FAQPage">
+            <h2 class="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-600 ">Veelgestelde vragen.</h2>
+
+
+         <div  class="text-gray-600 faqs" itemscope  itemtype="https://schema.org/FAQPage">
 
                               <div  class="faq" v-for="accordion in accordions" :key="accordion.title">
                                 <BaseAccordion>
                                 
-                                  <template v-slot:title>
+                                  <template v-slot:title class="">
                                         {{ accordion.title }}
                                   </template>
 
@@ -24,6 +30,7 @@
                                 </BaseAccordion>
                               </div>
         </div>
+         </div>  <!---end mini container om H2 en faqs---->
         </div>
         <!-- </div> -->
  </section>

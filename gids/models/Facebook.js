@@ -11,7 +11,8 @@ class FacebookPage {
  const FBxpath1 = ('//div[contains(text(),"personen")]');
  const FBtext1 = await this.page.$eval(FBxpath1, (el) => el.innerText);
  const FB1Clean = FBtext1.split(" ")[0];
- console.log(FB1Clean);
+//  console.log(FB1Clean);
+return FB1Clean;
 
 
 

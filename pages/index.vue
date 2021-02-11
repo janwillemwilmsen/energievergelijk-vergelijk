@@ -3,6 +3,11 @@
   <!-- <h1 class="">Hello {{ name }}!</h1> -->
  <template>
  <div>
+
+
+
+
+
  <section class="bg-gray-200">
   <div class="container px-5 py-24 mx-auto">
 
@@ -13,9 +18,12 @@
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Vergelijk de energievergelijkers.</h1>
          
 
-                <p class="mt-8 ">
+                <p class="text-2xl mt-8t ">
                 Wij maken het je makkelijk. Ahh nou, we helpen je een beetje bij het vergelijken van energiecontracten.<br>
-                Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers. 
+                Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers.
+
+                <br><br>
+                Kies het een van de scenario's die het meest lijkt op jouw thuissituatie: 
                 </p>
 
          
@@ -38,12 +46,13 @@
 
 <a  id="aanmelden"></a>
 <leadForm4 />
+ <TheTicker/>
 
 
 <TheFaqs/>
 
    <!-- http://localhost:3000/_content/articles?only=slug&only=createdAt -->
-
+<TheCTA/>
 </div>
 </template>
  
@@ -62,8 +71,10 @@
         .fetch()
         // .sortBy('date', 'desc').fetch()
 
+  
       return {
-        articles
+        articles,
+      
       }
     }
 

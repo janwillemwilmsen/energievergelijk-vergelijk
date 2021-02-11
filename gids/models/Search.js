@@ -12,10 +12,12 @@ class SearchPage {
       await this.page.press('[aria-label="Enter your search term"]', 'Enter');
       await this.page.waitForLoadState('load');
       const BingValue1 = await this.page.$eval(bingXpath, (el) => el.innerText);
-    //   const Alexvalue1clean = Alexvalue1.replace(/#/, '').trim();
+      return BingValue1;
+
       
+    //   const Alexvalue1clean = Alexvalue1.replace(/#/, '').trim();
     //   console.log(AlexUrl1);
-      console.log(BingValue1);
+    // console.log(BingValue1);
 
 
     }

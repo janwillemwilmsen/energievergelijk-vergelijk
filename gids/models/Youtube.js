@@ -13,8 +13,9 @@ class YoutubePage {
 
 const YTxpath1 = ('//yt-formatted-string [@id="subscriber-count"]');
 const YTtext1 = await this.page.$eval(YTxpath1, (el) => el.innerText);
+return YTtext1;
 // console.log(YTurl1);
-console.log(YTtext1);
+// console.log(YTtext1);
 // await page3.waitForTimeout(1000);
 
 

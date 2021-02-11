@@ -13,7 +13,7 @@
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Archief.</h1>
          
 
-                <p class="mt-8 ">
+                <p class="mt-8 text-2xl">
                 Historisch overzicht van de scans.
                 </p>
 

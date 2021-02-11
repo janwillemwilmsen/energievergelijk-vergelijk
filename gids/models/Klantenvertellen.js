@@ -9,7 +9,8 @@ class KlantenvertellenPage {
     async scrapeKlantenvertellen() {
       const KVxpath1 = ('//div[@class="overall-rating"]//span[@class="rating"]');
       const KVbeoordeling1 = await this.page.$eval(KVxpath1, (el) => el.innerText);
-      console.log(KVbeoordeling1);
+      // console.log(KVbeoordeling1);
+      return KVbeoordeling1;
       // await page3.waitForTimeout(1000);
       
       

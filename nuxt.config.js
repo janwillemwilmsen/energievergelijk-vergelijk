@@ -112,6 +112,7 @@ export default {
   plugins: [
     // '~plugins/kwesforms.js'
     '~plugins/lottie.js',
+    // '~plugins/marquee-text-component.js',
     '~plugins/gtm.js'
   ],
   /*

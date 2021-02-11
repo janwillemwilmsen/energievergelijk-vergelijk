@@ -6,15 +6,22 @@ class TwitterPage {
     async scrapeTwitter() {
 
  
- const FOLLERxpath1 = ("(//td[contains(text(),'Followers')]  /following-sibling::td)[1]");
+ const FOLLERxpath1 = ("(//td[contains(text(),'Followers')]/following-sibling::td)[1]");
  
- await this.page.waitForTimeout(5000);
- await this.page.waitForSelector('(//div[@class="container"])[3]');
+ await this.page.waitForTimeout(6000);
+ await this.page.waitForSelector('//table[@class="condensed-table"]');
+//  await this.page.waitForSelector('(//div[@class="container"])[3]');
  const FOLLERtext1 = await this.page.$eval(FOLLERxpath1, (el) => el.innerText);
 //  const FOLLER1Clean = FOLLERtext1.split(" ")[0];
- console.log(FOLLERtext1);
+//  console.log(FOLLERtext1);
+
+const FOLLERtext1CleanerValue =  await FOLLERtext1.replace(/,/g, '.');
+
+return FOLLERtext1CleanerValue;
 
  
+
+
 //  const InstaXpathAgain1 = ('(//p[@class="report-header-number"])[1]'); 
 
 //  const InstaFollowAgain1 = await this.page.$eval(InstaXpathAgain1, (el) => el.innerText);
