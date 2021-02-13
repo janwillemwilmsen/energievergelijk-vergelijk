@@ -74,7 +74,9 @@
 
 
 
- 
+ <!-- https://laracasts.com/discuss/channels/vue/how-to-replace-a-dot-with-a-comma-for-a-number-in-vuejs 
+ komma punt
+ -->
 
             <ul class="text-sm truncate md:text-base">
               <li class="mb-2" v-if="article.ervaringenklantenvertellen">     

@@ -129,6 +129,7 @@ export default {
   */
   modules: [
     '@nuxt/content',
+    '@nuxt/http',
     '@nuxtjs/sitemap',
     'vue-social-sharing/nuxt',
     'nuxt-cookie-control',
