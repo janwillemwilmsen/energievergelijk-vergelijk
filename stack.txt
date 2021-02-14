@@ -1,0 +1,81 @@
+Am trying to build a blog with a static json file in Nuxt(with http module).
+Using the Nuxt 'Mountains' example as a base, for testing. Saved the api response as json in the 'static' folder.
+(Example is here: https://nuxtjs.org/examples/data-fetching-fetch-hook)
+
+Using 'fetch' to connect to the json in static folder on the Blog-page is working. See:
+https://3udju.sse.codesandbox.io/blog
+
+Have problems with using Fetch to identify the individual node. See:
+https://3udju.sse.codesandbox.io/blog/mount-everest   (No content here)
+
+I have no idea how to recreate this - with the local Json file instead of the Api url:
+https://api.nuxtjs.dev/mountains/${this.$route.params.slug}
+
+And the _slug.vue file:
+https://codesandbox.io/s/nuxt-http-fetch-static-json-3udju?file=/pages/blog/_slug.vue
+
+
+Have tried to use a Filter on the Fetch. Have tried different querystrings as parameters on the .json, but its not working.
+
+Have searched for :
+- get data from json slug id
+- get object based on slug in local json
+- fetch local json filter on slug
+Watched several youtubes about Fetch but haven't found anything. 
+
+If anyone has a clue or can point me towards an solution, much appreciated.
+
+==============================
+
+Hi, 
+
+Fetch / http problem.
+
+Trying to manage content by Fetching data from a GoogleSheets (used the Mountains-example from Docs as a base). 
+Created the Sheet and set up permissions to share the data.
+
+Tried two approaches:
+- Create script to download the json in Static folder, use blogs.json in Fetch.
+- Connect to GoogleSheet 'endpoint/output' with Fetch.
+
+In both approaches I am able to create a list with the items. But the individual detailpages don't show data. 
+Tried to change '${this.$route.params.slug}' on the endpoint, tried to use a 'Route.query', tried to change 'Keys', but no result.
+
+Json data from GoogleSheets:
+https://script.googleusercontent.com/macros/echo?user_content_key=9BHfuUVktJE8VRCkpApsulkp1wIpYq9TgN5XbvG_Qq64j6wBP_aaloXt4zDFjs9gLWe_pT8WpuID6qoYv7b_WqL1aNFJrzTem5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnEgKUSEKZAbo5b7L4PwFjGqt_woMYrb75_GzgQmLwUbGQbjOPl8Wh2pVXHVJwPC6Bbc5Yu1BFlTCGGaU2pP6Ntk&lib=MUx4MpC2NIHY9zDpjxHlJlBlfZc1fPD1m
+
+Example Fetch from Nuxt docs:
+https://nuxtjs.org/examples/data-fetching-fetch-hook
+
+Link to Codesandbox:
+https://codesandbox.io/s/nuxt-http-fetch-static-json-3udju
+
+Frontend from Codesanbox:
+https://3udju.sse.codesandbox.io/
+
+Any suggestion on how to fix this is appreciated!
+
+
+blogs['ID'] = row [0];
+blogs['mooiedatum'] = row [1];	
+blogs['slug'] = row [2];
+blogs['auteur'] = row [3];
+blogs['description'] = row [4];
+blogs['title'] = row [5];
+blogs['heading1'] = row [6];
+blogs['paragraaf1'] = row [7];
+blogs['afbeelding1'] = row [8];
+blogs['heading2'] = row [9];
+blogs['afbeelding2'] = row [10];
+blogs['paragraaf2'] = row [11];
+blogs['heading11'] = row [12];
+blogs['paragraaf11'] = row [13];
+blogs['paragraaf11'] = row [14];
+blogs['heading22'] = row [15];
+blogs['afbeelding22'] = row [16];
+blogs['paragraaf22'] = row [17];
+blogs['veld11'] = row [18];
+blogs['veld55'] = row [19];
+blogs['veld44'] = row [20];
+blogs['veld88'] = row [21];
+blogs['veld99'] = row [22];
