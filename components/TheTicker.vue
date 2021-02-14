@@ -2,7 +2,7 @@
 
 <section class="bg-gray-200">
 
-<div class="container content-center h-40 mx-auto">
+<div class="container content-center mx-auto h-60 md:h-40">
   <!-- <client-only>
 <marquee-text>
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
@@ -12,7 +12,7 @@
 
        <div v-for="bed of bedrijven" :key="bed.slug" class="self-center w-40 mx-auto align-middle transition duration-500 ease-in-out">
         <NuxtLink :to="{ name: 'gids-slug', params: { slug: bed.slug } }">
-          <img :src="bed.logo" width="100"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/>
+          <img :src="bed.logo" width="100" alt="img"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/>
           <!-- <div> -->
             <!-- <h2>{{ bed.title }}</h2> -->
             <!-- <p>{{ bed.introtekst }}</p> -->

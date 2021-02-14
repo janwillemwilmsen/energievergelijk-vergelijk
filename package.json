@@ -19,7 +19,7 @@
     "vandebron": "node ./vergelijk/vandebron.js",
     "vattenfall": "node ./vergelijk/vattenfall.js",
     "intro": "node ./vergelijk/intro.js",
-    "vergelijker": "npm-run-all -s intro pricewise independer easyswitch essent energiedirect eneco energievergelijk  gaslicht   vandebron vattenfall"
+    "vergelijker": "npm-run-all -s intro eneco pricewise independer easyswitch essent energiedirect  energievergelijk  gaslicht   vandebron vattenfall"
   },
   "repository": {
     "type": "git",
