@@ -1,3 +1,5 @@
+// RUN node runApi om Bedrijgds.json te updaten
+
 const {google} = require ('googleapis');
 const keys = require('../keys.json');
 const fs = require('fs');

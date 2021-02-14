@@ -1,7 +1,7 @@
 const {google} = require ('googleapis');
 const keys = require('../keys.json');
 const fs = require('fs');
- 
+var appRoot = require('app-root-path');
 
 const client = new google.auth.JWT(
     keys.client_email, 
@@ -58,7 +58,10 @@ async function gsrun(cl){
             }, {})
         })
         console.log(formatedUsers);
-        fs.appendFileSync(`google-api-blog-output.json`,JSON.stringify(formatedUsers));
+
+// fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}
+
+        fs.appendFileSync(`${appRoot}/content/blogs1.json`,JSON.stringify(formatedUsers));
      }
 
 

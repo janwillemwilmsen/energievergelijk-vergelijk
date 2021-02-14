@@ -1,9 +1,50 @@
 <template>
-  <article> <section>
-      {{ blog.slug }}
-   
-    </section>
-    <!-- <button @click="goBack">Back</button>{{ blog.slug }} -->
+ <article class="mx-auto bg-gray-200">  
+ 
+<div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
+      <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
+         {{ blog.heading1 }}.
+      </h1>
+
+
+<p class="text-2xl ">
+  {{ blog.paragraaf1 }} <br>
+  {{ blog.afbeelding1 }} <br>
+
+</p>
+
+ <h2  class="text-3xl ">{{ blog.heading2 }}  </h2>  
+<p class="text-2xl ">
+ 
+  {{ blog.paragraaf2 }} 
+  {{ blog.afbeelding2 }} <br>
+  
+</p>
+
+<br><br><br><br>
+ID :   {{ blog.ID }} <br>
+Mooiedatum:   {{ blog.mooiedatum }} <br>
+Slug  {{ blog.slug }} <br> 
+Auteur:  {{ blog.auteur }} <br>
+MetaDescription:  {{ blog.description }} <br>
+ seotitle: {{ blog.title }} <br>
+  <br>
+
+
+  {{ blog.heading11 }} <br>
+  {{ blog.paragraaf11 }} <br>
+  {{ blog.afbeelding11 }} <br>
+  {{ blog.heading22 }} <br>
+  {{ blog.afbeelding22 }} <br>
+  {{ blog.paragraaf22 }} <br>
+  {{ blog.veld11 }} <br>
+  {{ blog.veld55 }} <br>
+  {{ blog.veld44 }} <br>
+
+  </div>
+    
+     
+    <!-- <button @click="goBack">Back</button>{{ blog.slug }} <br> -->
   </article>
 </template>
 
@@ -53,14 +94,5 @@ export default {
 
 
 <style scoped>
-article {
-  max-width: 600px;
-  margin: 0 auto;
-}
-img {
-  height: 200px;
-}
-p {
-  text-align: left;
-}
+
 </style>

@@ -25,7 +25,7 @@
     >
 
 <div
-						class="p-6 text-right bg-white border-b-4 border-red-500 rounded shadow-md dark:bg-gray-800 hover:shadow-xl">
+						class="p-6 text-right bg-white border-b-4 border-green-500 rounded shadow-md dark:bg-gray-800 hover:shadow-xl">
 						<h3 class="flex mb-3 text-2xl font-semibold ">
 							Volgende
 							<svg class="ml-2" width="24" height="30" viewBox="0 0 24 24" fill="none"

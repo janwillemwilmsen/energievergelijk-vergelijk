@@ -1,4 +1,4 @@
-// haal array op uit :  google-api-output.json
+// haal array op uit :  google-api-output.json -- EERST oude verwijderen!!!!!  ooook MD verwijderen
 // plak main.js script en schrijf alles weg naar essent.md in de 'content/gids' folder.
 
 config = require('./google-api-output.json');

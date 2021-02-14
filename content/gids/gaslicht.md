@@ -1,7 +1,7 @@
 ---
 bedrijfsnaam: gaslicht  
 website: gaslicht.com   
-title: Gaslicht van Bennie  
+title: Gaslicht  
 logo: https://static.gaslicht.com/v/6049e319/img/logos/logo-internal/logo-gaslicht.svg  
 introtekst: Gaslicht.com is een energievergelijker. Gemaakt door Ben Woldering uit Groningen.  
 freefield1: Title2  
@@ -20,12 +20,12 @@ linknaarinstragram2: https://socialstats.info/report/gaslicht/instagram
 linknaaryoutube2: https://socialstats.info/report/https://foller.me/gaslicht_com/youtube  
 linknaarfacebook2: https://socialstats.info/report/https://www.youtube.com/user/Gaslichtcom  
 linknaartwitter2: https://followerwonk.com/analyze/gaslicht  
-volgersyoutube: 121 abonnees  
-volgersinstragram: 2559  
-volgerstwitter: 1036  
-fansfacebook: 2210
-rankalexa: 524857  
-paginagoogle: 3300  
+volgersyoutube: 122 abonnees  
+volgersinstragram: 2,559  
+volgerstwitter: 1.035  
+fansfacebook: 2.210  
+rankalexa: 525.844  
+paginagoogle: 3.280  
 ---
 
 
