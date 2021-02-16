@@ -61,7 +61,7 @@ async function gsrun(cl){
 
 // fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}
 
-        fs.appendFileSync(`${appRoot}/content/blogs1.json`,JSON.stringify(formatedUsers));
+        fs.appendFileSync(`${appRoot}/content/blogs.json`,JSON.stringify(formatedUsers));
      }
 
 

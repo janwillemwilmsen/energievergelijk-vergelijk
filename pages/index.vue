@@ -23,7 +23,7 @@
                 Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers.
 
                 <br><br>
-                Kies het een van de scenario's die het meest lijkt op jouw thuissituatie: 
+                Kies een van de scenario's die het meest lijkt op jouw thuissituatie: 
                 </p>
 
          

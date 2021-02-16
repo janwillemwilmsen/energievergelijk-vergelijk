@@ -7,19 +7,24 @@
       </h1>
 
 
-<p class="text-2xl ">
-  {{ blog.paragraaf1 }} <br>
-  {{ blog.afbeelding1 }} <br>
-
-</p>
-
- <h2  class="text-3xl ">{{ blog.heading2 }}  </h2>  
-<p class="text-2xl ">
- 
-  {{ blog.paragraaf2 }} 
-  {{ blog.afbeelding2 }} <br>
+<section class="text-3xl mycontent" v-html="blog.paragraaf1">
   
-</p>
+
+</section>
+  
+  <img :src="blog.afbeelding1" alt="">
+   
+  
+   <br>
+
+ <h2  class="text-4xl" v-html="blog.heading2">  </h2>  
+<section  class="text-3xl mycontent"  v-html="blog.paragraaf2">
+ 
+   
+  
+</section>
+<img :src="blog.afbeelding2" alt="">
+ 
 
 <br><br><br><br>
 ID :   {{ blog.ID }} <br>
@@ -93,6 +98,19 @@ export default {
 
 
 
-<style scoped>
+<style>
 
+    
+
+
+/* p.mycontent > h2{font-size: 2rem !important;margin-top: 0.5rem;margin-bottom: 0.5rem;} */
+div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 2rem;margin-bottom: 2rem;}
+div.container  > img {margin-top: 2rem;margin-bottom: 2rem;}
+
+
+section.mycontent > ul {
+  list-style: disc;
+  margin-left: 50px;
+  padding: 10px;
+}
 </style>

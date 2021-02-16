@@ -36,7 +36,7 @@
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9.8.6",
-    "playwright": "^1.7.1",
+    "playwright": "^1.8.1",
     "playwright-cli": "0.171.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
