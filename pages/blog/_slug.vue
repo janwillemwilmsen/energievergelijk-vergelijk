@@ -5,9 +5,13 @@
       <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
          {{ blog.heading1 }}.
       </h1>
+      <div>
+ 
+Geschreven door:  {{ blog.auteur }} op {{ blog.mooiedatum }} <br>
+      </div>
 
 
-<section class="text-3xl mycontent" v-html="blog.paragraaf1">
+<section class="mt-8 text-3xl mycontent" v-html="blog.paragraaf1">
   
 
 </section>
@@ -17,7 +21,7 @@
   
    <br>
 
- <h2  class="text-4xl" v-html="blog.heading2">  </h2>  
+ <h2  class="mb-8 text-5xl" v-html="blog.heading2">  </h2>  
 <section  class="text-3xl mycontent"  v-html="blog.paragraaf2">
  
    
@@ -25,14 +29,14 @@
 </section>
 <img :src="blog.afbeelding2" alt="">
  
+<div style="display:none;">
+
 
 <br><br><br><br>
-ID :   {{ blog.ID }} <br>
-Mooiedatum:   {{ blog.mooiedatum }} <br>
-Slug  {{ blog.slug }} <br> 
-Auteur:  {{ blog.auteur }} <br>
 MetaDescription:  {{ blog.description }} <br>
  seotitle: {{ blog.title }} <br>
+ID :   {{ blog.ID }} <br>
+Slug  {{ blog.slug }} <br> 
   <br>
 
 
@@ -45,6 +49,7 @@ MetaDescription:  {{ blog.description }} <br>
   {{ blog.veld11 }} <br>
   {{ blog.veld55 }} <br>
   {{ blog.veld44 }} <br>
+</div>
 
   </div>
     
@@ -104,7 +109,7 @@ export default {
 
 
 /* p.mycontent > h2{font-size: 2rem !important;margin-top: 0.5rem;margin-bottom: 0.5rem;} */
-div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 2rem;margin-bottom: 2rem;}
+div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 3rem;margin-bottom: 2rem;}
 div.container  > img {margin-top: 2rem;margin-bottom: 2rem;}
 
 

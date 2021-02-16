@@ -223,8 +223,7 @@ console.log('GOOGLE END');
 
 
 
-fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `
----
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
 website: ${bedrijfswebsite}   
 title: ${bedrijfstitle}  
@@ -248,12 +247,12 @@ linknaaryoutube2: ${bedrijfsyout2}
 linknaarfacebook2: ${bedrijfsface2}  
 linknaartwitter2: ${bedrijfstwit2}  
 ervaringenklantenvertellen: ${resultKlantenvertellen30}  
-volgersyoutube: ${resultYoutube40}  
-volgersinstragram: ${resultInstagram50}  
-volgerstwitter: ${resultTwitter60}  
-fansfacebook: ${resultFacebook70}  
-rankalexa: ${resultAlexa20}  
-paginagoogle: ${resultGoogle80}  
+volgersyoutube: '${resultYoutube40}'  
+volgersinstragram: '${resultInstagram50}'  
+volgerstwitter: '${resultTwitter60}'  
+fansfacebook: '${resultFacebook70}'  
+rankalexa: '${resultAlexa20}'  
+paginagoogle: '${resultGoogle80}'  
 ---
 
 

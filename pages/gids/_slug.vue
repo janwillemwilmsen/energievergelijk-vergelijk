@@ -30,7 +30,7 @@
           <main class="w-full max-w-full prose">
            
            <div>
-                <img :src="article.logo" :alt="article.title" class="float-left mb-1 mr-4" />
+                <img :src="article.logo" :alt="article.title" class="float-left mb-1 mr-8" />
                   {{ article.introtekst }}
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis non esse consectetur dolores debitis! 
                 Atque fugit, repellat, optio delectus beatae obcaecati veritatis neque eligendi ratione reprehenderit 
@@ -64,9 +64,9 @@
                             </div> -->
           </main>
         </div>
-        <div class="w-4/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
+        <div class="w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
           <aside
-            class="sticky top-0 p-2 border-4 border-gray-300 md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
+            class="sticky top-0 p-2 border-4 border-gray-300 md:p-2 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
            
  
  
@@ -79,9 +79,9 @@
  -->
 
             <ul class="text-sm truncate md:text-base">
-              <li class="mb-2" v-if="article.ervaringenklantenvertellen">     
+              <li class="-mb-3" v-if="article.ervaringenklantenvertellen">     
                         <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">
                                       {{ article.ervaringenklantenvertellen }}
@@ -97,9 +97,9 @@
 
               </li>              
               
-              <li class="mb-2">        
+              <li class="-mb-3">        
                         <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">{{ article.fansfacebook }}</div>
                                     <div class="text-sm opacity-75 text-md"> Fans  op Facebook   </div>
@@ -111,9 +111,9 @@
                   
               </li>
             
-               <li class="mb-2">       
+               <li class="-mb-3">       
                         <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">{{ article.volgersinstragram }}</div>
                                     <div class="text-sm opacity-75 text-md"> Volgers  op Instragram   </div>
@@ -124,9 +124,9 @@
                     
               </li>
         
-               <li class="mb-2">         
+               <li class="-mb-3">         
                        <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">{{ article.volgerstwitter }}</div>
                                     <div class="text-sm opacity-75 text-md"> Volgers op Twitter   </div>
@@ -137,9 +137,9 @@
                  
               </li>
 
-              <li class="mb-2">
+              <li class="-mb-3">
                    <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">{{ article.volgersyoutube }}</div>
                                     <div class="text-sm opacity-75 text-md"> Volgers  op Youtube   </div>
@@ -148,9 +148,9 @@
                         </div>            
               </li>
 
-              <li class="mb-2">       
+              <li class="-mb-3">       
                         <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">{{ article.rankalexa }}</div>
                                     <div class="text-sm opacity-75 text-md"> Wereldwijde website rank    </div>
@@ -159,12 +159,12 @@
                         </div>   
               </li>
 
-              <li class="mb-2">        
+              <li class="-mb-3">        
                    <div class="relative">
-                            <div class="w-24 h-24 rounded-full opacity-75 bg-circle">
+                            <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-2 ml-8 pin-t">
                                     <div class="text-3xl ">{{ article.paginagoogle }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Aantal pagina's in Google   </div>
+                                    <div class="text-sm opacity-75 text-md"> Pagina's in Google   </div>
                                 </div>
                             </div>
                         </div> 

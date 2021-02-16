@@ -22,12 +22,12 @@ linknaaryoutube2: https://socialstats.info/report/https://foller.me/essent/youtu
 linknaarfacebook2: https://socialstats.info/report/https://www.youtube.com/user/EssentNL  
 linknaartwitter2: https://followerwonk.com/analyze/essent  
 ervaringenklantenvertellen: 7,8  
-volgersyoutube: 2,72K abonnees  
-volgersinstragram: 2,074  
-volgerstwitter: 11.141  
-fansfacebook: 78.454  
-rankalexa: 285.335  
-paginagoogle: 4.150  
+volgersyoutube: '2,72K abonnees'  
+volgersinstragram: '2,078'  
+volgerstwitter: '11.145'  
+fansfacebook: '78.467'  
+rankalexa: '267.894'  
+paginagoogle: '3.790'  
 ---
 
 
