@@ -1,25 +1,39 @@
 
 ANALYTICS BLOCK
 
-easyswitch
-hotjar
-GTM
-GA
-https://bat.bing.com/bat.js
-https://stats.g.doubleclick.net/
-https://in.hotjar.com/
-https://script.hotjar.com/
-https://static.hotjar.com/
+Dit is Puppeteer:
 
-https://www.google-analytics.com/
-https://www.google.com/
-https://www.google.nl/
-https://www.googletagmanager.com/
+await page.setRequestInterception(true);
+page.on('request', (request) => {
+    const url = request.url();
+    const filters = [
+        'googletagmanager',
+        'google',
+        'facebook',
+        'r42tag',
+        'hotjar',
+    ];
+    const shouldAbort = filters.some((urlPart) => url.includes(urlPart));
+    if (shouldAbort) request.abort();
+    else request.continue();
+});
+
+/////////////////
+await page50.route('https://googleads.g.doubleclick.net/*.*', route => route.abort());
+await page.route('*.essent.nl/*.*', route => route.continue());
+/////////////////
+
+await page.route('**/*', (route, request) => {
+   const headers = {
+    ...request.headers(),
+    foo: 'bar', // set "foo" header
+    origin: undefined, // remove "origin" header
+  };
+  route.continue({headers});
+});
 
 
-
-
-
+////////
 eneco
 https://www.googletagmanager.com/
 https://www.google.nl/
@@ -45,6 +59,26 @@ https://collect.kosi-analytics.io/com.snowplowanalytics.snowplow/tp2
 https://az416426.vo.msecnd.net/
 https://bat.bing.com/
 https://cdn.conversationalsdevelopment.nl/
+
+
+easyswitch
+hotjar
+GTM
+GA
+https://bat.bing.com/bat.js
+https://stats.g.doubleclick.net/
+https://in.hotjar.com/
+https://script.hotjar.com/
+https://static.hotjar.com/
+
+https://www.google-analytics.com/
+https://www.google.com/
+https://www.google.nl/
+https://www.googletagmanager.com/
+
+
+
+
 
 
 
@@ -96,9 +130,7 @@ https://www.google.nl/
 https://www.google.com/
 https://www.google-analytics.com/
 https://www.facebook.com/
-
 https://vars.hotjar.com/
-
 https://tr.snapchat.com/
 https://t.co/
 https://swa.essent.nl/
@@ -110,20 +142,15 @@ https://script.hotjar.com/
 https://sc-static.net/
 https://s.pinimg.com/
 https://px.ads.linkedin.com/
-
-
 https://nebula-cdn.kampyle.com/
 https://assets.kampyle.com/
 https://munchkin.marketo.net/
-
 https://maxcdn.bootstrapcdn.com/
 https://in.hotjar.com/
 https://imp3.nowinteract.com/ 
 https://cdn.nowinteract.com/
 https://googleads.g.doubleclick.net/
-
 https://essent.tt.omtrdc.net/
-
 https://essent-essentparticulier.cxcompany.com/
 https://dev.visualwebsiteoptimizer.com/
 https://ct.pinterest.com/
