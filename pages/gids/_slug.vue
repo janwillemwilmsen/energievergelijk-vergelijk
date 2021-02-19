@@ -11,7 +11,12 @@
     <a name="top"></a>
    <prev-next :prev="prev" :next="next" />
 
-    <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
+    <!-- <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest" :style='background-image: url(`article.logo`);'> -->
+    <!-- <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')' }" style="background-repeat:no-repeat; height: 100px;background-size: cover;"> -->
+    <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')' }" style="background-repeat:no-repeat;">
+
+
+
       <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
 
 
@@ -29,12 +34,10 @@
         <div class="w-8/12 p-2 md:w-9/12 lg:w-6/12">
           <main class="w-full max-w-full prose">
            
-           <div>
-                <img :src="article.logo" :alt="article.title" class="float-left mb-1 mr-8" />
+           <div class="overflow-hidden overflow-ellipsis">
+                <!-- <img :src="article.logo" :alt="article.title" class="float-left mb-1 mr-8" /> -->
                   {{ article.introtekst }}
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis non esse consectetur dolores debitis! 
-                Atque fugit, repellat, optio delectus beatae obcaecati veritatis neque eligendi ratione reprehenderit 
-                voluptatem perspiciatis magnam labore?
+                
 <h2>
 {{ article.freefield1 }}
 </h2>

@@ -2,7 +2,7 @@
 bedrijfsnaam: essent  
 website: essent.nl   
 title: Essent  
-logo: https://static.essent.nl/online/img/logo-essent.png  
+logo: /merken/snelste_essent.png  
 introtekst: lorum ipsum para  
 freefield1: lorum ipsum  
 freefield2: lorum ipsum  
@@ -23,11 +23,11 @@ linknaarfacebook2: https://socialstats.info/report/https://www.youtube.com/user/
 linknaartwitter2: https://followerwonk.com/analyze/essent  
 ervaringenklantenvertellen: 7,8  
 volgersyoutube: '2,72K abonnees'  
-volgersinstragram: '2,078'  
-volgerstwitter: '11.145'  
-fansfacebook: '78.467'  
-rankalexa: '267.894'  
-paginagoogle: '3.790'  
+volgersinstragram: '2,074'  
+volgerstwitter: '11.148'  
+fansfacebook: '78.481'  
+rankalexa: '243.601'  
+paginagoogle: '3.810'  
 ---
 
 
