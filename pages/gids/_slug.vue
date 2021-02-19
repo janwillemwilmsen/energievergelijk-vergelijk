@@ -9,7 +9,7 @@
   <article class="mx-auto bg-gray-200">
 
     <a name="top"></a>
-   <prev-next :prev="prev" :next="next" />
+   <prev-next :prev="prev" :next="next"  class="inline "/>
 
     <!-- <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest" :style='background-image: url(`article.logo`);'> -->
     <!-- <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')' }" style="background-repeat:no-repeat; height: 100px;background-size: cover;"> -->
@@ -52,9 +52,21 @@
 {{ article.freefield4 }}
 </p>
 
- 
- <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2>
+{{ article.freefield5 }} 
+</h2>
+<p>
+{{ article.freefield6 }}
+</p>
 
+{{ article.bedrijfsytintro }}
+
+<!-- <p v-html="article.bedrijfsytintro">  </p> -->
+  
+ 
+ 
+<div v-html="article.youtubeintro"></div>
+<iframe width="560" height="315" :src="article.youtubevid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
  
 

@@ -27,6 +27,9 @@ const bedrijfsveld1             = config[5].freeformat1;
 const bedrijfsveld2             = config[5].freeformat2;    
 const bedrijfsveld3             = config[5].freeformat3;    
 const bedrijfsveld4             = config[5].freeformat4;    
+const bedrijfsveld5             = config[5].freeformat5;    
+const bedrijfsveld6             = config[5].freeformat6;   
+
 const bedrijfsgoogle            = config[5].google;    
 const bedrijfsfacebook          = config[5].facebook;    
 const bedrijfstwitter           = config[5].twitter;    
@@ -40,7 +43,8 @@ const bedrijfsinsta2            = config[5].instragram2;
 const bedrijfsyout2             = config[5].youtube2;    
 const bedrijfsface2             = config[5].facebook2;    
 const bedrijfstwit2             = config[5].twitter2;    
-
+const bedrijfsytintro           = config[5].youtubevideotjeintro;    
+const bedrijfsytvid             = config[5].youtubevideotje;   
 
 console.log(bedrijf);
 console.log(bedrijfsnaam);
@@ -52,6 +56,8 @@ console.log(bedrijfsveld1);
 console.log(bedrijfsveld2);
 console.log(bedrijfsveld3);
 console.log(bedrijfsveld4);
+console.log(bedrijfsveld5);
+console.log(bedrijfsveld6);
 console.log(bedrijfsgoogle);
 console.log(bedrijfsfacebook);
 console.log(bedrijfstwitter);
@@ -65,7 +71,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
-
+console.log(bedrijfsytintro);
+console.log(bedrijfsytvid);
 
 (async () => {
     const browser = await chromium.launch({ headless: true, slowMo: 250 });
@@ -223,7 +230,7 @@ console.log('GOOGLE END');
 
 
 
-fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
+fs.promises.writeFile(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
 website: ${bedrijfswebsite}   
 title: ${bedrijfstitle}  
@@ -233,6 +240,8 @@ freefield1: ${bedrijfsveld1}
 freefield2: ${bedrijfsveld2}  
 freefield3: ${bedrijfsveld3}  
 freefield4: ${bedrijfsveld4}  
+freefield5: ${bedrijfsveld5}  
+freefield6: ${bedrijfsveld6}  
 linknaargoogleserp: ${bedrijfsgoogle}  
 linknaarfacebook: ${bedrijfsfacebook}  
 linknaartwitter: ${bedrijfstwitter}  
@@ -253,6 +262,8 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubeintro: ${bedrijfsytintro}  
+youtubevid: ${bedrijfsytvid}  
 ---
 
 

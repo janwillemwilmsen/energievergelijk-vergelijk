@@ -7,7 +7,9 @@ introtekst: Vandebron is een energiebedrijf dat in 2013 is gestart door Remco Wi
 freefield1: Elektrisch rijden  
 freefield2: Vandebron focust zich op het makkelijker maken van elektrisch rijden. Daarvoor bieden ze een laadpaal aan. Ook voor een laadpas voor openbare laadpalen kun je bij ze terecht. Verder is er een initiatief waardoor elektrische auto's slim worden opgeladen, om zo het landelijke energienet beter in balans te houden.  
 freefield3: Contact met Vandebron  
-freefield4: Vandebron is telefonisch te benaderen via 0880-444-555. Verder biedt de website van Vandebron een contactformulier aan, en is het mogelijk vragen te stellen via Facebook en Twitter.  
+freefield4: Vandebron is telefonisch te benaderen via 0880-444-555 (werkdagen van 09:00 tot 17:00). Verder biedt de website van Vandebron een contactformulier aan, en is het mogelijk vragen te stellen via Facebook en Twitter.  
+freefield5: tst  
+freefield6:   tst
 linknaargoogleserp: https://www.google.nl/search?q=site%3Avandebron.nl  
 linknaarfacebook: https://www.facebook.com/vandebron  
 linknaartwitter: https://foller.me/vandebron  
@@ -21,13 +23,15 @@ linknaarinstragram2: https://socialstats.info/report/vandebron/instagram
 linknaaryoutube2: https://socialstats.info/report/vandebron/youtube  
 linknaarfacebook2: https://socialstats.info/report/vandebron/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vandebron  
-ervaringenklantenvertellen: 7,4  
+ervaringenklantenvertellen: 7,5  
 volgersyoutube: '621 abonnees'  
 volgersinstragram: '3,156'  
 volgerstwitter: '5.714'  
-fansfacebook: '43.116'  
-rankalexa: '598.688'  
-paginagoogle: '703'  
+fansfacebook: '43.113'  
+rankalexa: '599.016'  
+paginagoogle: '675'  
+youtubeintro: <h2>Jennifer Hofman reclame Van de Bron</h2> Ze gebruikt het zelf ook ;-)  
+youtubevid: https://www.youtube.com/embed/f-E5ve-acPM  
 ---
 
 

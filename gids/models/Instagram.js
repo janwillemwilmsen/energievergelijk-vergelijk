@@ -6,11 +6,14 @@ class InstagramPage {
     async scrapeInstagram() {
 
       await this.page.waitForTimeout(1000);
-
+      let InstaFollowAgain1 = null
 
       const InstaXpathAgain1 = ('//p[@class="report-header-number"]'); 
-      const InstaFollowAgain1 = await this.page.$eval(InstaXpathAgain1, (el) => el.innerText);
+      const InstaFollowAgain1Dirty = await this.page.$eval(InstaXpathAgain1, (el) => el.innerText);
       // console.log(InstaFollowAgain1);
+
+      InstaFollowAgain1 = InstaFollowAgain1Dirty.replace(/,/g, '.') 
+
       return InstaFollowAgain1;
 
 

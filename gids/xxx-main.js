@@ -1,3 +1,5 @@
+// Bron. Maar heb andere doorgekopieerd. 
+
 const { chromium } = require('playwright');
 const { SearchPage } = require('./models/Search');
 const { AlexaPage } = require('./models/Alexa');

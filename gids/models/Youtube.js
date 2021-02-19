@@ -12,7 +12,11 @@ class YoutubePage {
 
 
 const YTxpath1 = ('//yt-formatted-string [@id="subscriber-count"]');
-const YTtext1 = await this.page.$eval(YTxpath1, (el) => el.innerText);
+const YTtext1Dirty = await this.page.$eval(YTxpath1, (el) => el.innerText);
+
+var YTtext1 = YTtext1Dirty.replace(/\D+/g, '');
+
+
 return YTtext1;
 // console.log(YTurl1);
 // console.log(YTtext1);

@@ -23,10 +23,10 @@
                 <img   :src="article.logo"    height="30"   class="m-4 duration-200 ease-in-out transform hover:scale-110"/>
             </div>
         
-        <div class="flex-grow px-4 pb-4">
-                       <h2>{{ article.title }}</h2>
+        <div class="flex-grow px-4 pb-4 ">
+                       <!-- <h2>{{ article.title }}</h2> -->
                         
-                        <p>{{ article.introtekst }}</p>
+                        <p class="line-clamp-3">{{ article.introtekst }}</p>
         </div>
         <div class="flex px-5 py-3 bg-gray-100 border-t hover:bg-gray-200">
          
