@@ -223,7 +223,7 @@ console.log('GOOGLE END');
 
 
 
-fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
+fs.promises.writeFile(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
 website: ${bedrijfswebsite}   
 title: ${bedrijfstitle}  

@@ -36,7 +36,7 @@ async function gsrun(cl){
 
         spreadsheetId: '1aAgYhlLQZl6J9szl-vpwELLpKZWCg46vNtANVv9LsIo',
         majorDimension: 'rows',
-        range: 'bedrijfsGids!A6:W16'
+        range: 'bedrijfsGids!A6:AA16'
 
     }
 
@@ -56,7 +56,7 @@ async function gsrun(cl){
             }, {})
         })
         console.log(formatedUsers);
-        fs.appendFileSync(`google-api-output.json`,JSON.stringify(formatedUsers));
+        fs.promises.writeFile(`google-api-output.json`,JSON.stringify(formatedUsers));
      }
 
 

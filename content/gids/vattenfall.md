@@ -25,7 +25,7 @@ volgersinstragram: 9,244
 volgerstwitter: 5.648  
 fansfacebook: 81.244  
 rankalexa: 209.016  
-paginagoogle: 2.680  
+paginagoogle: '2.680'  
 ---
 
 
