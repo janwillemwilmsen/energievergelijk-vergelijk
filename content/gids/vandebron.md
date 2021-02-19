@@ -24,7 +24,7 @@ linknaaryoutube2: https://socialstats.info/report/vandebron/youtube
 linknaarfacebook2: https://socialstats.info/report/vandebron/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vandebron  
 ervaringenklantenvertellen: 7,5  
-volgersyoutube: '621 abonnees'  
+volgersyoutube: '621'  
 volgersinstragram: '3,156'  
 volgerstwitter: '5.714'  
 fansfacebook: '43.113'  

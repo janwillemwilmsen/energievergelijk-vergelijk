@@ -26,7 +26,7 @@
         <div class="flex-grow px-4 pb-4 ">
                        <!-- <h2>{{ article.title }}</h2> -->
                         
-                        <p class="line-clamp-3">{{ article.introtekst }}</p>
+                        <p class="line-clamp-3 ">{{ article.introtekst }}</p>
         </div>
         <div class="flex px-5 py-3 bg-gray-100 border-t hover:bg-gray-200">
          

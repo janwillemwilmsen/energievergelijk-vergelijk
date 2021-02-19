@@ -22,7 +22,7 @@ linknaarinstragram2: https://socialstats.info/report/gaslicht/instagram
 linknaaryoutube2: https://socialstats.info/report/gaslicht/youtube  
 linknaarfacebook2: https://socialstats.info/report/gaslicht/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/gaslicht  
-volgersyoutube: '122 abonnees'  
+volgersyoutube: '122'  
 volgersinstragram: '2.554'  
 volgerstwitter: '1.036'  
 fansfacebook: '2.207'  

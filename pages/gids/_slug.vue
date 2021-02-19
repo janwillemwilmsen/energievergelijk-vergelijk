@@ -8,66 +8,55 @@
 
   <article class="mx-auto bg-gray-200">
 
+<div class="absolute z-0 w-full h-64"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')'}" style="margin-top:-150px; background-size: 600px; background-repeat:repeat;background-position: center top;filter: grayscale(100%) opacity(5%); transform: rotate(0deg); z-index:100;">
+</div>
+
     <a name="top"></a>
-   <prev-next :prev="prev" :next="next"  class="inline "/>
 
     <!-- <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest" :style='background-image: url(`article.logo`);'> -->
     <!-- <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')' }" style="background-repeat:no-repeat; height: 100px;background-size: cover;"> -->
-    <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')' }" style="background-repeat:no-repeat;">
+    <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
 
 
 
       <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
-
-
-    <!-- Article Created at werkt niet goed. Wordt overschreven na deploy. Dan wordt het LAATS opgeslagen datum. 
-    
-    // CREATED AT werkt niet. Dat wordt vertaald als DATUM VAN LAATST OPGESLAGEN MOMENT.
-    // OOK OPLETTEN BIJ AANPASSEN VAN DE .MD Files. Die datum in de titel wordt daarna geupdate.
-    -->
-
-
        {{ article.title }}.
       </h1>
 
-      <div class="flex mx-auto mb-4">
+      <div class="flex mx-auto mb-4" >
         <div class="w-8/12 p-2 md:w-9/12 lg:w-6/12">
-          <main class="w-full max-w-full prose">
+          <main class="w-full max-w-full p-8 prose bg-gray-100 rounded-md">
            
-           <div class="overflow-hidden overflow-ellipsis">
-                <!-- <img :src="article.logo" :alt="article.title" class="float-left mb-1 mr-8" /> -->
-                  {{ article.introtekst }}
-                
+           <div class="">
+                <img :src="article.logo" :alt="article.title" class="inline float-right w-40 mb-1 mr-8 border-black" />
+                <p v-html="article.introtekst" class="text-2xl">   
+                </p> 
 <h2>
 {{ article.freefield1 }}
 </h2>
-<p>
-{{ article.freefield2 }}
-</p>
+<p v-html="article.freefield2"  class="text-2xl"> </p>
 
 <h2>
 {{ article.freefield3 }} 
 </h2>
-<p>
-{{ article.freefield4 }}
-</p>
+<p v-html="article.freefield4"  class="text-2xl"> </p>
 
 <h2>
 {{ article.freefield5 }} 
 </h2>
-<p>
-{{ article.freefield6 }}
-</p>
+<p v-html="article.freefield6"  class="text-2xl">  </p>
 
-{{ article.bedrijfsytintro }}
+ 
 
 <!-- <p v-html="article.bedrijfsytintro">  </p> -->
   
  
  
-<div v-html="article.youtubeintro"></div>
-<iframe width="560" height="315" :src="article.youtubevid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+<p v-html="article.youtubeintro"  class="text-2xl"></p>
+
+<div class="aspect-w-16 aspect-h-9">
+<iframe :src="article.youtubevid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
  
 
 
@@ -81,8 +70,7 @@
           </main>
         </div>
         <div class="w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
-          <aside
-            class="sticky top-0 p-2 border-4 border-gray-300 md:p-2 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
+          <aside class="sticky top-0 p-2 border-4 border-gray-300 md:p-8 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
            
  
  
@@ -95,10 +83,10 @@
  -->
 
             <ul class="text-sm truncate md:text-base">
-              <li class="-mb-3" v-if="article.ervaringenklantenvertellen">     
+              <li class="" v-if="article.ervaringenklantenvertellen">     
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 md:p-2 lg:p-3 pin-t">
                                     <div class="text-3xl ">
                                       {{ article.ervaringenklantenvertellen }}
 
@@ -113,10 +101,10 @@
 
               </li>              
               
-              <li class="-mb-3">        
+              <li class="">        
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">{{ article.fansfacebook }}</div>
                                     <div class="text-sm opacity-75 text-md"> Fans  op Facebook   </div>
                                 </div>
@@ -127,10 +115,10 @@
                   
               </li>
             
-               <li class="-mb-3">       
+               <li class="">       
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">{{ article.volgersinstragram }}</div>
                                     <div class="text-sm opacity-75 text-md"> Volgers  op Instragram   </div>
                                 </div>
@@ -140,10 +128,10 @@
                     
               </li>
         
-               <li class="-mb-3">         
+               <li class="">         
                        <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">{{ article.volgerstwitter }}</div>
                                     <div class="text-sm opacity-75 text-md"> Volgers op Twitter   </div>
                                 </div>
@@ -153,10 +141,10 @@
                  
               </li>
 
-              <li class="-mb-3">
+              <li class="">
                    <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">{{ article.volgersyoutube }}</div>
                                     <div class="text-sm opacity-75 text-md"> Volgers  op Youtube   </div>
                                 </div>
@@ -164,10 +152,10 @@
                         </div>            
               </li>
 
-              <li class="-mb-3">       
+              <li class="">       
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">{{ article.rankalexa }}</div>
                                     <div class="text-sm opacity-75 text-md"> Wereldwijde website rank    </div>
                                 </div>
@@ -175,10 +163,10 @@
                         </div>   
               </li>
 
-              <li class="-mb-3">        
+              <li class="">        
                    <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-2 ml-8 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">{{ article.paginagoogle }}</div>
                                     <div class="text-sm opacity-75 text-md"> Pagina's in Google   </div>
                                 </div>
@@ -207,10 +195,12 @@
                 Naar boven
               </a>
             </div>
+       <prev-next :prev="prev" :next="next" class="relative z-10 "/>
           </aside>
         </div>
       </div>
     </div>
+
   </article>
 </template>
 

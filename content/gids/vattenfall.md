@@ -22,7 +22,7 @@ linknaarinstragram2: https://socialstats.info/report/vattenfallnl/instagram
 linknaaryoutube2: https://socialstats.info/report/vattenfall/youtube  
 linknaarfacebook2: https://socialstats.info/report/vattenfallnederland/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vattenfallNL  
-volgersyoutube: '942 abonnees'  
+volgersyoutube: '942'  
 volgersinstragram: '2.994'  
 volgerstwitter: '5.648'  
 fansfacebook: '81.239'  
