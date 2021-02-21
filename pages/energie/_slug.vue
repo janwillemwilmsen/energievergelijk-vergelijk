@@ -140,8 +140,8 @@ export default {
         { hid: 'twitter:description', name: 'twitter:description', content: this.article.description }
       ]
     }
-  }
-
+  },
+ 
 // computed: {
 //   meta() {
 //     const metaData = {
@@ -216,8 +216,17 @@ h2 .icon.icon-link {
 p > img {
   border-radius: 15px;
   border: solid 1px gray;
-  filter: sepia(1) saturate(250%) hue-rotate(90deg);
+  /* filter: sepia(1) saturate(250%) hue-rotate(90deg); */
 }
 /*  -webkit-filter: grayscale(100%);
    filter: grayscale(100%);  */
+
+
+   .collapsed > .when-open,
+.not-collapsed > .when-closed {
+  display: none;
+}
 </style> 
+
+
+ 

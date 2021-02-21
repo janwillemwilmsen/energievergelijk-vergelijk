@@ -51,48 +51,53 @@ await page.route('**/*', (route, request) => {
 
 
 ////////
+await page.route('https://www.google.com/*', route => route.abort());
+
+
 eneco
-https://www.googletagmanager.com/
-https://www.google.nl/
-https://www.google.com/
-https://www.facebook.com/
-https://tdn.r42tag.com/
-https://t.svtrd.com/
-https://static.hotjar.com/
-https://static.ads-twitter.com/
-https://t.co/
-https://snap.licdn.com/
-https://script.hotjar.com/ 
-https://s.pinimg.com/ 
-https://px.ads.linkedin.com/ 
-https://in.hotjar.com/ 
-https://ib.adnxs.com/ 
+await page.route('https://www.googletagmanager.com/*', route => route.abort());
+await page.route('https://www.google.nl/*', route => route.abort());
+await page.route('https://www.google.com/*', route => route.abort());
+await page.route('https://www.facebook.com/*', route => route.abort());
+await page.route('https://tdn.r42tag.com/*', route => route.abort());
+await page.route('https://t.svtrd.com/*', route => route.abort());
+await page.route('https://static.hotjar.com/*', route => route.abort());
+await page.route('https://static.ads-twitter.com/*', route => route.abort());
+await page.route('https://t.co/*', route => route.abort());
+await page.route('https://snap.licdn.com/*', route => route.abort());
+await page.route('https://script.hotjar.com/*', route => route.abort());
+await page.route('https://s.pinimg.com/*', route => route.abort());
+await page.route('https://px.ads.linkedin.com/*', route => route.abort());
+await page.route('https://in.hotjar.com/*', route => route.abort());
+await page.route('https://ib.adnxs.com/*', route => route.abort());
+await page.route('https://dc.services.visualstudio.com/*', route => route.abort());
+await page.route('https://ct.pinterest.com/*', route => route.abort());
+await page.route('https://acdn.adnxs.com/*', route => route.abort());
+await page.route('https://connect.facebook.net/*', route => route.abort());
+await page.route('https://collect.kosi-analytics.io/com.snowplowanalytics.snowplow/*', route => route.abort());
+await page.route('https://az416426.vo.msecnd.net/*', route => route.abort());
+await page.route('https://bat.bing.com/*', route => route.abort());
+await page.route('https://cdn.conversationalsdevelopment.nl/*', route => route.abort());
 
-https://dc.services.visualstudio.com/ 
-https://ct.pinterest.com/ 
-https://acdn.adnxs.com/ 
-https://connect.facebook.net/ 
-https://collect.kosi-analytics.io/com.snowplowanalytics.snowplow/tp2
-https://az416426.vo.msecnd.net/
-https://bat.bing.com/
-https://cdn.conversationalsdevelopment.nl/
 
-
-easyswitch
+// easyswitch
 hotjar
 GTM
 GA
-https://bat.bing.com/bat.js
-https://stats.g.doubleclick.net/
-https://in.hotjar.com/
-https://script.hotjar.com/
-https://static.hotjar.com/
-
-https://www.google-analytics.com/
-https://www.google.com/
-https://www.google.nl/
-https://www.googletagmanager.com/
-
+await page.route('https://bat.bing.com/*', route => route.abort());
+await page.route('https://stats.g.doubleclick.net/*', route => route.abort());
+await page.route('https://in.hotjar.com/*', route => route.abort());
+await page.route('https://script.hotjar.com/*', route => route.abort());
+await page.route('https://static.hotjar.com/*', route => route.abort());
+await page.route('https://www.google-analytics.com/*', route => route.abort());
+await page.route('https://www.google.com/*', route => route.abort());
+await page.route('https://www.google.nl/*', route => route.abort());
+await page.route('https://www.googletagmanager.com/*', route => route.abort());
+await page.route('https://www.googletagmanager.com/gtag/*', route => route.abort());
+await page.route('https://www.google-analytics.com/*', route => route.abort());
+await page.route('https://www.googleadservices.com/pagead/*', route => route.abort());
+await page.route('https://www.google-analytics.com/j/*', route => route.abort());
+await page.route('https://www.google-analytics.com/g/*', route => route.abort());
 
 
 
@@ -101,34 +106,33 @@ https://www.googletagmanager.com/
 
 
 energiedirect
-https://www.googletagmanager.com/
-https://www.google.nl/
-https://www.google.com/
-https://www.google-analytics.com/
-https://www.facebook.com/
-https://swa.energiedirect.nl/
-https://static.hotjar.com/
-https://searchrys.com/
-https://script.hotjar.com/
-https://sc-static.net/
-https://rum-static.pingdom.net/
-https://rum-collector-2.pingdom.net/
-https://in.hotjar.com/
-
-https://googleads.g.doubleclick.net/
-https://fonts.gstatic.com/
-https://fonts.googleapis.com/
-https://essent.tt.omtrdc.net/
-https://consumer.krxd.net/
-https://cdn.krxd.net/
-https://beacon.krxd.net/
-https://connect.facebook.net/
-https://cg.www.energiedirect.nl/
-https://bat.bing.com/
-https://assets.adobedtm.com/
-https://adservice.google.com/
-https://4553266.fls.doubleclick.net/
-https://www.googleadservices.com/
+await page.route('https://www.googletagmanager.com/*', route => route.abort());
+await page.route('https://www.google.nl/*', route => route.abort());
+await page.route('https://www.google.com/*', route => route.abort());
+await page.route('https://www.google-analytics.com/*', route => route.abort());
+await page.route('https://www.facebook.com/*', route => route.abort());
+await page.route('https://swa.energiedirect.nl/*', route => route.abort());
+await page.route('https://static.hotjar.com/*', route => route.abort());
+await page.route('https://searchrys.com/*', route => route.abort());
+await page.route('https://script.hotjar.com/*', route => route.abort());
+await page.route('https://sc-static.net/*', route => route.abort());
+await page.route('https://rum-static.pingdom.net/*', route => route.abort());
+await page.route('https://rum-collector-2.pingdom.net/*', route => route.abort());
+await page.route('https://in.hotjar.com/*', route => route.abort());
+await page.route('https://googleads.g.doubleclick.net/*', route => route.abort());
+await page.route('https://fonts.gstatic.com/*', route => route.abort());
+await page.route('https://fonts.googleapis.com/*', route => route.abort());
+await page.route('https://essent.tt.omtrdc.net/*', route => route.abort());
+await page.route('https://consumer.krxd.net/*', route => route.abort());
+await page.route('https://cdn.krxd.net/*', route => route.abort());
+await page.route('https://beacon.krxd.net/*', route => route.abort());
+await page.route('https://connect.facebook.net/*', route => route.abort());
+await page.route('https://cg.www.energiedirect.nl/*', route => route.abort());
+await page.route('https://bat.bing.com/*', route => route.abort());
+await page.route('https://assets.adobedtm.com/*', route => route.abort());
+await page.route('https://adservice.google.com/*', route => route.abort());
+await page.route('https://4553266.fls.doubleclick.net/*', route => route.abort());
+await page.route('https://www.googleadservices.com/*', route => route.abort());
 
 
 
