@@ -43,6 +43,8 @@ const bedrijfsinsta2            = config[4].instragram2;
 const bedrijfsyout2             = config[4].youtube2;    
 const bedrijfsface2             = config[4].facebook2;    
 const bedrijfstwit2             = config[4].twitter2;    
+const bedrijfsyttitle           = config[4].youtubevideotitel;    
+
 const bedrijfsytintro           = config[4].youtubevideotjeintro;    
 const bedrijfsytvid             = config[4].youtubevideotje;   
 
@@ -71,6 +73,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
+console.log(bedrijfsyttitle);
+
 console.log(bedrijfsytintro);
 console.log(bedrijfsytvid);
 
@@ -260,6 +264,8 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubetitle: ${bedrijfsyttitle}  
+
 youtubeintro: ${bedrijfsytintro}  
 youtubevid: ${bedrijfsytvid}  
 ---
@@ -271,6 +277,42 @@ youtubevid: ${bedrijfsytvid}
 // linknaarklantenvertellen: ${bedrijfsklantenvertellen}  
 
 console.log('MD gemaakt');
+
+
+// VATTENFALL NEWSSCRAPE START
+
+const page700 = await browser.newPage();
+await page700.goto("https://group.vattenfall.com/nl/newsroom");
+const listcontentvattenfall = await page700.evaluate(() => {
+const datavattenfall = [];
+const booksvattenfall = document.querySelectorAll(".newsitem");
+booksvattenfall.forEach((book) => {
+let title = book.querySelector('.newsitem h3.heading').innerText;
+let slug = book.querySelector('.newsitem h3.heading a').getAttribute("href");
+let datumdirty = book.querySelector('.newsitem .date').innerText;
+let datumbig = datumdirty.split(' ').slice(0,3).join(' ');
+let datum  = datumbig.toLowerCase();
+let baseurl = 'https://group.vattenfall.com'
+let url = baseurl + slug
+   datavattenfall.push({
+   title,
+   url,
+   datum
+    });
+    });
+return datavattenfall;
+});
+
+let stringvattenfall = '';
+for (const {title: n, url: f, datum: d} of listcontentvattenfall) {
+  stringvattenfall += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+}
+console.log("vattenfall saved.");
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringvattenfall);
+// VATTENFALL NEWSSCRAPE END
+
+
+
 
 await browser.close()
 })()

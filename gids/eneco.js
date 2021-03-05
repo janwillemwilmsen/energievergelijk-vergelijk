@@ -43,6 +43,8 @@ const bedrijfsinsta2            = config[8].instragram2;
 const bedrijfsyout2             = config[8].youtube2;    
 const bedrijfsface2             = config[8].facebook2;    
 const bedrijfstwit2             = config[8].twitter2;    
+const bedrijfsyttitle           = config[8].youtubevideotitel;    
+
 const bedrijfsytintro           = config[8].youtubevideotjeintro;    
 const bedrijfsytvid             = config[8].youtubevideotje;   
 
@@ -71,6 +73,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
+console.log(bedrijfsyttitle);
+
 console.log(bedrijfsytintro);
 console.log(bedrijfsytvid);
 
@@ -260,6 +264,8 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubetitle: ${bedrijfsyttitle}  
+
 youtubeintro: ${bedrijfsytintro}  
 youtubevid: ${bedrijfsytvid}  
 ---
@@ -271,6 +277,56 @@ youtubevid: ${bedrijfsytvid}
 // linknaarklantenvertellen: ${bedrijfsklantenvertellen}  
 
 console.log('MD gemaakt');
+
+
+
+
+// eneco start newsscraper
+const page122 = await browser.newPage();
+// await page122.goto("https://www.eneco.nl/over-ons/");
+await page122.goto("https://nieuws.eneco.nl/");
+const listcontenteneco = await page122.evaluate(() => {
+const dataeneco = [];
+
+// const bookseneco = document.querySelectorAll("div.o-layout.c-text-image__layout");
+// bookseneco.forEach((book) => {
+// let title = book.querySelector('h2.c-text-image__title').innerText;
+// let url = book.querySelector('a.c-link').href;
+
+const bookseneco = document.querySelectorAll(".mm_listitem");
+bookseneco.forEach((book) => {
+let title = book.querySelector('h3').innerText;
+let url = book.querySelector('a').href;
+let datumdirty = book.querySelector('.pp_bigheadlines_date').innerText;
+let datum = datumdirty.replace(/\n/g, " ");
+// let baseurl = 'https:'
+// let url = baseurl + slug
+   dataeneco.push({
+   title,
+   url,
+   datum
+    });
+    });
+return dataeneco;
+});
+
+let stringeneco = '';
+for (const {title: n, url: f, datum: d} of listcontenteneco) {
+  stringeneco += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+}
+console.log("eneco NIEUWS saved.");
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringeneco);
+// ENECO END newsscraper
+
+
+
+
+
+
+
+
+
+
 
 await browser.close()
 })()

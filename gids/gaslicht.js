@@ -43,6 +43,8 @@ const bedrijfsinsta2            = config[1].instragram2;
 const bedrijfsyout2             = config[1].youtube2;    
 const bedrijfsface2             = config[1].facebook2;    
 const bedrijfstwit2             = config[1].twitter2;    
+const bedrijfsyttitle           = config[1].youtubevideotitel;    
+
 const bedrijfsytintro           = config[1].youtubevideotjeintro;    
 const bedrijfsytvid             = config[1].youtubevideotje;   
 
@@ -71,6 +73,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
+console.log(bedrijfsyttitle);
+
 console.log(bedrijfsytintro);
 console.log(bedrijfsytvid);
 
@@ -263,6 +267,7 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubetitle: ${bedrijfsyttitle}  
 youtubeintro: ${bedrijfsytintro}  
 youtubevid: ${bedrijfsytvid}  
 ---
@@ -275,6 +280,41 @@ youtubevid: ${bedrijfsytvid}
 // linknaarklantenvertellen: ${bedrijfsklantenvertellen}  
 
 console.log('MD gemaakt');
+
+
+
+// gaslicht START  
+const page314 = await browser.newPage();
+await page314.goto("https://www.gaslicht.com/nieuws");
+const listcontentgaslicht = await page314.evaluate(() => {
+const datagaslicht = [];
+const booksgaslicht = document.querySelectorAll("div.c-site-contentpage__wrapper ul.o-list-base li");
+booksgaslicht.forEach((book) => {
+let title = book.querySelector('a').innerText;
+let url = book.querySelector('a').href;
+let datum = book.querySelector('small').innerText;
+// let baseurl = 'https:'
+// let url = baseurl + slug
+   datagaslicht.push({
+   title,
+   url,
+   datum
+    });
+    });
+return datagaslicht;
+});
+
+let stringgaslicht = '';
+for (const {title: n, url: f, datum: d} of listcontentgaslicht) {
+  stringgaslicht += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+
+// for (const {title: n, url: f} of listcontentgaslicht) {
+//   stringgaslicht += '-[' +  n + '](' + f + ')\n';
+
+}
+console.log("gaslicht NIEUWS saved.");
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringgaslicht);
+// gaslicht END
 
 await browser.close()
 })()

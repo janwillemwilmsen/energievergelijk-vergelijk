@@ -43,6 +43,8 @@ const bedrijfsinsta2            = config[5].instragram2;
 const bedrijfsyout2             = config[5].youtube2;    
 const bedrijfsface2             = config[5].facebook2;    
 const bedrijfstwit2             = config[5].twitter2;    
+const bedrijfsyttitle           = config[5].youtubevideotitel;    
+
 const bedrijfsytintro           = config[5].youtubevideotjeintro;    
 const bedrijfsytvid             = config[5].youtubevideotje;   
 
@@ -71,6 +73,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
+console.log(bedrijfsyttitle);
+
 console.log(bedrijfsytintro);
 console.log(bedrijfsytvid);
 
@@ -262,6 +266,7 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubetitle: ${bedrijfsyttitle}  
 youtubeintro: ${bedrijfsytintro}  
 youtubevid: ${bedrijfsytvid}  
 ---
@@ -271,6 +276,37 @@ youtubevid: ${bedrijfsytvid}
 `);
 
 console.log('MD gemaakt');
+
+
+// VANDEBRON START  vandebron - via Google.nl
+const page882 = await browser.newPage();
+await page882.goto("https://www.google.nl/search?q=site:vandebron.nl/blog&source=lnt&tbs=qdr:y");
+const listcontentvandebron = await page882.evaluate(() => {
+const datavandebron = [];
+const booksvandebron = document.querySelectorAll("div.g");
+booksvandebron.forEach((book) => {
+let title = book.querySelector('h3').innerText;
+let url = book.querySelector('a').href;
+let datum = book.querySelector('span.f').innerText
+// let baseurl = 'https:'
+// let url = baseurl + slug
+   datavandebron.push({
+   title,
+   url,
+   datum
+    });
+    });
+return datavandebron;
+});
+
+let stringvandebron = '';
+for (const {title: n, url: f, datum: d} of listcontentvandebron) {
+  stringvandebron += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+}
+console.log("vandebron NIEUWS saved.");
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringvandebron);
+// vandebron END
+
 
 await browser.close()
 })()

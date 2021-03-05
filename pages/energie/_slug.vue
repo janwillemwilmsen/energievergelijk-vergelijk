@@ -17,42 +17,27 @@
       </h1>
 
       <div class="flex mx-auto mb-4">
-        <div class="w-8/12 p-2 md:w-9/12 lg:w-6/12">
+        <div class="w-11/12 p-2 md:w-9/12 lg:w-6/12">
           <main class="w-full max-w-full prose">
             <nuxt-content :document="article" />
           </main>
         </div>
-        <div class="w-4/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
+        <div class="w-1/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
           <aside
-            class="sticky top-0 p-2 border-4 border-gray-300 md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400"
-          >
+            class="sticky top-0 hidden p-2 border-4 border-gray-300 md:inline-block md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
             <ul class="text-sm truncate md:text-base">
-              <li
-                v-for="link of article.toc"
-                :key="link.id"
-                class="toc-list"
-                :class="{ 'p-0': link.depth === 2, hidden: link.depth === 3 }"
-              >
+              <li v-for="link of article.toc" :key="link.id" class="toc-list"
+                :class="{ 'p-0': link.depth === 2, hidden: link.depth === 3 }">
                 <!-- <li v-for="link of article.toc" :key="link.id" :class="{'pl-4': link.depth === 3 }" class="toc-list"  > -->
-                <NuxtLink
-                  :to="`#${link.id}`"
-                  :class="{
-                    'text-white hover:text-gray-600':
-                      link.id === currentlyActiveToc,
-                    'text-blue hover:gray-900': link.id !== currentlyActiveToc,
-                  }"
-                >
+                <NuxtLink :to="`#${link.id}`" :class="{'text-white hover:text-gray-600'
+                :link.id === currentlyActiveToc,'text-blue hover:gray-900': link.id !== currentlyActiveToc,}">
                   {{ link.text }}
                 </NuxtLink>
               </li>
             </ul>
             <div class="mt-4">
               <a href="#top" class="inline-block text-sm opacity-50">
-                <img
-                  src="~assets/svg/icon-arrow-up.svg"
-                  width="10"
-                  class="inline"
-                />
+                <img src="~assets/svg/icon-arrow-up.svg" width="10"  class="inline"/>
                 Naar boven
               </a>
             </div>
@@ -197,13 +182,17 @@ export default {
 
 
 
-
+  
 
 
 <style>
 body {
   scroll-behavior: smooth;
 }
+
+ .nuxt-content ul li:nth-child(odd)  { background-color:gray; color:wheat }
+ .nuxt-content ul li:nth-child(even)  { color:red }
+   
 
 h2 .icon.icon-link {
   background-image: url("~assets/svg/icon-hashtag.svg");
@@ -222,10 +211,6 @@ p > img {
    filter: grayscale(100%);  */
 
 
-   .collapsed > .when-open,
-.not-collapsed > .when-closed {
-  display: none;
-}
 </style> 
 
 

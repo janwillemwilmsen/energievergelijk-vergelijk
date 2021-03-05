@@ -44,6 +44,7 @@ const bedrijfsinsta2            = config[0].instragram2;
 const bedrijfsyout2             = config[0].youtube2;    
 const bedrijfsface2             = config[0].facebook2;    
 const bedrijfstwit2             = config[0].twitter2;    
+const bedrijfsyttitle           = config[0].youtubevideotitel;    
 
 const bedrijfsytintro           = config[0].youtubevideotjeintro;    
 const bedrijfsytvid             = config[0].youtubevideotje;    
@@ -74,6 +75,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
+console.log(bedrijfsyttitle);
+
 console.log(bedrijfsytintro);
 console.log(bedrijfsytvid);
 
@@ -221,18 +224,12 @@ const googlePage80 = new GooglePage(page80);
 const resultGoogle80 = await googlePage80.scrapeGoogle();
 console.log(resultGoogle80);
 
-
-
 console.log('GOOGLE END');
 
 
 
-
-
-
-
-
-
+ 
+  
 fs.promises.writeFile(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
 website: ${bedrijfswebsite}   
@@ -265,6 +262,7 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubetitle: ${bedrijfsyttitle}  
 youtubeintro: ${bedrijfsytintro}  
 youtubevid: ${bedrijfsytvid}  
 ---
@@ -275,7 +273,59 @@ youtubevid: ${bedrijfsytvid}
 
 console.log('MD gemaakt');
 
+
+
+ // ESSENT NEWSSCRAPE START
+ const page709 = await browser.newPage();
+ await page709.goto("https://www.essent.nl/content/overessent/actueel/index.html");
+ const listcontentessent = await page709.evaluate(() => {
+ const dataessent = [];
+ const booksessent = document.querySelectorAll("#headlineset_1_1 a");
+ booksessent.forEach((book) => {
+ let title = book.querySelector('h3').innerText;
+ let slug = book.getAttribute("href")
+ let datumlong = book.querySelector('.pp_publishdate').innerText;
+ let datumdirty = datumlong.replace(/(\r\n|\n|\r)/gm,"");
+ let datumstill = datumdirty.replace('/\s+/g, " "').trim();
+ let datumone = datumstill.replace(/ /g, "");
+let datumcomma = datumone.match(/[a-z]+|[^a-z]+/gi);  
+// Maakt er json comma geschreide objecten van
+var datum = datumcomma.join(" ");
+
+ // let datumcom = datumone.match(/[a-zA-Z]+|[0-9]+/g);
+ // let datum = datumcom.replace(',', ' ');
+ // let datum = datumlong.split(' ').slice(0,3).join(' ');
+ 
+ let baseurl = 'https:'
+ let url = baseurl + slug
+    dataessent.push({
+    title,
+    url,
+    datum
+     });
+     });
+ return dataessent;
+ });
+
+ let stringessent = '';
+ for (const {title: n, url: f, datum: d} of listcontentessent) {
+   stringessent += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+ }
+ console.log("essent saved.");
+// ESSENT NIEUWSSCRAPE end
+
+
+
+
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringessent);
+
+
+
+
+
 await browser.close()
 })()
 
 // ${result10} 
+
+ 

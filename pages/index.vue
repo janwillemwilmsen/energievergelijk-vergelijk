@@ -46,13 +46,15 @@
 
 <a  id="aanmelden"></a>
 <leadForm4 />
- <TheTicker/>
 
+<TheTicker/>
 
 <TheFaqs/>
 
-   <!-- http://localhost:3000/_content/articles?only=slug&only=createdAt -->
+<!-- http://localhost:3000/_content/articles?only=slug&only=createdAt -->
 <TheCTA/>
+
+
 </div>
 </template>
  

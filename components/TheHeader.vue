@@ -1,16 +1,34 @@
  <template>
-<header class="relative flex px-4 overflow-hidden bg-blue-600 h-96 cover">
+<header class="relative flex px-4 overflow-hidden md:bg-green-400 lg:bg-blue-600 h-96 cover">
 
 <div class="absolute top-0 left-0 z-0 h-full"  >
 
-
+        <!-- 
         <picture>
-          <source type="image/webp" srcset="/header-bg2.webp" style="width:100%;"  class="object-cover w-full h-full opacity-80">
-          <source type="image/jpeg" srcset="/header-bg2.jpg" class="object-cover w-full h-full opacity-80">
-          <img src="/header-bg2.jpg"  class="object-cover w-full h-full opacity-80"  alt=" Vergelijk energie ">
+          <source type="image/webp" srcset="/header-bg2.webp"    class="object-cover bg-center bg-contain opacity-80">
+          <source type="image/jpeg" srcset="/header-bg2.jpg" class="object-cover bg-center bg-contain opacity-80"> 
+          <img src="/header-bg-3.jpg"     class="object-cover h-full opacity-80 md:object-fill"  alt=" Vergelijk energie ">
         </picture>
+        -->
+
+
+         <picture class="bg-auto opacity-80">
+                <source media="(max-width: 640px)"   type="image/jpeg" srcset="/site/bg-640.jpg">
+                <source media="(max-width: 640px)"   type="image/webp" srcset="/site/bg-640.webp">
+                <source media="(max-width: 768px)"   type="image/jpeg" srcset="/site/bg-768.jpg">
+                <source media="(max-width: 768px)"   type="image/webp" srcset="/site/bg-768.webp">
+                <source media="(max-width: 1024px)"  type="image/jpeg" srcset="/site/bg-1024.jpg">
+                <source media="(max-width: 1024px)"  type="image/webp" srcset="/site/bg-1024.webp">
+                <source media="(max-width: 1280px)"  type="image/jpeg" srcset="/site/bg-1280.jpg">
+                <source media="(max-width: 1280px)"  type="image/webp" srcset="/site/bg-1280.webp">
+                <source media="(min-width: 1281px)"  type="image/jpeg" srcset="/site/bg-2560.jpg">
+                <source media="(min-width: 1281px)"  type="image/webp" srcset="/site/bg-2560.webp">
+                    <img  type="image/jpeg" src="/bg-2560.jpg">  
+              </picture>
 
 </div>
+
+<!-- bg-center bg-contain -->
 
   <div class="container flex flex-col items-center p-5 mx-auto head md:flex-row">
     

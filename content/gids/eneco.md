@@ -23,14 +23,28 @@ linknaaryoutube2: https://socialstats.info/report/EnecoMedia/youtube
 linknaarfacebook2: https://socialstats.info/report/EnecoNederland/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/eneco  
 volgersyoutube: '378'  
-volgersinstragram: '2.544'  
-volgerstwitter: '15.937'  
-fansfacebook: '47.934'  
-rankalexa: '381.728'  
-paginagoogle: '3.000'  
-youtubeintro: <h2>Eneco kantoor Rotterdam</h2>  
+volgersinstragram: '2.560'  
+volgerstwitter: '15.932'  
+fansfacebook: '47.926'  
+rankalexa: '383.359'  
+paginagoogle: '2.710'  
+youtubetitle: Eneco kantoor Rotterdam  
+
+youtubeintro: Beetje oud, maar wel leuk om te zien waar jouw energie gemaakt wordt;-) Grapje, dit is het kantoor waar de marketeers, administratie, finance, etc zitten.  
 youtubevid: https://www.youtube-nocookie.com/embed/O0CMBDFe25c  
 ---
 
 
 
+- Op 18 februari 2021 [Offshore windpark Borssele III&IV volledig operationeel](https://nieuws.eneco.nl/offshore-windpark-borssele-iiiiv-volledig-operationeel/)
+- Op 10 februari 2021 [Eneco stopt met deurverkoop van energiecontracten](https://nieuws.eneco.nl/eneco-stopt-met-deurverkoop-van-energiecontracten/)
+- Op 08 februari 2021 [Amazon en Eneco starten samenwerking voor levering van hernieuwbare energie](https://nieuws.eneco.nl/amazon-en-eneco-starten-samenwerking-voor-levering-van-hernieuwbare-energie/)
+- Op 02 februari 2021 [Inwoners Hoeksche Waard kunnen meeprofiteren van windpark Hogezandse Polder](https://nieuws.eneco.nl/inwoners-hoeksche-waard-kunnen-meeprofiteren-van-windpark-hogezandse-polder/)
+- Op 21 januari 2021 [Weg vrij voor aardgasvrij Bospolder-Tussendijken](https://nieuws.eneco.nl/weg-vrij-voor-aardgasvrij-bospolder-tussendijken/)
+- Op 11 januari 2021 [Jeanine Tijhaar nieuwe CFO van Eneco per 1 februari 2021](https://nieuws.eneco.nl/jeanine-tijhaar-nieuwe-cfo-van-eneco-per-1-februari-2021/)
+- Op 02 maart 2021 [Kwaliteitslabel voor ecologische meerwaarde zonneparken in ontwikkeling](https://nieuws.eneco.nl/kwaliteitslabel-voor-ecologische-meerwaarde-zonneparken-in-ontwikkeling/)
+- Op 01 maart 2021 [Inspectievlucht stadswarmtenetten Houten en Amersfoort](https://nieuws.eneco.nl/inspectievlucht-stadswarmtenetten-houten-en-amersfoort/)
+- Op 12 februari 2021 [Vergunning Eneco en Shell voor opsporen aardwarmte in regio Rotterdam](https://nieuws.eneco.nl/vergunning-eneco-en-shell-voor-opsporen-aardwarmte-in-regio-rotterdam/)
+- Op 02 februari 2021 [Leonie Baneke opvolger Bram Poeth als directeur Eneco eMobility](https://nieuws.eneco.nl/leonie-baneke-opvolger-bram-poeth-als-directeur-eneco-emobility/)
+- Op 08 januari 2021 [Onbevoegd toegang Mijn Eneco](https://nieuws.eneco.nl/onbevoegd-toegang-mijn-eneco/)
+- Op 06 januari 2021 [Walstroomproject Landtong Rozenburg krijgt vervolg](https://nieuws.eneco.nl/walstroomproject-landtong-rozenburg-krijgt-vervolg/)

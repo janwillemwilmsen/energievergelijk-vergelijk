@@ -9,12 +9,15 @@
       </p>
 
  <ul class="max-w-4xl mt-8">
+                       
+                       
                         <li v-for="blog of blogs" :key="blog.slug" class="py-4 pl-4 my-4 bg-white border border-gray-500 border-opacity-25 shadow-md rounded-xl">
                              <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }"> 
                               
                                 <p>{{ blog.title }}</p>
                             </NuxtLink> 
                         </li>
+                        
                   </ul>
 <!-- <the-blog-all/> -->
 
@@ -22,22 +25,27 @@
   </article>
 
 <!--
-  GEEN INHOUD??
-   http://localhost:3000/gids/google-api-blog-output.json 
-   
- Wel inhoud:
-
-   http://localhost:3000/blog.json
-   
-   -->
-
-
+GEEN INHOUD??    http://localhost:3000/gids/google-api-blog-output.json 
+Wel inhoud:      http://localhost:3000/blog.json
+-->
 
 </template>
 
 <script>
 
   export default {
+ head: {
+    title: 'Over energievergelijken, en wat ons opvalt bij vergelijken.',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Doe inzicht op. Waar moet jij op letten bij vergelijken?'
+      }
+    ],
+  },
+
+
  async asyncData({ $content, params }) {
     // fetch our article here
     const blogs = await $content("blogs", params.slug).fetch();

@@ -31,14 +31,10 @@ Geschreven door:  {{ blog.auteur }} op {{ blog.mooiedatum }} <br>
  
 <div style="display:none;">
 
-
-<br><br><br><br>
 MetaDescription:  {{ blog.description }} <br>
- seotitle: {{ blog.title }} <br>
+seotitle: {{ blog.title }} <br>
 ID :   {{ blog.ID }} <br>
 Slug  {{ blog.slug }} <br> 
-  <br>
-
 
   {{ blog.heading11 }} <br>
   {{ blog.paragraaf11 }} <br>
@@ -68,6 +64,24 @@ export default {
 
     return { blog };
   },
+
+   head() {
+    return {
+      title: this.blog.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.blog.description },
+        // Open Graph
+        { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
+        { hid: 'og:title', property: 'og:title', content: this.blog.title },
+        { hid: 'og:description', property: 'og:description', content: this.blog.description },
+        // Twitter Card
+        { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.blog.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.blog.description }
+      ]
+    }
+  }
 
 
 }
@@ -100,14 +114,7 @@ export default {
 // }
 </script>
 
-
-
-
 <style>
-
-    
-
-
 /* p.mycontent > h2{font-size: 2rem !important;margin-top: 0.5rem;margin-bottom: 0.5rem;} */
 div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 3rem;margin-bottom: 2rem;}
 div.container  > img {margin-top: 2rem;margin-bottom: 2rem;}

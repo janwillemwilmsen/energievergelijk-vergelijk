@@ -21,17 +21,27 @@ linknaaralexa: https://www.alexa.com/siteinfo/gaslicht.com
 linknaarinstragram2: https://socialstats.info/report/gaslicht/instagram  
 linknaaryoutube2: https://socialstats.info/report/gaslicht/youtube  
 linknaarfacebook2: https://socialstats.info/report/gaslicht/facebook  
-linknaartwitter2: https://followerwonk.com/analyze/gaslicht  
-volgersyoutube: '122'  
-volgersinstragram: '2.554'  
+linknaartwitter2: https://followerwonk.com/analyze/gaslicht_com  
+volgersyoutube: '120'  
+volgersinstragram: '2.548'  
 volgerstwitter: '1.036'  
-fansfacebook: '2.207'  
-rankalexa: '530.645'  
-paginagoogle: '3.230'  
-youtubeintro: <h2>Bencom a Ben Woldering idea</h2>  Overduidelijk.  
+fansfacebook: '2.205'  
+rankalexa: '1.585.473'  
+paginagoogle: '3.080'  
+youtubetitle: Bencom a Ben Woldering idea  
+youtubeintro:  Overduidelijk. Alles is van bassie.  
 youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0  
 ---
 
  
 
 
+- Op 25-02 [40 procent meer groene stroom in 2020](https://www.gaslicht.com/nieuws/40-procent-meer-groene-stroom-in-2020)
+- Op 17-02 ['Maak beter voorstel voor afbouw salderingsregeling zonnepanelen'](https://www.gaslicht.com/nieuws/maak-beter-voorstel-voor-afbouw-salderingsregeling-zonnepanelen)
+- Op 15-02 [Eneco stopt met deur-aan-deurverkoop energiecontracten](https://www.gaslicht.com/nieuws/eneco-stopt-met-deur-aan-deurverkoop-energiecontracten)
+- Op 10-02 [Opheldering over verwijdering gasaansluiting](https://www.gaslicht.com/nieuws/opheldering-over-verwijdering-gasaansluiting)
+- Op 05-02 [Warmetruiendag: bespaar door verwarming een graad lager te zetten](https://www.gaslicht.com/nieuws/warmetruiendag-bespaar-door-verwarming-een-graad-lager-te-zetten)
+- Op 21-01 [Pure Energie benoemd tot beste energieleverancier 2021](https://www.gaslicht.com/nieuws/pure-energie-benoemd-tot-beste-energieleverancier-2021)
+- Op 20-01 [2020 was extreem goed jaar voor opbrengst zonnepanelen](https://www.gaslicht.com/nieuws/2020-was-extreem-goed-jaar-voor-opbrengst-zonnepanelen)
+- Op 13-01 [Gaslicht.com: Recordaantal huishoudens stapt over in 2020](https://www.gaslicht.com/nieuws/gaslicht-com-recordaantal-huishoudens-stapt-over-in-2020)
+- Op 12-01 [Nieuwe Gedragscode Consument en Energieleverancier](https://www.gaslicht.com/nieuws/nieuwe-gedragscode-consument-en-energieleverancier)

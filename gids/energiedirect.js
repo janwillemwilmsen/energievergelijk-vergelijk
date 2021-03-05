@@ -44,6 +44,7 @@ const bedrijfsinsta2            = config[3].instragram2;
 const bedrijfsyout2             = config[3].youtube2;    
 const bedrijfsface2             = config[3].facebook2;    
 const bedrijfstwit2             = config[3].twitter2;    
+const bedrijfsyttitle           = config[3].youtubevideotitel;    
 
 const bedrijfsytintro           = config[3].youtubevideotjeintro;    
 const bedrijfsytvid             = config[3].youtubevideotje;    
@@ -74,6 +75,8 @@ console.log(bedrijfsinsta2);
 console.log(bedrijfsyout2);
 console.log(bedrijfsface2);
 console.log(bedrijfstwit2);
+console.log(bedrijfsyttitle);
+
 console.log(bedrijfsytintro);
 console.log(bedrijfsytvid);
 
@@ -265,6 +268,8 @@ volgerstwitter: '${resultTwitter60}'
 fansfacebook: '${resultFacebook70}'  
 rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
+youtubetitle: ${bedrijfsyttitle}  
+
 youtubeintro: ${bedrijfsytintro}  
 youtubevid: ${bedrijfsytvid}  
 ---
@@ -274,6 +279,42 @@ youtubevid: ${bedrijfsytvid}
 `);
 
 console.log('MD gemaakt');
+
+
+
+// energiedirect START   
+const page652 = await browser.newPage();
+await page652.goto("https://www.energiedirect.nl/blog?page=1");
+await page652.waitForTimeout(3000);
+const listcontentenergiedirect = await page652.evaluate(() => {
+const dataenergiedirect = [];
+const booksenergiedirect = document.querySelectorAll("div.articles-list-item");
+booksenergiedirect.forEach((book) => {
+let title = book.querySelector('h3').innerText;
+let url = book.querySelector('a.ng-binding').href;
+let datumdirty = book.querySelector('span.item-info').innerText;
+let datum = datumdirty.split(' ').slice(0,3).join(' ');
+
+// let baseurl = 'https:'
+// let url = baseurl + slug
+dataenergiedirect.push({
+   title,
+   url,
+   datum
+    });
+    });
+return dataenergiedirect;
+});
+
+let stringenergiedirect = '';
+for (const {title: n, url: f, datum: d} of listcontentenergiedirect) {
+  stringenergiedirect += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+}
+console.log("energiedirect blog saved.");
+fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringenergiedirect);
+// energiedirect END
+
+
 
 await browser.close()
 })()

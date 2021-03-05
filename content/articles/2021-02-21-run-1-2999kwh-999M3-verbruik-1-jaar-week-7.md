@@ -14,6 +14,26 @@ createdAt2: 2021-1-21
 ---
 
 
+
+<div class="tarievenblok">
+
+## energievergelijk.nl    
+   
+- Energieleverancier 1 :  Essent  : Actietarief Online 1 jaar   : <div class="tarief" style="text-align: right">**€ 18,61**</div>  
+- Energieleverancier 2 :  Energiedirect.nl : AltijdVoordeel Online 1 jaar vast   : <div class="tarief" style="text-align: right">**€ 19,59**</div>  
+- Energieleverancier 3 :  Powerpeers :  Samen Groen 1 jaar vast   : <div class="tarief" style="text-align: right">**€ 22,16**</div>  
+ 
+
+<div x-data={show:false}><a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="text-gray-200 focus:outline-none"></a><div x-show="show" class="tarievenimg">
+
+![alt text](/img/el/energievergelijk-2999kwh-999M3-verbruik-1-jaar-week7.png "Vergelijk energietarieven energievergelijk.nl")
+
+</div></div>
+</div>
+
+
+
+
 ## Eneco    
    
 - Product 1 :  <br>Vrij Opzegbaar  : **€ 133,78per maand**  
@@ -22,16 +42,11 @@ createdAt2: 2021-1-21
  
 
 
-<div x-data={show:false}>
- 
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="text-gray-200 focus:outline-none"></a>
- 
-<div x-show="show" class="">
+<div x-data={show:false}><a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="text-gray-200 focus:outline-none"></a><div x-show="show" class="tarievenimg">
       
 ![alt text](/img/el/eneco-2999kwh-999M3-verbruik-1-jaar-week7.png "Vergelijk energietarieven Eneco")
 
-</div>
-</div>
+</div></div>
  
 
 

@@ -2,13 +2,13 @@
 
 <section class="bg-gray-200">
 
-<div class="container content-center mx-auto h-60 md:h-40">
+<div class="container content-center px-5 py-8 mx-auto">
   <!-- <client-only>
 <marquee-text>
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.
 </marquee-text>
   </client-only> -->
-  <div class="flex flex-wrap content-center h-40 ">
+  <div class="flex flex-wrap content-center w-full mx-auto lg:w-10/12 xl:w-7/12 ">
 
        <div v-for="bed of bedrijven" :key="bed.slug" class="self-center w-40 mx-auto align-middle transition duration-500 ease-in-out">
         <NuxtLink :to="{ name: 'gids-slug', params: { slug: bed.slug } }">
@@ -54,5 +54,5 @@
 </script>
 
 <style>
-.grayimg { filter: grayscale(100%) opacity(30%);}
+.grayimg { filter: grayscale(100%) opacity(40%);}
 </style>

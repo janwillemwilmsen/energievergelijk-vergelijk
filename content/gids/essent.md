@@ -25,14 +25,20 @@ linknaarfacebook2: https://socialstats.info/report/essent/facebook
 linknaartwitter2: https://followerwonk.com/analyze/essent  
 ervaringenklantenvertellen: 7,8  
 volgersyoutube: '272'  
-volgersinstragram: '2.074'  
-volgerstwitter: '11.147'  
-fansfacebook: '78.483'  
-rankalexa: '243.650'  
-paginagoogle: '3.730'  
-youtubeintro: <h2>Dynamische energieprijzen met een slimme energiemeter</h2> Wat is nou een slimme meter, wat zijn de voordelen van een slimme meter voor jou en voor de netbeheerder. Betaal ik nu meer of minder voor mijn energie als ik een slimme meter heb. Meer over slimme meters en dynamische energieprijzen in de video van Essent. 
+volgersinstragram: '2.073'  
+volgerstwitter: '11.144'  
+fansfacebook: '78.531'  
+rankalexa: '335.113'  
+paginagoogle: '4.340'  
+youtubetitle: Dynamische energieprijzen met een slimme energiemeter  
+youtubeintro: Wat is nou een slimme meter, wat zijn de voordelen van een slimme meter voor jou en voor de netbeheerder. Betaal ik nu meer of minder voor mijn energie als ik een slimme meter heb. Meer over slimme meters en dynamische energieprijzen in de video van Essent.  
 youtubevid: https://www.youtube-nocookie.com/embed/EfLX2FJLHQE  
 ---
 
 
 
+- Op 19 feb 2021 [KNVB en Essent bereiken mijlpaal in samenwerking](https://www.essent.nl/content/overessent/actueel/index.html/knvb-en-essent-bereiken-mijlpaal-in-samenwerking/)
+- Op 16 feb 2021 [Gasverbruik hoger door vrieskou, meer vraag naar isolatie](https://www.essent.nl/content/overessent/actueel/index.html/gasverbruik-hoger-door-vrieskou-meer-vraag-naar-isolatie/)
+- Op 05 feb 2021 [Essent verkoopt Essent België aan Luminus](https://www.essent.nl/content/overessent/actueel/index.html/essent-verkoopt-essent-belgie-aan-luminus/)
+- Op 28 dec 2020 [Veel zonuren in 2020 zorgen voor hoge opbrengst zonnepanelen](https://www.essent.nl/content/overessent/actueel/index.html/veel-zonuren-in-2020-zorgen-voor-hoge-opbrengst-zonnepanelen/)
+- Op 16 dec 2020 [Warme winter kan tot 25% lagere stookkosten leiden](https://www.essent.nl/content/overessent/actueel/index.html/warme-winter-kan-tot-25-lagere-stookkosten-leiden/)

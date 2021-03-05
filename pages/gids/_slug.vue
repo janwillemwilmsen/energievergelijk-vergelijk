@@ -7,8 +7,8 @@
 <template>
 
   <article class="mx-auto bg-gray-200">
-
-<div class="absolute z-0 w-full h-64"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')'}" style="margin-top:-150px; background-size: 600px; background-repeat:repeat;background-position: center top;filter: grayscale(100%) opacity(5%); transform: rotate(0deg); z-index:100;">
+<!----BACGROUND IMAGE----------->
+<div class="absolute w-full h-64"  v-bind:style="{ backgroundImage: 'url(' + article.logo + ')'}" style="margin-top:-100px; background-size: 600px; background-repeat:repeat;background-position: center top;filter: grayscale(100%) opacity(5%); transform: rotate(0deg); ">
 </div>
 
     <a name="top"></a>
@@ -23,9 +23,20 @@
        {{ article.title }}.
       </h1>
 
-      <div class="flex mx-auto mb-4" >
-        <div class="w-8/12 p-2 md:w-9/12 lg:w-6/12">
-          <main class="w-full max-w-full p-8 prose bg-gray-100 rounded-md">
+      <!-- <div class="flex mx-auto mb-4" > -->
+
+
+
+<!----LEFT COL----->
+        <!-- <div class="w-8/12 p-2 md:w-9/12 lg:w-6/12"> -->
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-12 lg:w-9/12">
+            <div class=" md:col-span-8">
+
+            
+
+<!----INNER MAIN---->
+          <!-- <main class="w-full max-w-full p-8 prose bg-gray-100 rounded-md"> -->
+          <main class="p-8 bg-gray-100 rounded-md">
            
            <div class="">
                 <img :src="article.logo" :alt="article.title" class="inline float-right w-40 mb-1 mr-8 border-black" />
@@ -52,14 +63,20 @@
   
  
  
+<h2 v-html="article.youtubetitle" ></h2>
 <p v-html="article.youtubeintro"  class="text-2xl"></p>
 
 <div class="aspect-w-16 aspect-h-9">
 <iframe :src="article.youtubevid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
  
+ <h2>Laatste {{ article.title }} nieuws</h2>
+ 
+<nuxt-content :document="article" />
+ 
 
 
+<!-- <TheNews/> -->
 
            </div>
 
@@ -68,8 +85,25 @@
                                         <nuxt-content :document="article" />
                             </div> -->
           </main>
-        </div>
-        <div class="w-4/12 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
+         <div class="pt-1 pb-0 mb-0 mr-4 text-sm text-right text-gray-400">
+                Voor het laatst bijgwerkt op: {{ formatDate(article.updatedAt) }}
+          </div>
+       </div>
+    
+
+
+
+
+
+<!----RIGHT COL----->
+        <!-- <div class="w-full md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12"> -->
+        <div class="col-span-1 md:col-span-4 max-w-prose">
+         
+
+
+
+         
+<!----ASIDE MAIN---->
           <aside class="sticky top-0 p-2 border-4 border-gray-300 md:p-8 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
            
  
@@ -82,11 +116,11 @@
  komma punt
  -->
 
-            <ul class="text-sm truncate md:text-base">
-              <li class="" v-if="article.ervaringenklantenvertellen">     
+            <ul class="flex flex-row flex-wrap text-sm truncate md:flex-col md:text-base">
+              <li class="flex-1 m-3 md:m-0" v-if="article.ervaringenklantenvertellen">     
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 md:p-2 lg:p-3 pin-t">
+                                <div class="absolute p-1 pin-t">
                                     <div class="text-3xl ">
                                       {{ article.ervaringenklantenvertellen }}
 
@@ -101,7 +135,7 @@
 
               </li>              
               
-              <li class="">        
+              <li class="flex-1 m-3 md:m-0"  v-if="article.fansfacebook">        
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-1 pin-t">
@@ -115,7 +149,7 @@
                   
               </li>
             
-               <li class="">       
+               <li class="flex-1 m-3 md:m-0"  v-if="article.volgersinstragram">       
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-1 pin-t">
@@ -128,7 +162,7 @@
                     
               </li>
         
-               <li class="">         
+               <li class="flex-1 m-3 md:m-0"  v-if="article.volgerstwitter">         
                        <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-1 pin-t">
@@ -141,7 +175,7 @@
                  
               </li>
 
-              <li class="">
+              <li class="flex-1 m-3 md:m-0" v-if="article.volgersyoutube">
                    <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-1 pin-t">
@@ -152,7 +186,7 @@
                         </div>            
               </li>
 
-              <li class="">       
+              <li class="flex-1 m-3 md:m-0">       
                         <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-1 pin-t">
@@ -163,7 +197,7 @@
                         </div>   
               </li>
 
-              <li class="">        
+              <li class="flex-1 m-3 md:m-0">        
                    <div class="relative">
                             <div class="w-24 h-24 text-gray-200">
                                 <div class="absolute p-1 pin-t">
@@ -182,24 +216,24 @@
                                           
             </ul>
 
-
+        <hr class=" opacity-30">
            <!-- <pre class="text-sm bg-gray-700 small"> {{ article }} </pre> -->
+           <prev-next :prev="prev" :next="next" class="z-10 w-full mt-4"/> 
            
-            <div class="mt-4">
+            <div class="p-2 mt-4 text-center">
               <a href="#top" class="inline-block text-sm opacity-50">
-                <img
-                  src="~assets/svg/icon-arrow-up.svg"
-                  width="10"
-                  class="inline"
-                />
+                <img src="~assets/svg/chevron-up.svg" width="10" class="inline"/>
                 Naar boven
               </a>
             </div>
-       <prev-next :prev="prev" :next="next" class="relative z-10 "/>
+       
+       <!-- -ml-7 -->
           </aside>
         </div>
-      </div>
-    </div>
+
+      </div>  <!---end GRID----->
+      <!-- </div> -->  <!---END div onder h1---->
+    </div>  <!---END CONTAINER---->
 
   </article>
 </template>
@@ -210,15 +244,28 @@
 
 
 <script>
+import TheNews from '../../components/scraped/TheNews.vue';
 import getSiteMeta from "/plugins/getSiteMeta";
 const meta = getSiteMeta();
 
  export default {
+  components: { TheNews },
+
+
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("nl", options);
+    },
+  },
+
+
+
     async asyncData({ $content, params }) {
       const article = await $content('gids', params.slug).fetch()
 
       const [prev, next] = await $content('gids')
-      .only(['title', 'slug'])
+      .only(['title', 'slug', 'logo'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
@@ -262,4 +309,19 @@ const meta = getSiteMeta();
     transparent 80%
   );
 }
+
+ h2 {color: #111827;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 1.3333333;
+}
+.nuxt-content ul li::before {width:0px;} 
+.nuxt-content ul {list-style: none !important; list-style-type: none !important; margin: 0; padding: 0; font-size:12px; }
+.nuxt-content ul li:nth-child(odd)  { list-style-type: none !important; background-color:lightgray;padding:10px; }
+.nuxt-content ul li:nth-child(even)  {list-style-type: none !important; background-color: white; z-index: 999; padding:10px; }
+
+ .nuxt-content ul li a  {display: block; font-size:1rem; }
+ 
 </style>

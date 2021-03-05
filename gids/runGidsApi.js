@@ -1,4 +1,4 @@
-// RUN node runApi om Bedrijgds.json te updaten
+// RUN node runApi om Bedrijgds.json (eigenlijk : google-api-output.json ) te updaten
 
 const {google} = require ('googleapis');
 const keys = require('../keys.json');
@@ -36,7 +36,7 @@ async function gsrun(cl){
 
         spreadsheetId: '1aAgYhlLQZl6J9szl-vpwELLpKZWCg46vNtANVv9LsIo',
         majorDimension: 'rows',
-        range: 'bedrijfsGids!A6:AA16'
+        range: 'bedrijfsGids!A6:AB16'
 
     }
 
