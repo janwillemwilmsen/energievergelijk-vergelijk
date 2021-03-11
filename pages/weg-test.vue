@@ -18,33 +18,34 @@
 
 <h2 data-v-f58a9f50="" id="energievergelijknl" class="text-xl ">    energievergelijk.nl</h2>
 
+
+<!---START TableRow--->
 <div class="table w-full rounded-xl ">
   <div class="table-row-group">
     <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-      <div class="table-cell p-2 uppercase ">Leverancier</div>
-      <div class="table-cell uppercase ">Product</div>
-      <div class="table-cell uppercase ">Prijs</div>
+      <div class="table-cell p-2 uppercase">                          Leverancier   </div>
+      <div class="table-cell uppercase">                              Product       </div>
+      <div class="table-cell uppercase">                              Prijs         </div>
     </div>
     <div class="table-row result-one hover:bg-gray-100 ">
-      <div class="table-cell py-1 pl-2 border-b border-gray-200">Essent</div>
-      <div class="table-cell border-b border-gray-200">3 jaar altijd dal</div>
-      <div class="table-cell border-b border-gray-200">150</div>
+      <div class="table-cell py-1 pl-2 border-b border-gray-200">   <!--- LEVERANCIER 1 --->              </div>
+      <div class="table-cell border-b border-gray-200">             <!---- PRODUCT 1  ----->              </div>
+      <div class="table-cell border-b border-gray-200">             <!------PRIJS 1 ------->              </div>
     </div>
    <div class="table-row result-two hover:bg-gray-100">
-      <div class="table-cell p-1 pl-2 border-b border-gray-200 ">Energiedirect</div>
-      <div class="table-cell border-b border-gray-200">1 jaar altijd dal1 jaar altijd dal1 jaar altijd dal1 jaar altijd dal1 jaar altijd dal1 jaar altijd dal</div>
-      <div class="table-cell border-b border-gray-200">1 jaar altijd dal1 jaar altijd dal1 jaar altijd dal1</div>
+      <div class="table-cell p-1 pl-2 border-b border-gray-200 ">   <!-----LEVERANCIER 2 ----->           </div>
+      <div class="table-cell border-b border-gray-200">             <!---- PRODUCT 2  ----->              </div>
+      <div class="table-cell border-b border-gray-200">             <!------PRIJS 2 ------->              </div>
     </div>
   <div class="table-row result-three hover:bg-gray-100">
-      <div class="table-cell p-1 pl-2 border-b border-gray-200 ">Van de Bron</div>
-      <div class="table-cell border-b border-gray-200">1 jaar altijd dal</div>
-      <div class="table-cell border-b border-gray-200">145</div>
+      <div class="table-cell p-1 pl-2 border-b border-gray-200 ">   <!-----LEVERANCIER 3 ----->           </div>
+      <div class="table-cell border-b border-gray-200">             <!---- PRODUCT 1  ----->              </div>
+      <div class="table-cell border-b border-gray-200">             <!------PRIJS 3 ------->              </div>
     </div>
-
-  </div>
-</div>
+  </div>    <!---End TableRow--->
+</div>      <!---End Table w-fill---->
  
- 
+ <!---Open Close Schermprint-START--->
 <div data-v-f58a9f50="" x-data="{show:false}" class="mt-2 ">
     <a data-v-f58a9f50="" x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
      <div>   > Toon schermprint </div>
@@ -56,15 +57,24 @@
       </div>
   </div>
 </div>
-
+ <!---Open Close Schermprint-END--->
+<!-----MEER OVER BEDRIJF LINK----->
 <div class="pl-2 text-sm text-gray-400">
-  <a href="/gids/.." title="">> Meer over Essent</a>
+  <a href="/gids/.." title="">> Meer over ....</a>
 </div>
+
+
+
+
+
 
 </div>
  
   </div>
   </section>
+
+
+
 
 <!-- WERKT direct inline -->
 

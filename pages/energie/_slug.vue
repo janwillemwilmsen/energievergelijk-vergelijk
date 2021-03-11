@@ -23,13 +23,13 @@
           </main>
         </div>
         <div class="w-1/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
-          <aside
-            class="sticky top-0 hidden p-2 border-4 border-gray-300 md:inline-block md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
+          <!-- <aside class="sticky top-0 hidden p-2 border-4 border-gray-300 md:inline-block md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400"> -->
+          <aside class="sticky top-0 hidden p-2 bg-purple-900 border-4 border-gray-300 md:inline-block md:p-4 rounded-xl">
             <ul class="text-sm truncate md:text-base">
-              <li v-for="link of article.toc" :key="link.id" class="toc-list"
+              <li v-for="link of article.toc" :key="link.id" class="text-gray-300 uppercase toc-list"
                 :class="{ 'p-0': link.depth === 2, hidden: link.depth === 3 }">
                 <!-- <li v-for="link of article.toc" :key="link.id" :class="{'pl-4': link.depth === 3 }" class="toc-list"  > -->
-                <NuxtLink :to="`#${link.id}`" :class="{'text-white hover:text-gray-600'
+                <NuxtLink :to="`#${link.id}`" :class="{'text-white hover:text-gray-400'
                 :link.id === currentlyActiveToc,'text-blue hover:gray-900': link.id !== currentlyActiveToc,}">
                   {{ link.text }}
                 </NuxtLink>

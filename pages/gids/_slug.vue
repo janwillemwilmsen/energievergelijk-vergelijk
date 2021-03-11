@@ -38,10 +38,15 @@
           <!-- <main class="w-full max-w-full p-8 prose bg-gray-100 rounded-md"> -->
           <main class="p-8 bg-gray-100 rounded-md">
            
-           <div class="">
-                <img :src="article.logo" :alt="article.title" class="inline float-right w-40 mb-1 mr-8 border-black" />
-                <p v-html="article.introtekst" class="text-2xl">   
-                </p> 
+           <div class="energieleverancier energievergelijker beschrijving details">
+
+ 
+                <img :src="article.logo" :alt="article.title" class="inline float-right w-32 md:w-40 " />
+              
+              
+                <p v-html="article.introtekst" class="text-2xl">  </p>
+     
+    
 <h2>
 {{ article.freefield1 }}
 </h2>
@@ -64,7 +69,7 @@
  
  
 <h2 v-html="article.youtubetitle" ></h2>
-<p v-html="article.youtubeintro"  class="text-2xl"></p>
+<p v-html="article.youtubeintro"  class="pb-8 text-2xl"></p>
 
 <div class="aspect-w-16 aspect-h-9">
 <iframe :src="article.youtubevid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -85,9 +90,7 @@
                                         <nuxt-content :document="article" />
                             </div> -->
           </main>
-         <div class="pt-1 pb-0 mb-0 mr-4 text-sm text-right text-gray-400">
-                Voor het laatst bijgwerkt op: {{ formatDate(article.updatedAt) }}
-          </div>
+        
        </div>
     
 
@@ -102,11 +105,11 @@
 
 
 
+ <div  class="sticky top-0">
          
 <!----ASIDE MAIN---->
-          <aside class="sticky top-0 p-2 border-4 border-gray-300 md:p-8 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
+          <aside class="p-2 border-4 border-gray-300 md:p-8 rounded-xl bg-gradient-to-b from-red-500 to-blue-400">
            
- 
  
   
 
@@ -116,18 +119,18 @@
  komma punt
  -->
 
-            <ul class="flex flex-row flex-wrap text-sm truncate md:flex-col md:text-base">
+            <ul class="flex flex-row flex-wrap text-sm md:flex-col md:text-base">
               <li class="flex-1 m-3 md:m-0" v-if="article.ervaringenklantenvertellen">     
                         <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">
                                       {{ article.ervaringenklantenvertellen }}
 
                                       <!-- {{ article.ervaringenklantenvertellen(num).toLocaleString() }} -->
 
                                     </div>
-                                    <div class="text-sm opacity-75 text-md"> Gem. waardering <br>op Klantenvertellen   </div>
+                                    <div class="text-sm opacity-75 "> Gem. waardering op Klantenvertellen   </div>
                                 </div>
                             </div>
                         </div>
@@ -137,10 +140,10 @@
               
               <li class="flex-1 m-3 md:m-0"  v-if="article.fansfacebook">        
                         <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">{{ article.fansfacebook }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Fans  op Facebook   </div>
+                                    <div class="text-sm opacity-75 "> Fans  op Facebook   </div>
                                 </div>
                             </div>
                         </div>
@@ -151,10 +154,10 @@
             
                <li class="flex-1 m-3 md:m-0"  v-if="article.volgersinstragram">       
                         <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">{{ article.volgersinstragram }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Volgers  op Instragram   </div>
+                                    <div class="text-sm opacity-75 "> Volgers  op Instragram   </div>
                                 </div>
                             </div>
                         </div>
@@ -164,10 +167,10 @@
         
                <li class="flex-1 m-3 md:m-0"  v-if="article.volgerstwitter">         
                        <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">{{ article.volgerstwitter }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Volgers op Twitter   </div>
+                                    <div class="text-sm opacity-75 "> Volgers op Twitter   </div>
                                 </div>
                             </div>
                         </div>
@@ -177,10 +180,10 @@
 
               <li class="flex-1 m-3 md:m-0" v-if="article.volgersyoutube">
                    <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">{{ article.volgersyoutube }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Volgers  op Youtube   </div>
+                                    <div class="text-sm opacity-75 "> Volgers  op Youtube   </div>
                                 </div>
                             </div>
                         </div>            
@@ -188,10 +191,10 @@
 
               <li class="flex-1 m-3 md:m-0">       
                         <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">{{ article.rankalexa }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Wereldwijde website rank    </div>
+                                    <div class="text-sm opacity-75 "> Wereldwijde website rank    </div>
                                 </div>
                             </div>
                         </div>   
@@ -199,10 +202,10 @@
 
               <li class="flex-1 m-3 md:m-0">        
                    <div class="relative">
-                            <div class="w-24 h-24 text-gray-200">
-                                <div class="absolute p-1 pin-t">
+                            <div class="w-32 h-24 text-gray-200">
+                                <div class="absolute p-1">
                                     <div class="text-3xl ">{{ article.paginagoogle }}</div>
-                                    <div class="text-sm opacity-75 text-md"> Pagina's in Google   </div>
+                                    <div class="text-sm opacity-75 "> Pagina's in Google   </div>
                                 </div>
                             </div>
                         </div> 
@@ -226,10 +229,17 @@
                 Naar boven
               </a>
             </div>
-       
+
+
+          </aside>  
+
+          <div class="block pt-1 pb-0 mb-0 mr-4 text-sm text-right text-gray-400 ">
+                Voor het laatst bijgewerkt op: {{ formatDate(article.updatedAt) }}
+          </div>
+          </div>
        <!-- -ml-7 -->
-          </aside>
-        </div>
+        
+      </div>
 
       </div>  <!---end GRID----->
       <!-- </div> -->  <!---END div onder h1---->
@@ -301,7 +311,7 @@ const meta = getSiteMeta();
   }
 </script>
 
-<style>
+<style scoped>
 .bg-circle {
   background: linear-gradient(
     45deg,

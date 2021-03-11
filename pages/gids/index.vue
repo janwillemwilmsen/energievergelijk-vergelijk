@@ -20,7 +20,7 @@
       <div class="flex flex-col min-h-full">
        
           <div class="text-xl text-center"> 
-                <img   :src="article.logo"    height="30"   class="m-4 duration-200 ease-in-out transform hover:scale-110"/>
+                <img   :src="article.logo"    height="10"   class="p-4 duration-200 ease-in-out transform hover:scale-110"/>
             </div>
         
         <div class="flex-grow px-4 pb-4 ">
@@ -31,10 +31,29 @@
         <div class="flex px-5 py-3 bg-gray-100 border-t hover:bg-gray-200">
          
                      <div class="inline w-full px-4 py-2 font-bold text-gray-800 rounded ">
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor"  width="20"  class="inline-block mt-4">
-                          <path  stroke-linecap="round" stroke-linejoin="round"  stroke-width="2" d="M9 5l7 7-7 7"/>
-                        </svg>
-                      <span class="inline underline align-bottom">Lees meer over {{ article.bedrijfsnaam }}</span>
+
+
+                        <div class="flex items-center ">
+                          <div class=" een">
+                            
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor"  width="20"  class="inline-block">
+                                      <path  stroke-linecap="round" stroke-linejoin="round"  stroke-width="2" d="M9 5l7 7-7 7"/>
+                                    </svg>
+                                    
+
+                          </div>
+                          <div class="ml-2  twee">
+
+                                    <div class="underline ">
+                                        Lees meer over {{ article.bedrijfsnaam }}
+                                    </div>
+
+                          </div>
+                        </div>
+
+                    
+                    
                     </div>
 
 

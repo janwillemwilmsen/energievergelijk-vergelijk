@@ -7,7 +7,7 @@ titel: Growth hacker met hands on mentaliteit.
 
 intro: ikvergelijk.nl is een startup in de energiebranche. Wij helpen mensen een eerlijke deal vinden. Om verdere groei te borgen zijn wij op zoek naar creatieve hackers, mensen die anders denken en baanbrekende ideeen bedenken, testen en bij succes doorontwikkelen. De beste ideeen doe ik onder de douche en terwijl ik aan het fietsen ben. Jij bent vrij om te doen en laten wat je wil. Maak een backlog, werk storylines uit, maak een verhaal. Wanneer de handen op elkaar gaan voor jouw idee dan gaan we knallen. 
 
-about: Gefund door drie investeerders wordt hard gebouwd aan een netwerk van 'contentmachines'. Websites die geautomatiseerd verrijkt worden en groeien. Ikvergelijk is de eerste site die in dit collectief gebouwd is. 
+about: 
 
 salaris: 
 

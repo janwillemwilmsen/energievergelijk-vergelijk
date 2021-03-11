@@ -49,9 +49,14 @@
 
 <TheTicker/>
 
-<TheFaqs/>
+<TheBlogTicker/>
+<TheFaqsHomepage/>
+<!-- <TheFaqs/> -->
 
 <!-- http://localhost:3000/_content/articles?only=slug&only=createdAt -->
+
+
+
 <TheCTA/>
 
 
@@ -60,12 +65,14 @@
  
 
 <script>
+import TheFaqsHomepage from '../components/TheFaqs/TheFaqsHomepage.vue'
 
 // CREATED AT werkt niet. Dat wordt vertaald als DATUM VAN LAATST OPGESLAGEN MOMENT.  --> werkt niet  .sortBy('createdAt', 'desc').fetch()
 // OOK OPLETTEN BIJ AANPASSEN VAN DE .MD Files. Die datum in de titel wordt daarna geupdate.
 // Of en dat kan ook. Na aanpassen van de MD's, heb intro met Title toegevoed is de Created at datum weggevallen.
 
   export default {
+  components: { TheFaqsHomepage },
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .only(['title', 'description', 'img', 'slug', 'author']).limit(4)

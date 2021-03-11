@@ -5,21 +5,21 @@
 
   <div class="flex flex-row justify-around ">
     <NuxtLink v-if="prev" :to="{ name: 'gids-slug', params: { slug: prev.slug } }" class=" hover:underline">
-      <div class="p-2 truncate ">
+      <div class="p-2 truncate bg-white bg-opacity-20 rounded-xl">
     
 					 
-						<div class="text-sm text-center opacity-50">
+						<div class="text-sm text-center opacity-50 ">
                   <img src="~assets/svg/chevron-left.svg" width="10" class="inline"/>
 						 Vorige
 						</div> 
-             <img :src="prev.logo" width="100"  class="grayimg">
+             <img :src="prev.logo" width="100"  class="p-1 graylogo">
 
       <!-- {{ prev.title }} -->
       </div>
     </NuxtLink>
     <span v-else>&nbsp;</span>
     <NuxtLink v-if="next" :to="{ name: 'gids-slug', params: { slug: next.slug } }" class=" hover:underline">
-      <div class="p-2 truncate ">
+      <div class="p-2 truncate bg-white bg-opacity-20 rounded-xl">
      
 						<div class="text-sm text-center opacity-50 ">
 				 
@@ -28,7 +28,7 @@
 						<img src="~assets/svg/chevron-right.svg" width="10" class="inline"/>
       			</div> 
 
-      <img :src="next.logo" width="100" class="grayimg">
+      <img :src="next.logo" width="100" class="p-1 graylogo">
       <!-- {{ next.title }} -->
 </div>
     </NuxtLink>
@@ -56,6 +56,6 @@
 
 <style scoped>
 .grayimg {
-    filter: grayscale(100%) opacity(100%);
+   background: white;
 }
 </style>

@@ -26,7 +26,7 @@
 
               <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                  <transition name="fade-away"    mode="out-in">  
-                    <div v-show="show" class="py-8 pl-10 my-6 ml-10 bg-gray-300 rounded opacity-75 content"  itemprop="text">
+                    <div v-show="show" class="py-8 pl-10 my-6 ml-10 bg-white rounded content"  itemprop="text">
                       <slot name="content"></slot>
                     </div>
                   </transition>

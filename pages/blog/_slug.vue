@@ -3,7 +3,7 @@
  
 <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
       <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
-         {{ blog.heading1 }}.
+         {{ blog.heading1 }}
       </h1>
       <div>
  
@@ -17,10 +17,7 @@ Geschreven door:  {{ blog.auteur }} op {{ blog.mooiedatum }} <br>
 </section>
   
   <img :src="blog.afbeelding1" alt="">
-   
-  
-   <br>
-
+ 
  <h2  class="mb-8 text-5xl" v-html="blog.heading2">  </h2>  
 <section  class="text-3xl mycontent"  v-html="blog.paragraaf2">
  
@@ -28,7 +25,21 @@ Geschreven door:  {{ blog.auteur }} op {{ blog.mooiedatum }} <br>
   
 </section>
 <img :src="blog.afbeelding2" alt="">
- 
+
+
+ <h2  class="mb-8 text-5xl" v-html="blog.heading11">  </h2>  
+<section  class="text-3xl mycontent"  v-html="blog.paragraaf11">
+ </section>
+<img :src="blog.afbeelding11" alt="">
+
+
+ <h2  class="mb-8 text-5xl" v-html="blog.heading22">  </h2>  
+<section  class="text-3xl mycontent"  v-html="blog.paragraaf22">
+ </section>
+<img :src="blog.afbeelding22" alt="">
+
+
+
 <div style="display:none;">
 
 MetaDescription:  {{ blog.description }} <br>
@@ -119,6 +130,7 @@ export default {
 div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 3rem;margin-bottom: 2rem;}
 div.container  > img {margin-top: 2rem;margin-bottom: 2rem;}
 
+.nuxt-content h2 {font-size:2em !important;}
 
 section.mycontent > ul {
   list-style: disc;

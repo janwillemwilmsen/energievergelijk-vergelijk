@@ -3,22 +3,123 @@ scenario: tst-1650kwh-235M3-verbruik-1-jaar
 title:  Energiecontract, 1 jaar met laag verbruik (1650kWh, 235M3)  
 description: Vergelijk nu de prijzen van een energiecontract van 1 jaar - laagverbruik  
 image: /logo.png  
-energieleverancier-url:  div-2021-03-07-run-1-  
+energieleverancier-url:  div-2021-03-10-run-1-  
 looptijdcontract: een  
 elektriciteitverbruik: 1650  
 gasverbruik: 235  
 postcode: 3749AC  
 huisnummer: 5  
-createdAt: Tue Mar 09 2021 21:39:58 GMT+0100 (GMT+01:00)  
-createdAt2: 2021-2-9  
+createdAt: Wed Mar 10 2021 17:32:24 GMT+0100 (GMT+01:00)  
+createdAt2: 2021-2-10  
 ---
+scenario: tst-1650kwh-235M3-verbruik-1-jaar  
+title:  Energiecontract, 1 jaar met laag verbruik (1650kWh, 235M3)  
+description: Vergelijk nu de prijzen van een energiecontract van 1 jaar - laagverbruik  
+image: /logo.png  
+energieleverancier-url:  div-2021-03-10-run-1-  
+looptijdcontract: een  
+elektriciteitverbruik: 1650  
+gasverbruik: 235  
+postcode: 3749AC  
+huisnummer: 5  
+createdAt: Wed Mar 10 2021 17:32:24 GMT+0100 (GMT+01:00)  
+createdAt2-wordt-geupdate: 2021-2-10  
+
+## Eneco
+
+<div class="p-2 rounded-md tarievenblok bg-gray-50">
+<div class="table w-full rounded-xl">
+<div class="table-row-group">
+<div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
+<div class="table-cell p-2 uppercase">Leverancier</div>
+<div class="table-cell uppercase">Product</div>
+<div class="table-cell uppercase">Prijs</div>
+</div>
+<div class="table-row result-one hover:bg-gray-100">
+<div class="table-cell py-1 pl-2 border-b border-gray-200">Eneco</div>
+<div class="table-cell border-b border-gray-200">Vrij Opzegbaar</div>
+<div class="table-cell border-b border-gray-200">€ 49,37per maand</div>
+</div>
+<div class="table-row result-two hover:bg-gray-100">
+<div class="table-cell p-1 pl-2 border-b border-gray-200 ">Eneco</div>
+<div class="table-cell border-b border-gray-200">1 Jaar</div>
+<div class="table-cell border-b border-gray-200">€ 46,88per maand</div>
+</div>
+<div class="table-row result-three hover:bg-gray-100">
+<div class="table-cell p-1 pl-2 border-b border-gray-200 ">Eneco</div>
+<div class="table-cell border-b border-gray-200">3 jaar</div>
+<div class="table-cell border-b border-gray-200">€ 46,63per maand</div>
+</div>
+</div>
+</div>
+<div x-data="{show:false}" class="mt-2">
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
+</a>
+<div x-show="show" class="tarievenimg" style="display: none;">
+<div class="mt-4 bg-gray-100 rounded-xl">
+<div class="w-full p-2 text-sm text-center text-gray-400"> om te zien of tarieven correct verwerkt zijn.....</div>
+
+![Vergelijk energietarieven Eneco](/img/el/eneco-tst-1650kwh-235M3-verbruik-1-jaar-week10.png "Vergelijk energietarieven Eneco")
+
+</div></div></div>
+<div class="pl-2 text-sm text-gray-400">
+<a href="/gids/eneco" title="Eneco">> Meer over Eneco</a>
+</div>
+</div>
+<br/>
+
+## Pricewise
+
+<div class="p-2 rounded-md tarievenblok bg-gray-50">
+<div class="table w-full rounded-xl">
+<div class="table-row-group">
+<div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
+<div class="table-cell p-2 uppercase">#</div>
+<div class="table-cell uppercase">Leverancier</div>
+<div class="table-cell uppercase">Prijs</div>
+</div>
+<div class="table-row result-one hover:bg-gray-100">
+<div class="table-cell py-1 pl-2 border-b border-gray-200">1</div>
+<div class="table-cell border-b border-gray-200">Greenchoice</div>
+<div class="table-cell border-b border-gray-200">kosten p.m. €31 ,46 € 377,52 / jaar</div>
+</div>
+<div class="table-row result-two hover:bg-gray-100">
+<div class="table-cell p-1 pl-2 border-b border-gray-200">2</div>
+<div class="table-cell border-b border-gray-200">Budget Energie</div>
+<div class="table-cell border-b border-gray-200">kosten p.m. €33 ,11 € 397,36 / jaar</div>
+</div>
+<div class="table-row result-three hover:bg-gray-100">
+<div class="table-cell p-1 pl-2 border-b border-gray-200">3</div>
+<div class="table-cell border-b border-gray-200">Powerpeers</div>
+<div class="table-cell border-b border-gray-200">kosten p.m. €33 ,26 € 399,07 / jaar</div>
+</div>
+</div>
+</div>
+<div x-data="{show:false}" class="mt-2">
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
+</a>
+<div x-show="show" class="tarievenimg" style="display: none;">
+<div class="mt-4 bg-gray-100 rounded-xl">
+<div class="w-full p-2 text-sm text-center text-gray-400"> om te zien of tarieven correct verwerkt zijn.....</div>
+
+![Vergelijk Pricewise](/img/el/pricewise-tst-1650kwh-235M3-verbruik-1-jaar-week10.png "Vergelijk Pricewise")
+
+</div></div></div>
+<div class="pl-2 text-sm text-gray-400">
+<a href="/gids/pricewise" title="Pricewise">> Meer over Pricewise</a>
+</div>
+</div>
+<br/>
+
 ## Independer
 
 <div class="p-2 rounded-md tarievenblok bg-gray-50">
 <div class="table w-full rounded-xl">
 <div class="table-row-group">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-<div class="table-cell p-2 uppercase">blah</div>
+<div class="table-cell p-2 uppercase">#</div>
 <div class="table-cell uppercase">Leverancier+Product</div>
 <div class="table-cell uppercase">Prijs</div>
 </div>
@@ -39,9 +140,9 @@ createdAt2: 2021-2-9
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2 ">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<div x-data="{show:false}" class="mt-2">
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
@@ -51,9 +152,10 @@ createdAt2: 2021-2-9
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/independer" title="Independer">Meer over Independer</a>
+<a href="/gids/independer" title="Independer">> Meer over Independer</a>
 </div>
 </div>
+<br/>
 
 ## Easyswitch
 
@@ -61,7 +163,7 @@ createdAt2: 2021-2-9
 <div class="table w-full rounded-xl">
 <div class="table-row-group">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-<div class="table-cell p-2 uppercase">Leverancier</div>
+<div class="table-cell p-2 uppercase"># Leverancier</div>
 <div class="table-cell uppercase">Product</div>
 <div class="table-cell uppercase">Prijs</div>
 </div>
@@ -83,20 +185,21 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
-<div class="mt-4 bg-gray-100 rounded-xl ">
+<div class="mt-4 bg-gray-100 rounded-xl">
 <div class="w-full p-2 text-sm text-center text-gray-400"> om te zien of tarieven correct verwerkt zijn.....</div>
 
 ![Vergelijk Easyswitch](/img/el/easyswitch-tst-1650kwh-235M3-verbruik-1-jaar-week10.png "Vergelijk Easyswitch")
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/easyswitch" title="Easyswitch">Meer over Easyswitch</a>
+<a href="/gids/easyswitch" title="Easyswitch">> Meer over Easyswitch</a>
 </div>
 </div>
+<br/>
 
 ## Essent
 
@@ -104,7 +207,7 @@ createdAt2: 2021-2-9
 <div class="table w-full rounded-xl">
 <div class="table-row-group">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-<div class="table-cell p-2 uppercase">Leverancier Product</div>
+<div class="table-cell p-2 uppercase">Leverancier + Product</div>
 <div class="table-cell uppercase">Korting/cadeau</div>
 <div class="table-cell uppercase">Prijs</div>
 </div>
@@ -126,8 +229,8 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
@@ -136,9 +239,10 @@ createdAt2: 2021-2-9
 ![Vergelijk energietarieven Essent](/img/el/essent-tst-1650kwh-235M3-verbruik-1-jaar-week10.png "Vergelijk energietarieven Essent")
 
 </div></div></div><div class="pl-2 text-sm text-gray-400">
-<a href="/gids/essent" title="Essent">Meer over Essent</a>
+<a href="/gids/essent" title="Essent">> Meer over Essent</a>
 </div>
 </div>
+<br/>
 
 ## energiedirect.nl
 
@@ -158,8 +262,8 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
@@ -169,9 +273,10 @@ createdAt2: 2021-2-9
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/energiedirect" title="energiedirect.nl">Meer over energiedirect.nl</a>
+<a href="/gids/energiedirect" title="energiedirect.nl">> Meer over energiedirect.nl</a>
 </div>
 </div>
+<br/>
 
 ## energievergelijk.nl
 
@@ -179,7 +284,7 @@ createdAt2: 2021-2-9
 <div class="table w-full rounded-xl">
 <div class="table-row-group">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-<div class="table-cell p-2 uppercase">Leverancier</div>
+<div class="table-cell p-2 uppercase"># Leverancier</div>
 <div class="table-cell uppercase">Product</div>
 <div class="table-cell uppercase">Prijs</div>
 </div>
@@ -201,8 +306,8 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
@@ -212,9 +317,10 @@ createdAt2: 2021-2-9
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/energievergelijk" title="energievergelijk">Meer over energievergelijk.nl</a>
+<a href="/gids/energievergelijk" title="energievergelijk">> Meer over energievergelijk.nl</a>
 </div>
 </div>
+<br/>
 
 ## Gaslicht
 
@@ -222,7 +328,7 @@ createdAt2: 2021-2-9
 <div class="table w-full rounded-xl">
 <div class="table-row-group">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-<div class="table-cell p-2 uppercase">Leverancier</div>
+<div class="table-cell p-2 uppercase"># Leverancier</div>
 <div class="table-cell uppercase">Product</div>
 <div class="table-cell uppercase">Prijs</div>
 </div>
@@ -244,20 +350,21 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
 <div class="w-full p-2 text-sm text-center text-gray-400"> om te zien of tarieven correct verwerkt zijn.....</div>
-
+  
 ![Vergelijk gaslicht](/img/el/gaslicht-tst-1650kwh-235M3-verbruik-1-jaar-week10.png "Vergelijk energietarieven gaslicht")
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/gaslicht" title="Gaslicht">Meer over Gaslicht</a>
+<a href="/gids/gaslicht" title="Gaslicht">> Meer over Gaslicht</a>
 </div>
 </div>
+<br/>
 
 ## Vandebron
 
@@ -287,8 +394,8 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
@@ -298,9 +405,10 @@ createdAt2: 2021-2-9
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/vandebron" title="Vandebron">Meer over Vandebron</a>
+<a href="/gids/vandebron" title="Vandebron">> Meer over Vandebron</a>
 </div>
 </div>
+<br/>
 
 ## Vattenfall
 
@@ -312,7 +420,7 @@ createdAt2: 2021-2-9
 <div class="table-cell uppercase">Product</div>
 <div class="table-cell uppercase">Prijs</div>
 </div>
-<div class="table-row result-one hover:bg-gray-100 ">
+<div class="table-row result-one hover:bg-gray-100">
 <div class="table-cell py-1 pl-2 border-b border-gray-200">Vattenfall</div>
 <div class="table-cell border-b border-gray-200">VastePrijsEnergie met Bol.com bon t.w.v. € 300 tot 1 jaar</div>
 <div class="table-cell border-b border-gray-200">€ 45,50</div>
@@ -320,8 +428,8 @@ createdAt2: 2021-2-9
 </div>
 </div>
 <div x-data="{show:false}" class="mt-2">
-<a x-on:click.prevent="show=!show" x-text="show ? 'Verberg schermprint' : 'Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
-<div>Toon schermprint</div>
+<a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
+<div>   > Toon schermprint </div>
 </a>
 <div x-show="show" class="tarievenimg" style="display: none;">
 <div class="mt-4 bg-gray-100 rounded-xl">
@@ -331,6 +439,7 @@ createdAt2: 2021-2-9
 
 </div></div></div>
 <div class="pl-2 text-sm text-gray-400">
-<a href="/gids/vattenfall" title="Vattenfall">Meer over Vattenfall</a>
+<a href="/gids/vattenfall" title="Vattenfall">> Meer over Vattenfall</a>
 </div>
 </div>
+<br/>
