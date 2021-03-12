@@ -5,9 +5,14 @@
       :animationData="require('@/assets/lottie-atom.json')"
       :loop="true"
       :autoPlay="true"
-
+       
     />
   </div>
+<!-- 
+WERKT NIET
+:width="256"
+:height="256" -->
+
 
       <!-- @loopComplete="loopComplete"
       @complete="complete"

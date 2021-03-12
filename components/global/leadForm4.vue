@@ -21,7 +21,7 @@
         </h2>
 
   <div><p class="w-3/4 p-4 mx-auto text-base font-semibold tracking-tight md:text-1xl lg:text-3xl ">  
-  Bespaar jezelf de irritatie. Bespaar jezelf tijd. Wij vergelijken voor je.
+  Bespaar jezelf de irritatie. Bespaar jezelf tijd.<br> Wij vergelijken voor je.
    
     
   </p></div>

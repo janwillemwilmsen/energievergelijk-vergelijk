@@ -2,18 +2,17 @@
  
  
  <footer class="text-gray-400 bg-gray-900 body-font">
-  <div class="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
+  <div class="container flex flex-col items-center px-5 py-8 mx-auto md:items-baseline sm:flex-row">
     <a href="/" title="Vergelijk energievergelijkers" class="flex items-center justify-center font-medium text-white title-font md:justify-start">
    
 
  <!-- <TheAnimation />   -->
- <TheAnimationAtom />  
+ <TheAnimationAtom  style="width:50%;height:50%;" class="-mt-10 " />  
     
-    
-      <span class="ml-3 text-xl"></span>
+     
     </a>
-    <p class="inline m-4 text-sm text-gray-400">
-      © 2021  
+    <p class="inline text-sm text-gray-400">
+      ©2021  
       
      
 
