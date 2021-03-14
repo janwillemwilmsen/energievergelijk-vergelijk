@@ -23,11 +23,11 @@ linknaaryoutube2: https://socialstats.info/report/independer/youtube
 linknaarfacebook2: https://socialstats.info/report/Independer.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/independer  
 volgersyoutube: '13'  
-volgersinstragram: '617'  
-volgerstwitter: '8.058'  
-fansfacebook: '33.696'  
-rankalexa: '103.790'  
-paginagoogle: '173.000'  
+volgersinstragram: '631'  
+volgerstwitter: '8.051'  
+fansfacebook: '33.694'  
+rankalexa: '102.112'  
+paginagoogle: '136.000'  
 youtubetitle: De laagste energieprijzen ooit  
 youtubeintro: In mei 2020.   
 youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk  
@@ -36,6 +36,7 @@ youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk
  
 
 
+- Op 18 februari 2021 [Meer starters kiezen voor aflossingsvrije hypotheek](https://weblog.independer.nl/persbericht/meer-starters-kiezen-voor-aflossingsvrije-hypotheek/)
 - Op 3 februari 2021 [Premie autoverzekering stijgt door in 2020, vooral BMW-rijders de klos](https://weblog.independer.nl/persbericht/premie-autoverzekering-stijgt-door-in-2020-vooral-bmw-rijders-de-klos/)
 - Op 18 januari 2021 [Independer is gestart in België](https://weblog.independer.nl/persbericht/independer-is-gestart-in-belgie/)
 - Op 30 december 2020 [Kwart Nederlanders niet naar de tandarts sinds corona](https://weblog.independer.nl/persbericht/kwart-nederlanders-niet-naar-de-tandarts-sinds-corona/)
@@ -44,4 +45,3 @@ youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk
 - Op 8 december 2020 [Collectief verzekerden met enkel basisverzekering kunnen samen bijna 100 miljoen aan zorgpremie besparen](https://weblog.independer.nl/persbericht/collectief-verzekerden-met-enkel-basisverzekering-kunnen-samen-bijna-100-miljoen-aan-zorgpremie-besparen/)
 - Op 4 december 2020 [Spot de BN-er in de nieuwste Independer spot](https://weblog.independer.nl/persbericht/spot-de-bn-er-in-de-nieuwste-independer-spot/)
 - Op 30 november 2020 [Meeste autobezitters laten premiebesparing liggen bij verhuizing](https://weblog.independer.nl/persbericht/meeste-autobezitters-laten-premiebesparing-liggen-bij-verhuizing/)
-- Op 14 november 2020 [Limburg dikst bezaaid met fysiotherapeuten](https://weblog.independer.nl/persbericht/limburg-dikst-bezaaid-met-fysiotherapeuten/)

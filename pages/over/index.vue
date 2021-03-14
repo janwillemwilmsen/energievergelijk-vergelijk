@@ -3,21 +3,24 @@
   <!-- <h1 class="">Hello {{ name }}!</h1> -->
  <template>
  <div>
+  
 
-<header class="sticky top-0 z-50 font-bold text-gray-200 bg-pink-700 body-font">
+
+  
+<div class="sticky top-0 z-50 font-bold text-gray-200 bg-pink-700">
   <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row ">
     
-    <nav class="z-50 flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto bg">
+  <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto bg">
       <a href="#ons" class="mr-5 hover:text-gray-900">Over ons</a>
       <a href="#team" class="mr-5 hover:text-gray-900">Team</a>
       <a href="#vacatures" class="mr-5 hover:text-gray-900">Vacatures</a>
-      <a href="#stats" class="mr-5 hover:text-gray-900">Statistieken</a>
-      <!-- <a href="" class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+      <a href="#contact" class="mr-5 hover:text-gray-900">Contact</a>
     </nav>
      
   </div>
-</header>
+</div>  
 
+      <!-- <a href="" class="mr-5 hover:text-gray-900">Fourth Link</a> -->
 
 
 <a name="ons"></a>
@@ -95,24 +98,30 @@
 
 
 <!-- The dog -->
-<section class="bg-gray-700">
-<div class="container py-24 mx-auto ">
-    <div class="mb-4 text-right opacity-90">
+<section class="py-8 bg-green-600">
+  <div class="h-full bg-right bg-no-repeat "  style="background-image: url(https://placedog.net/240/320);opacity: 0.6;"  >
+    
+
+   
+            <!-- <img alt="profil" src="https://placedog.net/540/320" width="540" class="relative float-right w-full mx-auto -mr-20 rounded-full " /> -->
         
-            <img alt="profil" src="https://placedog.net/540/320" class="float-right object-cover mx-auto -mr-20 rounded-full w-120 h-120 "/>
-         
-    </div>
-    <div class="">
-        <p class="pt-12 text-3xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-9xl opacity-60">
+    
+    <div class="ml-12 md:ml-24 sm:px-12">
+        <p class="pt-12 text-5xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-7xl opacity-90">
             Wolf, de office waakhond ;-)  
         </p>
-          <p class="pt-12 text-3xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-5xl opacity-60">
+        
+        <p class="w-5/12 pt-12 text-xl font-extrabold leading-none tracking-tight text-gray-600 md:w-8/12 lg:text-5xl opacity-80">
         Knauwen als de beste, blaffen als een baas, piesen als een malle. Guardian of mental and fysieke gezondheid.
         </p>
-        <p class="mt-10 text-3xl font-extrabold leading-none tracking-tight text-gray-600 pb-36 lg:text-5xl opacity-60">
+        <p class="w-5/12 pt-12 text-xl font-extrabold leading-none tracking-tight text-gray-600 md:w-8/12 pb-36 lg:text-5xl opacity-80">
         Oke, ik geef het toe. We hadden hier net zo goed een koffiezetapparaat kunnen plaatsen.
         </p>
     </div>
+
+   
+
+
 </div>
 </section>
 
@@ -144,16 +153,16 @@
 </section>
 
 <!-- The Stats -->
-<section>
+<section class="bg-gray-200" id="contact">
   <div class="container py-24 mx-auto ">
-<a name="stats"></a>
+<!-- <a name="contact"></a> -->
 
 
 
-<h2 class="w-full mx-auto mb-4 text-5xl font-extrabold leading-none tracking-tight text-center text-gray-600">Contact</h2>
+<h2 class="w-full mx-auto mb-8 text-5xl font-extrabold leading-none tracking-tight text-center text-gray-600">Contact</h2>
 
 
-<contact/>
+<TheContact/> 
 
 
 <!-- <h2 class="w-full mx-auto mb-4 text-5xl font-extrabold leading-none tracking-tight text-center text-gray-600">Obligatoire, niets zeggende, statistieken</h2> -->

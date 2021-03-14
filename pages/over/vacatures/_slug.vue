@@ -1,30 +1,43 @@
 <template>
 <article class="mx-auto bg-gray-200">
-    <a name="top"></a>
+    <!-- <a name="top"></a> -->
 
-    <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
-      <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">  {{vacature.vacaturenaam}}.</h1>
-      <p class="mt-8 text-2xl">
-     {{ vacature.titel }}
+<div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
+    
+    
+    
+      <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
+            Vacature:   {{vacature.vacaturenaam}}.
+      </h1>
+     
+      <p class="my-8 text-2xl">
+                {{ vacature.titel }}
       </p>
-  <div>
-        <h1 class="text-xl ">
-           
-         </h1>
+  
+  
+      <div>
+          <p class="mb-4 text-xl">
+                {{ vacature.intro   }}
+          </p>
 
- 
+          <p class="mb-4 text-xl">
+               {{ vacature.about   }}
+          </p>
+
+          <p class="mb-4 text-xl">
+               {{ vacature.salaris }}
+          </p>
+
+          <p class="mb-4 text-xl">
+               {{ vacature.procedure }}
+          </p>
   
 
-
-{{ vacature.intro   }}<br><br>
-{{ vacature.about   }}<br><br>
-{{ vacature.salaris }}<br><br>
-{{ vacature.procedure }}<br><br>
-
+ 
 <br>
-
-
-
+ <p class="my-8 text-2xl">
+Interesse? <nuxt-link :to="{ path:'/over', hash:'#contact'}"  @click.native="scroll">Neem contact op!</nuxt-link><br><br>
+</p>
  
 
 
@@ -104,6 +117,14 @@ export default {
       ]
     }
   },
+
+
+  methods: {
+    scroll() {
+      // your scroll function, probably reading document.documentElement.scrollTop or similar
+    // if necessary check this.$route if the hash is already present, if so only do it in that case...
+    }
+    }
 
 }
 </script>

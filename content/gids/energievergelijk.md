@@ -3,15 +3,15 @@ bedrijfsnaam: energievergelijk
 website: energievergelijk.nl   
 title: energievergelijk.nl  
 logo: /merken/snelste_energievergelijk.png  
-introtekst: DUMMY   
-freefield1: DUMMY  
-freefield2: DUMMY  
-freefield3: DUMMY  
-freefield4: DUMMY  
-freefield5: DUMMY  
-freefield6: DUMMY  
+introtekst: Van dezelfde makers als creditcard.nl (https://www.humbird.nl/ - div vergelijkers.)  
+freefield1:   
+freefield2:   
+freefield3:   
+freefield4:   
+freefield5:   
+freefield6:   
 linknaargoogleserp: https://www.google.nl/search?q=site%3Aenergievergelijk.nl  
-linknaarfacebook: https://www.facebook.com/Energievergelijker.nl/  
+linknaarfacebook: https://www.facebook.com/KennisbankEnergie/  
 linknaartwitter:   
 linknaaryoutube:   
 linknaarinstragram:   
@@ -22,11 +22,11 @@ linknaarinstragram2:
 linknaaryoutube2:   
 linknaarfacebook2:   
 linknaartwitter2:   
-fansfacebook: '1.147'  
-rankalexa: '4.421.823'  
-paginagoogle: '424'  
+fansfacebook: '6'  
+rankalexa: '4.404.963'  
+paginagoogle: '406'  
 youtubetitle: Bekijk energievergelijker video niet  
-youtubeintro: Geen video gevonden. Fijn alternatiefje geplaatst. 
+youtubeintro: Geen video gevonden. Fijn alternatiefje geplaatst.  
 youtubevid: https://www.youtube-nocookie.com/embed/nu8-7huFyvo  
 ---
 

@@ -123,21 +123,21 @@ components: {TheAnimationThumbs},
           },
               {
             label: "Stroomverbruik(kWh)p.m.?",
-            type: "text",
+            type: "number",
             name:"",
             value: "",
             pattern: /^[0-9]+$/
           },
                {
             label: "Gasverbruik(m3) p.m.?",
-            type: "text",
+            type: "number",
             name:"",
             value: "",
             pattern: /^[0-9]+$/
           },
           {
             label: "Wat is je emailadres?",
-            type: "text",
+            type: "email",
             name:"",
             value: "",
             pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/

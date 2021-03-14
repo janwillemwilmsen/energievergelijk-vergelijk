@@ -77,7 +77,7 @@
  
  <h2>Laatste {{ article.title }} nieuws</h2>
  
-<nuxt-content :document="article" />
+<nuxt-content :document="article" class="nieuws" />
  
 
 
@@ -311,7 +311,8 @@ const meta = getSiteMeta();
   }
 </script>
 
-<style scoped>
+
+<style>
 .bg-circle {
   background: linear-gradient(
     45deg,

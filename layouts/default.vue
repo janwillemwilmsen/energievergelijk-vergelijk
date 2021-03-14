@@ -4,7 +4,7 @@
     <nuxt />
      <TheFooter />
 
-     <CookieControl/>
+     <CookieControl class="print:hidden"/>
 
   </div>
 </template>
@@ -24,3 +24,5 @@ export default {
   
 };
 </script>
+
+ 

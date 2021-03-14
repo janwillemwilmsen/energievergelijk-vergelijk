@@ -1,7 +1,7 @@
  <template>
  
  
- <footer class="text-gray-400 bg-gray-900 body-font">
+ <footer class="text-gray-400 bg-gray-900 body-font print:hidden">
   <div class="container flex flex-col items-center px-5 py-8 mx-auto md:items-baseline sm:flex-row">
     <a href="/" title="Vergelijk energievergelijkers" class="flex items-center justify-center font-medium text-white title-font md:justify-start">
    

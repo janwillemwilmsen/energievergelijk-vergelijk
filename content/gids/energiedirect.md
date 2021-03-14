@@ -24,12 +24,12 @@ linknaaryoutube2: https://socialstats.info/report/energiedirect/youtube
 linknaarfacebook2: https://socialstats.info/report/energiedirect.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/energiedirect  
 ervaringenklantenvertellen: 8,2  
-volgersyoutube: '789'  
-volgersinstragram: '3.230'  
-volgerstwitter: '4.856'  
-fansfacebook: '26.558'  
-rankalexa: '687.014'  
-paginagoogle: '416'  
+volgersyoutube: '788'  
+volgersinstragram: '3.236'  
+volgerstwitter: '4.867'  
+fansfacebook: '26.592'  
+rankalexa: '562.872'  
+paginagoogle: '421'  
 youtubetitle: Lage energietarieven bij energiedirect  
 
 youtubeintro: Vergelijk ze zelf!  

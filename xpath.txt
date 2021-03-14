@@ -16,8 +16,20 @@ In map : Gids : node runGidsApi = download gegevens van GoogleSheets + maak 'goo
 (checken of files  overschreven worden en niet aangevuld worden. )
 
 
+    "gidsv": "npm-run-all -s gids1 gids2 gids3 gids4 gids5",
+    "gids1": "node ./gids/easyswitch.js",
+    "gids2": "node ./gids/independer.js",
+    "gids3": "node ./gids/pricewise.js",
+    "gids4": "node ./gids/gaslicht.js",
+    "gids5": "node ./gids/energievergelijk.js",
 
 
+    "gidse": "npm-run-all -s gids6 gids7 gids8 gids9 gids10"
+    "gids6": "node ./gids/eneco.js",
+    "gids7": "node ./gids/essent.js",
+    "gids8": "node ./gids/vandebron.js",
+    "gids9": "node ./gids/energiedirect.js",
+    "gids10": "node ./gids/vattenfall.js",
 
 
 

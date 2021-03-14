@@ -3,13 +3,13 @@ bedrijfsnaam: essent
 website: essent.nl   
 title: Essent  
 logo: /merken/snelste_essent.png  
-introtekst: Essent is de grootste energieleverancier van Nederland.  
-freefield1: Energie korting  
-freefield2:   
-freefield3: Telefoon Essent  
-freefield4:   
-freefield5:   
-freefield6:   
+introtekst: Essent is een Nederlandse energiemaatschappij. Opgericht in 1909 met het hoofdkantoor in ’s-Hertogenbosch. In 1999  ontstond na samenvoeging van EDON en PNEM/Mega Groep de naam Essent eigenlijk pas écht. 2009 was een bewogen jaar. Het netwerkbedrijf van Essent werd afgesplitst en ging verder onder de naam Enexis waarna Essent werd verkocht aan het Duitse RWE. In 2016 werd Essent verkocht aan Innogy en sinds 2020 is E.ON het moederbedrijf geworden. Essent produceert, verhandelt en levert energie.  
+freefield1: Additionele energie gerelateerde zaken  
+freefield2: Buiten de levering van energie biedt Essent ook zonnepanelen, cv-ketels, warmtepompen, isolatie en andere verduurzamende en energiebesparende producten aan.  
+freefield3: Essent servicepartners en energiedirect.nl  
+freefield4: Essent is eigenaar van Isoprofs, Nederland Isoleert, Energiewacht Groep, Energiewacht, Geas Energiewacht, Klimaatroute, Volta Solar, EnergieWonen, Volta Limburg, CVtotaal.nl en ZON7. Daarnaast is Essent ook volledig eigenaar van prijsvechter energiedirect.nl
+freefield5: Contact met Essent  
+freefield6: Via de website van Essent kun je een bericht naar klantenservice sturen via Facebook en Twitter. De klantenservice is telefonisch te bereiken via 0900-1550 op werkdagen tussen 08:00 en 18:00.  
 linknaargoogleserp: https://www.google.nl/search?q=site%3Aessent.nl  
 linknaarfacebook: https://www.facebook.com/Essent/  
 linknaartwitter: https://foller.me/essent  
@@ -25,11 +25,11 @@ linknaarfacebook2: https://socialstats.info/report/essent/facebook
 linknaartwitter2: https://followerwonk.com/analyze/essent  
 ervaringenklantenvertellen: 7,8  
 volgersyoutube: '272'  
-volgersinstragram: '2.073'  
-volgerstwitter: '11.144'  
-fansfacebook: '78.531'  
-rankalexa: '335.113'  
-paginagoogle: '4.340'  
+volgersinstragram: '2.091'  
+volgerstwitter: '11.150'  
+fansfacebook: '78.571'  
+rankalexa: '391.012'  
+paginagoogle: '4.270'  
 youtubetitle: Dynamische energieprijzen met een slimme energiemeter  
 youtubeintro: Wat is nou een slimme meter, wat zijn de voordelen van een slimme meter voor jou en voor de netbeheerder. Betaal ik nu meer of minder voor mijn energie als ik een slimme meter heb. Meer over slimme meters en dynamische energieprijzen in de video van Essent.  
 youtubevid: https://www.youtube-nocookie.com/embed/EfLX2FJLHQE  

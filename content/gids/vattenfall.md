@@ -22,12 +22,12 @@ linknaarinstragram2: https://socialstats.info/report/vattenfallnl/instagram
 linknaaryoutube2: https://socialstats.info/report/vattenfall/youtube  
 linknaarfacebook2: https://socialstats.info/report/vattenfallnederland/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vattenfallNL  
-volgersyoutube: '946'  
-volgersinstragram: '3.012'  
-volgerstwitter: '5.654'  
-fansfacebook: '81.216'  
-rankalexa: '218.014'  
-paginagoogle: '2.660'  
+volgersyoutube: '951'  
+volgersinstragram: '3.026'  
+volgerstwitter: '5.658'  
+fansfacebook: '81.198'  
+rankalexa: '257.563'  
+paginagoogle: '2.940'  
 youtubetitle: Sponsoring Nuon/Vattenfall zonnepanelen auto  
 
 youtubeintro: Racen op zonneenergie, powered by Vattenfall. Bekijk de video voor meer...  
@@ -37,11 +37,11 @@ youtubevid: https://www.youtube-nocookie.com/embed/kHnbo246WcQ
 
 
 - Op 15 februari 2021 [Toprating voor Vattenfalls duurzaamheidsprestaties](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/toprating-voor-vattenfalls-duurzaamheidsprestaties)
+- Op 8 maart 2021 [Internationale Vrouwendag: deel je verhaal](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/internationale-vrouwendag-deel-je-verhaal)
+- Op 4 maart 2021 [1 op de 4 woningen al minimaal 2 energielabels verbeterd](https://group.vattenfall.com/nl/newsroom/persbericht/2021/1-op-de-4-woningen-al-minimaal-2-energielabels-verbeterd)
+- Op 3 maart 2021 [Een Waterstofpact voor een nieuw kabinet](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/een-waterstofpact-voor-een-nieuw-kabinet)
 - Op 22 februari 2021 [Samenwerken via hackathons in een innovatief ecosysteem](https://group.vattenfall.com/nl/newsroom/interview/2021/samenwerken-via-hackathons-in-een-innovatief-ecosysteem)
 - Op 22 februari 2021 [Vattenfall en Van Oord tekenen vierjarige raamovereenkomst voor onderhoud windparken op zee](https://group.vattenfall.com/nl/newsroom/persbericht/2021/Vattenfall-en-Van-Oord-tekenen-vierjarige-raamovereenkomst-voor-onderhoud-windparken-op-zee)
 - Op 17 februari 2021 [Gemeente en provincie willen met Eneco en Vattenfall zoeken naar aardwarmte](https://group.vattenfall.com/nl/newsroom/persbericht/2021/gemeente-en-provincie-willen-met-eneco-en-vattenfall-zoeken-naar-aardwarmte)
 - Op 12 februari 2021 [Vattenfall Solar Team niet naar Australië, World Solar Race afgelast](https://group.vattenfall.com/nl/newsroom/persbericht/2021/vattenfall-solar-team-niet-naar-australie-world-solar-race-afgelast)
 - Op 4 februari 2021 [Nieuw Vattenfall Solar Team gaat vol voor revanche in zonnerace Australië](https://group.vattenfall.com/nl/newsroom/persbericht/2021/nieuw-vattenfall-solar-team-gaat-vol-voor-revanche-in-zonnerace-australie)
-- Op 2 februari 2021 [“Zonneparken blijven belangrijke rol spelen in onze strategie”](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/zonneparken-blijven-belangrijke-rol-spelen-in-onze-strategie)
-- Op 1 februari 2021 [Volledig elektrische zware truck daagt het arctische klimaat uit](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/volledig-elektrische-zware-truck-daagt-het-arctische-klimaat-uit)
-- Op 28 januari 2021 [Eerste turbine van offshore windpark Kriegers Flak geplaatst](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/eerste-turbine-van-offshore-windpark-kriegers-flak-geplaatst)

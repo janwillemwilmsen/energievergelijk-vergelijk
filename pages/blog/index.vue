@@ -8,17 +8,23 @@
         Random rants, gedachten en opmerkelijke constateringen.
       </p>
 
- <ul class="max-w-4xl mt-8">
-                       
-                       
-                        <li v-for="blog of blogs" :key="blog.slug" class="py-4 pl-4 my-4 bg-white border border-gray-500 border-opacity-25 shadow-md rounded-xl">
-                             <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }"> 
-                              
-                                <p>{{ blog.title }}</p>
-                            </NuxtLink> 
-                        </li>
-                        
-                  </ul>
+ <div v-for="blog of blogs" :key="blog.slug" class="self-center p-2 m-2 mx-auto text-black align-middle transition duration-500 ease-in-out bg-white border-2 border-gray-800 border-opacity-25 border-dashed shadow-lg bg-opacity-80 rounded-xl h-100 ">
+     
+        <img :src="blog.giphy"/> 
+
+          <span class="text-sm text-gray-400 ">
+              {{blog.mooiedatum}}  
+          </span>
+              <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
+                    <!-- <img :src="bed.logo" width="150" alt="img"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/> -->
+                <h4 class="text-3xl ">{{ blog.title }}</h4>
+
+
+               <p class="text-lg line-clamp-1 ">  {{blog.paragraaf1}}</p>
+                <div class="font-bold tracking-tighter text-gray-600 underline">Lees meer</div>
+
+              </NuxtLink>
+      </div>
 <!-- <the-blog-all/> -->
 
 </div>
@@ -48,7 +54,9 @@ Wel inhoud:      http://localhost:3000/blog.json
 
  async asyncData({ $content, params }) {
     // fetch our article here
-    const blogs = await $content("blogs", params.slug).fetch();
+    const blogs = await $content("blogs", params.slug)
+    .sortBy('date', 'desc')
+    .fetch();
 
     return { blogs };
   }

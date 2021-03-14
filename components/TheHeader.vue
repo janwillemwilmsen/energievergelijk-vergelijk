@@ -72,7 +72,7 @@
             </a>
    
    
-   <div class="z-10 mx-auto mt-20 md:mr-2 md:mt-0">
+   <div class="z-10 mx-auto mt-20 md:mr-2 md:mt-0 print:hidden">
 
 
    
