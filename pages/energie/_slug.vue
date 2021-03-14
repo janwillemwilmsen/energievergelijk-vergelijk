@@ -191,7 +191,9 @@ body {
 }
 
  /* .nuxt-content ul li:nth-child(odd)  { background-color:gray; color:wheat }
- .nuxt-content ul li:nth-child(even)  { color:red } */
+ .nuxt-content ul li:nth-child(even)  { color:red } 
+ 
+ */
    
 
 h2 .icon.icon-link {
