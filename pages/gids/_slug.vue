@@ -313,13 +313,13 @@ const meta = getSiteMeta();
 
 
 <style>
-.bg-circle {
+/* .bg-circle {
   background: linear-gradient(
     45deg,
     white 0%,
     transparent 80%
   );
-}
+} */
 
  h2 {color: #111827;
     font-weight: 700;
@@ -328,11 +328,11 @@ const meta = getSiteMeta();
     margin-bottom: 1em;
     line-height: 1.3333333;
 }
-.nuxt-content ul li::before {width:0px;} 
-.nuxt-content ul {list-style: none !important; list-style-type: none !important; margin: 0; padding: 0; font-size:12px; }
-.nuxt-content ul li:nth-child(odd)  { list-style-type: none !important; background-color:lightgray;padding:10px; }
-.nuxt-content ul li:nth-child(even)  {list-style-type: none !important; background-color: white; z-index: 999; padding:10px; }
+.nuxt-content .nieuws ul li::before {width:0px;} 
+.nuxt-content .nieuws ul {list-style: none !important; list-style-type: none !important; margin: 0; padding: 0; font-size:12px; }
+.nuxt-content .nieuws ul li:nth-child(odd)  { list-style-type: none !important; background-color:lightgray;padding:10px; }
+.nuxt-content .nieuws ul li:nth-child(even)  {list-style-type: none !important; background-color: white; z-index: 999; padding:10px; }
 
- .nuxt-content ul li a  {display: block; font-size:1rem; }
+ .nuxt-content .nieuws  ul li a  {display: block; font-size:1rem; }
  
 </style>
