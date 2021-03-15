@@ -21,7 +21,7 @@
                   <ul class="max-w-4xl mt-8">
                         <li v-for="article of articles" :key="article.slug" class="py-4 pl-4 my-4 bg-white border border-gray-500 border-opacity-25 shadow-md rounded-xl">
                             <NuxtLink :to="{ name: 'energie-slug', params: { slug: article.slug } }">
-                                <p>{{ article.title }}</p>
+                                <p>{{ article.title }} - {{ formatDate(article.createdAt) }}</p>
                             </NuxtLink>
                         </li>
                   </ul>
@@ -50,6 +50,13 @@
 // OOK OPLETTEN BIJ AANPASSEN VAN DE .MD Files. Die datum in de titel wordt daarna geupdate.
 
 export default {
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("nl", options);
+    },
+  },
+
     async asyncData({ $content, params }) {
       const articles = await $content('articles', params.slug)
         .only(['title', 'createdAt', 'slug', 'author']).sortBy('slug', 'desc').fetch()

@@ -58,6 +58,27 @@ Slug  {{ blog.slug }} <br>
   {{ blog.veld44 }} <br>
 </div>
 
+ <!-- <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "{{ blog.title }}",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "{{createdAt}}",
+      "dateModified": "{{updatedAt}}"
+    }
+    </script> -->
+
+
+ 
+
+
+
+
   </div>
     
      
@@ -127,6 +148,10 @@ export default {
 
 <style>
 /* p.mycontent > h2{font-size: 2rem !important;margin-top: 0.5rem;margin-bottom: 0.5rem;} */
+
+
+
+/* 
 div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 3rem;margin-bottom: 2rem;}
 div.container  > img {margin-top: 2rem;margin-bottom: 2rem;}
 
@@ -136,5 +161,5 @@ section.mycontent > ul {
   list-style: disc;
   margin-left: 50px;
   padding: 10px;
-}
+} */
 </style>
