@@ -23,8 +23,8 @@ linknaaryoutube2:
 linknaarfacebook2:   
 linknaartwitter2: https://followerwonk.com/analyze/easyswitch  
 volgerstwitter: '544'  
-fansfacebook: '1.229'  
-rankalexa: '1.642.119'  
+fansfacebook: '1.230'  
+rankalexa: '1.645.070'  
 paginagoogle: '401'  
 youtubetitle: Overstappen.nl/easyswitch video  
 youtubeintro: Toch blij dat er geen slechte energieleveranciers meer zijn. Je kies gewoon de goedkoopste of duurzaamste.  

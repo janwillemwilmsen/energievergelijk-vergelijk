@@ -26,7 +26,7 @@
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -36,7 +36,7 @@
 
 ![Vergelijk energietarieven Essent](/img/el/essent-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven Essent")
 
-</div></div></div><div class="pl-2 text-sm text-gray-400">
+</div></div></div><div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/essent" title="Essent">> Meer over Essent</a>
 </div>
 </div>
@@ -95,7 +95,7 @@ createdAt2-wordt-geupdate: 2021-2-14
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -106,7 +106,7 @@ createdAt2-wordt-geupdate: 2021-2-14
 ![Vergelijk energietarieven Eneco](/img/el/eneco-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven Eneco")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/eneco" title="Eneco">> Meer over Eneco</a>
 </div>
 </div>
@@ -165,7 +165,7 @@ createdAt2-wordt-geupdate: 2021-2-14
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -176,7 +176,7 @@ createdAt2-wordt-geupdate: 2021-2-14
 ![Vergelijk energietarieven Eneco](/img/el/eneco-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven Eneco")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/eneco" title="Eneco">> Meer over Eneco</a>
 </div>
 </div>

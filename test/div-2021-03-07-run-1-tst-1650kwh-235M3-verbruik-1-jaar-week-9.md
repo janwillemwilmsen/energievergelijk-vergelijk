@@ -63,7 +63,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/eneco" title="Eneco">> Meer over Eneco</a>
 </div>
 </div>
@@ -111,7 +111,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/pricewise" title="Pricewise">> Meer over Pricewise</a>
 </div>
 </div>
@@ -160,7 +160,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/independer" title="Independer">> Meer over Independer</a>
 </div>
 </div>
@@ -206,7 +206,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 ![Vergelijk Easyswitch](/img/el/easyswitch-tst-1650kwh-235M3-verbruik-1-jaar-week9.png "Vergelijk Easyswitch")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/easyswitch" title="Easyswitch">> Meer over Easyswitch</a>
 </div>
 </div>
@@ -255,7 +255,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/essent" title="Essent">> Meer over Essent</a>
 </div>
 </div>
@@ -291,7 +291,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 !Vergelijk energietarieven energiedirect.nl](/img/el/energiedirect-tst-1650kwh-235M3-verbruik-1-jaar-week9.png "Vergelijk energietarieven energiedirect.nl")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/energiedirect" title="energiedirect.nl">> Meer over energiedirect.nl</a>
 </div>
 </div>
@@ -341,7 +341,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
  
  
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/energievergelijk" title="energievergelijk">> Meer over energievergelijk.nl</a>
 </div>
 </div>
@@ -390,7 +390,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/gaslicht" title="Gaslicht">> Meer over Gaslicht</a>
 </div>
 </div>
@@ -438,7 +438,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/vandebron" title="Vandebron">> Meer over Vandebron</a>
 </div>
 </div>
@@ -476,7 +476,7 @@ createdAt2-wordt-geupdate: 2021-2-7
 </div>
 </div>
 
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/vattenfall" title="Vattenfall">> Meer over Vattenfall</a>
 </div>
 </div>

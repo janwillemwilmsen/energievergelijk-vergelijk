@@ -1,42 +1,36 @@
 <template>
  <article class="mx-auto bg-gray-200">  
  
-<div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest">
-      <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
+<div class="container py-24 m-auto bg-gray-200 text-grey-darkest">
+   
+   <div class="p-5 content bg-gray-50 rounded-xl">  
+
+
+
+<h1 class="pt-8 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
          {{ blog.heading1 }}
       </h1>
-      <div>
+      <div> Geschreven door:  {{ blog.auteur }} op {{ blog.mooiedatum }} <br></div>
+            <section class="mt-8 text-3xl mycontent" v-html="blog.paragraaf1">
+            </section>
+            <img v-if="blog.afbeelding1" :src="blog.afbeelding1" alt="" class="my-4 border border-gray-200">
  
-Geschreven door:  {{ blog.auteur }} op {{ blog.mooiedatum }} <br>
-      </div>
+ <h2  class="mt-8 mb-4 text-5xl" v-html="blog.heading2">  </h2>  
+          <section  class="text-3xl mycontent"  v-html="blog.paragraaf2">
+          </section>
+          <img v-if="blog.afbeelding2" :src="blog.afbeelding2" alt="" class="my-4 border border-gray-200">
 
 
-<section class="mt-8 text-3xl mycontent" v-html="blog.paragraaf1">
-  
-
-</section>
-  
-  <img :src="blog.afbeelding1" alt="">
- 
- <h2  class="mb-8 text-5xl" v-html="blog.heading2">  </h2>  
-<section  class="text-3xl mycontent"  v-html="blog.paragraaf2">
- 
-   
-  
-</section>
-<img :src="blog.afbeelding2" alt="">
+ <h2 class="mt-8 mb-4 text-5xl" v-html="blog.heading11">  </h2>  
+          <section  class="text-3xl mycontent"  v-html="blog.paragraaf11">
+          </section>
+          <img v-if="blog.afbeelding11" :src="blog.afbeelding11" alt="" class="my-4 border border-gray-200">
 
 
- <h2  class="mb-8 text-5xl" v-html="blog.heading11">  </h2>  
-<section  class="text-3xl mycontent"  v-html="blog.paragraaf11">
- </section>
-<img :src="blog.afbeelding11" alt="">
-
-
- <h2  class="mb-8 text-5xl" v-html="blog.heading22">  </h2>  
-<section  class="text-3xl mycontent"  v-html="blog.paragraaf22">
- </section>
-<img :src="blog.afbeelding22" alt="">
+ <h2 class="mt-8 mb-4 text-5xl" v-html="blog.heading22">  </h2>  
+          <section  class="text-3xl mycontent"  v-html="blog.paragraaf22">
+          </section>
+          <img v-if="blog.afbeelding22" :src="blog.afbeelding22" alt="" class="my-4 border border-gray-200">
 
 
 
@@ -73,13 +67,32 @@ Slug  {{ blog.slug }} <br>
     }
     </script> -->
 
+   </div>  <!----end Content--->
 
  
+   
+<div class="flex flex-col justify-around w-full p-0 mx-auto my-20 md:flex-row">
+
+            <NuxtLink v-if="prev" :to="{ name: 'blog-slug', params: { slug: prev.slug } }" class="m-2 bg-gray-100 border-2 border-gray-300 md:w-5/12 left rounded-xl">
+              <div class="p-4 text-xl text-center ">
+              <p class="mb-2 text-sm font-bold align-middle">👈 Vorig artikel</p> 
+                    {{ prev.title }}
+              </div>
+             </NuxtLink>
+         
+              <NuxtLink v-if="next" :to="{ name: 'blog-slug', params: { slug: next.slug } }" class="m-2 bg-gray-100 border-2 border-gray-300 md:w-5/12 right rounded-xl">
+               <div class="p-4 text-xl text-center ">
+                <p class="mb-2 text-sm font-bold align-middle">Volgend artikel 👉</p> 
+                     {{ next.title }}
+              </div>
+              </NuxtLink>
+</div>
+ 
+ 
+  </div>  <!----end Container--->
 
 
 
-
-  </div>
     
      
     <!-- <button @click="goBack">Back</button>{{ blog.slug }} <br> -->
@@ -93,8 +106,21 @@ export default {
  async asyncData({ $content, params }) {
     // fetch our article here
     const blog = await $content("blogs", params.slug).fetch();
+   
 
-    return { blog };
+
+ const [prev, next] = await $content('blogs')
+      .only(['title', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .surround(params.slug)
+      .fetch();
+
+    return {
+      blog,
+      prev,
+      next
+    }
+
   },
 
    head() {
@@ -147,19 +173,19 @@ export default {
 </script>
 
 <style>
-/* p.mycontent > h2{font-size: 2rem !important;margin-top: 0.5rem;margin-bottom: 0.5rem;} */
+ p.mycontent > h2{font-size: 2rem !important;margin-top: 0.5rem;margin-bottom: 0.5rem;}  
 
+ 
 
-
-/* 
-div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 3rem;margin-bottom: 2rem;}
+ 
+div.container section.mycontent > h2{ font-size: 3rem !important; margin-top: 3rem;margin-bottom: 2rem;  line-height: 3rem;}
 div.container  > img {margin-top: 2rem;margin-bottom: 2rem;}
 
-.nuxt-content h2 {font-size:2em !important;}
+.nuxt-content h2 {font-size:2em;}  
 
 section.mycontent > ul {
   list-style: disc;
   margin-left: 50px;
   padding: 10px;
-} */
+}
 </style>

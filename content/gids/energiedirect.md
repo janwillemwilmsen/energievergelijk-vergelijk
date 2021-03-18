@@ -3,13 +3,15 @@ bedrijfsnaam: energiedirect
 website: energiedirect.nl   
 title: energiedirect.nl  
 logo: /merken/snelste_energiedirect.png  
-introtekst: energiedirect.nl is een Nederlandse energieleverancier die is opgericht in 2002. Het bedrijf is onderdeel van Essent (wat onderdeel is van het Duitse E.ON). energiedirect focust zich op het leveren van voordelige windstroom.  
-freefield1: PSV  
-freefield2: energiedirect.nl is sponsor van PSV. Daarmee kunnen klanten PSV tegoed sparen, en krijgen ze standaard 10% korting in de PSV FANstore.   
-freefield3: Contact met energiedirect.nl  
-freefield4: Je kunt op werkdagen van 09:00 tot 16:00 bellen met energiedirect.nl via 0900-3347328. Je kunt ook je vraag stellen via Facebook of Twitter.  
-freefield5: tst  
-freefield6: tst  
+introtekst: energiedirect.nl is een Nederlandse energieleverancier opgericht in 2002. Het bedrijf is dochteronderneming van Essent. Essent is onderdeel van het Duitse E.ON. energiedirect.nl is een prijsvechter en biedt haar klanten voordelige contracten aan voor stroom  en gas.   
+freefield1: Additionele energie gerelateerde zaken  
+freefield2: energiedirect.nl biedt klanten de mogelijkheid energie te besparen. Zo kunnen klanten zonnepanelen aanschaffen en investeren in spouwmuurisolatie. energiedirect.nl heeft ook twee apps Regelneef en Tankey. Daarmee is het mogelijk om te besparen op energie en brandstof.  
+freefield3: PSV  
+freefield4: energiedirect.nl is rugsponsor van PSV. Klanten kunnen daarom kiezen voor ‘PSV energie’. Daarmee sparen ze PSV tegoed, krijgen ze standaard 10% korting in de PSV FANstore en maken ze kans op unieke PSV acties en fanbelevenissen   
+freefield5: Contact met energiedirect.nl  
+freefield6: energiedirect.nl is telefonisch bereikbaar op werkdagen van 09:00 tot 16:00 uur via 0900-3347328. Vragen kunnen ook gesteld worden via Facebook of Twitter.
+
+  
 linknaargoogleserp: https://www.google.nl/search?q=site%3Aenergiedirect.nl  
 linknaarfacebook: https://www.facebook.com/energiedirect.nl/  
 linknaartwitter: https://foller.me/energiedirect  
@@ -24,12 +26,12 @@ linknaaryoutube2: https://socialstats.info/report/energiedirect/youtube
 linknaarfacebook2: https://socialstats.info/report/energiedirect.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/energiedirect  
 ervaringenklantenvertellen: 8,2  
-volgersyoutube: '788'  
-volgersinstragram: '3.236'  
-volgerstwitter: '4.867'  
-fansfacebook: '26.592'  
-rankalexa: '562.872'  
-paginagoogle: '421'  
+volgersyoutube: '790'  
+volgersinstragram: '3.229'  
+volgerstwitter: '4.868'  
+fansfacebook: '26.598'  
+rankalexa: '561.915'  
+paginagoogle: '440'  
 youtubetitle: Lage energietarieven bij energiedirect  
 
 youtubeintro: Vergelijk ze zelf!  

@@ -21,6 +21,11 @@
           <main class="w-full max-w-full prose">
             <nuxt-content :document="article"/>
           </main>
+
+
+          <TheCTAvergelijk class="mt-10"/>
+
+
         </div>
         <div class="w-1/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
           <!-- <aside class="sticky top-0 hidden p-2 border-4 border-gray-300 md:inline-block md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400"> -->
@@ -36,15 +41,43 @@
               </li>
             </ul>
             <div class="mt-4">
-              <a href="#top" class="inline-block text-sm opacity-50">
-                <img src="~assets/svg/icon-arrow-up.svg" width="10"  class="inline"/>
+              <a href="#top" class="inline-block text-sm text-white opacity-50">
+                <!-- <img src="~assets/svg/icon-arrow-up.svg" width="10"  class="inline text-white fill-current "/> -->
+                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16"  class="inline text-white fill-current " height="16" fill="currentColor" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                    </svg>
+
+
                 Naar boven
               </a>
             </div>
+
+            <div class="mt-4">
+                       <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="z-10 pt-2">
+                      <button class="inline-flex items-center px-1 py-1 text-sm text-gray-800 uppercase bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
+                           <!-- <img src="~assets/svg/chevron-right.svg" width="10"  class="inline"/> -->
+                           
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                                    
+                            
+                            Persoonlijk overzicht
+                      </button>
+                       </nuxt-link>
+            </div>
+
+
+
+
+
           </aside>
         </div>
       </div>
     </div>
+
+
   </article>
 </template>
 

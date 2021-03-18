@@ -4,7 +4,7 @@ website: pricewise.nl
 title: Pricewise  
 logo: /merken/snelste_pricewise.png  
 introtekst:   
-freefield1:   
+freefield1: Additionele zaken  
 freefield2:   
 freefield3:   
 freefield4:   
@@ -23,11 +23,11 @@ linknaaryoutube2: https://socialstats.info/report/PricewiseNLPlus/youtube
 linknaarfacebook2: https://socialstats.info/report/NLPricewise/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/pricewise  
 volgersyoutube: '656'  
-volgersinstragram: '156'  
-volgerstwitter: '1.817'  
-fansfacebook: '9.143'  
-rankalexa: '445.340'  
-paginagoogle: '3.020'  
+volgersinstragram: '158'  
+volgerstwitter: '1.818'  
+fansfacebook: '9.142'  
+rankalexa: '457.720'  
+paginagoogle: '3.030'  
 youtubetitle: Margreet Dolman, bekend van TV  
 
 youtubeintro: Multitalent. Van Dominee Gremdaat tot diverse typetjes in commercials van Pricewise. Vond deze video interessanter om te kijken dan de commercials.  

@@ -3,13 +3,13 @@ bedrijfsnaam: vandebron
 website: vandebron.nl   
 title: Vandebron  
 logo: /merken/snelste_vandebron.png  
-introtekst: Vandebron is een energiebedrijf dat in 2013 is gestart door Remco Wilcke, Matthijs Guichelaar en Aart van Veller. Vandebron focust zich op het leveren van groene stroom en gas op zowel de particuliere als de zakelijke markt. Er wordt geen eigen energie geproduceerd, maar ingekocht van onafhankelijke Nederlandse producenten.   
-freefield1: Elektrisch rijden  
-freefield2: Vandebron focust zich op het makkelijker maken van elektrisch rijden. Daarvoor bieden ze een laadpaal aan. Ook voor een laadpas voor openbare laadpalen kun je bij ze terecht. Verder is er een initiatief waardoor elektrische auto's slim worden opgeladen, om zo het landelijke energienet beter in balans te houden.  
-freefield3: Contact met Vandebron  
-freefield4: Vandebron is telefonisch te benaderen via 0880-444-555 (werkdagen van 09:00 tot 17:00). Verder biedt de website van Vandebron een contactformulier aan, en is het mogelijk vragen te stellen via Facebook en Twitter.  
-freefield5:   
-freefield6:   
+introtekst: Vandebron is een energiebedrijf dat in 2013 is gestart door Remco Wilcke, Matthijs Guichelaar en Aart van Veller. Vandebron levert groene stroom en gas aan zowel de particuliere als de zakelijke markt. De energie produceren ze nietzelf, maar kopen ze in bij onafhankelijke Nederlandse producenten. Vandebron wil klanten stimuleren om minder te verbruiken. Ze maken dan ook winst op hun verbruik. Zo kunnen lokale bronnen hun energie voor een eerlijke prijs verkopen en krijgen ze de kans om te investeren in meer duurzame oplossingen.  
+freefield1: Additionele energie gerelateerde zaken  
+freefield2: Vandebron is steeds op zoek naar manieren om de energietransitie te versnellen. Zo organiseerden ze de GreenTech Hackathon, een 3-daags evenement om tot slimme oplossingen te komen. Vandebron wil laten zien dat klimaatvraagstukken op een creatieve manier kunnen worden aangepakt.  
+freefield3: Elektrisch rijden  
+freefield4: Vandebron richt zich op het makkelijker maken van elektrisch rijden. Ze bieden laadpalen met en zonder energiecontract aan. Ook is er een Vandebron-laadpas. Daarmee kun je je auto opladen bij alle openbare laadpalen in Nederland en in een groot deel van Europa. En dat zonder extra laadkosten per sessie.  
+freefield5: Contact met Vandebron  
+freefield6: Vandebron is telefonisch bereikbaar op werkdagen van 09:00 tot 17:00 uur via 0880-444-555. Ze hebben een contactformulier op de website en het is mogelijk vragen te stellen via Facebook en Twitter.  
 linknaargoogleserp: https://www.google.nl/search?q=site%3Avandebron.nl  
 linknaarfacebook: https://www.facebook.com/vandebron  
 linknaartwitter: https://foller.me/vandebron  
@@ -24,12 +24,12 @@ linknaaryoutube2: https://socialstats.info/report/vandebron/youtube
 linknaarfacebook2: https://socialstats.info/report/vandebron/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vandebron  
 ervaringenklantenvertellen: 7,8  
-volgersyoutube: '621'  
-volgersinstragram: '3.166'  
-volgerstwitter: '5.711'  
-fansfacebook: '43.081'  
-rankalexa: '576.265'  
-paginagoogle: '710'  
+volgersyoutube: '623'  
+volgersinstragram: '3.175'  
+volgerstwitter: '5.710'  
+fansfacebook: '43.083'  
+rankalexa: '730.290'  
+paginagoogle: '809'  
 youtubetitle: Jennifer Hofman reclame Van de Bron  
 youtubeintro: Ze gebruikt het zelf ook ;-)  
 youtubevid: https://www.youtube.com/embed/f-E5ve-acPM  

@@ -50,7 +50,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -61,7 +61,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk energietarieven energievergelijk.nl](/img/el/energievergelijk-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven energievergelijk.nl")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/energievergelijk" title="energievergelijk">> Meer over energievergelijk.nl</a>
 </div>
 </div>
@@ -94,7 +94,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -105,7 +105,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk gaslicht](/img/el/gaslicht-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven gaslicht")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/gaslicht" title="Gaslicht">> Meer over Gaslicht</a>
 </div>
 </div>
@@ -139,7 +139,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -150,7 +150,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk Pricewise](/img/el/pricewise-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk Pricewise")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/pricewise" title="Pricewise">> Meer over Pricewise</a>
 </div>
 </div>
@@ -183,7 +183,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -194,7 +194,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk Independer](/img/el/independer-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk Independer")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/independer" title="Independer">> Meer over Independer</a>
 </div>
 </div>
@@ -227,7 +227,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -238,7 +238,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk Easyswitch](/img/el/easyswitch-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk Easyswitch")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/easyswitch" title="Easyswitch">> Meer over Easyswitch</a>
 </div>
 </div>
@@ -271,7 +271,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -281,7 +281,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 
 ![Vergelijk energietarieven Essent](/img/el/essent-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven Essent")
 
-</div></div></div><div class="pl-2 text-sm text-gray-400">
+</div></div></div><div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/essent" title="Essent">> Meer over Essent</a>
 </div>
 </div>
@@ -304,7 +304,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -315,7 +315,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk energietarieven energiedirect.nl](/img/el/energiedirect-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven energiedirect.nl")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/energiedirect" title="energiedirect.nl">> Meer over energiedirect.nl</a>
 </div>
 </div>
@@ -349,7 +349,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -360,7 +360,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk energietarieven Eneco](/img/el/eneco-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven Eneco")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/eneco" title="Eneco">> Meer over Eneco</a>
 </div>
 </div>
@@ -394,7 +394,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -405,7 +405,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![alt text](/img/el/vandebron-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven VandeBron")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/vandebron" title="Vandebron">> Meer over Vandebron</a>
 </div>
 </div>
@@ -428,7 +428,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 </div>
 </div>
 </div>
-<div x-data="{show:false}" class="mt-2">
+<div x-data="{show:false}" class="mt-2 print:hidden">
 <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="pl-2 text-sm text-gray-400 cursor-pointer rounded-xl focus:outline-none">
 <div>   > Toon schermprint </div>
 </a>
@@ -439,7 +439,7 @@ createdAt2-wordt-geupdate: 2021-2-11
 ![Vergelijk energietarieven Vattenfall](/img/el/vattenfall-tst-1650kwh-235M3-verbruik-2-3-jaar-week10.png "Vergelijk energietarieven Vattenfall")
 
 </div></div></div>
-<div class="pl-2 text-sm text-gray-400">
+<div class="pl-2 text-sm text-gray-400 print:hidden">
 <a href="/gids/vattenfall" title="Vattenfall">> Meer over Vattenfall</a>
 </div>
 </div>

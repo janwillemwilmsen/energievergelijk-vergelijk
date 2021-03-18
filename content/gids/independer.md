@@ -3,13 +3,14 @@ bedrijfsnaam: independer
 website: independer.nl   
 title: Independer  
 logo: /merken/snelste_independer.png  
-introtekst: Independer, je kent ze wel. Die vergelijken verzekeringen.   
-freefield1:   
-freefield2: Ooit van Achmea.  
-freefield3:   
-freefield4:   
-freefield5:   
-freefield6:   
+introtekst: Independer is een vergelijkingswebsite, opgericht in 1999. Ze waren destijds onderdeel van Achmea. In 2018 heeft de Persgroep de website overgenomen. Independer heeft als doel de financiële wereld transparanter en eerlijker te maken. Op Independer.nl is het mogelijk om verzekeringen, hypotheken, energieleveranciers, mobiele- en internetabonnementen en spaar- en leenproducten te vergelijken.
+freefield1: Additionele zaken  
+freefield2: Independer heeft een eigen keurmerk opgericht, het Independer Keurmerk. Dit is een kwaliteitskeurmerk voor verzekeringen. Independer heeft alle verzekeringen op een groot aantal punten streng nagekeken. Het keurmerk bestaat onder andere voor autoverzekeringen en een zorgverzekeringen.  
+freefield3: Wet Financieel Toezicht  
+freefield4: Independer wordt gecontroleerd door de Autoriteit Financiële Markten (AFM). Dat betekent dat ze een WFT-vergunning hebben (Wet Financieel Toezicht). De AFM controleert of alle regels worden nageleefd die in de WFT zijn vastgelegd.    
+freefield5: Contact met Independer  
+freefield6: De telefonische klantenservice van Independer is bereikbaar via 035 626 55 44. Op werkdagen van 8.00 uur tot 18.00 uur en op zaterdag van 9.30 uur tot 17.00 uur. Independer is ook bereikbaar via Whatsapp. Het nummer voor energievragen is 06 - 82 658 741.
+  
 linknaargoogleserp: https://www.google.nl/search?q=site%3Aindepender.nl  
 linknaarfacebook: https://www.facebook.com/Independer.nl/  
 linknaartwitter: https://foller.me/independer  
@@ -22,12 +23,12 @@ linknaarinstragram2: https://socialstats.info/report/Independer.nl/instagram
 linknaaryoutube2: https://socialstats.info/report/independer/youtube  
 linknaarfacebook2: https://socialstats.info/report/Independer.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/independer  
-volgersyoutube: '13'  
+volgersyoutube: '129'  
 volgersinstragram: '631'  
-volgerstwitter: '8.051'  
+volgerstwitter: '8.052'  
 fansfacebook: '33.694'  
-rankalexa: '102.112'  
-paginagoogle: '136.000'  
+rankalexa: '110.012'  
+paginagoogle: '140.000'  
 youtubetitle: De laagste energieprijzen ooit  
 youtubeintro: In mei 2020.   
 youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk  
