@@ -16,6 +16,33 @@ In map : Gids : node runGidsApi = download gegevens van GoogleSheets + maak 'goo
 (checken of files  overschreven worden en niet aangevuld worden. )
 
 
+
+"vergelijker": "npm-run-all -s pricewise independer easyswitch essent energiedirect eneco energievergelijk  gaslicht   vandebron vattenfall"
++ INTRO en OUTRO  
+
+parallel // serieel
+
+1 parallel alle vergelijkers
+2 parallel alle energieleveracniers
+3 serieel INTRO + VERGELIJKERS + ENERGIELEVERANCEIRS + OUTRO
+
+    "intro": "node ./vergelijk/intro.js",
+    "outro": "node ./vergelijk/outro.js",
+    "vergelijker": "npm-run-all --parallel intro pricewise independer easyswitch energievergelijk essent energiedirect eneco vandebron vattenfall --serial outro",
+
+
+"allevergelijkers": "npm-run-all --parallel intro pricewise independer easyswitch energievergelijk",
+"alleleveranciers": "npm-run-all --parallel intro essent energiedirect eneco vandebron vattenfall",
+"join":  "npm-run-all --parallel   --serial intro allevergelijkers alleleveranciers outro",
+
+
+
+  
+set DEBUG=pw:api
+node test.js
+
+
+
     "gidsv": "npm-run-all -s gids1 gids2 gids3 gids4 gids5",
     "gids1": "node ./gids/easyswitch.js",
     "gids2": "node ./gids/independer.js",
@@ -302,13 +329,7 @@ https://az416426.vo.msecnd.net/
 
 
 ////////////////////////////////////////////
-    "vergelijker": "npm-run-all -s pricewise independer easyswitch essent energiedirect eneco energievergelijk  gaslicht   vandebron vattenfall"
-
-
-+ INTRO en OUTRO  
   
-  set DEBUG=pw:api
-node test.js
 
 
 ${now.getFullYear()} ${now.getMonth()} ${now.getDate()}  

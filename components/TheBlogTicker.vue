@@ -17,14 +17,27 @@
 
 
                <p class="text-lg line-clamp-1 ">  {{blog.paragraaf1}}</p>
-                <div class="font-bold tracking-tighter text-gray-600 underline">Lees meer</div>
+                <div class="p-2 font-bold tracking-tighter text-gray-600 ">
+                  
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="z-10 inline w-2 h2 bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                  </svg>
+                                  <span class="underline">
+                                      Lees meer
+                                  </span>
+                  </div>
 
               </NuxtLink>
       </div>
 
-      <div class="px-4 py-2 mx-auto mt-8 underline bg-yellow-300 rounded-xl">
+      <div class="px-4 py-2 mx-auto mt-8 bg-yellow-300 rounded-xl">
         <nuxt-link to="/blog">
-                Lees meer in de blog
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline w-4 h4 bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>     
+                                <span class="underline">
+                                Lees meer in de blog
+                                </span>
         </nuxt-link>
       </div>
 

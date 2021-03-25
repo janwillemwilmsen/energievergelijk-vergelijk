@@ -9,35 +9,35 @@
       </p>
 
  <div v-for="blog of blogs" :key="blog.slug" class="self-center p-2 m-2 mx-auto text-black align-middle transition duration-500 ease-in-out bg-white border-2 border-gray-800 border-opacity-25 border-dashed shadow-lg bg-opacity-80 rounded-xl h-100 ">
-     
-    <div class="flex flex-row space-x-4">
-      <div class="w-3/12 lg:w-1/12 left">
+                
+                <div class="flex flex-row space-x-4">
+                  <div class="w-3/12 lg:w-1/12 left">
 
-        <img :src="blog.giphy"/> 
+                    <img :src="blog.giphy"/> 
 
-      </div>
-      <div class="w-9/12 lg:w-11/12 rght">
-
-
+                  </div>
+                  <div class="w-9/12 lg:w-11/12 rght">
 
 
 
 
-          <span class="text-sm text-gray-400 ">
-              {{blog.mooiedatum}}  
-          </span>
-              <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
-                    <!-- <img :src="bed.logo" width="150" alt="img"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/> -->
-                <h4 class="text-3xl ">{{ blog.title }}</h4>
 
 
-               <p class="text-lg line-clamp-1 ">  {{blog.paragraaf1}}</p>
-                <div class="font-bold tracking-tighter text-gray-600 underline">Lees meer</div>
+                      <span class="text-sm text-gray-400 ">
+                          {{blog.mooiedatum}}  
+                      </span>
+                          <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
+                                <!-- <img :src="bed.logo" width="150" alt="img"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/> -->
+                            <h4 class="text-3xl ">{{ blog.title }}</h4>
 
-              </NuxtLink>
-      </div>
 
-    </div>
+                          <p class="text-lg line-clamp-1 ">  {{blog.paragraaf1}}</p>
+                            <div class="font-bold tracking-tighter text-gray-600 underline">Lees meer</div>
+
+                          </NuxtLink>
+                  </div>
+
+                </div>
       </div>
 <!-- <the-blog-all/> -->
 

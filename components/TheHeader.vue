@@ -77,19 +77,57 @@
 
    
         <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto" >
-          <a href="/archief"  class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Archief</a>
-          <a href="/gids"     class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Bedrijfsgids</a>
-          <a href="/blog"     class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Blog</a>
-          <a href="/over"         class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Over</a>
+          <nuxt-link to="/energie/actueel"  class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Actuele energietarieven</nuxt-link>
+          <!-- <a href="/gids"     class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Bedrijfsgids</a> -->
+          <!-- <a href="/blog"     class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Blog</a> -->
+          <!-- <a href="/over"         class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Over</a> -->
       
                   <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="z-10 pt-2">
                       <button  class="inline-flex items-center px-3 py-1 mt-4 text-xl text-gray-800 uppercase bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
-                              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                              </svg>
-                            &nbsp; Persoonlijk overzicht
+                               
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="z-10 w-4 h4 bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+
+                              Persoonlijk overzicht
                       </button>
                   </nuxt-link>
+
+
+<!-- <div x-data="{show:false}" class="mt-2 print:hidden">
+    <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" ><div>   > Toon schermprint </div>  </a>
+          <div x-show="show" class="tarievenimg" style="display: none;">
+                <div class="mt-4 bg-gray-100 rounded-xl">
+                          <div class="w-full p-2 text-sm text-center text-gray-400"> om te zien of tarieven correct verwerkt zijn.....</div>
+
+        
+                </div>
+          </div>
+</div>
+
+
+<div class="flex items-center">
+  <div class="relative inline-block" x-data="{show:false}">
+    <a x-on:click.prevent="show=!show" x-text="show ? ' > Verberg schermprint' : ' > Toon schermprint'" class="flex p-2 pl-3 pr-1 text-gray-700 bg-gray-100 border border-gray-400 rounded shadow cursor-pointer focus:outline-none hover:text-black" >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  class="inline-block w-6 h-6 ml-1 text-gray-500 duration-300 transform fill-current">
+      <path fill-rule="evenodd" d="M15.3 10.3a1 1 0 011.4 1.4l-4 4a1 1 0 01-1.4 0l-4-4a1 1 0 011.4-1.4l3.3 3.29 3.3-3.3z"/></svg>
+    </a>
+
+          <ul x-show="show"  style="display: none;" class="absolute left-0 visible w-40 overflow-auto text-indigo-600 origin-top bg-white rounded"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-y-50"
+            x-transition:enter-end="opacity-100 transform scale-y-100"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-end="opacity-0 transform scale-y-50"
+          >
+                  <li><a href="#" class="block px-3 py-1 hover:bg-indigo-100">Profile</a></li>
+                  <li><a href="#" class="block px-3 py-1 border-b hover:bg-indigo-100">Billing</a></li>
+                  <li  class="visible overflow-visible"><a href="#" class="visible block px-3 py-1 overflow-visible hover:bg-indigo-100">Log out</a></li>
+          </ul>
+  </div>
+</div> -->
+                  
         </nav>
 
 

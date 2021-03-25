@@ -21,6 +21,28 @@
           <main class="w-full max-w-full prose">
             <nuxt-content :document="article"/>
           </main>
+
+
+          <TheCTAvergelijk class="mt-10"/>
+
+
+
+<div class="mt-16 mb-4">
+
+Bekijk meer recente energievergelijk scans:
+
+                  <ul class="max-w-4xl mt-8">
+                        <li v-for="article of articles" :key="article.slug" class="py-4 pl-4 my-4 bg-white border border-gray-500 border-opacity-25 shadow-md rounded-xl">
+                            <NuxtLink :to="{ name: 'energie-slug', params: { slug: article.slug } }">
+                                <p>{{ formatDate(article.createdAt) }}  : {{ article.title }} </p>
+                            </NuxtLink>
+                        </li>
+                  </ul>
+</div>
+
+
+
+
         </div>
         <div class="w-1/12 mt-10 md:w-3/12 lg:w-3/12 xl:w-2/12 2xl:w-2/12">
           <!-- <aside class="sticky top-0 hidden p-2 border-4 border-gray-300 md:inline-block md:p-4 rounded-xl bg-gradient-to-b from-red-500 to-blue-400"> -->
@@ -36,11 +58,16 @@
               </li>
             </ul>
             <div class="mt-4">
-              <a href="#top" class="inline-block text-sm opacity-50">
-                <img src="~assets/svg/icon-arrow-up.svg" width="10"  class="inline"/>
+              <a href="#top" class="inline-block text-sm text-white opacity-50">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16"  class="inline text-white fill-current " height="16" fill="currentColor" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                </svg>
                 Naar boven
               </a>
             </div>
+
+             <SmallCTA/>
+
           </aside>
         </div>
       </div>
@@ -106,7 +133,15 @@ export default {
     const article = await $content("articles2", params.slug || 'index')
     .fetch();
 
-    return { article };
+
+// fetch vier vorige articles. Voor onderaand 'Meer recente scans'
+     const articles = await $content('articles', params.slug)
+        .only(['title', 'description', 'img', 'slug', 'author', 'createdAt']).limit(4)
+        .skip(1)
+        .sortBy('slug', 'desc')
+        .fetch()
+
+    return { article, articles };
   },
 
 

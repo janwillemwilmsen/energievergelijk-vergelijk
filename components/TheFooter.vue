@@ -11,13 +11,15 @@
 
 <div class="container mx-auto">
 
-<div class="flex flex-col items-center content-center justify-center divide-y-2 divide-gray-300 divide-opacity-30 divide-dashed sm:items-start sm:divide-y-0 sm:divide-x-2 sm:flex-row">
+<div class="flex flex-col items-center content-center justify-center divide-y-2 divide-gray-300 xl:-ml-32 divide-opacity-30 divide-dashed sm:items-start sm:divide-y-0 sm:divide-x-2 sm:flex-row">
     <div class="p-5">
       <p class="mx-auto font-sans text-xl subpixel-antialiased text-center text-gray-200 uppercase hover:text-gray-300 bold">MENU </p>
-        <div class="p-5">
-              <a href="">Energiescans</a><br>
-              <a href="">Contact</a><br>
-              <a href="">Over ons</a><br>
+        <div class="p-5 text-center">
+              <a href="/archief">Energiescans</a><br>
+              <a href="/gids">Leveranciers en vergelijkers</a><br>
+              <a href="/over#contact">Contact</a><br>
+              <a href="/over">Over ons</a><br>
+              <a href="/blog">Blog</a><br>
 
         </div>
     </div>
