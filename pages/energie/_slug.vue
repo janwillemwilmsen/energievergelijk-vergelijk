@@ -215,7 +215,7 @@ export default {
   
 
 
-<style>
+<style scoped>
 body {
   scroll-behavior: smooth;
 }
