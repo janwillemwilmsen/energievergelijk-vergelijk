@@ -3,7 +3,7 @@
     <a name="top"></a>
 
     <div class="container px-5 py-24 m-auto bg-gray-200 text-grey-darkest print:py-0">
-      <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words print:-mt-28 print:mb-0">
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tighter text-gray-900 break-words md:text-5xl lg:text-6xl">
 
 
     <!-- Article Created at werkt niet goed. Wordt overschreven na deploy. Dan wordt het LAATS opgeslagen datum. 
@@ -220,8 +220,8 @@ body {
   scroll-behavior: smooth;
 }
 
- .nuxt-content ul li:nth-child(odd)  { background-color:gray; color:wheat }
- .nuxt-content ul li:nth-child(even)  { color:red } 
+ .nuxt-content ul li:nth-child(odd)  { background-color:gray;  }
+ .nuxt-content ul li:nth-child(even)  {  } 
  
 
    

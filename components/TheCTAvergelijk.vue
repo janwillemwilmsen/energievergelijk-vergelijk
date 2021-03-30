@@ -1,7 +1,7 @@
 <template>
   <section class="">
 
-<div class="flex p-6 text-center bg-opacity-50 border border-white rounded-full shadow-2xl fade justify-evenly">
+<div class="flex flex-col p-6 text-center bg-opacity-50 border border-white rounded shadow-2xl xl:flex-row md:rounded-full fade justify-evenly">
 
 
               <div class="">
@@ -11,7 +11,7 @@
 
 
                   <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="z-10">
-                      <button  class="inline-flex items-center px-3 py-1 mt-4 text-xl text-gray-800 uppercase bg-yellow-400 border-0 rounded-full focus:outline-none hover:bg-yellow-500 md:mt-0">
+                      <button  class="inline-flex items-center px-3 py-1 mt-4 text-xl text-gray-800 uppercase bg-yellow-400 border-2 border-white rounded-full border-opacity-80 focus:outline-none hover:bg-yellow-500 md:mt-0">
                               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                 <path d="M5 12h24M12 5l7 7-7 7"></path>
                               </svg>
