@@ -4,21 +4,22 @@
 
         <div>
                   <div class="accordion" @click="toggleItem">
-                    <h2 class="my-6 text-4xl title"  itemprop="name">
+                    <h2 class="my-6 text-xl md:text-2xl lg:text-4xl title"  itemprop="name">
                       
-                       <div class="block "><!---pijl omhoog----->
-                        
-                         <transition name="fade-away"    mode="out-in">  
-                            <svg key="aan" v-if="show" class="inline-block w-6 h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                       <div class="flex ">
+                         
+                         <!---pijl omhoog----->
+                         <transition name="fade-away" mode="out-in">  
+                            <svg key="aan" v-if="show" class="block w-6 h-6 mr-2 min-w-min" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
                                 </svg>   
                             <!---pijl down----->
-                              <svg key="uit" v-if="!show" class="inline-block w-6 h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <svg key="uit" v-if="!show" class="block w-6 h-6 mr-2 min-w-min" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                               </svg>
                          </transition>
 
-                        <span class="understreep"><slot name="title"></slot></span>
+                        <span class="block bg-red-400 understreep"><slot name="title"></slot></span>
                       </div>
 
                     </h2>
