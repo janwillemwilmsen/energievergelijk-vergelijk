@@ -219,10 +219,10 @@ export default {
 body {
   scroll-behavior: smooth;
 }
-
+/* 
  .nuxt-content ul li:nth-child(odd)  { background-color:gray;  }
  .nuxt-content ul li:nth-child(even)  {  } 
- 
+  */
 
    
 

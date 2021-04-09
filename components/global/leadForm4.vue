@@ -20,7 +20,7 @@
                 Vergelijk mijn energieverbruik.
         </h2>
 
-  <div><p class="w-3/4 p-4 mx-auto text-base font-semibold tracking-tight md:text-1xl lg:text-3xl ">  
+  <div><p class="w-3/4 p-4 mx-auto text-base font-semibold tracking-tight md:text-1xl lg:text-2xl ">  
   Bespaar jezelf de irritatie. Bespaar jezelf tijd.<br> Wij vergelijken voor je.
    
     

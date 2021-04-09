@@ -21,7 +21,7 @@
     "intro": "node ./vergelijk/intro.js",
     "outro": "node ./vergelijk/outro.js",
     "vergelijker": "npm-run-all --parallel intro pricewise independer easyswitch energievergelijk essent energiedirect eneco vandebron vattenfall --serial outro",
-    "allevergelijkers": "npm-run-all --parallel pricewise independer easyswitch energievergelijk",
+    "allevergelijkers": "npm-run-all --parallel pricewise gaslicht independer easyswitch energievergelijk",
     "alleleveranciers": "npm-run-all --parallel essent energiedirect eneco vandebron vattenfall",
     "join":  "npm-run-all --parallel --serial intro allevergelijkers alleleveranciers outro",
     "gids1": "node ./gids/easyswitch.js",

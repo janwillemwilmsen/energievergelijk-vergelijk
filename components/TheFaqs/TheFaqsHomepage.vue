@@ -2,7 +2,7 @@
 
 <template>
      <!-- <div class="block " > -->
- <section class="bg-gray-900 ">
+ <section class="bg-gray-900 border-b border-white border-opacity-50 ">
 
  
 
@@ -12,7 +12,7 @@
          <div class="p-8 ">
 
 
-            <h2 class="mb-12 text-5xl font-extrabold leading-none tracking-tight text-white opacity-80 ">Veelgestelde vragen.</h2>
+            <h2 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-white break-words sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl opacity-80 ">Veelgestelde vragen.</h2>
 
 
          <div  class="text-gray-600 faqs" itemscope  itemtype="https://schema.org/FAQPage">

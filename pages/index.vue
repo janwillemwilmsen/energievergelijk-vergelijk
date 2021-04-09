@@ -29,7 +29,7 @@
 <div class="container">
 
  <p class="mt-8 text-2xl font-semibold text-gray-900 ">Waar scoor jij het beste energiecontract?</p>
-<button class="relative flex items-center px-4 py-3 mt-8 space-x-2 font-semibold text-gray-900 shadow-sm rounded-xl bg-gradient-to-r from-yellow-400 to-yellow-500 "> 
+<button class="relative flex items-center px-4 py-3 mt-8 space-x-2 font-semibold text-black shadow-sm rounded-xl bg-gradient-to-r from-yellow-400 to-yellow-500 "> 
 <nuxt-link to="/energie/actueel">
                          
                          <div class="absolute inset-0 z-0 w-full h-full rounded-xl ring-4 ring-yellow-600 animate-pulse ring-opacity-50 ">
@@ -97,7 +97,7 @@
 
 
 
-<TheCTA/>
+<!-- <TheCTA/> -->
 
 
 </div>

@@ -14,7 +14,7 @@
 <div class="flex flex-col items-center content-center justify-center divide-y-2 divide-gray-300 xl:-ml-32 divide-opacity-30 divide-dashed sm:items-start sm:divide-y-0 sm:divide-x-2 sm:flex-row">
     <div class="p-5">
       <p class="mx-auto font-sans text-xl subpixel-antialiased text-center text-gray-200 uppercase hover:text-gray-300 bold">MENU </p>
-        <div class="p-5 text-center">
+        <div class="p-5 font-bold tracking-tighter text-center text-gray-600 ">
               <a href="/archief">Energiescans</a><br>
               <a href="/gids">Leveranciers en vergelijkers</a><br>
               <a href="/over#contact">Contact</a><br>
@@ -71,15 +71,21 @@
 
 </div>
 
-  <div class="w-32 mx-auto text-center icon"> 
+ 
+
+<div class="container mx-auto copy">
+
+ <div class="w-32 mx-auto text-center icon"> 
           <a href="/" title="Vergelijk energievergelijkers" class="text-center text-white ">
-                <TheAnimationAtom  style="width:70%;height:70%;" class="ml-4 text-center sm:-ml-5" />
+                <!-- <TheAnimationAtom  style="width:70%;height:70%;" class="ml-4 text-center sm:-ml-5" /> -->
+                <TheAnimationAtom  style="width:50px;height:50px;" class="ml-10 text-center" />
           </a>
   </div>
 
-<div class="container mx-auto copy">
+
   <p class="pb-4 text-sm text-center text-gray-600">
-       <span class=" sm:-ml-20">
+       <!-- <span class=" sm:-ml-20"> -->
+       <span class="">
          ©2021
       </span>   
   </p></div>

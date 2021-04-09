@@ -30,7 +30,7 @@
               </NuxtLink>
       </div>
 
-      <div class="px-4 py-2 mx-auto mt-8 bg-yellow-300 rounded-xl">
+      <div class="px-4 py-3 mx-auto mt-8 space-x-2 font-semibold text-black bg-yellow-400 shadow-sm rounded-xl">
         <nuxt-link to="/blog">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline w-4 h4 bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>

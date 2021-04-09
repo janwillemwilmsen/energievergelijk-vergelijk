@@ -4,30 +4,41 @@
 
         <div>
                   <div class="accordion" @click="toggleItem">
-                    <h2 class="my-6 text-xl md:text-2xl lg:text-4xl title"  itemprop="name">
+                   <h2 class="my-6 text-xl md:text-4xl title"  itemprop="name">
                       
-                       <div class="flex ">
-                         
-                         <!---pijl omhoog----->
-                         <transition name="fade-away" mode="out-in">  
-                            <svg key="aan" v-if="show" class="block w-6 h-6 mr-2 min-w-min" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-                                </svg>   
-                            <!---pijl down----->
-                              <svg key="uit" v-if="!show" class="block w-6 h-6 mr-2 min-w-min" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                              </svg>
-                         </transition>
+                       <div class="block ">
+                        
 
-                        <span class="block bg-red-400 understreep"><slot name="title"></slot></span>
+<!-- two col flex -->
+      <div class="flex">
+                        <div class="one">
+                         <transition name="fade-away"    mode="out-in">  
+                                  <!---pijl omhoog----->
+                                  <svg key="aan" v-if="show" class="inline-block w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+                                  </svg>   
+                                  <!---pijl down----->
+                                  <svg key="uit" v-if="!show" class="inline-block w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                  </svg>
+                         </transition>
+                            </div>                                  
+                            <div class="ml-2 text-white two opacity-80">
+                                  <slot name="title" class=""></slot>
+                            </div>
+         </div>
+
+
+
                       </div>
 
                     </h2>
                   </div>
 
               <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                 <transition name="fade-away"    mode="out-in">  
-                    <div v-show="show" class="py-8 pl-10 my-6 ml-10 bg-white rounded content"  itemprop="text">
+
+                  <transition name="fade-away"    mode="out-in">  
+                            <div v-show="show" class="px-4 py-4 mx-4 my-4 bg-gray-200 rounded content"  itemprop="text">
                       <slot name="content"></slot>
                     </div>
                   </transition>
