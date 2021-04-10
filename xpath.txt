@@ -35,7 +35,9 @@ parallel // serieel
 "alleleveranciers": "npm-run-all --parallel intro essent energiedirect eneco vandebron vattenfall",
 "join":  "npm-run-all --parallel   --serial intro allevergelijkers alleleveranciers outro",
 
+set debug=pw:api
 
+set deubug=pw:api
 
   
 set DEBUG=pw:api
