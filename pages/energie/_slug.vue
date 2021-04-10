@@ -17,7 +17,7 @@
       </h1>
 
       <div class="flex mx-auto mb-4">
-        <div class="w-11/12 p-2 md:w-9/12 lg:w-6/12">
+        <div class="p-2 w-12/12 md:w-9/12 lg:w-6/12">
           <main class="w-full max-w-full prose">
             <nuxt-content :document="article"/>
           </main>
