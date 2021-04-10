@@ -17,17 +17,17 @@
       </h1>
 
       <div class="flex mx-auto mb-4">
-        <div class="w-11/12 p-2 md:w-9/12 lg:w-6/12">
+        <div class="p-2 w-12/12 md:w-9/12 lg:w-6/12">
           <main class="w-full max-w-full prose">
             <nuxt-content :document="article"/>
           </main>
 
 
-          <TheCTAvergelijk class="mt-10"/>
+          <TheCTAvergelijk class="mt-10 print:hidden"/>
 
 
 
-<div class="mt-16 mb-4">
+<div class="mt-16 mb-4 print:hidden">
 
 Bekijk meer recente energievergelijk scans:
 
@@ -233,8 +233,8 @@ body {
   scroll-behavior: smooth;
 }
 
- .nuxt-content ul li:nth-child(odd)  { background-color:gray;  }
- .nuxt-content ul li:nth-child(even)  {  } 
+ /* .nuxt-content ul li:nth-child(odd)  { background-color:gray;  }
+ .nuxt-content ul li:nth-child(even)  {  }  */
  
 
    
