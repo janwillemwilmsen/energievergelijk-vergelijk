@@ -291,7 +291,7 @@ export default {
   },
       
     
-   
+  // Sitemap : werkt mogelijk niet op localhost bij NPM RUN DEV. Wel bij NPM RUN BUILD en NPM RUN START
 
   sitemap: {
     hostname: 'https://ikvergelijk.nl', // https://www.yoursite.com  -- process.env.BASE_URL

@@ -23,7 +23,7 @@
     "vergelijker": "npm-run-all --parallel intro pricewise independer easyswitch energievergelijk essent energiedirect eneco vandebron vattenfall --serial outro",
     "allevergelijkers": "npm-run-all --parallel pricewise gaslicht independer easyswitch energievergelijk",
     "alleleveranciers": "npm-run-all --parallel essent energiedirect eneco vandebron vattenfall",
-    "join":  "npm-run-all --parallel --serial intro allevergelijkers alleleveranciers outro",
+    "join": "npm-run-all --parallel --serial intro allevergelijkers alleleveranciers outro",
     "gids1": "node ./gids/easyswitch.js",
     "gids2": "node ./gids/independer.js",
     "gids3": "node ./gids/pricewise.js",
@@ -75,7 +75,7 @@
     "lottie-web-vue": "^1.0.1",
     "npm-run-all": "^4.1.5",
     "nuxt": "^2.14.12",
-    "nuxt-cookie-control": "^1.9.6",
+    "nuxt-cookie-control": "^1.9.7",
     "vue-lottie": "^0.2.1",
     "vue-social-sharing": "^3.0.4"
   }
