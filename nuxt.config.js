@@ -237,7 +237,9 @@ export default {
   
      
   gtm: {
-    enabled: false, /* see below */
+    enabled: true, /* see below */
+    // gtm: { enabled: true, autoInit: false },
+    autoInit: false,
     debug: true,
 
     id: 'GTM-PM4DL28',
@@ -247,7 +249,6 @@ export default {
     pageTracking: true,
     pageViewEventName: 'nuxtRoute',
 
-    autoInit: false,
     respectDoNotTrack: true,
 
     scriptId: 'gtm-script',
