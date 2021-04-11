@@ -153,7 +153,6 @@ export default {
 
     pageTracking: true,
     pageViewEventName: 'nuxtRoute',
-
     respectDoNotTrack: true,
 
     scriptId: 'gtm-script',
@@ -236,16 +235,16 @@ export default {
        
 
         // AANGEPAST : https://gitlab.com/broj42/nuxt-cookie-control/-/issues/39
-        accepted: () => window.$nuxt.$gtm.init('GTM-PM4DL28'),
+        // accepted: () => window.$nuxt.$gtm.init('GTM-PM4DL28'),
        
         // orgineel. uit docs:  
-        // accepted: () =>{
-        //   window.dataLayer = window.dataLayer || [];
-        //   window.dataLayer.push({
-        //     'gtm.start': new Date().getTime(),
-        //     event: 'gtm.js'
-        //   });
-        // },
+        accepted: () =>{
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
+        },
 
         // accepted: () => {
         //   window.dataLayer = window.dataLayer || [];
