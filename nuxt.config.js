@@ -204,13 +204,32 @@ export default {
         src:  'https://www.googletagmanager.com/gtm.js?id=GTM-PM4DL28',
         async:  true,
         cookies: ['_ga', '_gat', '_gid','jww'],
-        accepted: () =>{
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-          });
-        },
+       
+
+        // AANGEPAST : https://gitlab.com/broj42/nuxt-cookie-control/-/issues/39
+        accepted: () => window.$nuxt.$gtm.init('GTM-PM4DL28'),
+       
+        // orgineel. uit docs:  
+        // accepted: () =>{
+        //   window.dataLayer = window.dataLayer || [];
+        //   window.dataLayer.push({
+        //     'gtm.start': new Date().getTime(),
+        //     event: 'gtm.js'
+        //   });
+        // },
+
+        // accepted: () => {
+        //   window.dataLayer = window.dataLayer || [];
+        //   function gtag() {
+        //     dataLayer.push(arguments);
+        //   }
+        //   gtag("js", new Date());
+        //   gtag("config", "GTM-PM4DL28");
+        // }
+
+
+
+
       declined: () =>{
 // decline start - om aantal gedeclined mensen te meten
 
