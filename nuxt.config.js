@@ -140,30 +140,30 @@ export default {
   ],
 
 
-     
-  gtm: {
-    enabled: true, /* see below */
-    // gtm: { enabled: true, autoInit: false },
-    autoInit: false,
-    debug: true,
+     // DISABLED omdat er een script is in de Plugins folder. 
+  // gtm: {
+  //   enabled: true, /* see below */
+  //   // gtm: { enabled: true, autoInit: false },
+  //   autoInit: false,
+  //   debug: true,
 
-    id: 'GTM-PM4DL28',
-    layer: 'dataLayer',
-    variables: {},
+  //   id: 'GTM-PM4DL28',
+  //   layer: 'dataLayer',
+  //   variables: {},
 
-    pageTracking: true,
-    pageViewEventName: 'nuxtRoute',
-    respectDoNotTrack: true,
+  //   pageTracking: true,
+  //   pageViewEventName: 'nuxtRoute',
+  //   respectDoNotTrack: true,
 
-    scriptId: 'gtm-script',
-    scriptDefer: true,
-    scriptURL: 'https://www.googletagmanager.com/gtm.js',
-    crossOrigin: false,
+  //   scriptId: 'gtm-script',
+  //   scriptDefer: true,
+  //   scriptURL: 'https://www.googletagmanager.com/gtm.js',
+  //   crossOrigin: false,
 
-    noscript: true,
-    noscriptId: 'gtm-noscript',
-    noscriptURL: 'https://www.googletagmanager.com/ns.html'
-  },
+  //   noscript: true,
+  //   noscriptId: 'gtm-noscript',
+  //   noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  // },
   
 
 
@@ -238,22 +238,22 @@ export default {
         // accepted: () => window.$nuxt.$gtm.init('GTM-PM4DL28'),
        
         // orgineel. uit docs:  
-        accepted: () =>{
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-          });
-        },
-
-        // accepted: () => {
+        // accepted: () =>{
         //   window.dataLayer = window.dataLayer || [];
-        //   function gtag() {
-        //     dataLayer.push(arguments);
-        //   }
-        //   gtag("js", new Date());
-        //   gtag("config", "GTM-PM4DL28");
-        // }
+        //   window.dataLayer.push({
+        //     'gtm.start': new Date().getTime(),
+        //     event: 'gtm.js'
+        //   });
+        // },
+
+        accepted: () => {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "GTM-PM4DL28");
+        },
 
 
 
