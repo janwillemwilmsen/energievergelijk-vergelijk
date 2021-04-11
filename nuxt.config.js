@@ -139,6 +139,35 @@ export default {
     
   ],
 
+
+     
+  gtm: {
+    enabled: true, /* see below */
+    // gtm: { enabled: true, autoInit: false },
+    autoInit: false,
+    debug: true,
+
+    id: 'GTM-PM4DL28',
+    layer: 'dataLayer',
+    variables: {},
+
+    pageTracking: true,
+    pageViewEventName: 'nuxtRoute',
+
+    respectDoNotTrack: true,
+
+    scriptId: 'gtm-script',
+    scriptDefer: true,
+    scriptURL: 'https://www.googletagmanager.com/gtm.js',
+    crossOrigin: false,
+
+    noscript: true,
+    noscriptId: 'gtm-noscript',
+    noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  },
+  
+
+
   cookies: {
     text: {
       barTitle: 'Koekjes',
@@ -252,32 +281,6 @@ export default {
         }
       }
     ]
-  },
-  
-     
-  gtm: {
-    enabled: true, /* see below */
-    // gtm: { enabled: true, autoInit: false },
-    autoInit: false,
-    debug: true,
-
-    id: 'GTM-PM4DL28',
-    layer: 'dataLayer',
-    variables: {},
-
-    pageTracking: true,
-    pageViewEventName: 'nuxtRoute',
-
-    respectDoNotTrack: true,
-
-    scriptId: 'gtm-script',
-    scriptDefer: true,
-    scriptURL: 'https://www.googletagmanager.com/gtm.js',
-    crossOrigin: false,
-
-    noscript: true,
-    noscriptId: 'gtm-noscript',
-    noscriptURL: 'https://www.googletagmanager.com/ns.html'
   },
   
   
