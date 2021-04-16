@@ -87,32 +87,12 @@ export default {
 // in de static map staat manifest.jww.json - die is gekoppeld aan het 'Install PWA' script in ThePWA.vue
 
 
-  pwa: {
-    // manifest: false,
-    workbox: {
-      /* workbox options */
-      workboxExtensions: ['plugins/import-custom-sw.client.js'], 
-         },
-    manifest: {
-      name: 'energievergelijk-vergelijk',
-      start_url: '/?standalone=true',
-      display: 'standalone',
-      background_color: '#ffffff',
-      theme_color: '#9B242C',
-      lang: 'nl',
-      // useWebmanifestExtension: true,
-      // publicPath: '/',
-    },
-   
-  },
-
-
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
     // '~plugins/kwesforms.js'
-    {src: '~plugins/gtm.js',  mode: 'client'},
+    // {src: '~plugins/gtm.js',  mode: 'client'},
     '~plugins/lottie.js',
     // '~plugins/marquee-text-component.js',
   ],
@@ -123,7 +103,7 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     '@/modules/sitemapRouteGenerator',
-    // '@nuxtjs/pwa',
+    '@nuxtjs/pwa',
   ],
   /*
   ** Nuxt.js modules
@@ -134,36 +114,39 @@ export default {
     '@nuxtjs/sitemap',
     'vue-social-sharing/nuxt',
     // 'nuxt-cookie-control',
-    // '@nuxtjs/gtm'
+    '@nuxtjs/gtm'
 
     
   ],
-
-
-    // // DISABLED omdat er een script is in de Plugins folder. 
-// gtm: { enabled: true, autoInit: false },
-  //  gtm: {
-  //   enabled: true, /* see below */
-  //   autoInit: true,
-  //   debug: true,
-
-  //   id: 'GTM-PM4DL28',
-  //   layer: 'dataLayer',
-  //   variables: {},
-
-  //   pageTracking: true,
-  //   pageViewEventName: 'nuxtRoute',
-  //   respectDoNotTrack: true,
-
-  //   scriptId: 'gtm-script',
-  //   scriptDefer: true,
-  //   scriptURL: 'https://www.googletagmanager.com/gtm.js',
-  //   crossOrigin: false,
-
-  //   noscript: true,
-  //   noscriptId: 'gtm-noscript',
-  //   noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  // gtm: {
+  //   id: 'GTM-PM4DL28'
   // },
+
+// // DISABLED omdat er een script is in de Plugins folder. 
+// gtm: { enabled: true, autoInit: false },
+
+   gtm: {
+    enabled: true, /* see below */
+    autoInit: true,
+    debug: true,
+
+    id: 'GTM-PM4DL28',
+    layer: 'dataLayer',
+    // variables: {},
+
+    pageTracking: true,
+    pageViewEventName: 'nuxtRoute',
+    respectDoNotTrack: true,
+
+    scriptId: 'gtm-script',
+    scriptDefer: false,
+    scriptURL: 'https://www.googletagmanager.com/gtm.js',
+    // crossOrigin: false,
+
+    // noscript: false,
+    // noscriptId: 'gtm-noscript',
+    // noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  },
   
 
 
@@ -311,6 +294,28 @@ export default {
       return { x: 0, y: 0 }
     }
   },
+
+  
+
+  pwa: {
+    // manifest: false,
+    workbox: {
+      /* workbox options */
+      workboxExtensions: ['plugins/import-custom-sw.client.js'], 
+         },
+    manifest: {
+      name: 'energievergelijk-vergelijk',
+      start_url: '/?standalone=true',
+      display: 'standalone',
+      background_color: '#ffffff',
+      theme_color: '#9B242C',
+      lang: 'nl',
+      // useWebmanifestExtension: true,
+      // publicPath: '/',
+    },
+   
+  },
+
       
     
   // Sitemap : werkt mogelijk niet op localhost bij NPM RUN DEV. Wel bij NPM RUN BUILD en NPM RUN START
