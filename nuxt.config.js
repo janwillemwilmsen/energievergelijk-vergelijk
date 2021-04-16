@@ -132,7 +132,7 @@ export default {
     '@nuxt/content',
     '@nuxt/http',
     '@nuxtjs/sitemap',
-    'vue-social-sharing/nuxt',
+    // 'vue-social-sharing/nuxt',
     // 'nuxt-cookie-control',
     // '@nuxtjs/gtm'
 
