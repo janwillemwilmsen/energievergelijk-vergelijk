@@ -112,9 +112,9 @@ export default {
   */
   plugins: [
     // '~plugins/kwesforms.js'
+    {src: '~plugins/gtm.js',  mode: 'client'},
     '~plugins/lottie.js',
     // '~plugins/marquee-text-component.js',
-    {src: '~plugins/gtm.js',  mode: 'client'},
   ],
   /*
   ** Nuxt.js dev-modules
