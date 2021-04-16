@@ -123,7 +123,7 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     '@/modules/sitemapRouteGenerator',
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
   ],
   /*
   ** Nuxt.js modules
@@ -132,7 +132,7 @@ export default {
     '@nuxt/content',
     '@nuxt/http',
     '@nuxtjs/sitemap',
-    // 'vue-social-sharing/nuxt',
+    'vue-social-sharing/nuxt',
     // 'nuxt-cookie-control',
     // '@nuxtjs/gtm'
 
