@@ -92,7 +92,7 @@ export default {
   */
   plugins: [
     // '~plugins/kwesforms.js'
-    // {src: '~plugins/gtm.js',  mode: 'client'},
+    {src: '~plugins/gtm.js',  mode: 'client'},
     '~plugins/lottie.js',
     // '~plugins/marquee-text-component.js',
   ],
@@ -109,12 +109,12 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/gtm',
     '@nuxt/content',
     '@nuxt/http',
     '@nuxtjs/sitemap',
-    'vue-social-sharing/nuxt',
+    'vue-social-sharing/nuxt'
     // 'nuxt-cookie-control',
-    '@nuxtjs/gtm'
 
     
   ],
@@ -127,7 +127,7 @@ export default {
 
    gtm: {
     enabled: true, /* see below */
-    autoInit: true,
+    autoInit: false,
     debug: true,
 
     id: 'GTM-PM4DL28',

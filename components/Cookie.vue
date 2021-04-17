@@ -6,14 +6,14 @@
       <div class="flex flex-row ">
 
 
-        <div class="bg-white  grow">
+        <div class="bg-white grow">
           <slot name="message">
-            We use cookies to provide our services and for analytics and
+            We gebruike cookies to provide our services and for analytics and
             marketing. To find out more about our use of cookies, please see our
             <nuxt-link class="cookie__link" to="/privacy-policy">Privacy Policy</nuxt-link>. Click accept for the best user experience on our app.
           </slot>
         </div>
-        <div class="justify-end bg-gray-600  shrink d-flex" cols="12" md="3">
+        <div class="justify-end bg-gray-600 shrink d-flex" cols="12" md="3">
           <div class="ma-2" @click="accept">{{ buttonTextAccept }}</div>
           <div class="ma-2" text @click="deny">{{ buttonTextDeny }}</div>
         </div>
