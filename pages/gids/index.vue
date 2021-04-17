@@ -30,7 +30,7 @@
         </div>
         <div class="flex px-5 py-3 bg-gray-100 border-t hover:bg-gray-200">
          
-                     <div class="inline w-full px-4 py-2 font-bold text-gray-800 rounded ">
+                     <div class="inline w-full py-2 font-bold text-gray-800 rounded ">
 
 
                         <div class="flex items-center ">
@@ -45,8 +45,8 @@
                           </div>
                           <div class="ml-2  twee">
 
-                                    <div class="underline ">
-                                        Lees meer over {{ article.bedrijfsnaam }}
+                                    <div class="text-sm underline ">
+                                        Meer over {{ article.title }}
                                     </div>
 
                           </div>

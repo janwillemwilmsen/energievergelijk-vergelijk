@@ -15,11 +15,12 @@
     <div class="p-5">
       <p class="mx-auto font-sans text-xl subpixel-antialiased text-center text-gray-200 uppercase hover:text-gray-300 bold">MENU </p>
         <div class="p-5 font-bold tracking-tighter text-center text-gray-600 ">
-              <a href="/archief">Energiescans</a><br>
-              <a href="/gids">Leveranciers en vergelijkers</a><br>
-              <a href="/over#contact">Contact</a><br>
-              <a href="/over">Over ons</a><br>
-              <a href="/blog">Blog</a><br>
+              <nuxt-link to="/archief">Energiescans</nuxt-link><br>
+              <nuxt-link to="/gids">Leveranciers en vergelijkers</nuxt-link><br>
+              <nuxt-link to="/over#contact">Contact</nuxt-link><br>
+              <nuxt-link to="/over">Over ons</nuxt-link><br>
+              <nuxt-link to="/blog">Blog</nuxt-link><br>
+              <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="text-yellow-300 ">Persoonlijk overzicht</nuxt-link><br>
 
         </div>
     </div>

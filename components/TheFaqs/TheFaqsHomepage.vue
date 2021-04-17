@@ -53,7 +53,7 @@ export default {
         },
         {
           title: "Hoe vergelijk je energieleveranciers?",
-          text: "Het is belangrijk om te kijken naar de prijs. Echter, niet elke energievergelijker biedt contracten aan bij elke energieleverancier. Het is ook belangrijk om te kijken naar hoe <a class='underline' href='/blog/'>prijzen zijn opgebouwd</a>."
+          text: "Het is belangrijk om te kijken naar de prijs. Echter, niet elke energievergelijker biedt contracten aan bij elke energieleverancier. Het is ook belangrijk om te kijken naar hoe <a class='underline' href='/blog/tips-waarop-te-letten-bij-overstappen'>prijzen zijn opgebouwd</a>."
         },
 
         {

@@ -35,12 +35,12 @@
       <textarea name="message" v-model="message" class="w-full px-3 pt-4 pb-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"></textarea>
       <!-- <textarea name="message" v-model="message" class=""></textarea> -->
       </label>  
+<div class="p-0 m-0 text-sm text-gray-400">* verplicht</div>
 
 
-    <button type="submit"  @click.prevent="submitForm" class="w-5/12 p-4 mx-auto mt-4 bg-yellow-400 rounded-md">➤ Verzenden </button>
+    <button type="submit"  @click.prevent="submitForm" class="w-8/12 p-4 mx-auto mt-4 bg-yellow-400 rounded-md lg:w-5/12">➤ Verzenden </button>
 
    
-<div class="p-0 m-0 text-sm text-gray-400">* verplicht</div>
 
 </div>
 

@@ -39,7 +39,7 @@
                                   </svg>
                                 
                                   <span class="z-10 ">
-                                      Bekijk en vergelijk actuele energietarieven nu.
+                                     Vergelijk actuele energietarieven 
                                   </span>
 
 </nuxt-link>

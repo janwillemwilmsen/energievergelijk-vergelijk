@@ -36,7 +36,7 @@
  
 <br>
  <p class="my-8 text-2xl">
-Interesse? <nuxt-link :to="{ path:'/over', hash:'#contact'}"  @click.native="scroll">Neem contact op!</nuxt-link><br><br>
+Interesse? <nuxt-link :to="{ path:'/over', hash:'#contact'}"  @click.native="scroll" class="underline ">Neem contact op!</nuxt-link><br><br>
 </p>
  
 

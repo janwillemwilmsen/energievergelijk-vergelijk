@@ -99,27 +99,30 @@
 
 <!-- The dog -->
 <section class="py-8 bg-green-600">
-  <div class="h-full bg-right bg-no-repeat "  style="background-image: url(https://placedog.net/240/320);opacity: 0.6;"  >
+  <!-- <div class="h-full bg-right bg-no-repeat "  style="background-image: url(https://placedog.net/240/320);opacity: 0.6;"  > -->
+  <div class="flex ">
     
-
+    
    
-            <!-- <img alt="profil" src="https://placedog.net/540/320" width="540" class="relative float-right w-full mx-auto -mr-20 rounded-full " /> -->
         
     
     <div class="ml-12 md:ml-24 sm:px-12">
-        <p class="pt-12 text-5xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-7xl opacity-90">
+        <p class="pt-12 text-2xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-4xl opacity-90">
             Wolf, de office waakhond ;-)  
         </p>
         
-        <p class="w-5/12 pt-12 text-xl font-extrabold leading-none tracking-tight text-gray-600 md:w-8/12 lg:text-5xl opacity-80">
+        <p class="pt-12 text-2xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-2xl opacity-80">
         Knauwen als de beste, blaffen als een baas, piesen als een malle. Guardian of mental and fysieke gezondheid.
         </p>
-        <p class="w-5/12 pt-12 text-xl font-extrabold leading-none tracking-tight text-gray-600 md:w-8/12 pb-36 lg:text-5xl opacity-80">
+        <p class="pt-12 text-2xl font-extrabold leading-none tracking-tight text-gray-600 lg:text-2xl opacity-80">
         Oke, ik geef het toe. We hadden hier net zo goed een koffiezetapparaat kunnen plaatsen.
         </p>
     </div>
 
-   
+       <div class="p-0 m-0 overflow-hidden ">
+            <img alt="profil" src="https://placedog.net/800/800" width="400" class="mx-auto mr-12 overflow-hidden rounded-full opacity-75 md:-mr-12 " />
+
+        </div>
 
 
 </div>
@@ -162,7 +165,7 @@
 <h2 class="w-full mx-auto mb-8 text-5xl font-extrabold leading-none tracking-tight text-center text-gray-600">Contact</h2>
 
 
-<TheContact/> 
+<FormsTheContact/> 
 
 
 <!-- <h2 class="w-full mx-auto mb-4 text-5xl font-extrabold leading-none tracking-tight text-center text-gray-600">Obligatoire, niets zeggende, statistieken</h2> -->
