@@ -43,7 +43,7 @@
                                     
 
                           </div>
-                          <div class="ml-2  twee">
+                          <div class="ml-2 twee">
 
                                     <div class="text-sm underline ">
                                         Meer over {{ article.title }}
