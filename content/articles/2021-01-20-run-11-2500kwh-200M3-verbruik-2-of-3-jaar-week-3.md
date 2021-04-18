@@ -1,6 +1,6 @@
 ---
 scenario: 2500kwh-200M3-verbruik-2-of-3-jaar  
-title:  Run 11 -- Energiecontract, 2 jaar Hoogverbruik(2500kWh, 200M3)   - SAVE
+title:  Energiecontracten vergelijken, 2 jaar Hoogverbruik(2500kWh, 200M3)
 description: Vergelijk nu de prijzen van een Energiecontract van 2 jaar  
 image: /logo.png  
 energieleverancier-url:  run-11-  

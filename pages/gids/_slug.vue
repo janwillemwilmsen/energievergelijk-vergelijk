@@ -20,7 +20,7 @@
 
 
       <h1 class="mt-4 mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 break-words">
-       {{ article.title }}.
+       {{ article.title }}
       </h1>
 
       <!-- <div class="flex mx-auto mb-4" > -->
@@ -288,6 +288,8 @@ const meta = getSiteMeta();
     },
 
 
+// in googledoc - 2 kolommen toegevoegd. - script nog aanpassen - tot en met kolom AD
+// seotitle	metadescription
     
  head() {
     return {

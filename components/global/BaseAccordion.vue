@@ -23,7 +23,7 @@
                                   </svg>
                          </transition>
                             </div>                                  
-                            <div class="ml-2 text-white two opacity-80">
+                            <div class="ml-2 two opacity-80">
                                   <slot name="title" class=""></slot>
                             </div>
          </div>

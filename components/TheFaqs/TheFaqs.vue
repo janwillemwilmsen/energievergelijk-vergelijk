@@ -11,7 +11,7 @@
          <div class="p-4 border border-gray-500 border-opacity-25 rounded-xl">
 
 
-            <h2 class="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-600 ">Veelgestelde vragen.</h2>
+            <h2 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 break-words sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Veelgestelde vragen</h2>
 
 
          <div  class="text-gray-600 faqs" itemscope  itemtype="https://schema.org/FAQPage">

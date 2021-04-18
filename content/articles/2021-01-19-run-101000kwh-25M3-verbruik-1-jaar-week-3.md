@@ -1,6 +1,6 @@
 ---
 scenario: 1000kwh-25M3-verbruik-1-jaar  
-title:  Run 10 -- Energiecontract, 1 jaar Laagverbruik(1000kWh, 25M3)   - SAVE
+title:  Energiecontract, 1 jaar Laagverbruik(1000kWh, 25M3)
 description: Vergelijk nu de prijzen van een Energiecontract van 1 jaar  
 image: /logo.png  
 energieleverancier-url:  run-10  

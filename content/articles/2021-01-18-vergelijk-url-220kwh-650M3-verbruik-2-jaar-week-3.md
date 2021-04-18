@@ -1,6 +1,6 @@
 ---
 scenario: 220kwh-650M3-verbruik-2-jaar  
-title:  Run 9 -- Mijn Title   - SAVE
+title:  energieprijzen vergelijken - twee jaar - 2200KwH 650M3 
 description: Mijn omschrijving  
 image: /logo.png  
 energieleverancier-url:  vergelijk-url-  

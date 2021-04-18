@@ -1,6 +1,6 @@
 ---
 scenario: 2765kwh-1269M3-verbruik-2-of-3-jaar-v2  
-title:  Run 14 - PJR - Energiecontract, 1 jaar Hoogverbruik(2765kWh, 1269M3)   - SAVE
+title:  Energiecontract, 1 jaar Hoogverbruik(2765kWh, 1269M3)
 description: Vergelijk nu de prijzen van een Energiecontract van 2/3 jaar  
 image: /logo.png  
 energieleverancier-url:  run-14-  

@@ -1,6 +1,6 @@
 ---
 scenario: 998kwh-199M3-verbruik-1-jaar  
-title:  Energiecontract, 1 jaar met laag verbruik (998kWh, 199M3)  - zonder schermprint
+title:  Energiecontract, 1 jaar met laag verbruik (998kWh, 199M3)
 description: Vergelijk nu de prijzen van een energiecontract van 1 jaar - laagverbruik  
 image: /logo.png  
 energieleverancier-url:  2021-02-21-run-4-  

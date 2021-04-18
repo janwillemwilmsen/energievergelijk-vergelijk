@@ -26,7 +26,7 @@
 <a name="ons"></a>
  <section class="bg-gray-200">
   <div class="container px-5 py-24 mx-auto">
-    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Over ons.</h1>
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 break-words md:text-5xl lg:text-6xl">Over ons</h1>
          
                 <span class="mt-8 text-2xl font-semibold ">#Coronaproject</span>
                 <p class="text-2xl">
@@ -133,7 +133,7 @@
 <a name="vacatures"></a>
 <section class="w-full text-center bg-yellow-400 bg-opacity-80">
 
-  <h2 class="pt-12 text-3xl font-extrabold leading-none tracking-tight text-center text-yellow-600 lg:text-9xl opacity-60">Vacatures.</h2>
+  <h2 class="pt-12 text-3xl font-extrabold leading-none tracking-tight text-center text-yellow-600 lg:text-9xl opacity-60">Vacatures</h2>
 
   <div class="container w-full px-5 pt-12 pb-24 mx-auto ">
   

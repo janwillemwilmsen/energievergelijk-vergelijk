@@ -1,6 +1,6 @@
 ---
 scenario: 290kwh-239M3-verbruik-2-of-3-jaar-v2  
-title:  Run 16 - MVZ - Energiecontract, 2 jaar gemiddeld verbruik(290kWh, 239M3)  
+title:  Vergelijk Energiecontract, 2 jaar gemiddeld verbruik(290kWh, 239M3)  
 description: Vergelijk nu de prijzen van een Energiecontract van 2 of 3 jaar  
 image: /logo.png  
 energieleverancier-url:  2021-01-27-run-16-  

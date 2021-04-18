@@ -1,5 +1,5 @@
 ---
-title:  Mijn Title  3 week 2 - SAVE
+title:  Energietarieven vergelijken - 2 jaar energiecontract - 1250 kWh,  250m3 
 ---
 
 ## Pricewise    2021 0 13

@@ -1,6 +1,6 @@
 ---
 scenario: 2165kwh-500M3-verbruik-2-of-3-jaar-v2  
-title:  Run 15 - Energiecontract, 2 of 3 jaar met gemiddeld verbruik(2165kWh, 500M3)  
+title:  Energiecontracten vergelijk, 2 of 3 jaar met gemiddeld verbruik(2165kWh, 500M3)  
 description: Vergelijk nu de prijzen van een Energiecontract van 2 of 3 jaar  
 image: /logo.png  
 energieleverancier-url:  2021-01-24-run-15-  

@@ -17,7 +17,7 @@
    <div class="flex flex-col items-center justify-center px-5 py-24 mx-auto text-center container-form">
 
        <h2 class="z-30 mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 break-words sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-                Vergelijk mijn energieverbruik.
+                Vergelijk mijn energieverbruik
         </h2>
 
   <div><p class="w-3/4 p-4 mx-auto text-base font-semibold tracking-tight md:text-1xl lg:text-2xl ">  
