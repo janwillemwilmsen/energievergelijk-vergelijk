@@ -81,40 +81,31 @@ export default {
   css: [
   ],
 
-  
-
 // PWA Manifest False werkt niet. Er wordt toch een manifest met Dynamische filename gebuild.
 // in de static map staat manifest.jww.json - die is gekoppeld aan het 'Install PWA' script in ThePWA.vue
 
 
-  /*
-  ** Plugins to load before mounting the App
-  */
   plugins: [
     // '~plugins/kwesforms.js'
-    {src: '~plugins/gtm.js',  mode: 'client'},
+    // {src: '~plugins/gtm.js',  mode: 'client'},
     '~plugins/lottie.js',
     // '~plugins/marquee-text-component.js',
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
+   
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     '@/modules/sitemapRouteGenerator',
     '@nuxtjs/pwa',
   ],
-  /*
-  ** Nuxt.js modules
-  */
+  
   modules: [
     '@nuxtjs/gtm',
     '@nuxt/content',
     '@nuxt/http',
     '@nuxtjs/sitemap',
-    'vue-social-sharing/nuxt'
-    // 'nuxt-cookie-control',
+    'vue-social-sharing/nuxt',
+    'nuxt-cookie-control',
 
     
   ],
@@ -129,20 +120,16 @@ export default {
     enabled: true, /* see below */
     autoInit: false,
     debug: true,
-
     id: 'GTM-PM4DL28',
     layer: 'dataLayer',
-    // variables: {},
-
     pageTracking: true,
     pageViewEventName: 'nuxtRoute',
     respectDoNotTrack: true,
-
     scriptId: 'gtm-script',
     scriptDefer: false,
     scriptURL: 'https://www.googletagmanager.com/gtm.js',
+    // variables: {},
     // crossOrigin: false,
-
     // noscript: false,
     // noscriptId: 'gtm-noscript',
     // noscriptURL: 'https://www.googletagmanager.com/ns.html'
@@ -150,121 +137,123 @@ export default {
   
 
 
-//   cookies: {
-//     text: {
-//       barTitle: 'Koekjes',
-//       barDescription: 'We use our own cookies and third-party cookies so that we can show you this website and better understand how you use it, with a view to improving the services we offer. If you continue browsing, we consider that you have accepted the cookies.',
-//       acceptAll: 'Toestaan',
-//       declineAll: 'Blokkeer',
-//       manageCookies: 'Cookieinstellingen',
-//       unsaved: 'Je hebt niet opgeslagen instellingen',
-//       close: 'Sluit',
-//       save: 'Opslaan',
-//       necessary: 'Noodzakelijke cookies',
-//       optional: 'Optionele cookies',
-//       functional: 'Functionele cookies',
-//       blockedIframe: 'Om dit te zien moet je functionele cookies accepteren.',
-//       here: 'hier'
-//     },
-//     colors: {
-//       barTextColor: '#fff',
-//       barButtonBackground: '#fff',
-//       barBackground: '#000',
-//       barButtonColor: '#000',
-//       barButtonHoverColor: '#fff',
-//       barButtonHoverBackground: '#333',
+  cookies: {
+    barPosition: 'top-full',
+    text: {
+      barTitle: 'Koekjes',
+      barDescription: 'We use our own cookies and third-party cookies so that we can show you this website and better understand how you use it, with a view to improving the services we offer. If you continue browsing, we consider that you have accepted the cookies.',
+      acceptAll: 'Toestaan',
+      declineAll: 'Blokkeer',
+      manageCookies: 'Cookieinstellingen',
+      unsaved: 'Je hebt niet opgeslagen instellingen',
+      close: 'Sluit',
+      save: 'Opslaan',
+      necessary: 'Noodzakelijke cookies',
+      optional: 'Optionele cookies',
+      functional: 'Functionele cookies',
+      blockedIframe: 'Om dit te zien moet je functionele cookies accepteren.',
+      here: 'hier'
+    },
+    colors: {
+      barTextColor: '#fff',
+      barButtonBackground: '#fff',
+      barBackground: '#000',
+      barButtonColor: '#000',
+      barButtonHoverColor: '#fff',
+      barButtonHoverBackground: '#333',
+      // barPosition: center,
+
+      modalOverlay: '#000',
+      modalTextColor: '#000',
+      modalBackground: '#fff',
+      modalOverlayOpacity: 0.8,
+      modalButtonColor: '#fff',
+      modalUnsavedColor: '#fff',
+      modalButtonHoverColor: '#fff',
+      modalButtonBackground: '#000',
+      modalButtonHoverBackground: '#333',
      
-//       modalOverlay: '#000',
-//       modalTextColor: '#000',
-//       modalBackground: '#fff',
-//       modalOverlayOpacity: 0.8,
-//       modalButtonColor: '#fff',
-//       modalUnsavedColor: '#fff',
-//       modalButtonHoverColor: '#fff',
-//       modalButtonBackground: '#000',
-//       modalButtonHoverBackground: '#333',
+      controlButtonBackground: "#12957b",
+      controlButtonHoverBackground: "#2e495e",
+      controlButtonIconHoverColor: "#fff",
+      controlButtonIconColor: "#fff",
      
-//       controlButtonBackground: "#12957b",
-//       controlButtonHoverBackground: "#2e495e",
-//       controlButtonIconHoverColor: "#fff",
-//       controlButtonIconColor: "#fff",
-     
-//       checkboxActiveBackground: "#2e495e",
-//       checkboxInactiveBackground: "#ede1e1",
-//       checkboxActiveCircleBackground: "#00c58e",
-//       checkboxInactiveCircleBackground: "#f44336",
-//       checkboxDisabledBackground: "#ddd",
-//       checkboxDisabledCircleBackground: "#fff"
-//     },
+      checkboxActiveBackground: "#2e495e",
+      checkboxInactiveBackground: "#ede1e1",
+      checkboxActiveCircleBackground: "#00c58e",
+      checkboxInactiveCircleBackground: "#f44336",
+      checkboxDisabledBackground: "#ddd",
+      checkboxDisabledCircleBackground: "#fff"
+    },
 
 
-//     necessary: [
-//       {
-//         name:  'Noodzakelijke cookies',
-//         description:  'Gebruikt om de cookiepermissie te onthouden.',
-//         cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies']
-//       }
-//     ],
-//     optional: [
-//       {
-//         name:  'Google Tagmanager',
-//         //if you don't set identifier, slugified name will be used
-//         identifier: 'ga',
-//         description:  'Met Google Tagmanager beheren wij onze verschillende meetpixels.',
-//         initialState: true,
-//         src:  'https://www.googletagmanager.com/gtm.js?id=GTM-PM4DL28',
-//         async:  true,
-//         cookies: ['_ga', '_gat', '_gid','jww'],
+    necessary: [
+      {
+        name:  'Noodzakelijke cookies',
+        description:  'Gebruikt om de cookiepermissie te onthouden.',
+        cookies: ['cookie_control_consent', 'cookie_control_enabled_cookies']
+      }
+    ],
+    optional: [
+      {
+        name:  'Google Tagmanager',
+        identifier: 'ga',
+        description:  'Met Google Tagmanager beheren wij onze verschillende meetpixels.',
+        initialState: true,
+        src:  'https://www.googletagmanager.com/gtm.js?id=GTM-PM4DL28',
+        async:  true,
+        cookies: ['_ga', '_gat', '_gid','jww'],
        
 
-//         // AANGEPAST : https://gitlab.com/broj42/nuxt-cookie-control/-/issues/39
-//         // accepted: () => window.$nuxt.$gtm.init('GTM-PM4DL28'),
+        // AANGEPAST : https://gitlab.com/broj42/nuxt-cookie-control/-/issues/39
+        accepted: () => window.$nuxt.$gtm.init('GTM-PM4DL28'),
        
-//         // orgineel. uit docs:  
-//         // accepted: () =>{
-//         //   window.dataLayer = window.dataLayer || [];
-//         //   window.dataLayer.push({
-//         //     'gtm.start': new Date().getTime(),
-//         //     event: 'gtm.js'
-//         //   });
-//         // },
+        // orgineel. uit docs:  
+        // accepted: () =>{
+        //   window.dataLayer = window.dataLayer || [];
+        //   window.dataLayer.push({
+        //     'gtm.start': new Date().getTime(),
+        //     event: 'gtm.js'
+        //   });
+        // },
 
-//         accepted: () => {
-//           window.dataLayer = window.dataLayer || [];
-//           function gtag() {
-//             dataLayer.push(arguments);
-//           }
-//           gtag("js", new Date());
-//           gtag("config", "GTM-PM4DL28");
-//         },
-
-
-
-
-//       declined: () =>{
-// // decline start - om aantal gedeclined mensen te meten
-
-// // window.dataLayer = window.dataLayer || [];
-// // function gtag() {
-// //     dataLayer.push(arguments);
-// // }
-
-// // gtag("consent", "default", {
-// //     ad_storage: "denied",
-// //     analytics_storage: "denied",
-// //     wait_for_update: 500,
-// // });
-// // gtag("set", "ads_data_redaction", true);
+        // accepted: () => {
+        //   window.dataLayer = window.dataLayer || [];
+        //   function gtag() {
+        //     dataLayer.push(arguments);
+        //   }
+        //   gtag("js", new Date());
+        //   gtag("config", "GTM-PM4DL28");
+        // },
 
 
 
 
-// // decline end
-//         }
-//       }
-//     ]
-//   },
+      declined: () =>{
+// decline start - om aantal gedeclined mensen te meten
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+
+gtag("consent", "default", {
+    ad_storage: "denied",
+    analytics_storage: "denied",
+    wait_for_update: 500,
+});
+gtag("set", "ads_data_redaction", true);
+
+// decline end
+        }
+      }
+    ]
+  },
   
+
+
+
+
   
   router: {
     scrollBehavior: async (to, from, savedPosition) => {
