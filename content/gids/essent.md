@@ -23,13 +23,13 @@ linknaarinstragram2: https://socialstats.info/report/essentenergie/instagram
 linknaaryoutube2: https://socialstats.info/report/essent/youtube  
 linknaarfacebook2: https://socialstats.info/report/essent/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/essent  
-ervaringenklantenvertellen: 7,8  
+ervaringenklantenvertellen: 7,7  
 volgersyoutube: '272'  
-volgersinstragram: '2.093'  
-volgerstwitter: '11.148'  
-fansfacebook: '78.594'  
-rankalexa: '435.522'  
-paginagoogle: '5.270'  
+volgersinstragram: '2.092'  
+volgerstwitter: '11.165'  
+fansfacebook: '78.765'  
+rankalexa: '395.690'  
+paginagoogle: '4.360'  
 youtubetitle: Dynamische energieprijzen met een slimme energiemeter  
 youtubeintro: Wat is nou een slimme meter, wat zijn de voordelen van een slimme meter voor jou en voor de netbeheerder. Betaal ik nu meer of minder voor mijn energie als ik een slimme meter heb. Meer over slimme meters en dynamische energieprijzen in de video van Essent.  
 youtubevid: https://www.youtube-nocookie.com/embed/EfLX2FJLHQE  

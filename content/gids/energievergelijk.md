@@ -23,8 +23,8 @@ linknaaryoutube2:
 linknaarfacebook2:   
 linknaartwitter2:   
 fansfacebook: '6'  
-rankalexa: '4.411.569'  
-paginagoogle: '408'  
+rankalexa: '7.145.867'  
+paginagoogle: '376'  
 youtubetitle: Bekijk energievergelijker video niet  
 youtubeintro: Geen video gevonden. Fijn alternatiefje geplaatst.  
 youtubevid: https://www.youtube-nocookie.com/embed/nu8-7huFyvo  

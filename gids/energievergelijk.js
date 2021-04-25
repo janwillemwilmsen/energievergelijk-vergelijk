@@ -82,7 +82,7 @@ console.log(bedrijfsytvid);
 
 
 (async () => {
-    const browser = await chromium.launch({ headless: true, slowMo: 250 });
+    const browser = await chromium.launch({ headless: false, slowMo: 250 });
     const context = await browser.newContext();
     
     const AlexUrl20 = bedrijfsalexa;
@@ -100,7 +100,8 @@ console.log(bedrijfsytvid);
 console.log('BING START');
 const page10 = await browser.newPage();
 const bingUrl10 = 'https://bing.com';
-await page10.goto(bingUrl10, {waitUntil: 'networkidle'});
+await page10.goto(bingUrl10);
+await page10.waitForTimeout(1000);
 const searchPage = new SearchPage(page10);
 // await searchPage.navigate();
 const result10 = await searchPage.search('nike');

@@ -22,12 +22,12 @@ linknaarinstragram2: https://socialstats.info/report/gaslicht/instagram
 linknaaryoutube2: https://socialstats.info/report/gaslicht/youtube  
 linknaarfacebook2: https://socialstats.info/report/gaslicht/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/gaslicht_com  
-volgersyoutube: '121'  
+volgersyoutube: '123'  
 volgersinstragram: '2.542'  
-volgerstwitter: '1.036'  
-fansfacebook: '2.208'  
-rankalexa: '1.630.366'  
-paginagoogle: '3.570'  
+volgerstwitter: '1.034'  
+fansfacebook: '2.209'  
+rankalexa: '1.084.779'  
+paginagoogle: '3.070'  
 youtubetitle: Bencom a Ben Woldering idea  
 youtubeintro:  Overduidelijk. Alles is van bassie.  
 youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0  
@@ -36,15 +36,16 @@ youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0
  
 
 
+- Op 26-03 [Gaslicht.com wint Shopping Awards Publieksprijs](https://www.gaslicht.com/nieuws/gaslicht-com-wint-shopping-awards-publieksprijs)
 - Op 16-03 [Denk mee over het klimaatbeleid](https://www.gaslicht.com/nieuws/denk-mee-over-het-klimaatbeleid)
 - Op 12-03 [Gasaansluiting verwijderen, is dit wel verstandig?](https://www.gaslicht.com/nieuws/gasaansluiting-verwijderen-is-dit-wel-verstandig)
 - Op 12-03 [Lage energietarieven, zo profiteert u daarvan!](https://www.gaslicht.com/nieuws/lage-energietarieven-zo-profiteert-u-daarvan)
 - Op 02-03 [Geen kosten meer voor verwijderen gasaansluiting](https://www.gaslicht.com/nieuws/geen-kosten-meer-voor-verwijderen-gasaansluiting)
 - Op 25-02 [40 procent meer groene stroom in 2020](https://www.gaslicht.com/nieuws/40-procent-meer-groene-stroom-in-2020)
-- Op 17-02 ['Maak beter voorstel voor afbouw salderingsregeling zonnepanelen'](https://www.gaslicht.com/nieuws/maak-beter-voorstel-voor-afbouw-salderingsregeling-zonnepanelen)
+- Op 17-02 [Voorstel afbouw salderingsregeling moet beter](https://www.gaslicht.com/nieuws/maak-beter-voorstel-voor-afbouw-salderingsregeling-zonnepanelen)
 - Op 15-02 [Eneco stopt met deur-aan-deurverkoop energiecontracten](https://www.gaslicht.com/nieuws/eneco-stopt-met-deur-aan-deurverkoop-energiecontracten)
 - Op 10-02 [Opheldering over verwijdering gasaansluiting](https://www.gaslicht.com/nieuws/opheldering-over-verwijdering-gasaansluiting)
-- Op 05-02 [Warmetruiendag: bespaar door verwarming een graad lager te zetten](https://www.gaslicht.com/nieuws/warmetruiendag-bespaar-door-verwarming-een-graad-lager-te-zetten)
+- Op 05-02 [Warmetruiendag: bespaar zet de verwarming lager](https://www.gaslicht.com/nieuws/warmetruiendag-bespaar-door-verwarming-een-graad-lager-te-zetten)
 - Op 21-01 [Pure Energie benoemd tot beste energieleverancier 2021](https://www.gaslicht.com/nieuws/pure-energie-benoemd-tot-beste-energieleverancier-2021)
 - Op 20-01 [2020 was extreem goed jaar voor opbrengst zonnepanelen](https://www.gaslicht.com/nieuws/2020-was-extreem-goed-jaar-voor-opbrengst-zonnepanelen)
 - Op 13-01 [Gaslicht.com: Recordaantal huishoudens stapt over in 2020](https://www.gaslicht.com/nieuws/gaslicht-com-recordaantal-huishoudens-stapt-over-in-2020)

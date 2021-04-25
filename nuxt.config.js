@@ -198,11 +198,11 @@ export default {
       {
         name:  'Google Tagmanager',
         identifier: 'ga',
-        description:  'Met Google Tagmanager beheren wij onze verschillende meetpixels.',
+        description:  'Met Google Tagmanager beheren wij onze verschillende meetpixels. Waaronder Google Analytics en Clarity van Microsoft.',
         initialState: true,
         src:  'https://www.googletagmanager.com/gtm.js?id=GTM-PM4DL28',
         async:  true,
-        cookies: ['_ga', '_gat', '_gid','jww'],
+        cookies: ['_ga', '_gat', '_gid'],
        
 
         // AANGEPAST : https://gitlab.com/broj42/nuxt-cookie-control/-/issues/39

@@ -36,7 +36,7 @@ async function gsrun(cl){
 
         spreadsheetId: '1aAgYhlLQZl6J9szl-vpwELLpKZWCg46vNtANVv9LsIo',
         majorDimension: 'rows',
-        range: 'bedrijfsGids!A6:AB16'
+        range: 'bedrijfsGids!A6:AD16'
 
     }
 

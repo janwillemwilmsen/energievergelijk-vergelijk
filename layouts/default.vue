@@ -12,15 +12,17 @@
   <template v-slot:bar>
   <!-- <div class="wall" ></div> -->
    <h3>Cookie instellingen</h3>
-    <p>We gebruiken cookies om deze site te laten functioneren en te analyseren.   (you can use $ cookies.text.barDescription)</p>
+    <p>We gebruiken cookies om deze site te laten functioneren en te analyseren.   
+      <!-- (you can use $ cookies.text.barDescription) -->
+      </p>
   <div class="wall" id="wall" style="display: block;" ></div>
     
 
 </template>
 
       <template v-slot:modal >
-          <h3 class="">Modal title</h3>
-          <p>Modal description</p>
+          <h3 class="">Cookies op ikvergelijk</h3>
+          <!-- <p>Modal description</p> -->
       </template>
 </CookieControl>
 <!-- </div> -->
@@ -55,9 +57,18 @@ export default {
 </script>
 
  <style>
+/* de wall is min-1, de cookiepopup +1, de detailmodal +300 --- Z-INDEX */
+
  .cookieControl__Modal {
    z-index: 300;
  }
+
+
+/*  verbergt buttons in de modal met detail info van cookies.  */ 
+.cookieControl__ModalButtons button:not(:first-child)
+ {
+   display:none;
+}
 
 .wall{
 
@@ -76,7 +87,7 @@ export default {
    width:50%;
    max-width: 350px;
    margin:auto;
-   margin-bottom:25% !important;
+   margin-bottom:25%;
  }
 
  .cookieControl__BarContainer{
@@ -94,10 +105,12 @@ export default {
 .cookieControl__Bar--bottom-full{
    width:80%;
    margin:auto;
-   margin-bottom:25% !important;
+   margin-top:20% !important;
+   margin-bottom:50% !important;
  }
 
 .cookieControl__BarButtons{
+  /* background-color: red; */
      display: flex;
      flex-direction: column;
      
@@ -116,6 +129,16 @@ export default {
     margin-left: 0px;
 }
 
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+.cookieControl__Bar--bottom-full{
+   width:80%;
+   margin:auto;
+   margin-top: 5% !important;
+   margin-bottom:5% !important;
+ }
 }
  
 

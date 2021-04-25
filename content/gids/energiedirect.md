@@ -5,7 +5,7 @@ title: energiedirect.nl
 logo: /merken/snelste_energiedirect.png  
 introtekst: energiedirect.nl is een Nederlandse energieleverancier opgericht in 2002. Het bedrijf is dochteronderneming van Essent. Essent is onderdeel van het Duitse E.ON. energiedirect.nl is een prijsvechter en biedt haar klanten voordelige contracten aan voor stroom  en gas.   
 freefield1: Additionele energie gerelateerde zaken  
-freefield2: energiedirect.nl biedt klanten de mogelijkheid energie te besparen. Zo kunnen klanten zonnepanelen aanschaffen en investeren in spouwmuurisolatie. energiedirect.nl heeft ook twee apps Regelneef en Tankey. Daarmee is het mogelijk om te besparen op energie en brandstof.  
+freefield2: energiedirect.nl biedt klanten de mogelijkheid energie te besparen. Zo kunnen klanten zonnepanelen aanschaffen en investeren in spouwmuurisolatie. energiedirect.nl heeft ook twee apps, Regelneef en Tankey. Daarmee is het mogelijk om te besparen op energie en brandstof.  
 freefield3: PSV  
 freefield4: energiedirect.nl is rugsponsor van PSV. Klanten kunnen daarom kiezen voor ‘PSV energie’. Daarmee sparen ze PSV tegoed, krijgen ze standaard 10% korting in de PSV FANstore en maken ze kans op unieke PSV acties en fanbelevenissen   
 freefield5: Contact met energiedirect.nl  
@@ -26,12 +26,12 @@ linknaaryoutube2: https://socialstats.info/report/energiedirect/youtube
 linknaarfacebook2: https://socialstats.info/report/energiedirect.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/energiedirect  
 ervaringenklantenvertellen: 8,2  
-volgersyoutube: '790'  
-volgersinstragram: '3.229'  
-volgerstwitter: '4.868'  
-fansfacebook: '26.598'  
-rankalexa: '561.915'  
-paginagoogle: '440'  
+volgersyoutube: '795'  
+volgersinstragram: '3.230'  
+volgerstwitter: '4.881'  
+fansfacebook: '26.680'  
+rankalexa: '371.629'  
+paginagoogle: '367'  
 youtubetitle: Lage energietarieven bij energiedirect  
 
 youtubeintro: Vergelijk ze zelf!  
