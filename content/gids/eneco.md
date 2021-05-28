@@ -22,12 +22,12 @@ linknaarinstragram2: https://socialstats.info/report/eneco/instagram
 linknaaryoutube2: https://socialstats.info/report/EnecoMedia/youtube  
 linknaarfacebook2: https://socialstats.info/report/EnecoNederland/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/eneco  
-volgersyoutube: '381'  
-volgersinstragram: '2.598'  
-volgerstwitter: '15.936'  
-fansfacebook: '47.915'  
-rankalexa: '449.159'  
-paginagoogle: '2.620'  
+volgersyoutube: '382'  
+volgersinstragram: '2.607'  
+volgerstwitter: '15.840'  
+fansfacebook: '47.873'  
+rankalexa: '368.552'  
+paginagoogle: '3.570'  
 youtubetitle: Eneco kantoor Rotterdam  
 
 youtubeintro: Beetje oud, maar wel leuk om te zien waar jouw energie gemaakt wordt;-) Grapje, dit is het kantoor waar de marketeers, administratie, finance, etc zitten.  
@@ -36,15 +36,15 @@ youtubevid: https://www.youtube-nocookie.com/embed/O0CMBDFe25c
 
 
 
+- Op 19 mei 2021 [Start pilotproject voor transparantere certificering groene stroom](https://nieuws.eneco.nl/start-pilotproject-voor-transparantere-certificering-groene-stroom/)
+- Op 03 mei 2021 [Ford en Eneco breiden succesvolle samenwerking uit naar België en Duitsland](https://nieuws.eneco.nl/ford-en-eneco-breiden-succesvolle-samenwerking-uit-naar-belgie-en-duitsland/)
+- Op 29 april 2021 [Jeroen Castelijn is benoemd tot Director Asset Operations](https://nieuws.eneco.nl/jeroen-castelijn-benoemt-tot-director-asset-operations/)
 - Op 22 april 2021 [Dak Rotterdam Ahoy vormt bron van duurzame energie](https://nieuws.eneco.nl/dak-rotterdam-ahoy-vormt-bron-van-duurzame-energie/)
 - Op 14 april 2021 [Dronten haalt energie uit parkeren](https://nieuws.eneco.nl/dronten-haalt-energie-uit-parkeren/)
 - Op 06 april 2021 [Goede resultaten voor Eneco, ondanks corona en het warme weer](https://nieuws.eneco.nl/goede-resultaten-voor-eneco-ondanks-corona-en-het-warme-weer/)
-- Op 30 maart 2021 [Efteling en Eneco realiseren grootste laadplein van de Benelux](https://nieuws.eneco.nl/efteling-en-eneco-realiseren-grootste-laadplein-van-de-benelux/)
-- Op 26 maart 2021 [Zowiezon helpt tientallen scholen versneld aan zonnedaken](https://nieuws.eneco.nl/zowiezon-helpt-tientallen-scholen-versneld-aan-zonnedaken/)
-- Op 16 maart 2021 [ANWB en Eneco slaan handen ineen bij aanbieden van laadpunten](https://nieuws.eneco.nl/anwb-en-eneco-slaan-handen-ineen-bij-aanbieden-van-laadpunten/)
+- Op 20 mei 2021 [Duitse wind- en zonne-energie voor klanten van LichtBlick](https://nieuws.eneco.nl/duitse-wind--en-zonne-energie-voor-klanten-van-lichtblick/)
+- Op 12 mei 2021 [Hans Peters vertrekt per 15 september 2021 bij Eneco](https://nieuws.eneco.nl/hans-peters-vertrekt-per-15-september-2021-bij-eneco/)
+- Op 11 mei 2021 [Eneco helpt HEINEKEN met stap richting 100% groene stroom](https://nieuws.eneco.nl/eneco-helpt-heineken-met-stap-richting-100-groene-stroom/)
+- Op 30 april 2021 [Bouw Windpark Weert gestart](https://nieuws.eneco.nl/bouw-windpark-weert-gestart/)
 - Op 12 april 2021 [Eneco gaat Friese windenergie leveren aan Thialf](https://nieuws.eneco.nl/eneco-gaat-friese-windenergie-leveren-aan-thialf/)
 - Op 31 maart 2021 [Jaarverslag 2020: uitnodiging voor journalisten](https://nieuws.eneco.nl/jaarverslag-2020-uitnodiging-voor-journalisten/)
-- Op 16 maart 2021 [Eneco gaat windpark Landtong Rozenburg hergebruiken, recyclen en repoweren](https://nieuws.eneco.nl/eneco-gaat-windpark-landtong-rozenburg-hergebruiken-recyclen-en-repoweren/)
-- Op 11 maart 2021 [Eneco NK Tegenwindfietsen organiseert spontane kwalificatie op Dutch Mountain](https://nieuws.eneco.nl/eneco-nk-tegenwindfietsen-organiseert-spontane-kwalificatie-op-dutch-mountain/)
-- Op 03 maart 2021 [Eneco en Lek en IJssel Stroom werken aan de verduurzaming van de Lopikerwaard](https://nieuws.eneco.nl/eneco-en-lek-en-ijssel-stroom-werken-aan-de-verduurzaming-van-de-lopikerwaard/)
-- Op 02 maart 2021 [Kwaliteitslabel voor ecologische meerwaarde zonneparken in ontwikkeling](https://nieuws.eneco.nl/kwaliteitslabel-voor-ecologische-meerwaarde-zonneparken-in-ontwikkeling/)

@@ -23,11 +23,11 @@ linknaaryoutube2: https://socialstats.info/report/gaslicht/youtube
 linknaarfacebook2: https://socialstats.info/report/gaslicht/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/gaslicht_com  
 volgersyoutube: '123'  
-volgersinstragram: '2.542'  
-volgerstwitter: '1.034'  
-fansfacebook: '2.209'  
-rankalexa: '1.084.779'  
-paginagoogle: '3.070'  
+volgersinstragram: '2.539'  
+volgerstwitter: '1.032'  
+fansfacebook: '2.208'  
+rankalexa: '1.960.335'  
+paginagoogle: '3.860'  
 youtubetitle: Bencom a Ben Woldering idea  
 youtubeintro:  Overduidelijk. Alles is van bassie.  
 youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0  
@@ -36,6 +36,8 @@ youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0
  
 
 
+- Op 25-05 [Energierekening stijgt | Zo profiteert u hiervan](https://www.gaslicht.com/nieuws/energierekening-stijgt-zo-profiteert-u-hiervan)
+- Op 20-05 [De energieprijzen stijgen explosief](https://www.gaslicht.com/nieuws/de-energieprijzen-stijgen-explosief)
 - Op 26-03 [Gaslicht.com wint Shopping Awards Publieksprijs](https://www.gaslicht.com/nieuws/gaslicht-com-wint-shopping-awards-publieksprijs)
 - Op 16-03 [Denk mee over het klimaatbeleid](https://www.gaslicht.com/nieuws/denk-mee-over-het-klimaatbeleid)
 - Op 12-03 [Gasaansluiting verwijderen, is dit wel verstandig?](https://www.gaslicht.com/nieuws/gasaansluiting-verwijderen-is-dit-wel-verstandig)

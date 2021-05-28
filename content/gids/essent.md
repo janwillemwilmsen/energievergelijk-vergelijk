@@ -25,11 +25,11 @@ linknaarfacebook2: https://socialstats.info/report/essent/facebook
 linknaartwitter2: https://followerwonk.com/analyze/essent  
 ervaringenklantenvertellen: 7,7  
 volgersyoutube: '272'  
-volgersinstragram: '2.092'  
-volgerstwitter: '11.165'  
-fansfacebook: '78.765'  
-rankalexa: '395.690'  
-paginagoogle: '4.360'  
+volgersinstragram: '2.139'  
+volgerstwitter: '11.084'  
+fansfacebook: '78.949'  
+rankalexa: '170.155'  
+paginagoogle: '4.530'  
 youtubetitle: Dynamische energieprijzen met een slimme energiemeter  
 youtubeintro: Wat is nou een slimme meter, wat zijn de voordelen van een slimme meter voor jou en voor de netbeheerder. Betaal ik nu meer of minder voor mijn energie als ik een slimme meter heb. Meer over slimme meters en dynamische energieprijzen in de video van Essent.  
 youtubevid: https://www.youtube-nocookie.com/embed/EfLX2FJLHQE  
@@ -37,8 +37,8 @@ youtubevid: https://www.youtube-nocookie.com/embed/EfLX2FJLHQE
 
 
 
+- Op 18 mei 2021 [Essent CEO Patrick Lammers benoemd tot COO van E.ON Customer Solutions](https://www.essent.nl/content/overessent/actueel/index.html/essent-ceo-patrick-lammers-benoemd-tot-coo-van-eon-customer-solutions/)
+- Op 03 mei 2021 [Essent voltooit verkoop Essent België aan Luminus](https://www.essent.nl/content/overessent/actueel/index.html/essent-voltooit-verkoop-essent-belgie-aan-luminus/)
 - Op 19 feb 2021 [KNVB en Essent bereiken mijlpaal in samenwerking](https://www.essent.nl/content/overessent/actueel/index.html/knvb-en-essent-bereiken-mijlpaal-in-samenwerking/)
 - Op 16 feb 2021 [Gasverbruik hoger door vrieskou, meer vraag naar isolatie](https://www.essent.nl/content/overessent/actueel/index.html/gasverbruik-hoger-door-vrieskou-meer-vraag-naar-isolatie/)
 - Op 05 feb 2021 [Essent verkoopt Essent België aan Luminus](https://www.essent.nl/content/overessent/actueel/index.html/essent-verkoopt-essent-belgie-aan-luminus/)
-- Op 28 dec 2020 [Veel zonuren in 2020 zorgen voor hoge opbrengst zonnepanelen](https://www.essent.nl/content/overessent/actueel/index.html/veel-zonuren-in-2020-zorgen-voor-hoge-opbrengst-zonnepanelen/)
-- Op 16 dec 2020 [Warme winter kan tot 25% lagere stookkosten leiden](https://www.essent.nl/content/overessent/actueel/index.html/warme-winter-kan-tot-25-lagere-stookkosten-leiden/)
