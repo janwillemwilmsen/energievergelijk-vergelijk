@@ -77,13 +77,13 @@
 
    
         <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto" >
-          <nuxt-link to="/energie/actueel"  class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Actuele energietarieven</nuxt-link>
+          <nuxt-link to="/energie/actueel"  class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 hover:text-gray-300 bold">Actuele energietarieven</nuxt-link>
           <!-- <a href="/gids"     class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Bedrijfsgids</a> -->
           <!-- <a href="/blog"     class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Blog</a> -->
           <!-- <a href="/over"         class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Over</a> -->
       
                   <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="z-10 pt-2">
-                      <button  class="inline-flex items-center px-3 py-1 mt-4 text-xl text-gray-800 uppercase bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
+                      <button  class="inline-flex items-center px-4 py-2 mt-8 text-xl text-gray-800 bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
                                
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="z-10 w-4 h4 bi bi-chevron-right" viewBox="0 0 16 16">
