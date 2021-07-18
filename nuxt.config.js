@@ -41,7 +41,7 @@ export default {
 
     head: {
       htmlAttrs: { lang: "nl_NL" },
-      title: "ik vergelijk de energievergelijkers.",
+      title: "Vergelijk energievergelijkers op ikvergelijk.nl!",
       meta: [
         ...meta,
         { charset: "utf-8" },

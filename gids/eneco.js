@@ -18,6 +18,8 @@ const { GooglePage } = require('./models/Google');
 
 // const Product = (0.config);
 const bedrijf                   = config[8];
+const seotitle                  = config[8].seotitle;
+const metadescription           = config[8].metadescription;
 const bedrijfsnaam              = config[8].naam;    
 const bedrijfswebsite           = config[8].www;    
 const bedrijfstitle             = config[8].title;    
@@ -49,6 +51,8 @@ const bedrijfsytintro           = config[8].youtubevideotjeintro;
 const bedrijfsytvid             = config[8].youtubevideotje;   
 
 console.log(bedrijf);
+console.log(seotitle);
+console.log(metadescription);
 console.log(bedrijfsnaam);
 console.log(bedrijfswebsite);
 console.log(bedrijfstitle);
@@ -237,6 +241,8 @@ console.log('GOOGLE END');
 
 fs.promises.writeFile(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
+seotitle: ${seotitle}  
+metadescription: ${metadescription}  
 website: ${bedrijfswebsite}   
 title: ${bedrijfstitle}  
 logo: ${bedrijfsafbeelding}  

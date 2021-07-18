@@ -54,15 +54,33 @@ Wel inhoud:      http://localhost:3000/blog.json
 <script>
 
   export default {
- head: {
-    title: 'Over energievergelijken, en wat ons opvalt bij vergelijken.',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Doe inzicht op. Waar moet jij op letten bij vergelijken?'
-      }
-    ],
+//  head: {
+//     title: 'Over energievergelijken, en wat ons opvalt bij vergelijken.',
+//     meta: [
+//       {
+//         hid: 'description',
+//         name: 'description',
+//         content: 'Doe inzicht op. Waar moet jij op letten bij vergelijken?'
+//       }
+//     ],
+//   },
+
+    head() {
+    return {
+      title: 'Blog over energie en energie vergelijken',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Overstappen van energieleverancier? Lees onze tips!'},
+        // Open Graph
+        { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
+        { hid: 'og:title', property: 'og:title', content: 'Blog over energie en energie vergelijken' },
+        { hid: 'og:description', property: 'og:description', content:  'Overstappen van energieleverancier? Lees onze tips!'},
+        // Twitter Card
+        { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Blog over energie en energie vergelijken' },
+        { hid: 'twitter:description', name: 'twitter:description', content:  'Overstappen van energieleverancier? Lees onze tips!'}
+      ]
+    }
   },
 
 

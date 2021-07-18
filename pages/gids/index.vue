@@ -102,7 +102,26 @@
 </template>
 
 <script>
+
 export default {
+head() {
+    return {
+      title: 'Energiebedrijf en energievergelijkers beschreven',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Lees meer over de vijf grootste energievergelijkers'},
+        // Open Graph
+        { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
+        { hid: 'og:title', property: 'og:title', content: 'Energiebedrijf en energievergelijkers beschreven' },
+        { hid: 'og:description', property: 'og:description', content:  'Lees meer over de vijf grootste energievergelijkers'},
+        // Twitter Card
+        { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Energiebedrijf en energievergelijkers beschreven' },
+        { hid: 'twitter:description', name: 'twitter:description', content:  'Lees meer over de vijf grootste energievergelijkers'}
+      ]
+    }
+  },
+
   async asyncData({ $content, params }) {
     const articles = await $content("gids", params.slug)
       .only(["title", "introtekst", "logo", "slug", "bedrijfsnaam"])
@@ -112,6 +131,9 @@ export default {
     return {
       articles,
     };
+
+
+    
   },
 };
 </script>

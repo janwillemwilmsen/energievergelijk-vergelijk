@@ -189,7 +189,7 @@
                         </div>            
               </li>
 
-              <li class="flex-1 m-3 md:m-0">       
+              <li class="flex-1 m-3 md:m-0" v-if="article.rankalexa">       
                         <div class="relative">
                             <div class="w-32 h-24 text-gray-200">
                                 <div class="absolute p-1">
@@ -293,18 +293,18 @@ const meta = getSiteMeta();
     
  head() {
     return {
-      title: this.article.title,
+      title: this.article.seotitle,
       meta: [
-        { hid: 'description', name: 'description', content: this.article.description },
+        { hid: 'description', name: 'description', content: this.article.metadescription },
         // Open Graph
         { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
         // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
-        { hid: 'og:title', property: 'og:title', content: this.article.title },
-        { hid: 'og:description', property: 'og:description', content: this.article.description },
+        { hid: 'og:title', property: 'og:title', content: this.article.seotitle },
+        { hid: 'og:description', property: 'og:description', content: this.article.metadescription },
         // Twitter Card
         { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
-        { hid: 'twitter:title', name: 'twitter:title', content: this.article.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: this.article.description }
+        { hid: 'twitter:title', name: 'twitter:title', content: this.article.seotitle },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.article.metadescription }
       ]
     }
   }

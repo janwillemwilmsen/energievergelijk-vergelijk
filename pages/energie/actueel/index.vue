@@ -145,30 +145,23 @@ export default {
   },
 
 
- head() {
+  head() {
     return {
-      title: this.article.title,
+      title: 'Energietarieven vergelijken',
       meta: [
-        { hid: 'description', name: 'description', content: this.article.description },
+        { hid: 'description', name: 'description', content:'Vergelijk actuele energietarieven in de vijf grootste energievergelijkers' },
         // Open Graph
         { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
         // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
-        { hid: 'og:title', property: 'og:title', content: this.article.title },
-        { hid: 'og:description', property: 'og:description', content: this.article.description },
+        { hid: 'og:title', property: 'og:title', content: 'Energietarieven vergelijken' },
+        { hid: 'og:description', property: 'og:description', content: 'Vergelijk actuele energietarieven in de vijf grootste energievergelijkers' },
         // Twitter Card
         { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
-        { hid: 'twitter:title', name: 'twitter:title', content: this.article.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: this.article.description }
-      ],
-       link: [
-        {
-          rel: 'canonical',
-          // href: 'https://www.my-primary-domain.com' + this.$route.path
-          href: 'https://ikvergelijk.nl/energie/actueel'
-        }
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Energietarieven vergelijken' },
+        { hid: 'twitter:description', name: 'twitter:description', content: 'Vergelijk actuele energietarieven in de vijf grootste energievergelijkers' }
       ]
     }
-  },
+  }
  
 // computed: {
 //   meta() {

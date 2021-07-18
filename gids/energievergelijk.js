@@ -18,6 +18,8 @@ const { GooglePage } = require('./models/Google');
 
 // const Product = (0.config);
 const bedrijf                   = config[6];
+const seotitle                  = config[6].seotitle;
+const metadescription           = config[6].metadescription;
 const bedrijfsnaam              = config[6].naam;    
 const bedrijfswebsite           = config[6].www;    
 const bedrijfstitle             = config[6].title;    
@@ -49,6 +51,8 @@ const bedrijfsytintro           = config[6].youtubevideotjeintro;
 const bedrijfsytvid             = config[6].youtubevideotje;   
 
 console.log(bedrijf);
+console.log(seotitle);
+console.log(metadescription);
 console.log(bedrijfsnaam);
 console.log(bedrijfswebsite);
 console.log(bedrijfstitle);
@@ -111,16 +115,16 @@ console.log('BING END');
 
 
 // ALEXA 
-console.log('ALEXA START');
-const page20 = await browser.newPage();
-await page20.goto(AlexUrl20, {waitUntil: 'networkidle'});
-const AlexaPage10 = new AlexaPage(page20);
-await AlexaPage10.scrapeAlexa();
+// console.log('ALEXA START');
+// const page20 = await browser.newPage();
+// await page20.goto(AlexUrl20, {waitUntil: 'networkidle'});
+// const AlexaPage10 = new AlexaPage(page20);
+// await AlexaPage10.scrapeAlexa();
 
-const resultAlexa20 = await AlexaPage10.scrapeAlexa();
-console.log(resultAlexa20);
+// const resultAlexa20 = await AlexaPage10.scrapeAlexa();
+// console.log(resultAlexa20);
 
-console.log('ALEXA END');
+// console.log('ALEXA END');
 
 
 
@@ -240,6 +244,8 @@ console.log('GOOGLE END');
 
 fs.promises.writeFile(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
+seotitle: ${seotitle}  
+metadescription: ${metadescription}  
 website: ${bedrijfswebsite}   
 title: ${bedrijfstitle}  
 logo: ${bedrijfsafbeelding}  
@@ -263,7 +269,6 @@ linknaaryoutube2: ${bedrijfsyout2}
 linknaarfacebook2: ${bedrijfsface2}  
 linknaartwitter2: ${bedrijfstwit2}  
 fansfacebook: '${resultFacebook70}'  
-rankalexa: '${resultAlexa20}'  
 paginagoogle: '${resultGoogle80}'  
 youtubetitle: ${bedrijfsyttitle}  
 youtubeintro: ${bedrijfsytintro}  
@@ -274,6 +279,7 @@ youtubevid: ${bedrijfsytvid}
 
 
 `);
+// rankalexa: '${resultAlexa20}'  
 
 
 // volgersyoutube: '${resultYoutube40}'  

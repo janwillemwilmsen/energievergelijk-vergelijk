@@ -1,11 +1,13 @@
 ---
 bedrijfsnaam: easyswitch  
 website: easyswitch.nl   
+seotitle: Vergelijk Pricewise Easyswitch  
+metadescription: Zoek de verschillen tussen Pricewise en Easyswitch! Vergelijk de vergelijkers ;-)     
 title: Easyswitch  
 logo: /merken/snelste_easyswitch.png  
-introtekst:   
-freefield1:   
-freefield2:   
+introtekst: Easyswitch is een vergelijker die overgekomen is van de Engelse markt. Het in Amsterdam gevestigde bedrijf is in 2009 door drie vrienden opgezet. Inmiddels werken er 38 medewerkers. Easyswitch biedt een laagsteprijs garantie en een switchgarantie. De focus ligt vooral op het vergelijken van energie, maar ook voor het vergelijken van auto- en zorgverzekeringen en internet & tv kun je bij Easyswitch terecht. Easyswitch krijgt van elke leverancier dezelfde vergoeding, en spreekt daarmee geen voorkeur voor bepaalde energieleveranciers uit. De partij vergelijkt 63 energieleveranciers.  
+freefield1: Kizi.nl  
+freefield2: Kizi is de overkoepelende naam van Easyswitch en Overstappen.nl.  
 freefield3:   
 freefield4:   
 freefield5:   
@@ -22,18 +24,19 @@ linknaarinstragram2:
 linknaaryoutube2:   
 linknaarfacebook2:   
 linknaartwitter2: https://followerwonk.com/analyze/easyswitch  
-volgerstwitter: '539'  
-fansfacebook: '1.225'  
-rankalexa: '7.576.673'  
-paginagoogle: '574'  
+volgerstwitter: '538'  
+fansfacebook: '1.218'  
+rankalexa: '8.250.689'  
+paginagoogle: '403'  
 youtubetitle: Overstappen.nl/easyswitch video  
-youtubeintro: Toch blij dat er geen slechte energieleveranciers meer zijn. Je kies gewoon de goedkoopste of duurzaamste.  
+youtubeintro: In de video erkent Easyswitch dat er geen slechte energieleveranciers meer zijn. Je kies gewoon de goedkoopste of duurzaamste. Lijkt mij een duidelijk verhaal.  
 youtubevid: https://www.youtube-nocookie.com/embed/Iux0QRjrfyA  
 ---
 
  
 
 
+- Op 17-06-2021 [Variabele tarieven stijgen per 1 juli met 25 procent](https://www.easyswitch.nl/nieuws/variabele-tarieven-stijgen-per-1-juli-met-25-procent/)
 - Op 21-05-2021 [Coronaversoepelingen zorgen in de zomer voor dalende energietarieven](https://www.easyswitch.nl/nieuws/coronaversoepelingen-zorgen-in-de-zomer-voor-dalende-energietarieven/)
 - Op 31-03-2021 [Opwekkers vs. verbruikers, wie zijn de duurzaamste huishoudens van Nederland?](https://www.easyswitch.nl/nieuws/opwekkers-vs-verbruikers-wie-zijn-de-duurzaamste-huishoudens-van-nederland/)
 - Op 17-02-2021 [Nederlanders kozen vaker voor duurzaam energiecontract in 2020](https://www.easyswitch.nl/nieuws/nederland-koos-vaker-voor-duurzaam-energiecontract-in-2020/)
@@ -45,4 +48,3 @@ youtubevid: https://www.youtube-nocookie.com/embed/Iux0QRjrfyA
 - Op 05-06-2020 [Energierekening variabel energiecontract daalt met ruim €100 per jaar](https://www.easyswitch.nl/nieuws/energierekening-variabel-energiecontract-daalt-met-ruim-100-euro-per-jaar/)
 - Op 30-04-2020 [10 tips om energie te besparen tijdens de coronacrisis](https://www.easyswitch.nl/nieuws/10-tips-om-energie-te-besparen-tijdens-de-coronacrisis/)
 - Op 30-03-2020 [Coronavirus zorgt voor lage energieprijzen](https://www.easyswitch.nl/nieuws/coronavirus-zorgt-voor-lage-energieprijzen/)
-- Op 10-03-2020 [Vraag naar duurzame energiecontracten voor het eerst in jaren gedaald](https://www.easyswitch.nl/nieuws/vraag-naar-duurzame-energiecontracten-voor-het-eerst-in-jaren-gedaald/)

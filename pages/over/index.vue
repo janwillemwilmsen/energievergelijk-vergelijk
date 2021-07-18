@@ -220,6 +220,25 @@
 
 <script>
 export default {
+
+head() {
+    return {
+      title: 'Over ikvergelijk.nl - jouw hulp in energievergelijkland',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Over de makers en het idee achter ikvergelijk.nl'},
+        // Open Graph
+        { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
+        { hid: 'og:title', property: 'og:title', content: 'Over ikvergelijk.nl - jouw hulp in energievergelijkland' },
+        { hid: 'og:description', property: 'og:description', content:  'Over de makers en het idee achter ikvergelijk.nl'},
+        // Twitter Card
+        { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Over ikvergelijk.nl - jouw hulp in energievergelijkland' },
+        { hid: 'twitter:description', name: 'twitter:description', content:  'Over de makers en het idee achter ikvergelijk.nl'}
+      ]
+    }
+  },
+
     async asyncData({ $content, params }) {
     // fetch our article here
     const vacatures = await $content("vacatures", params.slug).fetch();

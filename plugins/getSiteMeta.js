@@ -1,7 +1,7 @@
 const type = "website";
 const url = "https://ikvergelijk.nl";
 const title = "Vergelijk energievergelijkers";
-const description = "Als je wil weten hoe de de energievergelijkers het tov elkaar doen.";
+const description = "Er zijn meerdere energievergelijkers. Wij vergelijken ze voor jou. Zo vind jij de beste energiedeal!";
 const mainImage = "/logo.png";
 
 

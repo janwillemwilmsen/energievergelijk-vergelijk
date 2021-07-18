@@ -1,9 +1,11 @@
 ---
 bedrijfsnaam: energievergelijk  
 website: energievergelijk.nl   
+seotitle: Energievergelijk.nl tarieven vergelijker     
+metadescription: Vergelijk de prijzen van Energievergelijk.nl met Independer, Easyswitch, Gaslicht en Pricewise. Waar scoor jij een goedkope energie deal?    
 title: energievergelijk.nl  
 logo: /merken/snelste_energievergelijk.png  
-introtekst: Van dezelfde makers als creditcard.nl (https://www.humbird.nl/ - div vergelijkers.)  
+introtekst: Energievergelijk.nl kom uit de stal van Humbird. En vergelijken is zeg maar hun ding. Ze hebben verschillende prijsvergelijkers gebouwd. O.a. creditcard.nl, VPN.nl en Zorgwijzer.nl. Humbird werkt samen met Daisycon. Daisycon heeft een 'White label' energieprijsvergelijker gebouwd en stelt die aan geselecteerde partners ter beschikking. We hebben energievergelijk.nl als enige site/partner van het Daisycon netwerk opgenomen in deze website.   
 freefield1:   
 freefield2:   
 freefield3:   
@@ -23,11 +25,10 @@ linknaaryoutube2:
 linknaarfacebook2:   
 linknaartwitter2:   
 fansfacebook: '6'  
-rankalexa: '7.079.624'  
-paginagoogle: '402'  
-youtubetitle: Bekijk energievergelijker video niet  
-youtubeintro: Geen video gevonden. Fijn alternatiefje geplaatst.  
-youtubevid: https://www.youtube-nocookie.com/embed/nu8-7huFyvo  
+paginagoogle: '316'  
+youtubetitle: Video op Youtube?  
+youtubeintro: Geen video gevonden.  
+youtubevid: https://www.youtube.com/energievergelijk.nl  
 ---
 
  

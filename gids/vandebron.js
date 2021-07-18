@@ -18,6 +18,8 @@ const { GooglePage } = require('./models/Google');
 
 // const Product = (0.config);
 const bedrijf                   = config[5];
+const seotitle                  = config[5].seotitle;
+const metadescription           = config[5].metadescription;
 const bedrijfsnaam              = config[5].naam;    
 const bedrijfswebsite           = config[5].www;    
 const bedrijfstitle             = config[5].title;    
@@ -49,6 +51,8 @@ const bedrijfsytintro           = config[5].youtubevideotjeintro;
 const bedrijfsytvid             = config[5].youtubevideotje;   
 
 console.log(bedrijf);
+console.log(seotitle);
+console.log(metadescription);
 console.log(bedrijfsnaam);
 console.log(bedrijfswebsite);
 console.log(bedrijfstitle);
@@ -236,6 +240,8 @@ console.log('GOOGLE END');
 
 fs.promises.writeFile(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', `---
 bedrijfsnaam: ${bedrijfsnaam}  
+seotitle: ${seotitle}  
+metadescription: ${metadescription}  
 website: ${bedrijfswebsite}   
 title: ${bedrijfstitle}  
 logo: ${bedrijfsafbeelding}  
@@ -278,22 +284,83 @@ youtubevid: ${bedrijfsytvid}
 console.log('MD gemaakt');
 
 
+// // VANDEBRON START  vandebron - via Google.nl
+// const page = await browser.newPage();
+// await page.goto("https://www.google.com/search?q=site:vandebron.nl/blog&source=lnt&tbs=qdr:y");
+
+// await page.waitForTimeout(1000);
+// // await page.keyboard.press('Tab');
+// // await page.keyboard.press('Tab');
+// // console.log('7c - 2x TAB op toetsenbord');
+// // await page.keyboard.press('Enter');
+
+// await page.click("text=Ik ga akkoord"); 
+
+
+// console.log('Akkoord gelukt');
+// await page.waitForTimeout(3000);
+// const listcontentvandebron = await page.evaluate(() => {
+// const datavandebron = [];
+// const container = document.querySelector("#res");
+// // const matches = container.querySelectorAll("div.highlighted > p");
+// const booksvandebron = container.querySelectorAll("div.g");
+// // const booksvandebron = page.$$("div.g");
+// booksvandebron.forEach((book) => {
+// let title = book.querySelector('h3').innerText;
+// let url = book.querySelector('a').href;
+// // let datum = book.querySelector('span:last-of-type').innerText;
+// // let baseurl = 'https:'
+// // let url = baseurl + slug
+//    datavandebron.push({
+//    title,
+//    url,
+//    datum
+//     });
+//     });
+// return datavandebron;
+// });
+
+// let stringvandebron = '';
+// for (const {title: n, url: f, datum: d} of listcontentvandebron) {
+//   stringvandebron += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+// }
+// console.log("vandebron NIEUWS saved.");
+// fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringvandebron);
+// // vandebron END
+
+
+//VandeBron ZONDER DATUM
+
 // VANDEBRON START  vandebron - via Google.nl
-const page882 = await browser.newPage();
-await page882.goto("https://www.google.nl/search?q=site:vandebron.nl/blog&source=lnt&tbs=qdr:y");
-const listcontentvandebron = await page882.evaluate(() => {
+const page = await browser.newPage();
+await page.goto("https://www.google.com/search?q=site:vandebron.nl/blog&source=lnt&tbs=qdr:y");
+
+await page.waitForTimeout(1000);
+// await page.keyboard.press('Tab');
+// await page.keyboard.press('Tab');
+// console.log('7c - 2x TAB op toetsenbord');
+// await page.keyboard.press('Enter');
+
+await page.click("text=Ik ga akkoord"); 
+
+
+console.log('Akkoord gelukt');
+await page.waitForTimeout(3000);
+const listcontentvandebron = await page.evaluate(() => {
 const datavandebron = [];
-const booksvandebron = document.querySelectorAll("div.g");
+const container = document.querySelector("#res");
+// const matches = container.querySelectorAll("div.highlighted > p");
+const booksvandebron = container.querySelectorAll("div.g");
+// const booksvandebron = page.$$("div.g");
 booksvandebron.forEach((book) => {
 let title = book.querySelector('h3').innerText;
 let url = book.querySelector('a').href;
-let datum = book.querySelector('span.f').innerText
+// let datum = book.querySelector('span:last-of-type').innerText;
 // let baseurl = 'https:'
 // let url = baseurl + slug
    datavandebron.push({
    title,
-   url,
-   datum
+   url    
     });
     });
 return datavandebron;
@@ -301,14 +368,23 @@ return datavandebron;
 
 let stringvandebron = '';
 for (const {title: n, url: f, datum: d} of listcontentvandebron) {
-  stringvandebron += '- Op ' + d + ' [' +  n + '](' + f + ')\n';
+  stringvandebron += '-   [' +  n + '](' + f + ')\n';
 }
 console.log("vandebron NIEUWS saved.");
 fs.appendFileSync(`${appRoot}/content/gids/${bedrijfsnaam}` + '.md', stringvandebron);
 // vandebron END
 
-
 await browser.close()
 })()
 
 // ${result10} 
+
+
+
+
+
+
+
+
+
+

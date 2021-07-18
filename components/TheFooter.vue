@@ -39,7 +39,7 @@
     <div class="p-5">
         <div class="">
                         <p class="mx-auto font-sans text-xl subpixel-antialiased text-center text-gray-200 uppercase hover:text-gray-300 bold">INSTALLEER </p><br>
-                          <!-- <ThePWA/>  -->
+                          <ThePWA/> 
         </div>
     </div>
     <div class="p-5">

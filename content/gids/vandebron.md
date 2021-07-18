@@ -1,10 +1,12 @@
 ---
 bedrijfsnaam: vandebron  
 website: vandebron.nl   
+seotitle: Vandebron in de energievergelijkers vergeleken     
+metadescription: Meer informatie over energiebedrijf Vandebron.      
 title: Vandebron  
 logo: /merken/snelste_vandebron.png  
-introtekst: Vandebron is een energiebedrijf dat in 2013 is gestart door Remco Wilcke, Matthijs Guichelaar en Aart van Veller. Vandebron levert groene stroom en gas aan zowel de particuliere als de zakelijke markt. De energie produceren ze nietzelf, maar kopen ze in bij onafhankelijke Nederlandse producenten. Vandebron wil klanten stimuleren om minder te verbruiken. Ze maken dan ook winst op hun verbruik. Zo kunnen lokale bronnen hun energie voor een eerlijke prijs verkopen en krijgen ze de kans om te investeren in meer duurzame oplossingen.  
-freefield1: Additionele energie gerelateerde zaken  
+introtekst: Vandebron is een energiebedrijf dat in 2013 is gestart door Remco Wilcke, Matthijs Guichelaar en Aart van Veller. Vandebron levert groene stroom en gas aan zowel de particuliere als de zakelijke markt. De energie produceren ze nietzelf, maar kopen ze in bij onafhankelijke Nederlandse producenten. Vandebron wil klanten stimuleren om minder te verbruiken. Ze maken dan ook winst op hun verbruik. Zo kunnen lokale bronnen hun energie voor een eerlijke prijs verkopen en krijgen ze de kans om te investeren in meer duurzame oplossingen. Vandebron ziet zichzelf niet direct als energiebedrijf wel als technologie bedrijf.  
+freefield1: Energietransitie en digitalisering  
 freefield2: Vandebron is steeds op zoek naar manieren om de energietransitie te versnellen. Zo organiseerden ze de GreenTech Hackathon, een 3-daags evenement om tot slimme oplossingen te komen. Vandebron wil laten zien dat klimaatvraagstukken op een creatieve manier kunnen worden aangepakt.  
 freefield3: Elektrisch rijden  
 freefield4: Vandebron richt zich op het makkelijker maken van elektrisch rijden. Ze bieden laadpalen met en zonder energiecontract aan. Ook is er een Vandebron-laadpas. Daarmee kun je je auto opladen bij alle openbare laadpalen in Nederland en in een groot deel van Europa. En dat zonder extra laadkosten per sessie.  
@@ -23,13 +25,13 @@ linknaarinstragram2: https://socialstats.info/report/vandebron/instagram
 linknaaryoutube2: https://socialstats.info/report/vandebron/youtube  
 linknaarfacebook2: https://socialstats.info/report/vandebron/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vandebron  
-ervaringenklantenvertellen: 7,8  
+ervaringenklantenvertellen: 8,5  
 volgersyoutube: '623'  
-volgersinstragram: '3.175'  
-volgerstwitter: '5.710'  
-fansfacebook: '43.083'  
-rankalexa: '730.290'  
-paginagoogle: '809'  
+volgersinstragram: '3.228'  
+volgerstwitter: '5.658'  
+fansfacebook: '42.930'  
+rankalexa: '5.653.849'  
+paginagoogle: '811'  
 youtubetitle: Jennifer Hofman reclame Van de Bron  
 youtubeintro: Ze gebruikt het zelf ook ;-)  
 youtubevid: https://www.youtube.com/embed/f-E5ve-acPM  
@@ -37,13 +39,10 @@ youtubevid: https://www.youtube.com/embed/f-E5ve-acPM
 
 
 
-- Op 19 aug. 2020 —  [Isoleren met Vandebron - Vandebron](https://vandebron.nl/blog/isoleren-met-vandebron)
-- Op 6 apr. 2020 —  [Nieuwe salderingsregeling bekend - Vandebron](https://vandebron.nl/blog/nieuwe-salderingsregeling-bekend)
-- Op 7 mei 2020 —  [Elektrisch rijden met Vandebron - Vandebron](https://vandebron.nl/blog/elektrisch-rijden-diensten-vandebron)
-- Op 8 mei 2020 —  [Inzicht in je energieverbruik - Vandebron](https://vandebron.nl/blog/inzicht-in-je-energieverbruik)
-- Op 14 mei 2020 —  [Amsterdam-Zuidoost verduurzamen met Laura Vandebron ...](https://vandebron.nl/blog/zuidoost-verduurzamen-met-laura)
-- Op 15 mei 2020 —  [Elektrisch rijden: op batterij of waterstof? - Vandebron](https://vandebron.nl/blog/elektrisch-rijden-op-batterij-of-waterstof)
-- Op 24 jun. 2020 —  [De energietransitie versnellen met Uber Green - Vandebron](https://vandebron.nl/blog/de-energietransitie-versnellen-met-uber-green)
-- Op 26 jun. 2020 —  [Te veel zonne-energie, bestaat dat? - Vandebron](https://vandebron.nl/blog/te-veel-zonne-energie-bestaat-dat)
-- Op 2 apr. 2020 —  [In vijf stappen snel - en effectief - verduurzamen! - Vandebron](https://vandebron.nl/blog/in-vijf-stappen-snel-en-effectief-verduurzamen)
-- Op 1 jul. 2020 —  [Maak kennis met Paul, onze nieuwe CEO - Vandebron](https://vandebron.nl/blog/maak-kennis-met-paul-onze-nieuwe-ceo)
+-   [Duurzame energie van Nederlandse bodem - Vandebron](https://vandebron.nl/blog)
+-   [Isoleren met Vandebron - Vandebron](https://vandebron.nl/blog/isoleren-met-vandebron)
+-   [De elektrische auto: het nieuwe normaal? - Vandebron](https://vandebron.nl/blog/de-elektrische-auto-het-nieuwe-normaal)
+-   [Marcel's Green Soap en Vandebron: samen maken we ...](https://vandebron.nl/blog/marcelsgreensoap-en-vandebron-maken-nederland-schoner)
+-   [Nieuw energielabel in 2021, dit moet je weten - Vandebron](https://vandebron.nl/blog/nieuw-energielabel-in-2021-dit-moet-je-weten)
+-   [Zo woon je nóg duurzamer in jouw huurhuis! - Vandebron](https://vandebron.nl/blog/zo-woon-je-nog-duurzamer-in-jouw-huurhuis)
+-   [Je energierekening verlagen? Check vooral deze ...](https://vandebron.nl/blog/je-energierekening-verlagen-check-vooral-deze-energieslurpende-apparaten-eens)

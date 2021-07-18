@@ -370,14 +370,16 @@ eneco           = DONE
 
 
 ---
+kizi.nl
 easyswitch.nl(Overstappen.nl Holding)		            = DONE
 overstappen.nl(idem als easys)  		 
 independer(idem als easys)			                    = DONE
 ---
-pricewise.nl(HNM)				                        = DONE
-energievergelijken.nl(HNM)
-energieleveranciers.nl(HNM)
-consumentenbond.nl/energie-vergelijken(HNM)
+ZELFDE ID bij Energieleverancier keuze
+pricewise.nl(HNM)	 		                        = DONE
+energievergelijken.nl(HNM) 	team.blue nl 
+energieleveranciers.nl(HNM) switchexpert.nl 	team.blue nl 
+consumentenbond.nl/energie-vergelijken(HNM) Pricewise frame
 kieskeurig.nl/energie_vergelijken/pricewise(iframe) 
 ---
 gaslicht.com(benergy)				                    = DONE

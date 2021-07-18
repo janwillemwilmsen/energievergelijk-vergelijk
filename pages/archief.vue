@@ -64,7 +64,26 @@ export default {
       return {
         articles
       }
+    },
+
+  head() {
+    return {
+      title: 'Archief van energievergelijk scans in verschillende energievergelijkers',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Bekijk de ontwikkeling van energieprijzen voor consumenten in vijf verschillende energievergelijkers' },
+        // Open Graph
+        { hid: 'og:url', property: 'og:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        // { hid: 'og:url', property: 'og:url', content: this.$nuxt.$route.fullPath },
+        { hid: 'og:title', property: 'og:title', content: 'Archief van energievergelijk scans in verschillende energievergelijkers' },
+        { hid: 'og:description', property: 'og:description', content:  'Bekijk de ontwikkeling van energieprijzen voor consumenten in vijf verschillende energievergelijkers' },
+        // Twitter Card
+        { hid: 'twitter:url', property: 'twitter:url', content: `https://ikvergelijk.nl` + this.$route.fullPath },
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Archief van energievergelijk scans in verschillende energievergelijkers' },
+        { hid: 'twitter:description', name: 'twitter:description', content:  'Bekijk de ontwikkeling van energieprijzen voor consumenten in vijf verschillende energievergelijkers' }
+      ]
     }
+  }
+
   }
 </script>
 
