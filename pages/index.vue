@@ -20,7 +20,7 @@
 
                 <p class="mt-8 text-2xl font-semibold">
                 Wij maken het je makkelijk. We helpen je bij het vergelijken van energiecontracten.<br>
-                Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers. 
+                <!-- Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers.  -->
 
          
                 <!-- Kies een van de scenario's die het meest lijkt op jouw thuissituatie:  -->

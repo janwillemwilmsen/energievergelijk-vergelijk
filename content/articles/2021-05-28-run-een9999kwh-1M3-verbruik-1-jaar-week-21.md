@@ -1,6 +1,6 @@
 ---
 scenario: 9999kwh-1M3-verbruik-1-jaar  
-title:  Energiecontract, 1 jaar met hooggverbruik (9999kWh, 1M3)  
+title:  Energiecontract, 1 jaar met hooggverbruik (9999kWh, 1M3)   
 description: Vergelijk nu de prijzen van een energiecontract van 1 jaar - hooggverbruik  
 image: /logo.png  
 energieleverancier-url:  2021-05-28-run-een  
@@ -12,7 +12,7 @@ huisnummer: 88
 createdAt: Fri May 28 2021 08:32:32 GMT+0200 (GMT+02:00)  
 createdAt2: 2021-4-28  
 ---
-<div class="bg-white rounded mt-10 p-2 text-lg">Op 28 May 2021 hebben we een vergelijking voor je gemaakt tussen 5 energievergelijkers en 5 energieleveranciers.<br><br><strong>Om eerlijk te vergelijken hebben we telkens dezelfde looptijd en hetzelfde verbruik vergeleken.</strong><ul>
+<div class="p-2 mt-10 text-lg bg-white rounded">Op 28 May 2021 hebben we een vergelijking voor je gemaakt tussen 5 energievergelijkers en 5 energieleveranciers.<br><br><strong>Om eerlijk te vergelijken hebben we telkens dezelfde looptijd en hetzelfde verbruik vergeleken.</strong><ul>
 <li>Looptijd contract:<strong> een jaar</strong></li>
 <li>Elektriciteitverbruik:<strong> 9999 kWh</strong></li>
 <li>Gasverbruik:<strong> 1 M3</strong></li>
@@ -24,25 +24,25 @@ Kijk hieronder welke energievergelijker scherpe prijzen heeft. Vergelijk de verg
 
 <div class="p-2 rounded-md tarievenblok bg-gray-50">
 <div class="table w-full rounded-xl">
-<div class="table-row-group text-xs sm:text-sm md:text-base tracking-tight">
+<div class="table-row-group text-xs tracking-tight sm:text-sm md:text-base">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
 <div class="table-cell p-1 uppercase">#</div>
 <div class="table-cell p-1 uppercase">Leverancier+Product</div>
-<div class="table-cell p-1 uppercase w-3/12">Prijs</div>
+<div class="table-cell w-3/12 p-1 uppercase">Prijs</div>
 </div>
 <div class="table-row result-one hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">1</div>
-<div class="table-cell p-1  pr-4 border-b border-gray-200">Naked Energy Europese Stroom en Gas Jaarcontract</div>
+<div class="table-cell p-1 pr-4 border-b border-gray-200">Naked Energy Europese Stroom en Gas Jaarcontract</div>
 <div class="table-cell p-1 border-b border-gray-200">€ 176,19</div>
 </div>
 <div class="table-row result-two hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">2</div>
-<div class="table-cell p-1  pr-4 border-b border-gray-200">NLE 100% Nederlandse Wind Groene Stroom en Gas 1 jaar Vast</div>
+<div class="table-cell p-1 pr-4 border-b border-gray-200">NLE 100% Nederlandse Wind Groene Stroom en Gas 1 jaar Vast</div>
 <div class="table-cell p-1 border-b border-gray-200">€ 189,39</div>
 </div>
 <div class="table-row result-three hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">3</div>
-<div class="table-cell p-1  pr-4 border-b border-gray-200">Greenchoice Nederlands Groen 1 jaar Vast</div>
+<div class="table-cell p-1 pr-4 border-b border-gray-200">Greenchoice Nederlands Groen 1 jaar Vast</div>
 <div class="table-cell p-1 border-b border-gray-200">€ 194,34</div>
 </div>
 </div>
@@ -68,26 +68,26 @@ Kijk hieronder welke energievergelijker scherpe prijzen heeft. Vergelijk de verg
 
 <div class="p-2 rounded-md tarievenblok bg-gray-50">
 <div class="table w-full rounded-xl">
-<div class="table-row-group text-xs sm:text-sm md:text-base tracking-tight">
+<div class="table-row-group text-xs tracking-tight sm:text-sm md:text-base">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
 <div class="table-cell p-1 uppercase"># Leverancier</div>
 <div class="table-cell p-1 uppercase">Product</div>
-<div class="table-cell p-1 w-32 md:w-32 xl:w-60 uppercase">Prijs</div>
+<div class="table-cell w-32 p-1 uppercase md:w-32 xl:w-60">Prijs</div>
 </div>
 <div class="table-row result-one hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">1 FENOR</div>
 <div class="table-cell p-1 border-b border-gray-200">nb</div>
-<div class="table-cell p-1 pr-3  md:pr-2  border-b border-gray-200">€ 183 per maand € 2.191 per jaar</div>
+<div class="table-cell p-1 pr-3 border-b border-gray-200 md:pr-2">€ 183 per maand € 2.191 per jaar</div>
 </div>
 <div class="table-row result-two hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">2 PowerPeers</div>
 <div class="table-cell p-1 border-b border-gray-200">nb</div>
-<div class="table-cell p-1 pr-3  md:pr-2 border-b border-gray-200">€ 187 per maand € 2.244 per jaar</div>
+<div class="table-cell p-1 pr-3 border-b border-gray-200 md:pr-2">€ 187 per maand € 2.244 per jaar</div>
 </div>
 <div class="table-row result-three hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">3 FENOR</div>
 <div class="table-cell p-1 border-b border-gray-200">nb</div>
-<div class="table-cell p-1 pr-10 sm:pr-5  md:pr-2 border-b border-gray-200">€ 189 per maand € 2.266 per jaar</div>
+<div class="table-cell p-1 pr-10 border-b border-gray-200 sm:pr-5 md:pr-2">€ 189 per maand € 2.266 per jaar</div>
 </div>
 </div>
 </div>
@@ -112,11 +112,11 @@ Kijk hieronder welke energievergelijker scherpe prijzen heeft. Vergelijk de verg
 
 <div class="p-2 rounded-md tarievenblok bg-gray-50">
 <div class="table w-full rounded-xl">
-<div class="table-row-group text-xs sm:text-sm md:text-base tracking-tight">
+<div class="table-row-group text-xs tracking-tight sm:text-sm md:text-base">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
 <div class="table-cell p-1 uppercase"># Leverancier</div>
 <div class="table-cell p-1 uppercase">Product</div>
-<div class="table-cell p-1 w-3/12 uppercase">Prijs</div>
+<div class="table-cell w-3/12 p-1 uppercase">Prijs</div>
 </div>
 <div class="table-row result-one hover:bg-gray-100 ">
 <div class="table-cell p-1 border-b border-gray-200">1 NeoSmart</div>
@@ -156,16 +156,16 @@ Kijk hieronder welke energievergelijker scherpe prijzen heeft. Vergelijk de verg
 
 <div class="p-2 rounded-md tarievenblok bg-gray-50">
 <div class="table w-full rounded-xl">
-<div class="table-row-group text-xs sm:text-sm md:text-base tracking-tight">
+<div class="table-row-group text-xs tracking-tight sm:text-sm md:text-base">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
-<div class="table-cell p-1 w-4/12 sm:w-3/12  uppercase"># Leverancier</div>
+<div class="table-cell w-4/12 p-1 uppercase sm:w-3/12"># Leverancier</div>
 <div class="table-cell p-1 uppercase">Product</div>
-<div class="table-cell p-1 w-4/12 uppercase">Prijs</div>
+<div class="table-cell w-4/12 p-1 uppercase">Prijs</div>
 </div>
 <div class="table-row result-one hover:bg-gray-100 ">
 <div class="table-cell p-1 border-b border-gray-200">1 Naked Energy</div>
 <div class="table-cell p-1 pr-4 border-b border-gray-200">Stroom en gas 1 jaar vast</div>
-<div class="table-cell p-1  border-b border-gray-200">€ 182,55</div>
+<div class="table-cell p-1 border-b border-gray-200">€ 182,55</div>
 </div>
 <div class="table-row result-two hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200 ">2 Powerpeers</div>
@@ -200,11 +200,11 @@ Kijk hieronder welke energievergelijker scherpe prijzen heeft. Vergelijk de verg
 
 <div class="p-2 rounded-md tarievenblok bg-gray-50">
 <div class="table w-full rounded-xl">
-<div class="table-row-group text-xs sm:text-sm md:text-base tracking-tight">
+<div class="table-row-group text-xs tracking-tight sm:text-sm md:text-base">
 <div class="table-row text-purple-100 bg-purple-900 hover:opacity-95">
 <div class="table-cell p-1 uppercase">#</div>
 <div class="table-cell p-1 uppercase">Leverancier</div>
-<div class="table-cell p-1 w-6/12 xl:w-5/12 md:w-6/12 lg:w-7/12 uppercase">Prijs</div>
+<div class="table-cell w-6/12 p-1 uppercase xl:w-5/12 md:w-6/12 lg:w-7/12">Prijs</div>
 </div>
 <div class="table-row result-one hover:bg-gray-100">
 <div class="table-cell p-1 border-b border-gray-200">1</div>

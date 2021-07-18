@@ -57,8 +57,8 @@ export default {
         },
 
         {
-          title: "Waarom vergelijken jullie maar 5 vergelijkers en 5 energieleveranciers?",
-          text: "We vergelijken diverse vergelijkers, waar meer dan 5 energievergelijkers naar voren komen. Daarnaast vergelijken we als extra service 5 grote leveranciers, die zelf een andere prijs aan kunnen bieden dan dat er op energievergelijkers geboden wordt."
+          title: "Waarom vergelijken jullie maar 5 vergelijkers?",
+          text: "Omdat er vijf bedrijven zijn die zich echt energievergelijker mogen noemen. Andere vergelijk websites maken, op de achtergrond en onzichtbaar voor normale website bezoeker, gebruik van de techniek van een van de vijf grote vergelijkwebsites."
         },
 
 
