@@ -13,7 +13,7 @@
           </span>
               <NuxtLink :to="{ name: 'blog-slug', params: { slug: blog.slug } }">
                     <!-- <img :src="bed.logo" width="150" alt="img"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/> -->
-                <h4 class="text-2xl font-semibold ">{{ blog.title }}</h4>
+                <h3 class="text-2xl font-semibold ">{{ blog.title }}</h3>
 
 
                <p class="text-lg line-clamp-1 ">  {{blog.paragraaf1}}</p>

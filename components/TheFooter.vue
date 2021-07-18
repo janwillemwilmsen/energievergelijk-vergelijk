@@ -14,13 +14,13 @@
 <div class="flex flex-col items-center content-center justify-center divide-y-2 divide-gray-300 xl:-ml-32 divide-opacity-30 divide-dashed sm:items-start sm:divide-y-0 sm:divide-x-2 sm:flex-row">
     <div class="p-5">
       <p class="mx-auto font-sans text-xl subpixel-antialiased text-center text-gray-200 uppercase hover:text-gray-300 bold">MENU </p>
-        <div class="p-5 font-bold tracking-tighter text-center text-gray-600 ">
-              <nuxt-link to="/archief">Energiescans</nuxt-link><br>
-              <nuxt-link to="/gids">Leveranciers en vergelijkers</nuxt-link><br>
-              <nuxt-link to="/over#contact">Contact</nuxt-link><br>
-              <nuxt-link to="/over">Over ons</nuxt-link><br>
-              <nuxt-link to="/blog">Blog</nuxt-link><br>
-              <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="text-yellow-300 ">Persoonlijk overzicht</nuxt-link><br>
+        <div class="p-5 font-bold tracking-tighter text-center ">
+              <nuxt-link to="/archief" class="block text-gray-400">Energiescans</nuxt-link><br>
+              <nuxt-link to="/gids" class="block text-gray-400">Leveranciers en vergelijkers</nuxt-link><br>
+              <nuxt-link to="/over#contact" class="block text-gray-400">Contact</nuxt-link><br>
+              <nuxt-link to="/over" class="block text-gray-400">Over ons</nuxt-link><br>
+              <nuxt-link to="/blog" class="block text-gray-400">Blog</nuxt-link><br>
+              <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="block text-yellow-300">Persoonlijk overzicht</nuxt-link><br>
 
         </div>
     </div>
@@ -39,7 +39,7 @@
     <div class="p-5">
         <div class="">
                         <p class="mx-auto font-sans text-xl subpixel-antialiased text-center text-gray-200 uppercase hover:text-gray-300 bold">INSTALLEER </p><br>
-                          <ThePWA/> 
+                          <!-- <ThePWA/>  -->
         </div>
     </div>
     <div class="p-5">
@@ -84,7 +84,7 @@
   </div>
 
 
-  <p class="pb-4 text-sm text-center text-gray-600">
+  <p class="pb-4 text-sm text-center text-gray-400">
        <!-- <span class=" sm:-ml-20"> -->
        <span class="">
          ©2021

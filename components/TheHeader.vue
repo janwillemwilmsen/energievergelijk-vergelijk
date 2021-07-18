@@ -13,17 +13,17 @@
 
 
          <picture class="bg-auto opacity-80">
-                <source media="(max-width: 640px)"   type="image/jpeg" srcset="/site/bg-640.jpg">
-                <source media="(max-width: 640px)"   type="image/webp" srcset="/site/bg-640.webp">
-                <source media="(max-width: 768px)"   type="image/jpeg" srcset="/site/bg-768.jpg">
-                <source media="(max-width: 768px)"   type="image/webp" srcset="/site/bg-768.webp">
-                <source media="(max-width: 1024px)"  type="image/jpeg" srcset="/site/bg-1024.jpg">
-                <source media="(max-width: 1024px)"  type="image/webp" srcset="/site/bg-1024.webp">
-                <source media="(max-width: 1280px)"  type="image/jpeg" srcset="/site/bg-1280.jpg">
-                <source media="(max-width: 1280px)"  type="image/webp" srcset="/site/bg-1280.webp">
-                <source media="(min-width: 1281px)"  type="image/jpeg" srcset="/site/bg-2560.jpg">
-                <source media="(min-width: 1281px)"  type="image/webp" srcset="/site/bg-2560.webp">
-                    <img  type="image/jpeg" src="/bg-2560.jpg">  
+                <source media="(max-width: 640px)"   type="image/jpeg" srcset="/site/bg-640.jpg"  alt="header visual">
+                <source media="(max-width: 640px)"   type="image/webp" srcset="/site/bg-640.webp"  alt="header visual">
+                <source media="(max-width: 768px)"   type="image/jpeg" srcset="/site/bg-768.jpg"  alt="header visual">
+                <source media="(max-width: 768px)"   type="image/webp" srcset="/site/bg-768.webp"  alt="header visual">
+                <source media="(max-width: 1024px)"  type="image/jpeg" srcset="/site/bg-1024.jpg"  alt="header visual">
+                <source media="(max-width: 1024px)"  type="image/webp" srcset="/site/bg-1024.webp"  alt="header visual">
+                <source media="(max-width: 1280px)"  type="image/jpeg" srcset="/site/bg-1280.jpg"  alt="header visual">
+                <source media="(max-width: 1280px)"  type="image/webp" srcset="/site/bg-1280.webp"  alt="header visual">
+                <source media="(min-width: 1281px)"  type="image/jpeg" srcset="/site/bg-2560.jpg"  alt="header visual">
+                <source media="(min-width: 1281px)"  type="image/webp" srcset="/site/bg-2560.webp"  alt="header visual">
+                    <img  type="image/jpeg" src="/bg-2560.jpg" alt="header visual">  
               </picture>
 
 </div>
@@ -41,9 +41,9 @@
 
                           <div class="logo">
                           <picture>
-                            <source type="image/webp" srcset="/logo.webp" width="160" height="78"   class="z-10 -mb-3">
-                            <source type="image/jpeg" srcset="/logo.png"  width="160" height="78"   class="z-10 -mb-3">
-                                                    <img src="/logo.png"  width="160" height="78"   class="z-10 -mb-3" alt="Vergelijk vergelijkers">
+                            <source type="image/webp" srcset="/logo.webp" width="160" height="78"   class="z-10 -mb-3" alt="Logo ikvergelijk.nl - home">
+                            <source type="image/jpeg" srcset="/logo.png"  width="160" height="78"   class="z-10 -mb-3" alt="Logo ikvergelijk.nl - home">
+                                                    <img src="/logo.png"  width="160" height="78"   class="z-10 -mb-3" alt="Logo ikvergelijk.nl - home">
                           </picture>
                           </div>
 
@@ -83,14 +83,14 @@
           <!-- <a href="/over"         class="pt-3 pr-5 font-sans text-xl subpixel-antialiased text-gray-200 uppercase hover:text-gray-300 bold">Over</a> -->
       
                   <nuxt-link :to="{ path: '/', hash:'aanmelden'}" class="z-10 pt-2">
-                      <button  class="inline-flex items-center px-4 py-2 mt-8 text-xl text-gray-800 bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
+                      <button  class="inline-flex items-center px-3 py-1 mt-4 text-xl text-gray-800 bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-500 md:mt-0">
                                
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="z-10 w-4 h4 bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                                 </svg>
 
-                              Persoonlijk overzicht
+                           &nbsp;Persoonlijk overzicht
                       </button>
                   </nuxt-link>
 

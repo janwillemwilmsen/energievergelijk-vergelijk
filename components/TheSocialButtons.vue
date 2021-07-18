@@ -7,7 +7,7 @@
     :key="network.network"
     :style="{backgroundColor: network.color}"
     :description="sharing.description"
-    class="inline-flex items-center p-2 pr-4 m-2 text-sm font-light text-center text-gray-200 rounded-md "
+    class="inline-flex items-center p-2 pr-4 m-2 text-sm font-light text-center text-white rounded-md "
     :title="sharing.title"
     :url="sharing.url"
  

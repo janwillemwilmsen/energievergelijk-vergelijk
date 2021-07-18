@@ -12,7 +12,7 @@
 
        <div v-for="bed of bedrijven" :key="bed.slug" class="self-center w-40 mx-auto align-middle transition duration-500 ease-in-out">
         <NuxtLink :to="{ name: 'gids-slug', params: { slug: bed.slug } }">
-          <img :src="bed.logo" width="150" alt="img"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/>
+          <img :src="bed.logo" width="150" height="75" alt="Lees meer"  class="mx-auto duration-200 ease-in-out transform grayimg hover:scale-110"/>
           <!-- <div> -->
             <!-- <h2>{{ bed.title }}</h2> -->
             <!-- <p>{{ bed.introtekst }}</p> -->

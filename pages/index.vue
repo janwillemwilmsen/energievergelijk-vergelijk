@@ -21,15 +21,15 @@
                 <p class="mt-8 text-2xl font-semibold">
                 Wij maken het je makkelijk. We helpen je bij het vergelijken van energiecontracten.<br>
                 <!-- Elke week scannen wij vijf energievergelijkers en vijf energieleveranciers.  -->
-Waar scoor jij het beste energiecontract?
+
          
                 <!-- Kies een van de scenario's die het meest lijkt op jouw thuissituatie:  -->
                 </p>
 
 <div class="container">
 
- <!-- <p class="mt-8 text-2xl font-semibold text-gray-900 ">Waar scoor jij het beste energiecontract?</p> -->
-<button class="relative flex items-center px-4 py-2 mt-16 space-x-2 text-xl text-gray-800 bg-yellow-400 border-0 shadow-sm rounded-xl focus:outline-none hover:bg-yellow-500 bg-gradient-to-r from-yellow-400 to-yellow-500 "> 
+ <p class="mt-8 text-2xl font-semibold text-gray-900 ">Waar scoor jij het beste energiecontract?</p>
+<button class="relative flex items-center px-4 py-2 mt-8 space-x-2 text-xl font-semibold text-gray-800 bg-yellow-400 border-0 shadow-sm rounded-xl focus:outline-none hover:bg-yellow-500 bg-gradient-to-r from-yellow-400 to-yellow-500 "> 
 <nuxt-link to="/energie/actueel">
                          
                          <div class="absolute inset-0 z-0 w-full h-full rounded-xl ring-4 ring-yellow-600 animate-pulse ring-opacity-50 ">
