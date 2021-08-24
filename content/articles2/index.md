@@ -1,3 +1,24 @@
+---
+scenario: 2350kwh-1800M3-verbruik-2-of-3-jaar  
+title:  Energiecontract, 2 of meer jaar met laagverbruik (2350kWh, 1800M3)  
+description: Vergelijk nu de prijzen van een energiecontract van 2 of meer jaar - middelverbruik  
+image: /logo.png  
+energieleverancier-url:  2021-08-24-run-een  
+looptijdcontract: twee  
+elektriciteitverbruik: 2350  
+gasverbruik: 1800  
+postcode: 5525AN  
+huisnummer: 3  
+createdAt: Tue Aug 24 2021 18:20:21 GMT+0200 (GMT+02:00)  
+createdAt2: 2021-7-24  
+---
+<div class="bg-white rounded mt-10 p-2 text-lg">Op 24 August 2021 hebben we een vergelijking voor je gemaakt tussen 5 energievergelijkers.<br><br><strong>Om eerlijk te vergelijken hebben we telkens dezelfde looptijd en hetzelfde verbruik vergeleken.</strong><ul>
+<li>Looptijd contract:<strong> twee jaar</strong></li>
+<li>Elektriciteitverbruik:<strong> 2350 kWh</strong></li>
+<li>Gasverbruik:<strong> 1800 M3</strong></li>
+</ul>
+Kijk hieronder welke energievergelijker scherpe prijzen heeft. Vergelijk de vergelijkers en zoek jouw beste deal.
+</div>
 
 ## Independer
 
