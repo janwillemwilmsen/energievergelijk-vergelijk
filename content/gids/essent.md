@@ -1,8 +1,8 @@
 ---
 bedrijfsnaam: essent  
+seotitle: Essent tarieven vergelijken in energievergelijker  
+metadescription: Vergelijk Essent in de energievergelijkers. 5 energieprijs vergelijkers met elkaar vergeleken.   
 website: essent.nl   
-seotitle: Essent tarieven vergelijken in energievergelijker    
-metadescription: Vergelijk Essent in de energievergelijkers. 5 energieprijs vergelijkers met elkaar vergeleken.     
 title: Essent  
 logo: /merken/snelste_essent.png  
 introtekst: Essent is een Nederlandse energiemaatschappij en levert stroom en gas aan particuliere en zakelijke klanten. Het bedrijf is opgericht in 1909. In 1999 kreeg het bedrijf de naam Essent. Dit was na het samenvoegen van EDON en de PNEM/Mega Groep. In 2009 werd het netwerkbedrijf afgesplitst van Essent. Zij gingen verder onder de naam Enexis. Essent werd dat jaar verkocht aan het Duitse RWE.  In 2016 werd Essent verkocht aan Innogy en sinds 2020 is E.ON het moederbedrijf. Essent produceert, verhandelt en levert energie en helpt klanten bij het verduurzamen van huizen en gebouwen.   
@@ -27,11 +27,11 @@ linknaarfacebook2: https://socialstats.info/report/essent/facebook
 linknaartwitter2: https://followerwonk.com/analyze/essent  
 ervaringenklantenvertellen: 7,6  
 volgersyoutube: '272'  
-volgersinstragram: '2.165'  
-volgerstwitter: '11.124'  
-fansfacebook: '79.177'  
-rankalexa: '124.300'  
-paginagoogle: '3.430'  
+volgersinstragram: '2.199'  
+volgerstwitter: '11.144'  
+fansfacebook: '79.291'  
+rankalexa: '198.188'  
+paginagoogle: '3.560'  
 youtubetitle: Dynamische energieprijzen met een slimme energiemeter  
 youtubeintro: Wat is nou een slimme meter, wat zijn de voordelen van een slimme meter voor jou en voor de netbeheerder. Betaal ik nu meer of minder voor mijn energie als ik een slimme meter heb. Meer over slimme meters en dynamische energieprijzen in de video van Essent.  
 youtubevid: https://www.youtube-nocookie.com/embed/EfLX2FJLHQE  

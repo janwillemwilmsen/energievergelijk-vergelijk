@@ -1,8 +1,8 @@
 ---
 bedrijfsnaam: vandebron  
+seotitle: Vandebron in de energievergelijkers vergeleken  
+metadescription: Meer informatie over energiebedrijf Vandebron.   
 website: vandebron.nl   
-seotitle: Vandebron in de energievergelijkers vergeleken     
-metadescription: Meer informatie over energiebedrijf Vandebron.      
 title: Vandebron  
 logo: /merken/snelste_vandebron.png  
 introtekst: Vandebron is een energiebedrijf dat in 2013 is gestart door Remco Wilcke, Matthijs Guichelaar en Aart van Veller. Vandebron levert groene stroom en gas aan zowel de particuliere als de zakelijke markt. De energie produceren ze nietzelf, maar kopen ze in bij onafhankelijke Nederlandse producenten. Vandebron wil klanten stimuleren om minder te verbruiken. Ze maken dan ook winst op hun verbruik. Zo kunnen lokale bronnen hun energie voor een eerlijke prijs verkopen en krijgen ze de kans om te investeren in meer duurzame oplossingen. Vandebron ziet zichzelf niet direct als energiebedrijf wel als technologie bedrijf.  
@@ -26,12 +26,12 @@ linknaaryoutube2: https://socialstats.info/report/vandebron/youtube
 linknaarfacebook2: https://socialstats.info/report/vandebron/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vandebron  
 ervaringenklantenvertellen: 8,5  
-volgersyoutube: '623'  
-volgersinstragram: '3.228'  
-volgerstwitter: '5.658'  
-fansfacebook: '42.930'  
-rankalexa: '5.653.849'  
-paginagoogle: '811'  
+volgersyoutube: '621'  
+volgersinstragram: '3.222'  
+volgerstwitter: '5.657'  
+fansfacebook: '42.884'  
+rankalexa: '1.280.993'  
+paginagoogle: '913'  
 youtubetitle: Jennifer Hofman reclame Van de Bron  
 youtubeintro: Ze gebruikt het zelf ook ;-)  
 youtubevid: https://www.youtube.com/embed/f-E5ve-acPM  
@@ -39,10 +39,9 @@ youtubevid: https://www.youtube.com/embed/f-E5ve-acPM
 
 
 
--   [Duurzame energie van Nederlandse bodem - Vandebron](https://vandebron.nl/blog)
--   [Isoleren met Vandebron - Vandebron](https://vandebron.nl/blog/isoleren-met-vandebron)
+-   [Amsterdam-Zuidoost verduurzamen met Laura Vandebron](https://vandebron.nl/blog/zuidoost-verduurzamen-met-laura)
+-   [Stadswarmte - wat is het? - Vandebron](https://vandebron.nl/blog/stadswarmte-wat-is-het)
+-   [Vijf vragen over isoleren beantwoord - Vandebron](https://vandebron.nl/blog/vijf-vragen-over-isoleren-beantwoord)
+-   [Curtailment: slimmer omgaan met goeie energie - Vandebron](https://vandebron.nl/blog/curtailment-slimmer-omgaan-met-goeie-energie)
 -   [De elektrische auto: het nieuwe normaal? - Vandebron](https://vandebron.nl/blog/de-elektrische-auto-het-nieuwe-normaal)
 -   [Marcel's Green Soap en Vandebron: samen maken we ...](https://vandebron.nl/blog/marcelsgreensoap-en-vandebron-maken-nederland-schoner)
--   [Nieuw energielabel in 2021, dit moet je weten - Vandebron](https://vandebron.nl/blog/nieuw-energielabel-in-2021-dit-moet-je-weten)
--   [Zo woon je nóg duurzamer in jouw huurhuis! - Vandebron](https://vandebron.nl/blog/zo-woon-je-nog-duurzamer-in-jouw-huurhuis)
--   [Je energierekening verlagen? Check vooral deze ...](https://vandebron.nl/blog/je-energierekening-verlagen-check-vooral-deze-energieslurpende-apparaten-eens)

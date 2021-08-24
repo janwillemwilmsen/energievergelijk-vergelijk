@@ -1,8 +1,8 @@
 ---
 bedrijfsnaam: energiedirect  
+seotitle: energiedirect.nl - energieleverancier met scherpe prijzen  
+metadescription: Vind en vergelijk energiedirect in de energievergelijkers in Nederland. 5 vergelijkers vergeleken!  
 website: energiedirect.nl   
-seotitle: energiedirect.nl - energieleverancier met scherpe prijzen     
-metadescription: Vind en vergelijk energiedirect in de energievergelijkers in Nederland. 5 vergelijkers vergeleken!      
 title: energiedirect.nl  
 logo: /merken/snelste_energiedirect.png  
 introtekst: energiedirect.nl is een Nederlandse energieleverancier opgericht in 2002. Het bedrijf is dochteronderneming van Essent. Essent is onderdeel van het Duitse E.ON. energiedirect.nl is een prijsvechter en biedt haar klanten voordelige contracten aan voor stroom  en gas.   
@@ -27,13 +27,13 @@ linknaarinstragram2: https://socialstats.info/report/energiedirect.nl/instagram
 linknaaryoutube2: https://socialstats.info/report/energiedirect/youtube  
 linknaarfacebook2: https://socialstats.info/report/energiedirect.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/energiedirect  
-ervaringenklantenvertellen: 8,1  
-volgersyoutube: '805'  
-volgersinstragram: '3.304'  
-volgerstwitter: '4.867'  
-fansfacebook: '26.824'  
-rankalexa: 'xxx'  
-paginagoogle: '413'  
+ervaringenklantenvertellen: 8,2  
+volgersyoutube: '815'  
+volgersinstragram: '3.428'  
+volgerstwitter: '4.876'  
+fansfacebook: '26.866'  
+rankalexa: '7.943.449'  
+paginagoogle: '389'  
 youtubetitle: Lage energietarieven bij energiedirect  
 
 youtubeintro: Vergelijk ze zelf!  

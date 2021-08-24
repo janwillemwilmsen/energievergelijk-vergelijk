@@ -1,8 +1,8 @@
 ---
 bedrijfsnaam: gaslicht  
+seotitle: Gaslicht.com - vergelijk energieprijzen  
+metadescription: Vergelijk Gaslicht.com met Pricewise, Independer en andere energieprijs vergelijkers. Wie heeft de laagste prijs voor jou?  
 website: gaslicht.com   
-seotitle: Gaslicht.com - vergelijk energieprijzen    
-metadescription: Vergelijk Gaslicht.com met Pricewise, Independer en andere energieprijs vergelijkers. Wie heeft de laagste prijs voor jou?      
 title: Gaslicht.com  
 logo: /merken/snelste_gaslicht.png  
 introtekst: Gaslicht.com is een vergelijkingswebsite. Het bedrijf is opgericht in 2003 en onderdeel uit van de Bencom Group. Gaslicht.com informeert consumenten, instellingen en bedrijven over de diensten en tarieven van energieleveranciers. Dat doen ze onafhankelijk en objectief. Ze zijn een zusterbedrijf van onder andere Bellen.com, LookingforBooking.com en Poliswijzer.nl.    
@@ -26,9 +26,9 @@ linknaarfacebook2: https://socialstats.info/report/gaslicht/facebook
 linknaartwitter2: https://followerwonk.com/analyze/gaslicht_com  
 volgersyoutube: '123'  
 volgersinstragram: '2.535'  
-volgerstwitter: '1.030'  
-fansfacebook: '2.204'  
-paginagoogle: '3.870'  
+volgerstwitter: '1.029'  
+fansfacebook: '2.206'  
+paginagoogle: '3.290'  
 youtubetitle: Bencom a Ben Woldering idea  
 youtubeintro: Duidelijk Ben. Luid en duidelijk ;-)  
 youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0  
@@ -37,6 +37,7 @@ youtubevid: https://www.youtube-nocookie.com/embed/1lY6zKl3Id0
 
 
 
+- Op 17-08 [1-jarig energiecontract volgens onderzoek voordeligste keus](https://www.gaslicht.com/nieuws/energieprijs-vastzetten)
 - Op 15-07 [Nu bij uw overstap: 3 maanden gratis Canal Digitaal](https://www.gaslicht.com/nieuws/nu-bij-uw-overstap-3-maanden-gratis-canal-digitaal)
 - Op 07-07 [Hoe kan ik mijn zonnepanelen optimaal benutten?](https://www.gaslicht.com/nieuws/hoe-zonnepanelen-optimaal-benutten)
 - Op 22-06 [Energierekening gaat per 1 juli flink omhoog](https://www.gaslicht.com/nieuws/energierekening-gaat-per-1-juli-flink-omhoog)

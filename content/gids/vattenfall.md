@@ -1,8 +1,8 @@
 ---
 bedrijfsnaam: vattenfall  
+seotitle: Vattenfall energietarief vergelijk   
+metadescription: Waar staat Vattenfall in de energievergelijkers? Zoek en vergelijk hier je energieprijs.  
 website: vattenfall.nl   
-seotitle: Vattenfall energietarief vergelijk     
-metadescription: Waar staat Vattenfall in de energievergelijkers? Zoek en vergelijk hier je energieprijs.      
 title: Vattenfall  
 logo: /merken/snelste_vattenfall.png  
 introtekst: Vattenfall is een energiemaatschappij uit Zweden. Ze zijn in Nederland bekend door de overname van Nuon in 2009. Vattenfall wekt stroom op uit zon-, water- en wind. Ze willen binnen één generatie een fossielvrij leven mogelijk maken.  
@@ -24,12 +24,12 @@ linknaarinstragram2: https://socialstats.info/report/vattenfallnl/instagram
 linknaaryoutube2: https://socialstats.info/report/vattenfall/youtube  
 linknaarfacebook2: https://socialstats.info/report/vattenfallnederland/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/vattenfallNL  
-volgersyoutube: '967'  
-volgersinstragram: '3.134'  
-volgerstwitter: '5.686'  
-fansfacebook: '80.986'  
-rankalexa: '519.209'  
-paginagoogle: '3.050'  
+volgersyoutube: '980'  
+volgersinstragram: '3.156'  
+volgerstwitter: '5.696'  
+fansfacebook: '80.875'  
+rankalexa: '618.466'  
+paginagoogle: '3.220'  
 youtubetitle: Sponsoring Nuon/Vattenfall zonnepanelen auto  
 
 youtubeintro: Racen op zonneenergie, powered by Vattenfall. Bekijk de video voor meer...  
@@ -38,12 +38,12 @@ youtubevid: https://www.youtube-nocookie.com/embed/kHnbo246WcQ
 
 
 
-- Op 13 juli 2021 [Windfonds Wieringermeer steunt maatschappelijke projecten met € 75.000](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/windfonds-wieringermeer-steunt-maatschappelijke-projecten-met--75.000)
+- Op 10 augustus 2021 [Klimaatverandering: Vattenfall ziet CO2-heffing als belangrijkste middel in de strijd](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/klimaatverandering-vattenfall-ziet-co2-heffing-als-belangrijkste-middel-in-de-strijd)
+- Op 19 augustus 2021 [Natuurbeheer rondom centrales werpt steeds meer vruchten af](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/natuurbeheer-rondom-centrales-werpt-steeds-meer-vruchten-af)
+- Op 18 augustus 2021 [HYBRIT: eerste fossielvrije staal ter wereld klaar voor levering](https://group.vattenfall.com/nl/newsroom/persbericht/2021/hybrit-eerste-fossielvrije-staal-ter-wereld-klaar-voor-levering)
+- Op 3 augustus 2021 [Efficiënt netgebruik met combinatie zon en wind](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/efficient-netgebruik-met-combinatie-zon-en-wind)
+- Op 2 augustus 2021 [TAKE PRIDE in us!](https://group.vattenfall.com/nl/newsroom/persbericht/2021/take-pride-in-us)
 - Op 16 juli 2021 [Vattenfall krijgt vergunning voor combinatie zonnepark en akkerbouw](https://group.vattenfall.com/nl/newsroom/persbericht/2021/vattenfall-krijgt-vergunning-voor-combinatie-zonnepark-en-akkerbouw)
+- Op 13 juli 2021 [Windfonds Wieringermeer steunt maatschappelijke projecten met € 75.000](https://group.vattenfall.com/nl/newsroom/achtergrondartikel/2021/windfonds-wieringermeer-steunt-maatschappelijke-projecten-met--75.000)
 - Op 8 juli 2021 [Vattenfall en bewonerscoöperatie Energiek Poelgeest tekenen intentieovereenkomst: aan de slag met aquathermieplannen](https://group.vattenfall.com/nl/newsroom/persbericht/2021/vattenfall-en-bewonerscooperatie-energiek-poelgeest-tekenen-intentieovereenkomst-aan-de-slag-met-aquathermieplannen)
 - Op 8 juli 2021 [Vattenfall Solar Team presenteert Nuna11: de ‘Picasso’ onder de zonneauto’s](https://group.vattenfall.com/nl/newsroom/persbericht/2021/vattenfall-solar-team-presenteert-nuna11-de-picasso-onder-de-zonneautos)
-- Op 7 juli 2021 [Windpark Nieuwe Hemweg geopend](https://group.vattenfall.com/nl/newsroom/persbericht/2021/windpark-nieuwe-hemweg-geopend)
-- Op 6 juli 2021 [Vattenfall en CAKE bundelen krachten en ontwikkelen eerste fossielvrije motorfiets](https://group.vattenfall.com/nl/newsroom/persbericht/2021/vattenfall-en-cake-bundelen-krachten-en-ontwikkelen-eerste-fossielvrije-motorfiets)
-- Op 5 juli 2021 [Bouw windpark Hollandse Kust van start](https://group.vattenfall.com/nl/newsroom/persbericht/2021/bouw-windpark-hollandse-kust-van-start)
-- Op 5 juli 2021 [Laatste windmolen Windpark Jaap Rodenburg II geplaatst](https://group.vattenfall.com/nl/newsroom/persbericht/2021/laatste-windmolen-windpark-jaap-rodenburg-ii-geplaatst)
-- Op 1 juli 2021 [CO2-scan Vattenfall helpt glastuinders uitstoot omlaag te brengen](https://group.vattenfall.com/nl/newsroom/persbericht/2021/co2-scan-vattenfall-helpt-glastuinders-uitstoot-omlaag-te-brengen)

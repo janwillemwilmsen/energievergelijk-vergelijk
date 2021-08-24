@@ -1,8 +1,8 @@
 ---
 bedrijfsnaam: independer  
+seotitle: Independer Energieprijs vergelijk  
+metadescription: Zoek de verschillen tussen Independer en de andere energievergelijkers. Vind jouw scherpste prijs!  
 website: independer.nl   
-seotitle: Independer Energieprijs vergelijk     
-metadescription: Zoek de verschillen tussen Independer en de andere energievergelijkers. Vind jouw scherpste prijs!      
 title: Independer  
 logo: /merken/snelste_independer.png  
 introtekst: Independer is een vergelijkingswebsite, opgericht in 1999. Ze waren destijds onderdeel van Achmea. In 2018 heeft de Persgroep de website overgenomen. Independer heeft als doel de financiële wereld transparanter en eerlijker te maken. Op Independer.nl is het mogelijk om verzekeringen, hypotheken, energieleveranciers, mobiele- en internetabonnementen en spaar- en leenproducten te vergelijken. 
@@ -26,11 +26,11 @@ linknaaryoutube2: https://socialstats.info/report/independer/youtube
 linknaarfacebook2: https://socialstats.info/report/Independer.nl/facebook  
 linknaartwitter2: https://followerwonk.com/analyze/independer  
 volgersyoutube: '129'  
-volgersinstragram: '719'  
-volgerstwitter: '7.895'  
-fansfacebook: '33.664'  
-rankalexa: '205.935'  
-paginagoogle: '82.600'  
+volgersinstragram: '734'  
+volgerstwitter: '7.887'  
+fansfacebook: '33.644'  
+rankalexa: '414.393'  
+paginagoogle: '57.700'  
 youtubetitle: De laagste energieprijzen ooit  
 youtubeintro: Wel In mei 2020. Dus niet actueel.   
 youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk  
@@ -39,6 +39,8 @@ youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk
  
 
 
+- Op 19 augustus 2021 [Druk op openbare laadpalen voor elektrische auto’s neemt sterk toe](https://weblog.independer.nl/persbericht/druk-op-openbare-laadpalen-voor-elektrische-autos-neemt-sterk-toe/)
+- Op 6 juli 2021 [Dit zijn de 10 onveiligste buurten om je auto te parkeren](https://weblog.independer.nl/persbericht/dit-zijn-de-10-onveiligste-buurten-om-je-auto-te-parkeren/)
 - Op 5 juli 2021 [Helft vakantiegangers kiest voor auto vanwege corona](https://weblog.independer.nl/persbericht/helft-vakantiegangers-kiest-voor-auto-vanwege-corona/)
 - Op 25 juni 2021 [Independer: aantal ‘doe-het-zelf-hypotheekaanvragen’ verviervoudigd](https://weblog.independer.nl/persbericht/independer-aantal-doe-het-zelf-hypotheekaanvragen-verviervoudigd/)
 - Op 25 juni 2021 [Eigen risico zorg blijft in 2022 waarschijnlijk gelijk](https://weblog.independer.nl/persbericht/goede-kans-dat-eigen-risico-zorg-in-2022-gelijk-blijft/)
@@ -46,5 +48,3 @@ youtubevid: https://www.youtube-nocookie.com/embed/J7bz8C8UAuk
 - Op 3 juni 2021 [Pas op: geen dekking annuleringsverzekering bij coronamaatregelen](https://weblog.independer.nl/persbericht/pas-op-geen-dekking-annuleringsverzekering-bij-coronamaatregelen/)
 - Op 19 mei 2021 [Bijna helft vakantiegangers blijft in Nederland](https://weblog.independer.nl/persbericht/bijna-helft-vakantiegangers-blijft-in-nederland/)
 - Op 10 mei 2021 [Afgelopen winter toename schuurinbraken van 12 procent](https://weblog.independer.nl/persbericht/afgelopen-winter-toename-schuurinbraken-van-12-procent/)
-- Op 30 april 2021 [Steeds meer starters zien af van ontbindende voorwaarden](https://weblog.independer.nl/persbericht/steeds-meer-starters-zien-af-van-ontbindende-voorwaarden/)
-- Op 22 april 2021 [Alleenstaande starter moet gemiddeld 29.500 euro eigen geld meenemen voor huis van 60m2](https://weblog.independer.nl/persbericht/alleenstaande-starter-29500-eigen-geld-hypotheek/)
